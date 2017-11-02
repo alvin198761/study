@@ -1,0 +1,61 @@
+
+springmvc发送ajax中文乱码的几种解决办法
+ 
+  使用spingmvc，在JS里面通过ajax发送请求，并返回json格式的数据，从数据库拿出来是正确的中文格式，展示在页面上就是错误的？？，研究了一下，有几种解决办法。
+
+  我使用的是sping-web-3.2.2,jar
+
+  方法一：
+
+  在@RequestMapping里面加入produces = "text/html;charset=UTF-8"
+    @RequestMapping(value = "/configrole", method = RequestMethod.GET, produces = "text/html;charset=UTF-8")  
+    public @ResponseBody String configrole() {  
+      ......  
+    }  
+方法二：
+因为在StringHttpMessageConverter里面默认设置了字符集是ISO-8859-1
+所以拿到源代码，修改成UTF-8并打包到spring-web-3.2.2.jar
+    public class StringHttpMessageConverter extends AbstractHttpMessageConverter<String>  
+    {  
+      public static final Charset DEFAULT_CHARSET = Charset.forName("UTF-8");  
+      ..........  
+    }  
+方法三：
+
+修改org.springframework.http.MediaType它的构造方法的参数，并在applicationContext-mvc.xml 加入配置
+    public MediaType(String type, String subtype, Charset charset) {  
+        super(type, subtype, charset);  
+    }  
+    <bean id="stringHttpMessageConverter"  
+        class="org.springframework.http.converter.StringHttpMessageConverter">  
+        <property name="supportedMediaTypes">  
+            <list>  
+                <bean class="org.springframework.http.MediaType">  
+                    <constructor-arg value="text" />  
+                    <constructor-arg value="plain" />  
+                    <constructor-arg value="UTF-8" />  
+                </bean>  
+            </list>  
+        </property>  
+    </bean>  
+方法四：
+ 直接将org.springframework.http.converter.StringHttpMessageConverter 里面的属性defaultCharset设置成utf-8
+Xml代码   
+    <bean id="stringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter">  
+         <property name="defaultCharset" value="UTF-8"/>  
+    </bean>
+    
+    
+	<!-- POST中文乱码解决方案统一字符编码为UTF-8 -->
+	<filter>
+		<filter-name>setcharacter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>setcharacter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>

@@ -1,0 +1,3573 @@
+From: <Saved by Maxthon>
+Subject: ??maven?????????jar? - 309?? - ITeye????
+Date: Wed, 3 Feb 2015 13:54:43 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_DD87_0F0F53E1.682EB975"
+
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pipilu.iteye.com/blog/399816
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"zh-CN" dir=3D"ltr"=
+><head><meta charset=3D"UTF-8">
+   =20
+    <title>=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=
+=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85 - 309=E6=9A=97=E5=AE=
+=A4 - ITeye=E6=8A=80=E6=9C=AF=E7=BD=91=E7=AB=99</title>
+    <meta name=3D"description" content=3D"&nbsp;&nbsp;&nbsp; Java=E7=8B=AC=
+=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84=E6=89=A7=E8=A1=8C=E6=
+=9C=89=E4=B8=A4=E7=A7=8D=E6=96=B9=E5=BC=8F=EF=BC=9A &nbsp; =E3=80=80java -j=
+ar =E5=91=BD=E4=BB=A4  =E5=92=8C java -classpath =E5=91=BD=E4=BB=A4 &nbsp;&=
+nbsp;&nbsp; =E5=85=B6=E4=B8=AD=EF=BC=8C=E5=9B=A0=E4=B8=BAjava -jar =E4=B8=
+=8D=E6=8E=A5=E6=94=B6classpath=E5=8F=82=E6=95=B0=EF=BC=88=E6=88=96=E8=80=85=
+=E8=AF=B4-classpath=E5=AF=B9=E5=AE=83=E4=B8=8D=E8=B5=B7=E4=BD=9C=E7=94=A8=
+=EF=BC=89=EF=BC=8C=E5=9B=A0=E6=AD=A4=E5=BF=85=E9=A1=BB=E6=8A=8A=E6=89=80=E6=
+=9C=89=E4=BE=9D=E8=B5=96=E7=9A=84=E6=96=87=E4=BB=B6=E9=83=BD=E6=89=93=E5=88=
+=B0=E4=B8=80=E4=B8=AAjar=E9=87=8C=EF=BC=88=E6=AF=94=E5=A6=82 One jar=EF=BC=
+=89=E3=80=82=E8=BF=99=E6=A0=B7=E5=B0=B1=E5=AD=98=E5=9C=A8=E4=B8=80=E4=B8=AA=
+=E9=97=AE=E9=A2=98=EF=BC=9A=E4=BF=AE=E6=94=B9=E8=BF=99=E4=B8=AA=E7=8B=AC=E7=
+=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=
+=87=E4=BB=B6=E4=BC=9A=E5=BE=88=E4=B8=8D=E6=96=B9=E4=BE=BF=E3=80=82=EF=BC=88=
+ps:=E5=BD=93=E5=89=8D=E8=B7=AF=E5=BE=84=E6=98=AF=E5=AE=83=E7=9A=84=E7=B1=BB=
+=E8=B7=AF=E5=BE=84=EF=BC=89=E3=80=82 &nbsp;&nbsp; ...">
+    <meta name=3D"keywords" content=3D"maven, =E9=85=8D=E7=BD=AE=E7=AE=A1=
+=E7=90=86, log4j, XML, Apache =E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=
+=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85">
+    <link rel=3D"shortcut icon" href=3D"http://pipilu.iteye.com/images/favi=
+con.ico" type=3D"image/x-icon">
+    <link rel=3D"search" type=3D"application/opensearchdescription+xml" hre=
+f=3D"http://pipilu.iteye.com/open_search.xml" title=3D"ITeye">
+    <link href=3D"http://pipilu.iteye.com/rss" rel=3D"alternate" title=3D"3=
+09=E6=9A=97=E5=AE=A4" type=3D"application/rss+xml">
+    <link href=3D"http://www.iteye.com/stylesheets/blog.css?1421735853" med=
+ia=3D"screen" rel=3D"stylesheet" type=3D"text/css">
+<link href=3D"http://www.iteye.com/stylesheets/themes/blog/blue.css?1326191=
+326" media=3D"screen" rel=3D"stylesheet" type=3D"text/css">
+   =20
+   =20
+
+
+      <link href=3D"http://www.iteye.com/javascripts/syntaxhighlighter/Synt=
+axHighlighter.css?1348819953" media=3D"screen" rel=3D"stylesheet" type=3D"t=
+ext/css">
+ =20
+
+ =20
+
+  <style type=3D"text/css">.dp-default .number { color: #C00000; }</style><=
+style type=3D"text/css">.dp-default .number { color: #C00000; }</style><sty=
+le type=3D"text/css">.dp-default .number { color: #C00000; }</style><style =
+type=3D"text/css">.dp-default .number { color: #C00000; }</style><style typ=
+e=3D"text/css">.dp-default .number { color: #C00000; }</style><style type=
+=3D"text/css">.dp-default .number { color: #C00000; }</style><style type=3D=
+"text/css">.dp-default .number { color: #C00000; }</style><style type=3D"te=
+xt/css">.dp-default .number { color: #C00000; }</style></head>
+  <body>
+    <div id=3D"header">
+      <div id=3D"blog_site_nav">
+  <a href=3D"http://www.iteye.com/" class=3D"homepage">=E9=A6=96=E9=A1=B5</=
+a>
+  <a href=3D"http://www.iteye.com/news">=E8=B5=84=E8=AE=AF</a>
+  <a href=3D"http://www.iteye.com/magazines">=E7=B2=BE=E5=8D=8E</a>
+  <a href=3D"http://www.iteye.com/forums">=E8=AE=BA=E5=9D=9B</a>
+  <a href=3D"http://www.iteye.com/ask">=E9=97=AE=E7=AD=94</a>
+  <a href=3D"http://www.iteye.com/blogs">=E5=8D=9A=E5=AE=A2</a>
+  <a href=3D"http://www.iteye.com/blogs/subjects">=E4=B8=93=E6=A0=8F</a>
+  <a href=3D"http://www.iteye.com/groups">=E7=BE=A4=E7=BB=84</a>
+  <a href=3D"http://pipilu.iteye.com/blog/399816#" onclick=3D"return false;=
+" id=3D"msna"><u>=E6=9B=B4=E5=A4=9A</u> <small>=E2=96=BC</small></a>
+  <div class=3D"quick_menu" style=3D"display:none;">
+    <a target=3D"_blank" href=3D"http://job.iteye.com/iteye">=E6=8B=9B=E8=
+=81=98</a>
+    <a href=3D"http://www.iteye.com/search">=E6=90=9C=E7=B4=A2</a>
+  </div>
+</div>
+
+      <div id=3D"user_nav">
+      <a href=3D"http://pipilu.iteye.com/login" class=3D"welcome" title=3D"=
+=E7=99=BB=E5=BD=95">=E6=82=A8=E8=BF=98=E6=9C=AA=E7=99=BB=E5=BD=95 !</a>
+    <a href=3D"http://pipilu.iteye.com/login">=E7=99=BB=E5=BD=95</a>
+    <a href=3D"http://pipilu.iteye.com/signup" class=3D"nobg">=E6=B3=A8=E5=
+=86=8C</a>
+  </div>
+
+    </div>
+
+    <div id=3D"page">
+      <div id=3D"branding" class=3D"clearfix">
+        <div id=3D"blog_name">
+          <h1><a href=3D"http://pipilu.iteye.com/">309=E6=9A=97=E5=AE=A4</a=
+></h1>
+        </div>
+        <div id=3D"fd"></div>
+        <div id=3D"blog_navbar">
+          <ul>
+            <li class=3D"blog_navbar_for"><a href=3D"http://pipilu.iteye.co=
+m/"><strong>=E5=8D=9A=E5=AE=A2</strong></a></li>
+            <li><a href=3D"http://pipilu.iteye.com/weibo">=E5=BE=AE=E5=8D=
+=9A</a></li>
+            <li><a href=3D"http://pipilu.iteye.com/album">=E7=9B=B8=E5=86=
+=8C</a></li>
+            <li><a href=3D"http://pipilu.iteye.com/link">=E6=94=B6=E8=97=8F=
+</a></li>
+            <li><a href=3D"http://pipilu.iteye.com/blog/guest_book">=E7=95=
+=99=E8=A8=80</a></li>
+            <li><a href=3D"http://pipilu.iteye.com/blog/profile">=E5=85=B3=
+=E4=BA=8E=E6=88=91</a></li>
+          </ul>
+   =20
+          <div class=3D"search">
+            <form action=3D"http://pipilu.iteye.com/blog/search" method=3D"=
+get" id=3D"1110233816">
+              <input class=3D"search_text" id=3D"query" name=3D"query" styl=
+e=3D"margin-left: 10px;width: 110px;" type=3D"text" value=3D"">
+              <input class=3D"submit_search" type=3D"submit" value=3D"">
+            </form>
+          </div>=20
+          <div id=3D"fd"></div>        =20
+        </div>
+      </div>
+     =20
+      <div id=3D"content" class=3D"clearfix">
+        <div id=3D"main">
+         =20
+
+
+
+         =20
+
+
+<div class=3D"h-entry" style=3D"display:none">
+  <a href=3D"http://pipilu.iteye.com/" class=3D"p-author" target=3D"_blank"=
+>pipilu</a>
+</div>
+
+
+<div class=3D"blog_main">
+  <div class=3D"blog_title">
+    <h3>
+      <a href=3D"http://pipilu.iteye.com/blog/399816">=E4=BD=BF=E7=94=A8mav=
+en=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=
+=E7=9A=84jar=E5=8C=85</a>
+      <em class=3D"actions">      </em>
+    </h3>
+    <ul class=3D"blog_categories"><strong>=E5=8D=9A=E5=AE=A2=E5=88=86=E7=B1=
+=BB=EF=BC=9A</strong> <li><a href=3D"http://pipilu.iteye.com/category/47250=
+">Java</a></li> </ul>
+        <div class=3D"news_tag"><a href=3D"http://www.iteye.com/blogs/tag/m=
+aven">maven</a><a href=3D"http://www.iteye.com/blogs/tag/%E9%85%8D%E7%BD%AE=
+%E7%AE%A1%E7%90%86">=E9=85=8D=E7=BD=AE=E7=AE=A1=E7=90=86</a><a href=3D"http=
+://www.iteye.com/blogs/tag/log4j">log4j</a><a href=3D"http://www.iteye.com/=
+blogs/tag/XML">XML</a><a href=3D"http://www.iteye.com/blogs/tag/Apache">Apa=
+che</a>&nbsp;</div>
+  </div>
+
+  <div id=3D"blog_content" class=3D"blog_content">
+    &nbsp;&nbsp;&nbsp; Java=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=
+=BA=8F=E7=9A=84=E6=89=A7=E8=A1=8C=E6=9C=89=E4=B8=A4=E7=A7=8D=E6=96=B9=E5=BC=
+=8F=EF=BC=9A
+<br>&nbsp; =E3=80=80java -jar =E5=91=BD=E4=BB=A4
+<br> =E5=92=8C java -classpath =E5=91=BD=E4=BB=A4
+<br>
+<br>&nbsp;&nbsp;&nbsp; =E5=85=B6=E4=B8=AD=EF=BC=8C=E5=9B=A0=E4=B8=BAjava -j=
+ar =E4=B8=8D=E6=8E=A5=E6=94=B6classpath=E5=8F=82=E6=95=B0=EF=BC=88=E6=88=96=
+=E8=80=85=E8=AF=B4-classpath=E5=AF=B9=E5=AE=83=E4=B8=8D=E8=B5=B7=E4=BD=9C=
+=E7=94=A8=EF=BC=89=EF=BC=8C=E5=9B=A0=E6=AD=A4=E5=BF=85=E9=A1=BB=E6=8A=8A=E6=
+=89=80=E6=9C=89=E4=BE=9D=E8=B5=96=E7=9A=84=E6=96=87=E4=BB=B6=E9=83=BD=E6=89=
+=93=E5=88=B0=E4=B8=80=E4=B8=AAjar=E9=87=8C=EF=BC=88=E6=AF=94=E5=A6=82 One j=
+ar=EF=BC=89=E3=80=82=E8=BF=99=E6=A0=B7=E5=B0=B1=E5=AD=98=E5=9C=A8=E4=B8=80=
+=E4=B8=AA=E9=97=AE=E9=A2=98=EF=BC=9A=E4=BF=AE=E6=94=B9=E8=BF=99=E4=B8=AA=E7=
+=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84=E9=85=8D=E7=BD=
+=AE=E6=96=87=E4=BB=B6=E4=BC=9A=E5=BE=88=E4=B8=8D=E6=96=B9=E4=BE=BF=E3=80=82=
+=EF=BC=88ps:=E5=BD=93=E5=89=8D=E8=B7=AF=E5=BE=84=E6=98=AF=E5=AE=83=E7=9A=84=
+=E7=B1=BB=E8=B7=AF=E5=BE=84=EF=BC=89=E3=80=82
+<br>&nbsp;&nbsp;&nbsp; =E6=89=80=E4=BB=A5=E9=99=A4=E9=9D=9E=E4=B8=8D=E7=94=
+=A8=E9=85=8D=E7=BD=AE=E4=BF=A1=E6=81=AF=E6=88=96=E4=BB=8E=E5=91=BD=E4=BB=A4=
+=E8=A1=8C=E6=8C=87=E5=AE=9A=E9=85=8D=E7=BD=AE=E4=BF=A1=E6=81=AF=EF=BC=8C=E6=
+=9B=B4=E5=A5=BD=E7=9A=84=E6=96=B9=E5=BC=8F=E5=BA=94=E8=AF=A5=E6=98=AF=E4=BD=
+=BF=E7=94=A8java -cp=EF=BC=88=E5=8D=B3-classpath=EF=BC=89=E7=9A=84=E6=96=B9=
+=E5=BC=8F=EF=BC=8C=E5=B9=B6=E4=BB=8E=E7=B1=BB=E8=B7=AF=E5=BE=84=E4=B8=AD=E8=
+=AF=BB=E5=8F=96=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E3=80=82
+<br>
+<br>&nbsp;&nbsp;&nbsp; =E9=82=A3=E4=B9=88=EF=BC=8C=E4=B8=80=E4=B8=AA=E7=8B=
+=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84=E7=9B=AE=E5=BD=95=
+=E7=BB=93=E6=9E=84=E5=8F=AF=E4=BB=A5=E6=98=AF=E5=A6=82=E4=B8=8B=E5=BD=A2=E5=
+=BC=8F=EF=BC=9A
+<br>&nbsp;&nbsp;&nbsp; 1=E3=80=81=E4=B8=80=E4=B8=AAlib=E6=96=87=E4=BB=B6=E5=
+=A4=B9=E7=94=A8=E4=BA=8E=E5=AD=98=E6=94=BE=E8=BF=99=E4=B8=AA=E7=8B=AC=E7=AB=
+=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E6=89=80=E4=BE=9D=E8=B5=96=E7=9A=84=
+jar=E5=8C=85=E3=80=82
+<br>&nbsp;&nbsp;&nbsp; 2=E3=80=81=E6=8A=8A=E8=BF=99=E4=B8=AA=E7=8B=AC=E7=AB=
+=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E6=89=80=E4=BE=9D=E8=B5=96=E7=9A=84=
+=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=88=E8=80=8C=E4=B8=94=E6=98=AF=E5=
+=8F=AF=E8=83=BD=E9=9C=80=E8=A6=81=E4=BF=AE=E6=94=B9=E7=9A=84=EF=BC=89=E6=94=
+=BE=E5=9C=A8=E4=B8=8Ejar=E5=8C=85=E5=90=8C=E7=BA=A7=E7=9B=AE=E5=BD=95=E4=B8=
+=8B=E3=80=82
+<br>&nbsp;&nbsp;&nbsp; 3=E3=80=81=E4=B8=80=E4=B8=AAjar=E5=8C=85=EF=BC=8C=E9=
+=87=8C=E9=9D=A2=E6=98=AF=E4=B8=BB=E7=A8=8B=E5=BA=8F=E3=80=82
+<br>
+<br>&nbsp;&nbsp;&nbsp; =E8=8B=A5=E8=A6=81=E6=89=A7=E8=A1=8C=E8=BF=99=E4=B8=
+=AA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=EF=BC=8C=E5=8F=AF=
+=E4=BB=A5=E4=BD=BF=E7=94=A8=E8=84=9A=E6=9C=AC=E6=8B=BC=E5=87=BAclasspath=E7=
+=9A=84=E5=80=BC=EF=BC=8C=E7=84=B6=E5=90=8E=E8=B0=83=E7=94=A8java -cp =E5=91=
+=BD=E4=BB=A4=E3=80=82
+<br>&nbsp;&nbsp;&nbsp;=20
+<br>&nbsp;&nbsp;&nbsp; =E5=9C=A8Linux=E4=B8=8B=E4=BD=BF=E7=94=A8shell=E8=84=
+=9A=E6=9C=AC=EF=BC=9A
+<br>&nbsp;&nbsp;&nbsp; <div class=3D"dp-highlighter" id=3D""><div class=3D"=
+bar"><div class=3D"tools">Shell=E4=BB=A3=E7=A0=81 <embed wmode=3D"transpare=
+nt" src=3D"http://pipilu.iteye.com/javascripts/syntaxhighlighter/clipboard_=
+new.swf" width=3D"14" height=3D"15" flashvars=3D"clipboard=3D%20%20%20%20CL=
+ASSPATH%3D%22.%22%0A%20%20%20%20%23%20%E9%81%8D%E5%8E%86%E5%BA%94%E7%94%A8%=
+E7%A8%8B%E5%BA%8F%E4%BE%9D%E8%B5%96%E7%9A%84jar%E5%8C%85%EF%BC%8C%E5%B9%B6%=
+E5%8A%A0%E5%85%A5CLASSPATH%E3%80%82%0A%20%20%20%20for%20jarfile%20in%20%60l=
+s%20lib%2F.%60%3B%20do%0A%20%20%20%20%20%20%20%20CLASSPATH%3D%22%24%7BCLASS=
+PATH%7D%3Alib%2F%24jarfile%22%0A%20%20%20%20done%0A%0A%20%20%20%20%23------=
+---------%E4%B8%8B%E9%9D%A2%E6%98%AF%E4%BB%A5%E5%89%8D%E5%86%99%E9%94%99%E7=
+%9A%84%E9%83%A8%E5%88%86%EF%BC%8C%E4%B8%8D%E9%9C%80%E8%A6%81%E8%BF%99%E7%A7=
+%8D%E6%96%B9%E5%BC%8F%E6%8A%8A%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E5%8A%A0=
+%E5%85%A5%E5%88%B0%E7%B1%BB%E4%B8%AD%E5%BE%84%E4%B8%AD%E3%80%82%0A%20%20%20=
+%20%23%20%E5%9B%A0%E4%B8%BA%E7%B1%BB%E8%B7%AF%E5%BE%84%E4%B8%AD%E8%AE%BE%E9=
+%83%BD%E5%BA%94%E8%AF%A5%E6%98%AF%E7%9B%AE%E5%BD%95%EF%BC%88%E8%80%8C%E4%B8=
+%8D%E6%98%AF%E6%96%87%E4%BB%B6%EF%BC%89%EF%BC%8Cjar%E6%96%87%E4%BB%B6%E4%B9=
+%9F%E6%98%AF%E6%8C%89%E7%9B%AE%E5%BD%95%E6%9D%A5%E5%A4%84%E7%90%86%E7%9A%84=
+%0A%20%20%20%20%23%0A%20%20%20%20%23%20%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6=
+%E7%9A%84%E9%81%8D%E5%8E%86%EF%BC%88%E4%B8%8E%E4%B8%8A%E7%B1%BB%E4%BC%BC%EF=
+%BC%89%0A%20%20%20%20%23%20%E8%BF%99%E9%87%8C%E9%9D%A2%E6%88%91%E7%9A%84%E9=
+%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E9%83%BD%E6%98%AFxml%E7%9A%84%0A%20%20%20=
+%20%23for%20configfile%20in%20%60ls%20*.xml%60%3B%20do%0A%20%20%20%20%23%20=
+%20%20%20CLASSPATH%3D%22configfile%3A%24%7BCLASSPATH%7D%22%0A%0A%20%20%20%2=
+0export%20CLASSPATH%0A%20%20%20%20java%20-cp%20%24%7BCLASSPATH%7D%20Test%0A=
+%20%20%20%20" quality=3D"high" allowscriptaccess=3D"always" type=3D"applica=
+tion/x-shockwave-flash" pluginspage=3D"http://www.macromedia.com/go/getflas=
+hplayer">&nbsp;<a href=3D"javascript:void()" title=3D"=E6=94=B6=E8=97=8F=E8=
+=BF=99=E6=AE=B5=E4=BB=A3=E7=A0=81" onclick=3D"code_favorites_do_favorite(th=
+is);return false;"><img class=3D"star" src=3D"http://pipilu.iteye.com/image=
+s/icon_star.png" alt=3D"=E6=94=B6=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D=
+"spinner" src=3D"http://pipilu.iteye.com/images/spinner.gif" style=3D"displ=
+ay:none"></a></div></div><ol start=3D"1" class=3D"dp-default"><li><span><sp=
+an>CLASSPATH=3D</span><span class=3D"string">"."</span><span>&nbsp;&nbsp;</=
+span></span></li><li><span>#&nbsp;=E9=81=8D=E5=8E=86=E5=BA=94=E7=94=A8=E7=
+=A8=8B=E5=BA=8F=E4=BE=9D=E8=B5=96=E7=9A=84jar=E5=8C=85=EF=BC=8C=E5=B9=B6=E5=
+=8A=A0=E5=85=A5CLASSPATH=E3=80=82&nbsp;&nbsp;</span></li><li><span>for&nbsp=
+;jarfile&nbsp;in&nbsp;`ls&nbsp;lib/.`;&nbsp;do&nbsp;&nbsp;</span></li><li><=
+span>&nbsp;&nbsp;&nbsp;&nbsp;CLASSPATH=3D<span class=3D"string">"${CLASSPAT=
+H}:lib/$jarfile"</span><span>&nbsp;&nbsp;</span></span></li><li><span>done&=
+nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;</span></li><li><span>#-------=
+--------=E4=B8=8B=E9=9D=A2=E6=98=AF=E4=BB=A5=E5=89=8D=E5=86=99=E9=94=99=E7=
+=9A=84=E9=83=A8=E5=88=86=EF=BC=8C=E4=B8=8D=E9=9C=80=E8=A6=81=E8=BF=99=E7=A7=
+=8D=E6=96=B9=E5=BC=8F=E6=8A=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E5=8A=A0=
+=E5=85=A5=E5=88=B0=E7=B1=BB=E4=B8=AD=E5=BE=84=E4=B8=AD=E3=80=82&nbsp;&nbsp;=
+</span></li><li><span>#&nbsp;=E5=9B=A0=E4=B8=BA=E7=B1=BB=E8=B7=AF=E5=BE=84=
+=E4=B8=AD=E8=AE=BE=E9=83=BD=E5=BA=94=E8=AF=A5=E6=98=AF=E7=9B=AE=E5=BD=95=EF=
+=BC=88=E8=80=8C=E4=B8=8D=E6=98=AF=E6=96=87=E4=BB=B6=EF=BC=89=EF=BC=8Cjar=E6=
+=96=87=E4=BB=B6=E4=B9=9F=E6=98=AF=E6=8C=89=E7=9B=AE=E5=BD=95=E6=9D=A5=E5=A4=
+=84=E7=90=86=E7=9A=84&nbsp;&nbsp;</span></li><li><span>#&nbsp;&nbsp;</span>=
+</li><li><span>#&nbsp;=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=9A=84=E9=81=
+=8D=E5=8E=86=EF=BC=88=E4=B8=8E=E4=B8=8A=E7=B1=BB=E4=BC=BC=EF=BC=89&nbsp;&nb=
+sp;</span></li><li><span>#&nbsp;=E8=BF=99=E9=87=8C=E9=9D=A2=E6=88=91=E7=9A=
+=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E9=83=BD=E6=98=AFxml=E7=9A=84&nbsp;=
+&nbsp;</span></li><li><span>#for&nbsp;configfile&nbsp;in&nbsp;`ls&nbsp;*.xm=
+l`;&nbsp;do&nbsp;&nbsp;</span></li><li><span>#&nbsp;&nbsp;&nbsp;&nbsp;CLASS=
+PATH=3D<span class=3D"string">"configfile:${CLASSPATH}"</span><span>&nbsp;&=
+nbsp;</span></span></li><li><span>&nbsp;&nbsp;</span></li><li><span>export&=
+nbsp;CLASSPATH&nbsp;&nbsp;</span></li><li><span>java&nbsp;-cp&nbsp;${CLASSP=
+ATH}&nbsp;Test&nbsp;&nbsp;</span></li></ol></div><pre class=3D"shell" name=
+=3D"code" codeable_id=3D"399816" codeable_type=3D"Blog" source_url=3D"http:=
+//pipilu.iteye.com/blog/399816" pre_index=3D"0" title=3D"=E4=BD=BF=E7=94=A8=
+maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=
+=8F=E7=9A=84jar=E5=8C=85" style=3D"display: none;">    CLASSPATH=3D"."
+    # =E9=81=8D=E5=8E=86=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E4=BE=9D=E8=B5=
+=96=E7=9A=84jar=E5=8C=85=EF=BC=8C=E5=B9=B6=E5=8A=A0=E5=85=A5CLASSPATH=E3=80=
+=82
+    for jarfile in `ls lib/.`; do
+        CLASSPATH=3D"${CLASSPATH}:lib/$jarfile"
+    done
+
+    #---------------=E4=B8=8B=E9=9D=A2=E6=98=AF=E4=BB=A5=E5=89=8D=E5=86=99=
+=E9=94=99=E7=9A=84=E9=83=A8=E5=88=86=EF=BC=8C=E4=B8=8D=E9=9C=80=E8=A6=81=E8=
+=BF=99=E7=A7=8D=E6=96=B9=E5=BC=8F=E6=8A=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=
+=B6=E5=8A=A0=E5=85=A5=E5=88=B0=E7=B1=BB=E4=B8=AD=E5=BE=84=E4=B8=AD=E3=80=82
+    # =E5=9B=A0=E4=B8=BA=E7=B1=BB=E8=B7=AF=E5=BE=84=E4=B8=AD=E8=AE=BE=E9=83=
+=BD=E5=BA=94=E8=AF=A5=E6=98=AF=E7=9B=AE=E5=BD=95=EF=BC=88=E8=80=8C=E4=B8=8D=
+=E6=98=AF=E6=96=87=E4=BB=B6=EF=BC=89=EF=BC=8Cjar=E6=96=87=E4=BB=B6=E4=B9=9F=
+=E6=98=AF=E6=8C=89=E7=9B=AE=E5=BD=95=E6=9D=A5=E5=A4=84=E7=90=86=E7=9A=84
+    #
+    # =E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=9A=84=E9=81=8D=E5=8E=86=EF=BC=
+=88=E4=B8=8E=E4=B8=8A=E7=B1=BB=E4=BC=BC=EF=BC=89
+    # =E8=BF=99=E9=87=8C=E9=9D=A2=E6=88=91=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=
+=87=E4=BB=B6=E9=83=BD=E6=98=AFxml=E7=9A=84
+    #for configfile in `ls *.xml`; do
+    #    CLASSPATH=3D"configfile:${CLASSPATH}"
+
+    export CLASSPATH
+    java -cp ${CLASSPATH} Test
+    </pre>
+<br>
+<br>&nbsp;&nbsp;&nbsp; =E5=9C=A8windows=E5=B9=B3=E5=8F=B0=E4=B8=8B=E5=B0=B1=
+=E8=A6=81=E9=BA=BB=E7=83=A6=E4=B8=80=E4=BA=9B=E4=BA=86=EF=BC=8C=E4=BD=BF=E7=
+=94=A8dos=E6=89=B9=E5=A4=84=E7=90=86=EF=BC=9A
+<br>&nbsp;&nbsp;&nbsp; <div class=3D"dp-highlighter" id=3D""><div class=3D"=
+bar"><div class=3D"tools">Batch=E4=BB=A3=E7=A0=81 <embed wmode=3D"transpare=
+nt" src=3D"http://pipilu.iteye.com/javascripts/syntaxhighlighter/clipboard_=
+new.swf" width=3D"14" height=3D"15" flashvars=3D"clipboard=3D%20%20%20%20%4=
+0echo%20off%0A%20%20%20%20for%20%25%25i%20in%20(lib%2F*.jar)%20do%20call%20=
+cpappend.bat%20%25%25i%0A%20%20%20%20java%20-cp%20%25CLASSPATH%25%20Test%0A=
+%20%20%20%20" quality=3D"high" allowscriptaccess=3D"always" type=3D"applica=
+tion/x-shockwave-flash" pluginspage=3D"http://www.macromedia.com/go/getflas=
+hplayer">&nbsp;<a href=3D"javascript:void()" title=3D"=E6=94=B6=E8=97=8F=E8=
+=BF=99=E6=AE=B5=E4=BB=A3=E7=A0=81" onclick=3D"code_favorites_do_favorite(th=
+is);return false;"><img class=3D"star" src=3D"http://pipilu.iteye.com/image=
+s/icon_star.png" alt=3D"=E6=94=B6=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D=
+"spinner" src=3D"http://pipilu.iteye.com/images/spinner.gif" style=3D"displ=
+ay:none"></a></div></div><ol start=3D"1" class=3D"dp-default"><li><span><sp=
+an>@echo&nbsp;off&nbsp;&nbsp;</span></span></li><li><span>for&nbsp;%%i&nbsp=
+;in&nbsp;(lib/*.jar)&nbsp;do&nbsp;call&nbsp;cpappend.bat&nbsp;%%i&nbsp;&nbs=
+p;</span></li><li><span>java&nbsp;-cp&nbsp;%CLASSPATH%&nbsp;Test&nbsp;&nbsp=
+;</span></li></ol></div><pre class=3D"batch" name=3D"code" codeable_id=3D"3=
+99816" codeable_type=3D"Blog" source_url=3D"http://pipilu.iteye.com/blog/39=
+9816" pre_index=3D"1" title=3D"=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=
+=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85" s=
+tyle=3D"display: none;">    @echo off
+    for %%i in (lib/*.jar) do call cpappend.bat %%i
+    java -cp %CLASSPATH% Test
+    </pre>
+<br>=20
+<br>&nbsp;&nbsp;&nbsp; =E4=B8=8B=E9=9D=A2=E6=98=AFcpappend.bat=EF=BC=9A
+<br>&nbsp;&nbsp;&nbsp; <div class=3D"dp-highlighter" id=3D""><div class=3D"=
+bar"><div class=3D"tools">Batch=E4=BB=A3=E7=A0=81 <embed wmode=3D"transpare=
+nt" src=3D"http://pipilu.iteye.com/javascripts/syntaxhighlighter/clipboard_=
+new.swf" width=3D"14" height=3D"15" flashvars=3D"clipboard=3D%20%20%20%20%4=
+0echo%20off%0A%20%20%20%20if%20%22%22%251%22%22%20%3D%3D%20%22%22%22%22%20g=
+oto%20end%0A%20%20%20%20set%20CLASSPATH%3D%25CLASSPATH%25%3Blib%2F%251%0A%2=
+0%20%20%20shift%0A%0A%20%20%20%20rem%20Process%20the%20remaining%20argument=
+s%0A%20%20%20%20%3AsetArgs%0A%20%20%20%20if%20%22%22%251%22%22%20%3D%3D%20%=
+22%22%22%22%20goto%20doneSetArgs%0A%20%20%20%20set%20CLASSPATH%3D%25CLASSPA=
+TH%25%20%251%0A%20%20%20%20shift%0A%20%20%20%20goto%20setArgs%0A%20%20%20%2=
+0%3AdoneSetArgs%0A%20%20%20%20%3Aend%0A%20%20%20%20" quality=3D"high" allow=
+scriptaccess=3D"always" type=3D"application/x-shockwave-flash" pluginspage=
+=3D"http://www.macromedia.com/go/getflashplayer">&nbsp;<a href=3D"javascrip=
+t:void()" title=3D"=E6=94=B6=E8=97=8F=E8=BF=99=E6=AE=B5=E4=BB=A3=E7=A0=81" =
+onclick=3D"code_favorites_do_favorite(this);return false;"><img class=3D"st=
+ar" src=3D"http://pipilu.iteye.com/images/icon_star.png" alt=3D"=E6=94=B6=
+=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D"spinner" src=3D"http://pipilu.it=
+eye.com/images/spinner.gif" style=3D"display:none"></a></div></div><ol star=
+t=3D"1" class=3D"dp-default"><li><span><span>@echo&nbsp;off&nbsp;&nbsp;</sp=
+an></span></li><li><span>if&nbsp;<span class=3D"string">""</span><span>%</s=
+pan><span class=3D"number">1</span><span class=3D"string">""</span><span>&n=
+bsp;=3D=3D&nbsp;</span><span class=3D"string">""</span><span class=3D"strin=
+g">""</span><span>&nbsp;goto&nbsp;end&nbsp;&nbsp;</span></span></li><li><sp=
+an>set&nbsp;CLASSPATH=3D%CLASSPATH%;lib/%<span class=3D"number">1</span><sp=
+an>&nbsp;&nbsp;</span></span></li><li><span>shift&nbsp;&nbsp;</span></li><l=
+i><span>&nbsp;&nbsp;</span></li><li><span>rem&nbsp;Process&nbsp;the&nbsp;re=
+maining&nbsp;arguments&nbsp;&nbsp;</span></li><li><span>:setArgs&nbsp;&nbsp=
+;</span></li><li><span>if&nbsp;<span class=3D"string">""</span><span>%</spa=
+n><span class=3D"number">1</span><span class=3D"string">""</span><span>&nbs=
+p;=3D=3D&nbsp;</span><span class=3D"string">""</span><span class=3D"string"=
+>""</span><span>&nbsp;goto&nbsp;doneSetArgs&nbsp;&nbsp;</span></span></li><=
+li><span>set&nbsp;CLASSPATH=3D%CLASSPATH%&nbsp;%<span class=3D"number">1</s=
+pan><span>&nbsp;&nbsp;</span></span></li><li><span>shift&nbsp;&nbsp;</span>=
+</li><li><span>goto&nbsp;setArgs&nbsp;&nbsp;</span></li><li><span>:doneSetA=
+rgs&nbsp;&nbsp;</span></li><li><span>:end&nbsp;&nbsp;</span></li></ol></div=
+><pre class=3D"batch" name=3D"code" codeable_id=3D"399816" codeable_type=3D=
+"Blog" source_url=3D"http://pipilu.iteye.com/blog/399816" pre_index=3D"2" t=
+itle=3D"=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=
+=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85" style=3D"display: none=
+;">    @echo off
+    if ""%1"" =3D=3D """" goto end
+    set CLASSPATH=3D%CLASSPATH%;lib/%1
+    shift
+
+    rem Process the remaining arguments
+    :setArgs
+    if ""%1"" =3D=3D """" goto doneSetArgs
+    set CLASSPATH=3D%CLASSPATH% %1
+    shift
+    goto setArgs
+    :doneSetArgs
+    :end
+    </pre>
+<br>&nbsp;&nbsp;&nbsp; cpappend.bat=E6=98=AF=E4=B8=8D=E6=98=AF=E8=A7=81=E8=
+=BF=87=EF=BC=9F=E6=B2=A1=E9=94=99=EF=BC=8Ctomcat=E4=B8=8B=E7=9A=84=EF=BC=8C=
+=E7=9B=B4=E6=8E=A5=E4=BB=8E=E9=82=A3=E6=8A=84=E7=9A=84=EF=BC=8Cdos=E7=9A=84=
+=E6=89=B9=E5=A4=84=E7=90=86=E7=9A=84=E5=86=99=E6=B3=95=E6=88=91=E6=98=AF=E6=
+=B2=A1=E7=A0=94=E7=A9=B6=E6=98=8E=E7=99=BD=E3=80=82
+<br>
+<br>&nbsp;&nbsp;&nbsp; <span style=3D"color: red;">set CLASSPATH=3D%CLASSPA=
+TH%;lib/%1=E5=90=8E=E9=9D=A2=E4=B8=8D=E8=A6=81=E6=9C=89=E7=A9=BA=E6=A0=BC=
+=E3=80=82</span>
+<br>
+<br><em>=E6=B3=A8=EF=BC=9A=E7=B1=BB=E8=B7=AF=E5=BE=84=E4=B8=AD=EF=BC=8C=E6=
+=9C=80=E5=A5=BD=E6=8A=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=9A=84=E8=B7=
+=AF=E5=BE=84=E6=94=BE=E5=9C=A8jar=E6=96=87=E4=BB=B6=E7=9A=84=E8=B7=AF=E5=BE=
+=84=E4=B9=8B=E5=89=8D=EF=BC=8C=E5=9B=A0=E4=B8=BA=E6=88=91=E4=BB=AC=E5=AE=9E=
+=E9=99=85=E9=A1=B9=E7=9B=AE=E4=B8=AD=E9=81=87=E5=88=B0=E8=BF=87=EF=BC=9A=E6=
+=9C=89=E7=9A=84jar=E5=8C=85=E4=B8=AD=E5=8C=85=E5=90=AB=E5=90=8C=E5=90=8D=E9=
+=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E6=8A=8A=E6=88=91=E4=BB=AC=E8=87=AA=E5=B7=
+=B1=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=BB=99=E8=A6=86=E7=9B=96=
+=E4=BA=86=E7=9A=84=E6=83=85=E5=86=B5=E3=80=82=E6=94=B9=E4=B8=80=E4=B8=8B=E5=
+=9C=A8classpath=E4=B8=AD=E7=9A=84=E9=A1=BA=E5=BA=8F=EF=BC=8C=E8=BF=99=E6=A0=
+=B7=E5=B0=B1=E5=8F=AF=E4=BB=A5=E8=AE=A9=E7=A8=8B=E5=BA=8F=E4=BC=98=E5=85=88=
+=E4=BD=BF=E7=94=A8=E6=88=91=E4=BB=AC=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=
+=BB=B6=E3=80=82</em>
+<br>
+<br>&nbsp;&nbsp;&nbsp; =E8=BF=99=E6=A0=B7=EF=BC=8C=E6=96=B9=E4=BE=BF=E4=BF=
+=AE=E6=94=B9=E9=85=8D=E7=BD=AE=E7=9A=84=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=
+=E7=A8=8B=E5=BA=8F=E7=9A=84=E6=89=A7=E8=A1=8C=E6=96=B9=E6=B3=95=E5=B7=B2=E7=
+=BB=8F=E5=87=BA=E6=9D=A5=E4=BA=86=E3=80=82=E4=B8=8B=E9=9D=A2=E7=9A=84=E9=97=
+=AE=E9=A2=98=E6=98=AF=EF=BC=8C=E9=82=A3=E4=BA=9B=E4=BE=9D=E8=B5=96=E7=9A=84=
+jar=E5=8C=85=EF=BC=8C=E4=BB=A5=E5=8F=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=
+=E8=B0=81=E6=9D=A5=E6=8B=B7=E5=87=BA=E6=9D=A5=EF=BC=9F=E7=94=A8maven=E6=9D=
+=A5=E5=81=9A=E8=BF=99=E4=BB=B6=E4=BA=8B=E6=98=AF=E6=9C=80=E6=96=B9=E4=BE=BF=
+=E4=B8=8D=E8=BF=87=E7=9A=84=E4=BA=86=E3=80=82
+<br>&nbsp;&nbsp;&nbsp; =E4=BD=BF=E7=94=A8maven=E7=9A=84resources=E6=8F=92=
+=E4=BB=B6=E3=80=82
+<br>&nbsp;&nbsp;&nbsp; =E4=B8=8B=E9=9D=A2=E6=88=91=E4=BB=AC=E8=A6=81=E5=81=
+=9A=E7=9A=84=E5=B0=B1=E6=98=AF=EF=BC=9A=E5=9C=A8=E4=BD=BF=E7=94=A8maven=E6=
+=89=93=E5=8C=85=E6=97=B6=EF=BC=8C=E6=8A=8A=E7=A8=8B=E5=BA=8F=E4=BE=9D=E8=B5=
+=96=E7=9A=84jar=E5=8C=85=E9=83=BD=E6=8B=B7=E5=87=BA=E6=9D=A5=EF=BC=8C=E9=85=
+=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E6=8B=B7=E5=87=BA=E6=9D=A5=E3=80=82=E5=90=8C=
+=E6=97=B6=EF=BC=8C=E5=9B=A0=E4=B8=BA=E8=A6=81=E4=BD=BF=E7=94=A8=E5=A4=96=E9=
+=83=A8=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E6=89=80=E4=BB=
+=A5=E8=A6=81=E9=81=BF=E5=85=8D=E6=8A=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=
+=E6=89=93=E5=88=B0jar=E5=8C=85=E9=87=8C=E3=80=82pom=E9=87=8C=E7=9A=84=E9=85=
+=8D=E7=BD=AE=E5=A6=82=E4=B8=8B=EF=BC=9A
+<br>&nbsp;&nbsp;&nbsp; <div class=3D"dp-highlighter" id=3D""><div class=3D"=
+bar"><div class=3D"tools">Pom=E4=BB=A3=E7=A0=81 <embed wmode=3D"transparent=
+" src=3D"http://pipilu.iteye.com/javascripts/syntaxhighlighter/clipboard_ne=
+w.swf" width=3D"14" height=3D"15" flashvars=3D"clipboard=3D%20%20%20%3Cplug=
+in%3E%0A%09%09%09%09%3CgroupId%3Eorg.apache.maven.plugins%3C%2FgroupId%3E%0=
+A%09%09%09%09%3CartifactId%3Emaven-jar-plugin%3C%2FartifactId%3E%0A%09%09%0=
+9%09%3Cconfiguration%3E%0A%09%09%09%09%09%3Carchive%3E%0A%09%09%09%09%09%09=
+%3Cmanifest%3E%0A%09%09%09%09%09%09%09%3CaddClasspath%3Etrue%3C%2FaddClassp=
+ath%3E%3C!--%20%E5%8A%A0%E8%BD%BDclass%20--%3E%0A%09%09%09%09%09%09%09%3Ccl=
+asspathPrefix%3Elib%2F%3C%2FclasspathPrefix%3E%3C!--%20%E5%8A%A0%E8%BD%BD%E=
+7%9A%84class%E7%9B%AE%E5%BD%95%E7%9A%84%E5%89%8D%E7%BC%80%EF%BC%88%E4%BE%9D=
+%E8%B5%96%E7%9A%84jar%E7%9B%AE%E5%BD%95%EF%BC%89%20--%3E%0A%09%09%09%09%09%=
+09%09%3CmainClass%3Etest.Test%3C%2FmainClass%3E%3C!--%20%E5%85%A5%E5%8F%A3%=
+E7%B1%BB%E5%90%8D%20--%3E%0A%09%09%09%09%09%09%3C%2Fmanifest%3E%0A%09%09%09=
+%09%09%3C%2Farchive%3E%0A%09%09%09%09%3C%2Fconfiguration%3E%0A%09%09%09%3C%=
+2Fplugin%3E%0A%20%20%20%3C!--%20%E6%8A%8A%E4%BE%9D%E8%B5%96%E7%9A%84jar%E5%=
+8C%85%E6%8B%B7%E5%88%B0lib%E7%9B%AE%E5%BD%95%E4%B8%8B%20--%3E%0A%09%09%09%3=
+Cplugin%3E%0A%09%09%09%09%3CgroupId%3Eorg.apache.maven.plugins%3C%2FgroupId=
+%3E%0A%09%09%09%09%3CartifactId%3Emaven-dependency-plugin%3C%2FartifactId%3=
+E%0A%09%09%09%09%3Cexecutions%3E%0A%09%09%09%09%09%3Cexecution%3E%0A%09%09%=
+09%09%09%09%3Cid%3Ecopy-dependencies%3C%2Fid%3E%0A%09%09%09%09%09%09%3Cphas=
+e%3Epackage%3C%2Fphase%3E%0A%09%09%09%09%09%09%3Cgoals%3E%0A%09%09%09%09%09=
+%09%09%3Cgoal%3Ecopy-dependencies%3C%2Fgoal%3E%0A%09%09%09%09%09%09%3C%2Fgo=
+als%3E%0A%09%09%09%09%09%09%3Cconfiguration%3E%0A%09%09%09%09%09%09%09%3Cou=
+tputDirectory%3E%24%7Bproject.build.directory%7D%2Flib%3C%2FoutputDirectory=
+%3E%0A%09%09%09%09%09%09%09%3CoverWriteReleases%3Efalse%3C%2FoverWriteRelea=
+ses%3E%0A%09%09%09%09%09%09%09%3CoverWriteSnapshots%3Efalse%3C%2FoverWriteS=
+napshots%3E%0A%09%09%09%09%09%09%09%3CoverWriteIfNewer%3Etrue%3C%2FoverWrit=
+eIfNewer%3E%0A%09%09%09%09%09%09%3C%2Fconfiguration%3E%0A%09%09%09%09%09%3C=
+%2Fexecution%3E%0A%09%09%09%09%3C%2Fexecutions%3E%0A%09%09%09%3C%2Fplugin%3=
+E%0A%20%20%20%20%20%20%20%20%3C!--%20%E4%BB%A5utf-8%E7%BC%96%E7%A0%81%E6%8B=
+%B7%E8%B4%9D%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%EF%BC%8C%E6%8B%B7%E8%B4%9D=
+%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%81%9A%E5%8F%98%E9=
+%87%8F%E6%9B%BF%E6%8D%A2%E7%9A%84%EF%BC%8C%E4%B9%9F%E5%B0%B1%E6%98%AF%E8%AF=
+%B4%E4%BD%A0%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E5%8F%AF%E4%BB%A5=
+%E6%98%AF%E4%B8%AA%E6%A8%A1%E6%9D%BF%EF%BC%8C%E9%87%8C%E9%9D%A2%E7%9A%84%24=
+%7B%7D%E6%89%80%E5%8C%85%E5%90%AB%E7%9A%84%E5%86%85%E5%AE%B9%E6%98%AF%E5%8F=
+%AF%E4%BB%A5%E6%8B%B7%E8%B4%9D%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%9B%BF%E6%8D%A2=
+%E7%9A%84%20--%3E%0A%09%09%09%3Cplugin%3E%0A%09%09%09%09%3CgroupId%3Eorg.ap=
+ache.maven.plugins%3C%2FgroupId%3E%0A%09%09%09%09%3CartifactId%3Emaven-reso=
+urces-plugin%3C%2FartifactId%3E%0A%09%09%09%09%3Cversion%3E2.3%3C%2Fversion=
+%3E%0A%09%09%09%09%3Cexecutions%3E%0A%09%09%09%09%09%3Cexecution%3E%0A%09%0=
+9%09%09%09%09%3Cid%3Ecopy-resources%3C%2Fid%3E%0A%09%09%09%09%09%09%3Cphase=
+%3Epackage%3C%2Fphase%3E%0A%09%09%09%09%09%09%3Cgoals%3E%0A%09%09%09%09%09%=
+09%09%3Cgoal%3Ecopy-resources%3C%2Fgoal%3E%0A%09%09%09%09%09%09%3C%2Fgoals%=
+3E%0A%09%09%09%09%09%09%3Cconfiguration%3E%0A%09%09%09%09%09%09%09%3Cencodi=
+ng%3EUTF-8%3C%2Fencoding%3E%0A%09%09%09%09%09%09%09%3CoutputDirectory%3E%24=
+%7Bproject.build.directory%7D%3C%2FoutputDirectory%3E%3C!--%20%E6%8A%8A%E9%=
+85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%8B%B7%E5%88%B0%E5%92%8Cjar%E5%8C%85%E5%=
+90%8C%E4%B8%80%E4%B8%AA%E8%B7%AF%E5%BE%84%E4%B8%8B%20--%3E%0A%09%09%09%09%0=
+9%09%09%3Cresources%3E%0A%09%09%09%09%09%09%09%09%3Cresource%3E%0A%09%09%09=
+%09%09%09%09%09%09%3Cdirectory%3Esrc%2Fmain%2Fresources%2F%3C%2Fdirectory%3=
+E%0A%09%09%09%09%09%09%09%09%09%3Cincludes%3E%0A%09%09%09%09%09%09%09%09%09=
+%09%3Cinclude%3Econfig.xml%3C%2Finclude%3E%0A%09%09%09%09%09%09%09%09%09%09=
+%3Cinclude%3Elog4j.xml%3C%2Finclude%3E%0A%09%09%09%09%09%09%09%09%09%3C%2Fi=
+ncludes%3E%0A%09%09%09%09%09%09%09%09%09%3Cfiltering%3Etrue%3C%2Ffiltering%=
+3E%0A%09%09%09%09%09%09%09%09%3C%2Fresource%3E%0A%09%09%09%09%09%09%09%3C%2=
+Fresources%3E%0A%09%09%09%09%09%09%3C%2Fconfiguration%3E%0A%09%09%09%09%09%=
+3C%2Fexecution%3E%0A%09%09%09%09%3C%2Fexecutions%3E%0A%09%09%09%3C%2Fplugin=
+%3E%0A%20%20%20%3C!--%20%E6%89%93jar%E5%8C%85%E6%97%B6%E9%9C%80%E8%A6%81%E6=
+%8A%8A%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%BB%99%E6%8E%92%E9%99%A4%E5%9C=
+%A8%E5%A4%96%20--%3E%0A%09%09%09%3Cplugin%3E%0A%09%09%09%09%3CgroupId%3Eorg=
+.apache.maven.plugins%3C%2FgroupId%3E%0A%09%09%09%09%3CartifactId%3Emaven-j=
+ar-plugin%3C%2FartifactId%3E%0A%09%09%09%09%3Cexecutions%3E%0A%09%09%09%09%=
+09%3Cexecution%3E%0A%09%09%09%09%09%09%3Cphase%3Epackage%3C%2Fphase%3E%0A%0=
+9%09%09%09%09%09%3Cgoals%3E%0A%09%09%09%09%09%09%09%3Cgoal%3Ejar%3C%2Fgoal%=
+3E%0A%09%09%09%09%09%09%3C%2Fgoals%3E%0A%09%09%09%09%09%09%3Cconfiguration%=
+3E%0A%09%09%09%09%09%09%09%3Cclassifier%3Elib%3C%2Fclassifier%3E%0A%09%09%0=
+9%09%09%09%09%3Cexcludes%3E%0A%09%09%09%09%09%09%09%09%3Cexclude%3Econfig.x=
+ml%3C%2Fexclude%3E%0A%09%09%09%09%09%09%09%09%3Cexclude%3Elog4j.xml%3C%2Fex=
+clude%3E%0A%09%09%09%09%09%09%09%3C%2Fexcludes%3E%0A%09%09%09%09%09%09%3C%2=
+Fconfiguration%3E%0A%09%09%09%09%09%3C%2Fexecution%3E%0A%09%09%09%09%3C%2Fe=
+xecutions%3E%0A%09%09%09%3C%2Fplugin%3E%0A%20%20%20%20" quality=3D"high" al=
+lowscriptaccess=3D"always" type=3D"application/x-shockwave-flash" pluginspa=
+ge=3D"http://www.macromedia.com/go/getflashplayer">&nbsp;<a href=3D"javascr=
+ipt:void()" title=3D"=E6=94=B6=E8=97=8F=E8=BF=99=E6=AE=B5=E4=BB=A3=E7=A0=81=
+" onclick=3D"code_favorites_do_favorite(this);return false;"><img class=3D"=
+star" src=3D"http://pipilu.iteye.com/images/icon_star.png" alt=3D"=E6=94=B6=
+=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D"spinner" src=3D"http://pipilu.it=
+eye.com/images/spinner.gif" style=3D"display:none"></a></div></div><ol star=
+t=3D"1" class=3D"dp-default"><li><span><span>&lt;plugin&gt;&nbsp;&nbsp;</sp=
+an></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt;org.apache.=
+maven.plugins&lt;/groupId&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;=
+&nbsp;&nbsp;&lt;artifactId&gt;maven-jar-plugin&lt;/artifactId&gt;&nbsp;&nbs=
+p;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;configuration&gt;&nbsp;=
+&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&lt;archive&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;manifest&gt;&nbsp;&nbsp;=
+</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;addClasspath&gt;true&lt;/add=
+Classpath&gt;&lt;!--&nbsp;=E5=8A=A0=E8=BD=BDclass&nbsp;--&gt;&nbsp;&nbsp;</=
+span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;classpathPrefix&gt;lib/&lt;/cl=
+asspathPrefix&gt;&lt;!--&nbsp;=E5=8A=A0=E8=BD=BD=E7=9A=84class=E7=9B=AE=E5=
+=BD=95=E7=9A=84=E5=89=8D=E7=BC=80=EF=BC=88=E4=BE=9D=E8=B5=96=E7=9A=84jar=E7=
+=9B=AE=E5=BD=95=EF=BC=89&nbsp;--&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&lt;mainClass&gt;test.Test&lt;/mainClass&gt;&lt;!--&nbsp;=
+=E5=85=A5=E5=8F=A3=E7=B1=BB=E5=90=8D&nbsp;--&gt;&nbsp;&nbsp;</span></li><li=
+><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&lt;/manifest&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/archive&gt;&nbsp;&nbsp;</span></li><li><sp=
+an>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/configuration&gt;&nbsp;&nbsp;</span></li><l=
+i><span>&lt;/plugin&gt;&nbsp;&nbsp;</span></li><li><span>&lt;!--&nbsp;=E6=
+=8A=8A=E4=BE=9D=E8=B5=96=E7=9A=84jar=E5=8C=85=E6=8B=B7=E5=88=B0lib=E7=9B=AE=
+=E5=BD=95=E4=B8=8B&nbsp;--&gt;&nbsp;&nbsp;</span></li><li><span>&lt;plugin&=
+gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt=
+;org.apache.maven.plugins&lt;/groupId&gt;&nbsp;&nbsp;</span></li><li><span>=
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;maven-dependency-plugin&lt;/artif=
+actId&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;exec=
+utions&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&lt;execution&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;id&gt;=
+copy-dependencies&lt;/id&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;phase&gt;pac=
+kage&lt;/phase&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goals&gt;&nbsp;&nbsp;<=
+/span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goal&gt;copy-dependencies&lt;=
+/goal&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/goals&gt;&nbsp;&nbsp;</span></=
+li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&lt;configuration&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&lt;outputDirectory&gt;${project.build.directory}/lib&lt;/output=
+Directory&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ove=
+rWriteReleases&gt;false&lt;/overWriteReleases&gt;&nbsp;&nbsp;</span></li><l=
+i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;overWriteSnapshots&gt;false&lt;/overWriteS=
+napshots&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;over=
+WriteIfNewer&gt;true&lt;/overWriteIfNewer&gt;&nbsp;&nbsp;</span></li><li><s=
+pan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&lt;/configuration&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/execution&gt;&nbsp;&nbsp;</span></li><li=
+><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/executions&gt;&nbsp;&nbsp;</span></li><=
+li><span>&lt;/plugin&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&lt;!--&nbsp;=E4=BB=A5utf-<span class=3D"number">8</span><span=
+>=E7=BC=96=E7=A0=81=E6=8B=B7=E8=B4=9D=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=
+=EF=BC=8C=E6=8B=B7=E8=B4=9D=E8=BF=87=E7=A8=8B=E4=B8=AD=E6=98=AF=E5=8F=AF=E4=
+=BB=A5=E5=81=9A=E5=8F=98=E9=87=8F=E6=9B=BF=E6=8D=A2=E7=9A=84=EF=BC=8C=E4=B9=
+=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=E4=BD=A0=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=
+=E4=BB=B6=E5=8F=AF=E4=BB=A5=E6=98=AF=E4=B8=AA=E6=A8=A1=E6=9D=BF=EF=BC=8C=E9=
+=87=8C=E9=9D=A2=E7=9A=84${}=E6=89=80=E5=8C=85=E5=90=AB=E7=9A=84=E5=86=85=E5=
+=AE=B9=E6=98=AF=E5=8F=AF=E4=BB=A5=E6=8B=B7=E8=B4=9D=E8=BF=87=E7=A8=8B=E4=B8=
+=AD=E6=9B=BF=E6=8D=A2=E7=9A=84&nbsp;--&gt;&nbsp;&nbsp;</span></span></li><l=
+i><span>&lt;plugin&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&=
+nbsp;&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&nbsp;&nbsp;</s=
+pan></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;maven-resource=
+s-plugin&lt;/artifactId&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&n=
+bsp;&nbsp;&lt;version&gt;<span class=3D"number">2.3</span><span>&lt;/versio=
+n&gt;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;e=
+xecutions&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&lt;execution&gt;&nbsp;&nbsp;</span></li><li><span>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;id&=
+gt;copy-resources&lt;/id&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;phase&gt;pac=
+kage&lt;/phase&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goals&gt;&nbsp;&nbsp;<=
+/span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goal&gt;copy-resources&lt;/go=
+al&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/goals&gt;&nbsp;&nbsp;</span></li>=
+<li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&lt;configuration&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&lt;encoding&gt;UTF-<span class=3D"number">8</span><span>&lt;/encod=
+ing&gt;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ou=
+tputDirectory&gt;${project.build.directory}&lt;/outputDirectory&gt;&lt;!--&=
+nbsp;=E6=8A=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E6=8B=B7=E5=88=B0=E5=92=
+=8Cjar=E5=8C=85=E5=90=8C=E4=B8=80=E4=B8=AA=E8=B7=AF=E5=BE=84=E4=B8=8B&nbsp;=
+--&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;resources&=
+gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&lt;resource&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;directory&gt;src/mai=
+n/resources/&lt;/directory&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;includes&gt;&=
+nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;include&gt;config.xm=
+l&lt;/include&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;in=
+clude&gt;log4j.xml&lt;/include&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/includes=
+&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;filtering&gt;true&lt;/filtering&gt;&nbs=
+p;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&lt;/resource&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt=
+;/resources&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/configuration&gt;&nbsp;&=
+nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&lt;/execution&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp=
+;&lt;/executions&gt;&nbsp;&nbsp;</span></li><li><span>&lt;/plugin&gt;&nbsp;=
+&nbsp;</span></li><li><span>&lt;!--&nbsp;=E6=89=93jar=E5=8C=85=E6=97=B6=E9=
+=9C=80=E8=A6=81=E6=8A=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=BB=99=E6=8E=
+=92=E9=99=A4=E5=9C=A8=E5=A4=96&nbsp;--&gt;&nbsp;&nbsp;</span></li><li><span=
+>&lt;plugin&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&l=
+t;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&nbsp;&nbsp;</span></l=
+i><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;maven-jar-plugin&lt;/=
+artifactId&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt=
+;executions&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&lt;execution&gt;&nbsp;&nbsp;</span></li><li><span>&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p=
+hase&gt;package&lt;/phase&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goals&gt;&n=
+bsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goal&gt;jar&lt;/go=
+al&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/goals&gt;&nbsp;&nbsp;</span></li>=
+<li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&lt;configuration&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&lt;classifier&gt;lib&lt;/classifier&gt;&nbsp;&nbsp;</span></li><li=
+><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;excludes&gt;&nbsp;&nbsp;</span></li><li><sp=
+an>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;exclude&gt;config.xml&l=
+t;/exclude&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&lt;exclude&gt;log4j.xml&lt;/exclude&gt;&nbsp;&nbsp;</spa=
+n></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/excludes&gt;&nbsp;&nbsp;</span><=
+/li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&lt;/configuration&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/execution&gt;&nbsp;&nbsp;</spa=
+n></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/executions&gt;&nbsp;&nbsp;</s=
+pan></li><li><span>&lt;/plugin&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&=
+nbsp;&nbsp;</span></li></ol></div><pre class=3D"pom" name=3D"code" codeable=
+_id=3D"399816" codeable_type=3D"Blog" source_url=3D"http://pipilu.iteye.com=
+/blog/399816" pre_index=3D"3" title=3D"=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=
+=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=
+=8C=85" style=3D"display: none;">   &lt;plugin&gt;
+				&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+				&lt;artifactId&gt;maven-jar-plugin&lt;/artifactId&gt;
+				&lt;configuration&gt;
+					&lt;archive&gt;
+						&lt;manifest&gt;
+							&lt;addClasspath&gt;true&lt;/addClasspath&gt;&lt;!-- =E5=8A=A0=E8=BD=
+=BDclass --&gt;
+							&lt;classpathPrefix&gt;lib/&lt;/classpathPrefix&gt;&lt;!-- =E5=8A=A0=
+=E8=BD=BD=E7=9A=84class=E7=9B=AE=E5=BD=95=E7=9A=84=E5=89=8D=E7=BC=80=EF=BC=
+=88=E4=BE=9D=E8=B5=96=E7=9A=84jar=E7=9B=AE=E5=BD=95=EF=BC=89 --&gt;
+							&lt;mainClass&gt;test.Test&lt;/mainClass&gt;&lt;!-- =E5=85=A5=E5=8F=
+=A3=E7=B1=BB=E5=90=8D --&gt;
+						&lt;/manifest&gt;
+					&lt;/archive&gt;
+				&lt;/configuration&gt;
+			&lt;/plugin&gt;
+   &lt;!-- =E6=8A=8A=E4=BE=9D=E8=B5=96=E7=9A=84jar=E5=8C=85=E6=8B=B7=E5=88=
+=B0lib=E7=9B=AE=E5=BD=95=E4=B8=8B --&gt;
+			&lt;plugin&gt;
+				&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+				&lt;artifactId&gt;maven-dependency-plugin&lt;/artifactId&gt;
+				&lt;executions&gt;
+					&lt;execution&gt;
+						&lt;id&gt;copy-dependencies&lt;/id&gt;
+						&lt;phase&gt;package&lt;/phase&gt;
+						&lt;goals&gt;
+							&lt;goal&gt;copy-dependencies&lt;/goal&gt;
+						&lt;/goals&gt;
+						&lt;configuration&gt;
+							&lt;outputDirectory&gt;${project.build.directory}/lib&lt;/outputDire=
+ctory&gt;
+							&lt;overWriteReleases&gt;false&lt;/overWriteReleases&gt;
+							&lt;overWriteSnapshots&gt;false&lt;/overWriteSnapshots&gt;
+							&lt;overWriteIfNewer&gt;true&lt;/overWriteIfNewer&gt;
+						&lt;/configuration&gt;
+					&lt;/execution&gt;
+				&lt;/executions&gt;
+			&lt;/plugin&gt;
+        &lt;!-- =E4=BB=A5utf-8=E7=BC=96=E7=A0=81=E6=8B=B7=E8=B4=9D=E9=85=8D=
+=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E6=8B=B7=E8=B4=9D=E8=BF=87=E7=A8=8B=E4=
+=B8=AD=E6=98=AF=E5=8F=AF=E4=BB=A5=E5=81=9A=E5=8F=98=E9=87=8F=E6=9B=BF=E6=8D=
+=A2=E7=9A=84=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=E4=BD=A0=E7=9A=84=
+=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E5=8F=AF=E4=BB=A5=E6=98=AF=E4=B8=AA=E6=
+=A8=A1=E6=9D=BF=EF=BC=8C=E9=87=8C=E9=9D=A2=E7=9A=84${}=E6=89=80=E5=8C=85=E5=
+=90=AB=E7=9A=84=E5=86=85=E5=AE=B9=E6=98=AF=E5=8F=AF=E4=BB=A5=E6=8B=B7=E8=B4=
+=9D=E8=BF=87=E7=A8=8B=E4=B8=AD=E6=9B=BF=E6=8D=A2=E7=9A=84 --&gt;
+			&lt;plugin&gt;
+				&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+				&lt;artifactId&gt;maven-resources-plugin&lt;/artifactId&gt;
+				&lt;version&gt;2.3&lt;/version&gt;
+				&lt;executions&gt;
+					&lt;execution&gt;
+						&lt;id&gt;copy-resources&lt;/id&gt;
+						&lt;phase&gt;package&lt;/phase&gt;
+						&lt;goals&gt;
+							&lt;goal&gt;copy-resources&lt;/goal&gt;
+						&lt;/goals&gt;
+						&lt;configuration&gt;
+							&lt;encoding&gt;UTF-8&lt;/encoding&gt;
+							&lt;outputDirectory&gt;${project.build.directory}&lt;/outputDirector=
+y&gt;&lt;!-- =E6=8A=8A=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E6=8B=B7=E5=88=
+=B0=E5=92=8Cjar=E5=8C=85=E5=90=8C=E4=B8=80=E4=B8=AA=E8=B7=AF=E5=BE=84=E4=B8=
+=8B --&gt;
+							&lt;resources&gt;
+								&lt;resource&gt;
+									&lt;directory&gt;src/main/resources/&lt;/directory&gt;
+									&lt;includes&gt;
+										&lt;include&gt;config.xml&lt;/include&gt;
+										&lt;include&gt;log4j.xml&lt;/include&gt;
+									&lt;/includes&gt;
+									&lt;filtering&gt;true&lt;/filtering&gt;
+								&lt;/resource&gt;
+							&lt;/resources&gt;
+						&lt;/configuration&gt;
+					&lt;/execution&gt;
+				&lt;/executions&gt;
+			&lt;/plugin&gt;
+   &lt;!-- =E6=89=93jar=E5=8C=85=E6=97=B6=E9=9C=80=E8=A6=81=E6=8A=8A=E9=85=
+=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E7=BB=99=E6=8E=92=E9=99=A4=E5=9C=A8=E5=A4=96=
+ --&gt;
+			&lt;plugin&gt;
+				&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+				&lt;artifactId&gt;maven-jar-plugin&lt;/artifactId&gt;
+				&lt;executions&gt;
+					&lt;execution&gt;
+						&lt;phase&gt;package&lt;/phase&gt;
+						&lt;goals&gt;
+							&lt;goal&gt;jar&lt;/goal&gt;
+						&lt;/goals&gt;
+						&lt;configuration&gt;
+							&lt;classifier&gt;lib&lt;/classifier&gt;
+							&lt;excludes&gt;
+								&lt;exclude&gt;config.xml&lt;/exclude&gt;
+								&lt;exclude&gt;log4j.xml&lt;/exclude&gt;
+							&lt;/excludes&gt;
+						&lt;/configuration&gt;
+					&lt;/execution&gt;
+				&lt;/executions&gt;
+			&lt;/plugin&gt;
+    </pre>
+<br>
+<br>=E4=B8=8A=E9=9D=A2=E6=9C=89=E5=87=A0=E4=B8=AA=E9=9C=80=E8=A6=81=E7=89=
+=B9=E5=88=AB=E8=AF=B4=E6=98=8E=E7=9A=84=E5=9C=B0=E6=96=B9=EF=BC=9A
+<br>1=E3=80=81phase=E8=8A=82=E7=82=B9=EF=BC=8C=E8=A1=A8=E7=A4=BA=E8=A6=81=
+=E5=9C=A8=E4=BB=80=E4=B9=88=E9=98=B6=E6=AE=B5=E6=89=A7=E8=A1=8C=E8=BF=99=E4=
+=B8=AA=E4=BB=BB=E5=8A=A1=EF=BC=8C=E6=AF=94=E5=A6=82
+<br><div class=3D"dp-highlighter" id=3D""><div class=3D"bar"><div class=3D"=
+tools">Pom=E4=BB=A3=E7=A0=81 <embed wmode=3D"transparent" src=3D"http://pip=
+ilu.iteye.com/javascripts/syntaxhighlighter/clipboard_new.swf" width=3D"14"=
+ height=3D"15" flashvars=3D"clipboard=3D%3Cphase%3Epackage%3C%2Fphase%3E%0A=
+%09%09%09%09%09%09%3Cgoals%3E%0A%09%09%09%09%09%09%09%3Cgoal%3Ecopy-depende=
+ncies%3C%2Fgoal%3E%0A%09%09%09%09%09%09%3C%2Fgoals%3E%0A" quality=3D"high" =
+allowscriptaccess=3D"always" type=3D"application/x-shockwave-flash" plugins=
+page=3D"http://www.macromedia.com/go/getflashplayer">&nbsp;<a href=3D"javas=
+cript:void()" title=3D"=E6=94=B6=E8=97=8F=E8=BF=99=E6=AE=B5=E4=BB=A3=E7=A0=
+=81" onclick=3D"code_favorites_do_favorite(this);return false;"><img class=
+=3D"star" src=3D"http://pipilu.iteye.com/images/icon_star.png" alt=3D"=E6=
+=94=B6=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D"spinner" src=3D"http://pip=
+ilu.iteye.com/images/spinner.gif" style=3D"display:none"></a></div></div><o=
+l start=3D"1" class=3D"dp-default"><li><span><span>&lt;phase&gt;package&lt;=
+/phase&gt;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goals&gt;&nbsp;&nbsp;</spa=
+n></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;goal&gt;copy-dependencies&lt;/goal&g=
+t;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/goals&gt;&nbsp;&nbsp;</span></li></ol></=
+div><pre class=3D"pom" name=3D"code" codeable_id=3D"399816" codeable_type=
+=3D"Blog" source_url=3D"http://pipilu.iteye.com/blog/399816" pre_index=3D"4=
+" title=3D"=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=
+=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85" style=3D"display: n=
+one;">&lt;phase&gt;package&lt;/phase&gt;
+						&lt;goals&gt;
+							&lt;goal&gt;copy-dependencies&lt;/goal&gt;
+						&lt;/goals&gt;
+</pre>
+<br>=E8=A1=A8=E7=A4=BA=E5=9C=A8=E6=89=93=E5=8C=85=EF=BC=88package=EF=BC=89=
+=E4=B9=8B=E5=89=8D=E6=89=A7=E8=A1=8Ccopy-dependencies=E7=9A=84=E4=BB=BB=E5=
+=8A=A1=EF=BC=88=E5=85=B3=E4=BA=8Ecopy-dependencies=EF=BC=8C=E8=AF=B7=E6=9F=
+=A5=E9=98=85resources=E6=8F=92=E4=BB=B6=E7=9A=84=E8=AF=B4=E6=98=8E=EF=BC=89=
+=E3=80=82
+<br>2=E3=80=81=E6=9C=80=E5=90=8E=E4=B8=80=E4=B8=AAplugin=E8=8A=82=E7=82=B9=
+=E4=B8=AD=E7=9A=84classifier=E8=8A=82=E7=82=B9=EF=BC=8C=E8=A1=A8=E7=A4=BA=
+=E8=BF=99=E7=A7=8D=E6=96=B9=E5=BC=8F=EF=BC=88=E6=8E=92=E9=99=A4=E4=BA=86=E9=
+=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=89=E6=89=93=E5=87=BA=E7=9A=84jar=E5=
+=8C=85=E9=80=9A=E8=BF=87=E4=BB=80=E4=B9=88=E6=9D=A5=E5=92=8C=E5=88=AB=E7=9A=
+=84jar=E5=8C=85=E5=8C=BA=E5=88=86=E5=BC=80=EF=BC=8C=E6=88=91=E8=AE=BE=E7=9A=
+=84=E5=80=BC=E6=98=AFlib=EF=BC=8C=E8=BF=99=E6=A0=B7=E6=89=93=E5=87=BA=E6=9D=
+=A5=E7=9A=84=E5=8C=85=E5=90=8D=E5=B0=B1=E6=98=AF=EF=BC=9Axxxx-lib.jar
+<br>3=E3=80=81=E6=9C=80=E5=90=8E=E4=B8=80=E4=B8=AAplugin=E8=8A=82=E7=82=B9=
+=E4=B8=AD=E7=9A=84=EF=BC=9A
+<br><div class=3D"dp-highlighter" id=3D""><div class=3D"bar"><div class=3D"=
+tools">Pom=E4=BB=A3=E7=A0=81 <embed wmode=3D"transparent" src=3D"http://pip=
+ilu.iteye.com/javascripts/syntaxhighlighter/clipboard_new.swf" width=3D"14"=
+ height=3D"15" flashvars=3D"clipboard=3D%3Cexclude%3Econfig.xml%3C%2Fexclud=
+e%3E%09%09%09%09%09%09%09%09%3Cexclude%3Elog4j.xml%3C%2Fexclude%3E%0A" qual=
+ity=3D"high" allowscriptaccess=3D"always" type=3D"application/x-shockwave-f=
+lash" pluginspage=3D"http://www.macromedia.com/go/getflashplayer">&nbsp;<a =
+href=3D"javascript:void()" title=3D"=E6=94=B6=E8=97=8F=E8=BF=99=E6=AE=B5=E4=
+=BB=A3=E7=A0=81" onclick=3D"code_favorites_do_favorite(this);return false;"=
+><img class=3D"star" src=3D"http://pipilu.iteye.com/images/icon_star.png" a=
+lt=3D"=E6=94=B6=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D"spinner" src=3D"h=
+ttp://pipilu.iteye.com/images/spinner.gif" style=3D"display:none"></a></div=
+></div><ol start=3D"1" class=3D"dp-default"><li><span><span>&lt;exclude&gt;=
+config.xml&lt;/exclude&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;exclude&g=
+t;log4j.xml&lt;/exclude&gt;&nbsp;&nbsp;</span></span></li></ol></div><pre c=
+lass=3D"pom" name=3D"code" codeable_id=3D"399816" codeable_type=3D"Blog" so=
+urce_url=3D"http://pipilu.iteye.com/blog/399816" pre_index=3D"5" title=3D"=
+=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=
+=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85" style=3D"display: none;">&lt;ex=
+clude&gt;config.xml&lt;/exclude&gt;								&lt;exclude&gt;log4j.xml&lt;/exc=
+lude&gt;
+</pre>
+<br>=E5=8F=AF=E4=BB=A5=E5=86=99=E6=88=90=EF=BC=9A
+<br><div class=3D"dp-highlighter" id=3D""><div class=3D"bar"><div class=3D"=
+tools">Pom=E4=BB=A3=E7=A0=81 <embed wmode=3D"transparent" src=3D"http://pip=
+ilu.iteye.com/javascripts/syntaxhighlighter/clipboard_new.swf" width=3D"14"=
+ height=3D"15" flashvars=3D"clipboard=3D%3Cexclude%3E*.xml%3C%2Fexclude%3E%=
+0A" quality=3D"high" allowscriptaccess=3D"always" type=3D"application/x-sho=
+ckwave-flash" pluginspage=3D"http://www.macromedia.com/go/getflashplayer">&=
+nbsp;<a href=3D"javascript:void()" title=3D"=E6=94=B6=E8=97=8F=E8=BF=99=E6=
+=AE=B5=E4=BB=A3=E7=A0=81" onclick=3D"code_favorites_do_favorite(this);retur=
+n false;"><img class=3D"star" src=3D"http://pipilu.iteye.com/images/icon_st=
+ar.png" alt=3D"=E6=94=B6=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D"spinner"=
+ src=3D"http://pipilu.iteye.com/images/spinner.gif" style=3D"display:none">=
+</a></div></div><ol start=3D"1" class=3D"dp-default"><li><span><span>&lt;ex=
+clude&gt;*.xml&lt;/exclude&gt;&nbsp;&nbsp;</span></span></li></ol></div><pr=
+e class=3D"pom" name=3D"code" codeable_id=3D"399816" codeable_type=3D"Blog"=
+ source_url=3D"http://pipilu.iteye.com/blog/399816" pre_index=3D"6" title=
+=3D"=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=
+=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85" style=3D"display: none;">&lt=
+;exclude&gt;*.xml&lt;/exclude&gt;
+</pre>
+<br>=E6=88=91=E6=B2=A1=E8=BF=99=E4=B9=88=E5=86=99=EF=BC=8C=E6=98=AF=E5=9B=
+=A0=E4=B8=BA=E6=88=91=E8=BF=98=E6=9C=89=E5=85=B6=E5=AE=83=E7=9A=84.xml=E6=
+=96=87=E4=BB=B6=E4=B8=8D=E9=9C=80=E8=A6=81=E6=94=BE=E5=9C=A8=E5=A4=96=E9=9D=
+=A2=E3=80=82
+<br>
+<br>=E5=88=B0=E8=BF=99=E9=87=8C=EF=BC=8C=E7=94=A8maven=E6=89=93=E7=8B=AC=E7=
+=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85=E7=9A=84=E6=
+=96=B9=E5=BC=8F=E5=B0=B1=E8=AE=B2=E8=A7=A3=E5=AE=8C=E4=BA=86=E3=80=82=E5=9C=
+=A8=E8=BF=99=E5=86=8D=E8=A1=A5=E5=85=85=E4=B8=80=E4=B8=AA=E5=B0=8F=E7=9F=A5=
+=E8=AF=86=E3=80=82
+<br>=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=9C=89=E5=A4=9A=E4=B8=AA=E5=B7=A5=E7=A8=
+=8B=EF=BC=8C=E7=BB=9F=E4=B8=80=E7=94=A8=E4=B8=80=E4=B8=AA=E7=88=B6pom=E6=9D=
+=A5=E7=AE=A1=E7=90=86=EF=BC=88=E8=BF=99=E4=BA=9B=E5=B7=A5=E7=A8=8B=E7=9A=84=
+pom=E9=83=BD=E7=BB=A7=E6=89=BF=E8=87=AA=E7=88=B6pom=EF=BC=89=EF=BC=8C=E5=A6=
+=82=E6=9E=9C=E6=9C=89=E7=9A=84=E5=B7=A5=E7=A8=8B=E4=B8=AD=E4=BD=BF=E7=94=A8=
+=E4=BA=86resources=E6=8F=92=E4=BB=B6=EF=BC=8C=E4=BD=A0=E5=9C=A8=E4=BD=BF=E7=
+=94=A8maven=E6=89=93=E5=8C=85=E6=97=B6=EF=BC=8C=E4=BC=9A=E5=87=BA=E7=8E=B0=
+=E9=94=99=E8=AF=AF=EF=BC=8Cmaven=E5=91=BD=E4=BB=A4=E6=97=A0=E6=B3=95=E6=88=
+=90=E5=8A=9F=E6=89=A7=E8=A1=8C=E3=80=82
+<br>=E6=8F=90=E7=A4=BA=E7=9A=84=E9=94=99=E8=AF=AF=E5=A4=A7=E6=84=8F=E6=98=
+=AF=EF=BC=9A=E4=BD=A0=E5=9C=A8pom=E4=B8=AD=E6=8C=87=E5=AE=9A=E8=A6=81=E6=89=
+=A7=E8=A1=8Ccopy-resources=E4=BB=BB=E5=8A=A1=EF=BC=8C=E5=8D=B4=E6=B2=A1=E6=
+=9C=89resources=E6=8F=92=E4=BB=B6=E3=80=82
+<br>=E8=A7=A3=E5=86=B3=E7=9A=84=E5=8A=9E=E6=B3=95=E6=98=AF=E5=9C=A8=E7=88=
+=B6pom=E4=B8=AD=E5=8A=A0=E5=85=A5=EF=BC=9A
+<br><div class=3D"dp-highlighter" id=3D""><div class=3D"bar"><div class=3D"=
+tools">Pom=E4=BB=A3=E7=A0=81 <embed wmode=3D"transparent" src=3D"http://pip=
+ilu.iteye.com/javascripts/syntaxhighlighter/clipboard_new.swf" width=3D"14"=
+ height=3D"15" flashvars=3D"clipboard=3D%3CpluginManagement%3E%0A%09%09%20%=
+20%3Cplugins%3E%0A%09%09%20%20%20%20%3Cplugin%3E%0A%09%09%20%20%20%20%20%20=
+%3CgroupId%3Eorg.apache.maven.plugins%3C%2FgroupId%3E%0A%09%09%20%20%20%20%=
+20%20%3CartifactId%3Emaven-resources-plugin%3C%2FartifactId%3E%0A%09%09%20%=
+20%20%20%20%20%3Cversion%3E2.3%3C%2Fversion%3E%0A%09%09%20%20%20%20%20%20%3=
+Cconfiguration%3E%0A%09%09%20%20%20%20%20%20%09%3Cencoding%3EUTF-8%3C%2Fenc=
+oding%3E%0A%09%09%20%20%20%20%20%20%3C%2Fconfiguration%3E%0A%09%09%20%20%20=
+%20%3C%2Fplugin%3E%0A%09%09%20%20%3C%2Fplugins%3E%0A%09%09%3C%2FpluginManag=
+ement%3E%0A" quality=3D"high" allowscriptaccess=3D"always" type=3D"applicat=
+ion/x-shockwave-flash" pluginspage=3D"http://www.macromedia.com/go/getflash=
+player">&nbsp;<a href=3D"javascript:void()" title=3D"=E6=94=B6=E8=97=8F=E8=
+=BF=99=E6=AE=B5=E4=BB=A3=E7=A0=81" onclick=3D"code_favorites_do_favorite(th=
+is);return false;"><img class=3D"star" src=3D"http://pipilu.iteye.com/image=
+s/icon_star.png" alt=3D"=E6=94=B6=E8=97=8F=E4=BB=A3=E7=A0=81"><img class=3D=
+"spinner" src=3D"http://pipilu.iteye.com/images/spinner.gif" style=3D"displ=
+ay:none"></a></div></div><ol start=3D"1" class=3D"dp-default"><li><span><sp=
+an>&lt;pluginManagement&gt;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;plugins&gt;&nbsp;&=
+nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;plugin&gt;&nbsp;&nbsp;</span></li><li><span>&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&nbsp;&nbsp;</=
+span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;maven-resources-plugin&lt;/a=
+rtifactId&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;version&gt;<spa=
+n class=3D"number">2.3</span><span>&lt;/version&gt;&nbsp;&nbsp;</span></spa=
+n></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&lt;configuration&gt;&nbsp;&nbsp;</span></li><li>=
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;encoding&gt;UTF-<span class=3D"number">8</sp=
+an><span>&lt;/encoding&gt;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&lt;/configuration&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/plugin&gt;&nbsp;=
+&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&lt;/plugins&gt;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/pluginManagement&gt;&nbsp;&nbsp;</=
+span></li></ol></div><pre class=3D"pom" name=3D"code" codeable_id=3D"399816=
+" codeable_type=3D"Blog" source_url=3D"http://pipilu.iteye.com/blog/399816"=
+ pre_index=3D"7" title=3D"=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=
+=AC=E7=AB=8B=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85" styl=
+e=3D"display: none;">&lt;pluginManagement&gt;
+		  &lt;plugins&gt;
+		    &lt;plugin&gt;
+		      &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+		      &lt;artifactId&gt;maven-resources-plugin&lt;/artifactId&gt;
+		      &lt;version&gt;2.3&lt;/version&gt;
+		      &lt;configuration&gt;
+		      	&lt;encoding&gt;UTF-8&lt;/encoding&gt;
+		      &lt;/configuration&gt;
+		    &lt;/plugin&gt;
+		  &lt;/plugins&gt;
+		&lt;/pluginManagement&gt;
+</pre>
+  </div>
+
+ =20
+
+ =20
+ =20
+  <iframe src=3D"http://pipilu.iteye.com/iframe_ggbd/187" scrolling=3D"no" =
+width=3D"468" height=3D"60" frameborder=3D"0"></iframe>
+ =20
+  <div id=3D"bottoms" class=3D"clearfix">
+   =20
+    <div id=3D"share_weibo">=E5=88=86=E4=BA=AB=E5=88=B0=EF=BC=9A
+      <a data-type=3D"sina" href=3D"javascript:;" title=3D"=E5=88=86=E4=BA=
+=AB=E5=88=B0=E6=96=B0=E6=B5=AA=E5=BE=AE=E5=8D=9A"><img src=3D"http://pipilu=
+.iteye.com/images/sina.jpg"></a>
+      <a data-type=3D"qq" href=3D"javascript:;" title=3D"=E5=88=86=E4=BA=AB=
+=E5=88=B0=E8=85=BE=E8=AE=AF=E5=BE=AE=E5=8D=9A"><img src=3D"http://pipilu.it=
+eye.com/images/tec.jpg"></a>
+    </div>
+  </div>
+
+  <div class=3D"blog_nav">
+    <div class=3D"pre_next">
+      <a href=3D"http://pipilu.iteye.com/blog/478270" class=3D"next" title=
+=3D"=E5=B7=A5=E4=BD=9C=E5=92=8C=E5=AD=A6=E4=B9=A0=E4=B8=AD=E7=9A=84=E5=8D=
+=95=E4=B8=80=E8=81=8C=E8=B4=A3=E5=8E=9F=E5=88=99">=E5=B7=A5=E4=BD=9C=E5=92=
+=8C=E5=AD=A6=E4=B9=A0=E4=B8=AD=E7=9A=84=E5=8D=95=E4=B8=80=E8=81=8C=E8=B4=A3=
+=E5=8E=9F=E5=88=99</a>
+      |
+      <a href=3D"http://pipilu.iteye.com/blog/359631" class=3D"pre" title=
+=3D"=E6=80=BB=E7=BB=93=E4=B8=8D=E5=A5=BD=E7=9A=84=E8=AF=B4=E8=AF=9D=E6=96=
+=B9=E5=BC=8F">=E6=80=BB=E7=BB=93=E4=B8=8D=E5=A5=BD=E7=9A=84=E8=AF=B4=E8=AF=
+=9D=E6=96=B9=E5=BC=8F</a>
+    </div>
+  </div>
+  <div class=3D"blog_bottom">
+    <ul>
+      <li>2009-06-01 18:06</li>
+      <li>=E6=B5=8F=E8=A7=88 10534</li>
+      <li><a href=3D"http://pipilu.iteye.com/blog/399816#comments">=E8=AF=
+=84=E8=AE=BA(2)</a></li>
+     =20
+     =20
+      <li>=E5=88=86=E7=B1=BB:<a href=3D"http://www.iteye.com/blogs/category=
+/architecture">=E4=BC=81=E4=B8=9A=E6=9E=B6=E6=9E=84</a></li>     =20
+      <li class=3D"last"><a href=3D"http://www.iteye.com/wiki/blog/399816" =
+target=3D"_blank" class=3D"more">=E7=9B=B8=E5=85=B3=E6=8E=A8=E8=8D=90</a></=
+li>
+    </ul>
+  </div>
+
+  <div class=3D"blog_comment">
+    <h5>=E8=AF=84=E8=AE=BA</h5>
+    <a id=3D"comments" name=3D"comments"></a>
+    <div id=3D"bc2346126">
+  <div class=3D"comment_title">
+    2 =E6=A5=BC
+    <a href=3D"http://pipilu.iteye.com/" target=3D"_blank" title=3D"pipilu"=
+>pipilu</a>
+    2014-04-24&nbsp;&nbsp;
+   =20
+   =20
+  </div>
+  <div class=3D"comment_content">=E4=B8=8D=E7=9F=A5=E9=81=93=E4=B8=BA=E4=BB=
+=80=E4=B9=88=E4=B8=A2=E4=BA=86=E9=83=A8=E5=88=86=E5=86=85=E5=AE=B9=EF=BC=8C=
+=E4=B9=8B=E5=90=8E=E5=86=8D=E6=8A=BD=E7=A9=BA=E8=A1=A5=E5=85=85=E5=AE=8C=E5=
+=96=84</div>
+</div>
+
+<div id=3D"bc2212607">
+  <div class=3D"comment_title">
+    1 =E6=A5=BC
+    <a href=3D"http://daur.iteye.com/" target=3D"_blank" title=3D"daur">dau=
+r</a>
+    2011-08-24&nbsp;&nbsp;
+   =20
+   =20
+  </div>
+  <div class=3D"comment_content">=E8=B0=A2=E8=B0=A2~~=E5=8F=97=E7=94=A8=E4=
+=BA=86~~</div>
+</div>
+
+
+   =20
+   =20
+  </div>
+
+  <div class=3D"blog_comment">
+    <h5>=E5=8F=91=E8=A1=A8=E8=AF=84=E8=AE=BA</h5>
+            <p style=3D"text-align:center; margin-top:30px;margin-bottom:0p=
+x;"><a href=3D"http://pipilu.iteye.com/login" style=3D"background-color:whi=
+te;"> <img src=3D"http://pipilu.iteye.com/images/login_icon.png" style=3D"v=
+ertical-align:middle; margin-right: 10px;"></a><a href=3D"http://pipilu.ite=
+ye.com/login">  =E6=82=A8=E8=BF=98=E6=B2=A1=E6=9C=89=E7=99=BB=E5=BD=95,=E8=
+=AF=B7=E6=82=A8=E7=99=BB=E5=BD=95=E5=90=8E=E5=86=8D=E5=8F=91=E8=A1=A8=E8=AF=
+=84=E8=AE=BA </a></p>
+      </div>
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        <div id=3D"local">
+          <div class=3D"local_top"></div>
+          <div id=3D"blog_owner">
+  <div id=3D"blog_owner_logo"><a href=3D"http://pipilu.iteye.com/"><img alt=
+=3D"pipilu=E7=9A=84=E5=8D=9A=E5=AE=A2" class=3D"logo" src=3D"http://www.ite=
+ye.com/upload/logo/user/77543/65e9b88d-c64c-3d56-a929-f3d4dfc7082a.jpg?1236=
+837459" title=3D"pipilu=E7=9A=84=E5=8D=9A=E5=AE=A2: 309=E6=9A=97=E5=AE=A4" =
+width=3D""></a></div>
+  <div id=3D"blog_owner_name">pipilu</div>
+</div>
+
+          <div id=3D"blog_actions">
+            <ul>
+              <li>=E6=B5=8F=E8=A7=88: 22817 =E6=AC=A1</li>
+              <li>=E6=80=A7=E5=88=AB: <img alt=3D"Icon_minigender_1" src=3D=
+"http://www.iteye.com/images/icon_minigender_1.gif?1324994303" title=3D"=E7=
+=94=B7"></li>
+              <li>=E6=9D=A5=E8=87=AA: =E5=8C=97=E4=BA=AC</li>
+              <li><img src=3D"http://pipilu.iteye.com/images/status/offline=
+.gif"></li>
+             =20
+            </ul>
+          </div>
+          <div id=3D"user_visits" class=3D"clearfix">
+            <h5>=E6=9C=80=E8=BF=91=E8=AE=BF=E5=AE=A2 <span style=3D"font-we=
+ight:normal;font-size:12px;padding-left:30px;"><a href=3D"http://pipilu.ite=
+ye.com/blog/user_visits">=E6=9B=B4=E5=A4=9A=E8=AE=BF=E5=AE=A2&gt;&gt;</a></=
+span></h5>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://dylinshi126.iteye.com=
+/" target=3D"_blank"><img alt=3D"dylinshi126=E7=9A=84=E5=8D=9A=E5=AE=A2" cl=
+ass=3D"logo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?1324994=
+303" title=3D"dylinshi126=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D"48px"></a>=
+</div>
+                <div class=3D"left"><a href=3D"http://dylinshi126.iteye.com=
+/" target=3D"_blank" title=3D"dylinshi126">dylinshi126</a></div>
+              </div>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://cuit-bai.iteye.com/" =
+target=3D"_blank"><img alt=3D"cuit_bai=E7=9A=84=E5=8D=9A=E5=AE=A2" class=3D=
+"logo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?1324994303" t=
+itle=3D"cuit_bai=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D"48px"></a></div>
+                <div class=3D"left"><a href=3D"http://cuit-bai.iteye.com/" =
+target=3D"_blank" title=3D"cuit_bai">cuit_bai</a></div>
+              </div>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://guchina.iteye.com/" t=
+arget=3D"_blank"><img alt=3D"guchina=E7=9A=84=E5=8D=9A=E5=AE=A2" class=3D"l=
+ogo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?1324994303" tit=
+le=3D"guchina=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D"48px"></a></div>
+                <div class=3D"left"><a href=3D"http://guchina.iteye.com/" t=
+arget=3D"_blank" title=3D"guchina">guchina</a></div>
+              </div>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://netman168.iteye.com/"=
+ target=3D"_blank"><img alt=3D"netman168=E7=9A=84=E5=8D=9A=E5=AE=A2" class=
+=3D"logo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?1324994303=
+" title=3D"netman168=E7=9A=84=E5=8D=9A=E5=AE=A2: netman168" width=3D"48px">=
+</a></div>
+                <div class=3D"left"><a href=3D"http://netman168.iteye.com/"=
+ target=3D"_blank" title=3D"netman168">netman168</a></div>
+              </div>
+           =20
+          </div>
+
+         =20
+
+                      <div id=3D"blog_menu">
+              <h5>=E6=96=87=E7=AB=A0=E5=88=86=E7=B1=BB</h5>
+              <ul>
+                <li><a href=3D"http://pipilu.iteye.com/">=E5=85=A8=E9=83=A8=
+=E5=8D=9A=E5=AE=A2 (16)</a></li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/category/47250">Ja=
+va (2)</a></li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/category/47251">ja=
+vascript (1)</a></li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/category/47561">=
+=E7=A8=8B=E5=BA=8F=E8=AE=BE=E8=AE=A1 (1)</a></li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/category/48076">=
+=E9=9A=8F=E7=AC=94 (1)</a></li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/category/49157">We=
+bService (2)</a></li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/category/53229">=
+=E7=94=9F=E6=B4=BB=E3=80=81=E5=B7=A5=E4=BD=9C=E3=80=81=E5=AD=A6=E4=B9=A0 (5=
+)</a></li>
+               =20
+              </ul>
+            </div>
+            <div id=3D"month_blogs">
+              <h5>=E7=A4=BE=E5=8C=BA=E7=89=88=E5=9D=97</h5>
+              <ul>
+                <li><a href=3D"http://pipilu.iteye.com/blog/news">=E6=88=91=
+=E7=9A=84=E8=B5=84=E8=AE=AF</a> (0)</li>
+                <li>
+                  <a href=3D"http://pipilu.iteye.com/blog/post">=E6=88=91=
+=E7=9A=84=E8=AE=BA=E5=9D=9B</a> (700)
+                </li>
+                <li><a href=3D"http://pipilu.iteye.com/blog/answered_proble=
+ms">=E6=88=91=E7=9A=84=E9=97=AE=E7=AD=94</a> (7)</li>
+              </ul>
+            </div>
+            <div id=3D"month_blogs">
+              <h5>=E5=AD=98=E6=A1=A3=E5=88=86=E7=B1=BB</h5>
+              <ul>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/blog/monthblog/201=
+0-01">2010-01</a> (2)</li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/blog/monthblog/200=
+9-11">2009-11</a> (1)</li>
+               =20
+                  <li><a href=3D"http://pipilu.iteye.com/blog/monthblog/200=
+9-09">2009-09</a> (1)</li>
+               =20
+                <li><a href=3D"http://pipilu.iteye.com/blog/monthblog_more"=
+>=E6=9B=B4=E5=A4=9A=E5=AD=98=E6=A1=A3...</a></li>
+              </ul>
+            </div>
+           =20
+           =20
+
+            <div id=3D"guest_books">
+              <h5>=E6=9C=80=E6=96=B0=E8=AF=84=E8=AE=BA</h5>
+              <ul>
+               =20
+                <li>
+                  <a href=3D"http://pipilu.iteye.com/" target=3D"_blank" ti=
+tle=3D"pipilu">pipilu</a>=EF=BC=9A=20
+                  =E4=B8=8D=E7=9F=A5=E9=81=93=E4=B8=BA=E4=BB=80=E4=B9=88=E4=
+=B8=A2=E4=BA=86=E9=83=A8=E5=88=86=E5=86=85=E5=AE=B9=EF=BC=8C=E4=B9=8B=E5=90=
+=8E=E5=86=8D=E6=8A=BD=E7=A9=BA=E8=A1=A5=E5=85=85=E5=AE=8C=E5=96=84<br>
+                  <a href=3D"http://pipilu.iteye.com/blog/399816#bc2346126"=
+>=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=
+=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://daur.iteye.com/" target=3D"_blank" titl=
+e=3D"daur">daur</a>=EF=BC=9A=20
+                  =E8=B0=A2=E8=B0=A2~~=E5=8F=97=E7=94=A8=E4=BA=86~~<br>
+                  <a href=3D"http://pipilu.iteye.com/blog/399816#bc2212607"=
+>=E4=BD=BF=E7=94=A8maven=E6=89=93=E5=87=BA=E7=8B=AC=E7=AB=8B=E5=BA=94=E7=94=
+=A8=E7=A8=8B=E5=BA=8F=E7=9A=84jar=E5=8C=85</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://wyt1213.iteye.com/" target=3D"_blank" t=
+itle=3D"wyt1213">wyt1213</a>=EF=BC=9A=20
+                  =E5=85=B3=E4=BA=8E=E7=AC=AC=E4=BA=8C=E7=82=B9=EF=BC=8C=E7=
+=9A=84=E7=A1=AE=E7=9C=9F=E7=9A=84=E9=9D=9E=E5=B8=B8=E7=97=9B=E8=8B=A6~~~~=
+=E5=BE=88=E5=AE=B9=E6=98=93=E8=AE=A9=E4=BA=BA=E7=81=AB=E4=B8=80=E4=B8=8B=E5=
+=B0=B1=E4=B8=8A=E6=9D=A5=E4=BA=86=EF=BC=8C ...<br>
+                  <a href=3D"http://pipilu.iteye.com/blog/359631#bc1651627"=
+>=E6=80=BB=E7=BB=93=E4=B8=8D=E5=A5=BD=E7=9A=84=E8=AF=B4=E8=AF=9D=E6=96=B9=
+=E5=BC=8F</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://kurier.iteye.com/" target=3D"_blank" ti=
+tle=3D"kurier">kurier</a>=EF=BC=9A=20
+                  =E6=88=91=E4=B9=9F=E5=9C=A8=E6=89=BE=E8=BF=99=E7=A7=8D=E7=
+=89=B9=E6=80=A7=E7=9A=84=E8=BD=AF=E4=BB=B6=EF=BC=8C=E6=A5=BC=E4=B8=BB=E6=89=
+=BE=E5=88=B0=E5=90=88=E9=80=82=E7=9A=84=E8=BD=AF=E4=BB=B6=E4=BA=86=E5=90=97=
+=EF=BC=9F<br>
+                  <a href=3D"http://pipilu.iteye.com/blog/278805#bc1597116"=
+>=E5=A5=BD=E7=9A=84=E6=97=B6=E9=97=B4=E7=AE=A1=E7=90=86=E8=BD=AF=E4=BB=B6=
+=E5=BA=94=E8=AF=A5=E6=98=AF=E6=80=8E=E6=A0=B7=E7=9A=84=EF=BC=9F</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://ilovezhurong.iteye.com/" target=3D"_bla=
+nk" title=3D"ilovezhurong">ilovezhurong</a>=EF=BC=9A=20
+                  =E8=BF=98=E4=BB=A5=E4=B8=BA=E4=BD=A0=E6=98=AF=E6=B5=99=E5=
+=A4=A7=E9=82=A3=E4=B8=AA=E7=8C=9Bp&nbsp; =3Dsvs=3Dpipilu=E5=91=A2=EF=BC=8C=
+=E4=B8=8D=E8=BF=87=E6=88=91=E5=92=8C=E4=BB=96 ...<br>
+                  <a href=3D"http://pipilu.iteye.com/blog/313763#bc1190974"=
+>=E6=88=91=E4=B8=8D=E6=98=AF=E6=98=9F=E9=99=85=E7=8E=A9=E7=9A=84=E7=89=B9=
+=E7=89=9B=E7=9A=84=E9=82=A3=E4=B8=AApipilu</a>
+                </li>
+               =20
+              </ul>
+            </div>
+
+            <div class=3D"local_bottom"></div>
+         =20
+        </div>
+      </div>
+
+      <div id=3D"footer" class=3D"clearfix">
+        <div id=3D"copyright">
+          <hr>
+          =E5=A3=B0=E6=98=8E=EF=BC=9AITeye=E6=96=87=E7=AB=A0=E7=89=88=E6=9D=
+=83=E5=B1=9E=E4=BA=8E=E4=BD=9C=E8=80=85=EF=BC=8C=E5=8F=97=E6=B3=95=E5=BE=8B=
+=E4=BF=9D=E6=8A=A4=E3=80=82=E6=B2=A1=E6=9C=89=E4=BD=9C=E8=80=85=E4=B9=A6=E9=
+=9D=A2=E8=AE=B8=E5=8F=AF=E4=B8=8D=E5=BE=97=E8=BD=AC=E8=BD=BD=E3=80=82=E8=8B=
+=A5=E4=BD=9C=E8=80=85=E5=90=8C=E6=84=8F=E8=BD=AC=E8=BD=BD=EF=BC=8C=E5=BF=85=
+=E9=A1=BB=E4=BB=A5=E8=B6=85=E9=93=BE=E6=8E=A5=E5=BD=A2=E5=BC=8F=E6=A0=87=E6=
+=98=8E=E6=96=87=E7=AB=A0=E5=8E=9F=E5=A7=8B=E5=87=BA=E5=A4=84=E5=92=8C=E4=BD=
+=9C=E8=80=85=E3=80=82<br>
+          =C2=A9 2003-2015 ITeye.com.   All rights reserved.  [ =E4=BA=ACIC=
+P=E8=AF=81110151=E5=8F=B7  =E4=BA=AC=E5=85=AC=E7=BD=91=E5=AE=89=E5=A4=87110=
+105010620 ]
+        </div>
+      </div>
+    </div>
+    <img src=3D"http://stat.iteye.com/?url=3Dhttp%3A%2F%2Fpipilu.iteye.com%=
+2Fblog%2F399816&amp;referrer=3Dhttp%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dmaven-=
+jar-plugin%2520resources%26rsv_spt%3D1%26issp%3D1%26f%3D8%26rsv_bp%3D0%26rs=
+v_idx%3D2%26ie%3Dutf-8%26tn%3Dbaiduhome_pg%26bs%3Dmaven-jar-plugin&amp;user=
+_id=3D" width=3D"0" height=3D"0">
+
+
+
+   =20
+   =20
+ =20
+
+</body></html>
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/line_gray.gif
+
+R0lGODlhAQALAIAAAMzMzP///yH5BAAHAP8ALAAAAAABAAsAAAIDhI9QADs=
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/logo_bg.gif
+
+R0lGODlhOAA4ALMAAMzMzPDw8NXV1f///93d3ff39+bm5tnY3f///wAAAAAAAAAAAAAAAAAAAAAA
+AAAAACH5BAEHAAgALAAAAAA4ADgAAAT/EB1Aq704610P+t80jGRpnmiqkoAHAgMoz3Rt3/QABG+M
+/8AgQmcofGDCpBKkIwSMyKUUqBMUEdGptlZ1Yn3bMBMgcBay4nD3iU5r12ew+002t+dL+B2f1Mv5
+Sn6AU4KDeXVsf4ZUiHGLgY17jzaFk4xliZZBlZo3nJ1ckYqgMp+kpaKnlKmqOaytqJiOsLF2o6qm
+rbm4r7RDvbS7p8KkxKDGnciaypbMk86P0IvShtSD1oDYfNp43HPebnAiK+Tl5jqNEhzr7O0VZWYf
+AQYEAvb3+Pn6+/z99gQGnoCYR6CgwYMIEypcyLBgQIEDA0icSLGixYsYM1IsYEQGx48gCEOKHEmy
+5MgIADs=
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/logo-small.gif
+
+R0lGODlhSQAVAMQAAMfT3ixZg/H09+Pp7qq8zTpkjNXe5nORrbjH1khvlGWGpIGctZyxxeGHaddb
+Mt98W9xxTeyyn9RQJPz08eedhPTTyOSSdumnkfrp5O+9rffe1o6mvVZ6nB5Oe////wAAACH/C1hN
+UCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtj
+OWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUg
+WE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAi
+PiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5
+bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29t
+L3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NU
+eXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdp
+bmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0ZEMjQ1MjY1QUFCMTFFMDgzM0FBNzMw
+NkNBMkU5MUUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0ZEMjQ1Mjc1QUFCMTFFMDgzM0FB
+NzMwNkNBMkU5MUUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDpDRkQyNDUyNDVBQUIxMUUwODMzQUE3MzA2Q0EyRTkxRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1w
+LmRpZDpDRkQyNDUyNTVBQUIxMUUwODMzQUE3MzA2Q0EyRTkxRSIvPiA8L3JkZjpEZXNjcmlwdGlv
+bj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf2
+9fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769
+vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWE
+g4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxL
+SklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMS
+ERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAABJABUAAAX/oCeO3mQ1ZKqubOu+reY41ATf
+eI5DtBPpwKAuI7lIGj+hcqlqQBqPB4RJrVYqDwxnS/Bsv2COgWRgbDaI0QA8IDG+i5GAcCa0lZ38
+xpPv+zsAIgAFfwF7Xn0KcgF9aQIHfx0cd0B9e5F+gQSYeRwCA5kikJ0eBoyYAWOVenycgAiueYob
+fQUeAH4DAoSuAZQ4liQcfYEivJ0bo8S7fQwJwbS1CxvHHQerHYciw3nFm31ddAinHYqwkQUCHuQJ
+nxsEyh3qOcEj3IAiC33X0QHfHQG2RUpjwM+nUwyOpaHHyh4xgXnS3MPVRwQoPxwE9clIUZK+hsBA
+IuoGsUOXfvNSfETLo6pjAg8CTnXBI3KiiJUvPdD5RUJAnzgWQw3YUIxmNmEPS/lRcEfVinoinuUJ
+UMypEKgj8ZXM8yxAyhRYz/UJQEhbEKw2LZLzc+2pSA/xxn7VgTapCAPV7JLAKgpT27M19cKkNvYA
+TxF8BSnwk2BmlRwCABwOYsAqixAAOw==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/gray_west_arrow.gif
+
+R0lGODlhCAALAJEAAKSkpP///////wAAACH5BAEHAAIALAAAAAAIAAsAAAIRlI8HkMvqYBRu0opw
+Xun2UwAAOw==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/gray_east_arrow.gif
+
+R0lGODlhCAALAJEAAKOjo////////wAAACH5BAEHAAIALAAAAAAIAAsAAAIRlH8AaLroXospPlsV
+1Jt5UwAAOw==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/icon_more.gif
+
+R0lGODlhKgALAIAAANl3Lv///yH5BAAHAP8ALAAAAAAqAAsAAAI/jI+pywsPo5y0RmOzzpjDACQh
+Mh5T94ASxn6hq1bouL5gfJPiGtMXDHwJZb1eCqZL5Uy8jfPpg0opjar1GigAADs=
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/blog/search.gif
+
+R0lGODlhFQAVALMAAM7OzsHBwfv7++Tk5Nzc3NfX183NzeDg4N3d3dPT0+3t7bi4uP///wAAAAAA
+AAAAACH5BAAAAAAALAAAAAAVABUAAARqkMlJq704MwWWX4CiScVnLoWWeMGgKEPgJZgyC5SwLqLV
+BbiKQAa4eAaYgcfIqy0tnp7FtmAiL8qqbwG0DEEXaiIo0XkOmF3rFfvQMKXT6R3ufACH3YI+mugN
+fRV6CIEUBh4EhRQEiYoYEQA7
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.iteye.com/stylesheets/blog.css?1421735853
+
+.stretch, .clear { clear: both; height: 1px; margin: 0px; padding: 0px; fon=
+t-size: 15px; line-height: 1px; }
+
+.clearfix::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.clearfix { display: inline-table; }
+
+* html .clearfix { height: 1%; }
+
+* + html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+.replace { display: block; background-color: transparent; background-positi=
+on: 0% 0%; background-repeat: no-repeat no-repeat; }
+
+.replace * { text-indent: -10000px; display: block; background-color: trans=
+parent; background-position: 0% 0%; background-repeat: no-repeat no-repeat;=
+ }
+
+.replace a { text-indent: 0px; }
+
+.replace a span { text-indent: -10000px; }
+
+span.accesskey { text-decoration: none; }
+
+.accessibility { position: absolute; top: -999em; left: -999em; }
+
+body { text-align: left; font-family: Helvetica, Tahoma, Arial, sans-serif;=
+ font-size: 12px; line-height: 1.5; color: black; }
+
+img { border: 0px; }
+
+h1 { font-size: 2em; line-height: 1.5em; margin: 0px 0px 0.5em; padding: 0p=
+x; color: black; }
+
+h2 { font-size: 1.5em; line-height: 1.5em; margin: 0px 0px 0.5em; padding: =
+0px; color: black; }
+
+h3 { font-size: 1.2em; line-height: 1.5em; margin: 0px 0px 0.5em; padding: =
+0px; color: black; }
+
+h4 { font-size: 1.15em; line-height: 1.3em; margin: 0px 0px 0.25em; padding=
+: 0px; color: black; }
+
+h5 { font-size: 1.1em; line-height: 1.3em; margin: 0px 0px 0.25em; padding:=
+ 0px; color: black; }
+
+h6 { font-size: 1em; line-height: 1.3em; margin: 0px 0px 0.25em; padding: 0=
+px; color: black; }
+
+p { margin: 0px; padding: 0px; }
+
+blockquote { border-left-width: 10px; border-left-style: solid; border-left=
+-color: rgb(221, 221, 221); margin-left: 10px; }
+
+pre { font-family: monospace; font-size: 1em; }
+
+strong, b { font-weight: bold; }
+
+em, i { font-style: italic; }
+
+code { font-family: 'Courier New', Courier, monospace; font-size: 1em; whit=
+e-space: pre; }
+
+ul { margin: 0px 0px 1.5em; padding: 0px; }
+
+ul li { margin: 0px 0px 0.25em 30px; padding: 0px; }
+
+ol { font-size: 1em; line-height: 1.4em; margin: 0px 0px 1.5em; padding: 0p=
+x; }
+
+ol li { font-size: 1em; margin: 0px 0px 0.25em 30px; padding: 0px; }
+
+dl { margin: 0px 0px 1.5em; padding: 0px; line-height: 1.4em; }
+
+dl dt { margin: 0.25em 0px; padding: 0px; }
+
+dl dd { margin: 0px 0px 0px 30px; padding: 0px; }
+
+th { font-weight: bold; text-align: left; }
+
+td { font-size: 1em; }
+
+hr { height: 1px; margin: 1.5em 10px; border-bottom-color: black; border-bo=
+ttom-width: thin; }
+
+div.topic_page { color: rgb(0, 102, 153); }
+
+form { margin: 0px; padding: 0px; clear: both; }
+
+form div, form p { font-size: 1em; margin: 0px 0px 1em; padding: 0px; }
+
+label { font-weight: bold; float: left; width: 25%; }
+
+fieldset { border: 1px solid rgb(238, 238, 238); padding: 5px 10px; margin:=
+ 0px; }
+
+fieldset legend { color: rgb(102, 102, 102); font-size: 1.1em; font-weight:=
+ bold; margin: 0px; padding: 0px; }
+
+* html fieldset legend { margin: 0px 0px 10px -10px; }
+
+fieldset ul { list-style: none; margin: 0px 0px 1.5em; padding: 0px; }
+
+fieldset ul li { list-style: none; margin: 0px 0px 0.5em; padding: 0px; }
+
+input.text, select, textarea { margin: 0px; border: 1px solid rgb(0, 102, 1=
+53); padding: 1px 3px; vertical-align: middle; }
+
+input.text { height: 18px; font-family: Arial, sans-serif, Verdana, Tahoma,=
+ Helvetica; }
+
+input.check { border: 0px; width: auto; height: auto; margin: 0px; }
+
+input.radio { border: 0px; width: auto; height: auto; margin: 0px; }
+
+input.file { height: auto; width: 250px; }
+
+input.readonly { background-color: transparent; border: 0px; }
+
+input.button, input.submit { background-color: rgb(0, 102, 153); color: whi=
+te; cursor: pointer; font-size: 1em; height: 23px; padding: 2px 5px; border=
+: 1px solid rgb(210, 243, 253); vertical-align: middle; background-position=
+: initial initial; background-repeat: initial initial; }
+
+input.image { border: 0px; width: auto; height: auto; }
+
+textarea { font-size: 1em; }
+
+form div.submit { margin: 1em 0px; }
+
+form div.submit input { height: 2em; width: 15em; }
+
+div#nav div.wrapper { position: absolute; left: 0px; bottom: 0px; width: 10=
+0%; font-size: 13px; padding-bottom: 6px; background-image: url(http://www.=
+iteye.com/images/shadow.png); background-color: rgb(98, 147, 187); backgrou=
+nd-position: 0% 100%; background-repeat: repeat no-repeat; }
+
+div#nav ul { width: 100%; margin: 0px; padding: 0px; }
+
+div#nav li { float: left; display: inline; list-style: none; margin: 0px; p=
+adding: 0px 10px; line-height: 1em; background-image: url(http://www.iteye.=
+com/images/line_white.gif); background-position: 100% 50%; background-repea=
+t: no-repeat no-repeat; }
+
+div#nav li.last { background-position: 0px 50%; background-repeat: initial =
+initial; }
+
+div#nav a, div#nav a:link, div#nav a:active, div#nav a:visited { display: b=
+lock; font-weight: bold; text-decoration: none; margin: 0px; padding: 7px 1=
+3px; color: white; }
+
+div#nav .subnav a, div#nav .subnav a:link, div#nav .subnav a:active, div#na=
+v .subnav a:visited { display: inline-block; padding: 7px 6px; }
+
+div#nav a:hover, div#nav a.selected { background-color: rgb(54, 113, 165); =
+}
+
+div#content { position: relative; width: 701px; margin: 0px auto 20px; padd=
+ing: 0px; text-align: left; }
+
+div#main { float: right; width: 500px; display: inline; }
+
+div#local { float: left; width: 200px; display: inline; }
+
+div#sub { display: none; }
+
+div#nav { position: absolute; top: -15px; left: 0px; width: 100%; text-alig=
+n: left; }
+
+body { margin: 0px; padding: 0px; background-color: white; text-align: cent=
+er; background-position: initial initial; background-repeat: initial initia=
+l; }
+
+div#page { width: 950px; margin: 0px auto; padding: 0px; background-color: =
+white; text-align: center; background-position: initial initial; background=
+-repeat: initial initial; }
+
+div#header { padding: 0px; margin: 0px; color: white; background-color: whi=
+te; }
+
+div#branding { float: left; width: 200px; margin: 1px 0px; text-align: left=
+; }
+
+div#search { float: right; width: 49%; margin: 0px; padding: 16px 20px 0px =
+0px; text-align: right; }
+
+div#content { width: 100%; margin-top: 35px; }
+
+div#footer { color: black; background-color: white; }
+
+div#footer p { font-size: 0.8em; margin: 0px; padding: 15px; }
+
+ul.subnav { margin: 0px; padding: 0px; font-size: 0.8em; list-style: none; =
+}
+
+ul.subnav li { margin: 0px 0px 1em; padding: 0px; list-style: none; }
+
+ul.subnav li a, ul.subnav li a:link, ul.subnav li a:visited, ul.subnav li a=
+:active { text-decoration: none; font-weight: bold; color: black; }
+
+ul.subnav li a:hover { text-decoration: underline; }
+
+ul.subnav li strong { padding: 0px 0px 0px 12px; background-image: url(http=
+://www.iteye.com/i/subnav-highlight.gif); background-color: transparent; ba=
+ckground-position: 0% 0%; background-repeat: no-repeat no-repeat; }
+
+ul.subnav li strong a, ul.subnav li strong a:link, ul.subnav li strong a:vi=
+sited, ul.subnav li strong a:active { color: white; background-color: black=
+; }
+
+.nav_side { margin: 0px 0px 10px; border: 1px solid rgb(202, 204, 201); bac=
+kground-color: rgb(244, 246, 243); background-position: initial initial; ba=
+ckground-repeat: initial initial; }
+
+.nav_side ul { margin: 0px; }
+
+.nav_side li { height: 37px; overflow: hidden; margin: 0px 5px; padding: 0p=
+x; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-colo=
+r: rgb(227, 234, 240); color: rgb(0, 102, 153); font-size: 14px; line-heigh=
+t: 37px; text-indent: 38px; }
+
+.nav_side li a { display: block; height: 37px; color: rgb(0, 102, 153); tex=
+t-decoration: none; }
+
+.nav_side li a:hover { color: rgb(255, 88, 10); text-decoration: none; }
+
+.nav_side li.last { height: 38px; border-bottom-width: 0px; }
+
+.nav_side li.select { height: 38px; margin: 0px; border-bottom-width: 0px; =
+background-image: url(http://www.iteye.com/images/sidenav_select_bg.gif); b=
+ackground-position: 0px 0px; background-repeat: no-repeat no-repeat; }
+
+.nav_side li.select a { height: 38px; color: rgb(255, 255, 255); font-weigh=
+t: bold; }
+
+.nav_side #mobile { background-image: url(http://www.iteye.com/images/icon_=
+sidenav.png); background-position: 5px 3px; background-repeat: no-repeat no=
+-repeat; }
+
+.nav_side #web { background-image: url(http://www.iteye.com/images/icon_sid=
+enav.png); background-position: 5px -49px; background-repeat: no-repeat no-=
+repeat; }
+
+.nav_side #architecture { background-image: url(http://www.iteye.com/images=
+/icon_sidenav.png); background-position: 5px -102px; background-repeat: no-=
+repeat no-repeat; }
+
+.nav_side #language { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -155px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #internet { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -206px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #opensource { background-image: url(http://www.iteye.com/images/i=
+con_sidenav.png); background-position: 5px -260px; background-repeat: no-re=
+peat no-repeat; }
+
+.nav_side #os { background-image: url(http://www.iteye.com/images/icon_side=
+nav.png); background-position: 5px -310px; background-repeat: no-repeat no-=
+repeat; }
+
+.nav_side #database { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -361px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #develop { background-image: url(http://www.iteye.com/images/icon=
+_sidenav.png); background-position: 5px -412px; background-repeat: no-repea=
+t no-repeat; }
+
+.nav_side #industry { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -466px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #other { background-image: url(http://www.iteye.com/images/icon_s=
+idenav.png); background-position: 5px -568px; background-repeat: no-repeat =
+no-repeat; }
+
+.nav_side #all { background-image: url(http://www.iteye.com/images/elite_si=
+denav.png); background-position: 5px -260px; background-repeat: no-repeat n=
+o-repeat; }
+
+.nav_side li.select #mobile { background-image: url(http://www.iteye.com/im=
+ages/icon_sidenav.png); background-position: 10px 3px; background-repeat: n=
+o-repeat no-repeat; }
+
+.nav_side li.select #web { background-image: url(http://www.iteye.com/image=
+s/icon_sidenav.png); background-position: 10px -49px; background-repeat: no=
+-repeat no-repeat; }
+
+.nav_side li.select #architecture { background-image: url(http://www.iteye.=
+com/images/icon_sidenav.png); background-position: 10px -102px; background-=
+repeat: no-repeat no-repeat; }
+
+.nav_side li.select #language { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -155px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #internet { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -206px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #opensource { background-image: url(http://www.iteye.co=
+m/images/icon_sidenav.png); background-position: 10px -260px; background-re=
+peat: no-repeat no-repeat; }
+
+.nav_side li.select #os { background-image: url(http://www.iteye.com/images=
+/icon_sidenav.png); background-position: 10px -310px; background-repeat: no=
+-repeat no-repeat; }
+
+.nav_side li.select #database { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -361px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #develop { background-image: url(http://www.iteye.com/i=
+mages/icon_sidenav.png); background-position: 10px -412px; background-repea=
+t: no-repeat no-repeat; }
+
+.nav_side li.select #industry { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -466px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #other { background-image: url(http://www.iteye.com/ima=
+ges/icon_sidenav.png); background-position: 10px -568px; background-repeat:=
+ no-repeat no-repeat; }
+
+.nav_side li.select #all { background-image: url(http://www.iteye.com/image=
+s/elite_sidenav.png); background-position: 10px -259px; background-repeat: =
+no-repeat no-repeat; }
+
+a { color: rgb(0, 102, 153); text-decoration: none; }
+
+a:hover, a:active { color: rgb(188, 42, 77); text-decoration: underline; }
+
+blockquote { border: 1px solid rgb(204, 204, 204); background-color: rgb(25=
+0, 250, 250); }
+
+cite { font-weight: bold; margin-left: 3px; }
+
+div#user_nav { margin: 3px 0px 0px; padding: 2px; text-align: right; float:=
+ right; }
+
+div#user_nav a.nobg { background-position: 0px 50%; background-repeat: init=
+ial initial; }
+
+div#user_nav a.welcome { color: rgb(226, 136, 34); font-weight: bold; paddi=
+ng-right: 10px; }
+
+div#user_nav a:hover.welcome { text-decoration: none; color: rgb(226, 136, =
+34); background-color: transparent; }
+
+div#user_nav a.new_reply { color: red; padding-left: 0px; }
+
+div#user_nav a:hover.new_reply { text-decoration: none; color: red; backgro=
+und-color: transparent; }
+
+div#user_nav a { text-decoration: none; padding: 2px 6px 1px; color: gray; =
+line-height: 1em; background-image: url(http://www.iteye.com/images/line_gr=
+ay.gif); background-position: 100% 50%; background-repeat: no-repeat no-rep=
+eat; }
+
+div#user_nav a:hover { text-decoration: underline; color: white; background=
+-color: gray; }
+
+div.quick_menu { background-color: white; border: 1px solid rgb(221, 221, 2=
+21); text-align: left; top: 30px; position: absolute; width: 70px; z-index:=
+ 9999; }
+
+div.quick_menu a { background-image: none !important; display: block !impor=
+tant; padding: 3px 6px 3px 10px !important; text-decoration: none !importan=
+t; line-height: 20px !important; }
+
+div#location_ad { float: left; background-image: url(http://www.iteye.com/i=
+mages/yellow_east_arrow.gif); margin-top: 5px; padding-left: 12px; backgrou=
+nd-position: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+div#site_nav ul { width: 100%; margin: 0px; padding: 0px; line-height: 1em;=
+ list-style: none; }
+
+div#site_nav li { display: inline; list-style: none; margin: 0px; padding: =
+3px 10px; line-height: 1em; border-right-width: 1px; border-right-style: so=
+lid; border-right-color: rgb(170, 170, 170); }
+
+div#site_nav li.last { border-right-width: 0px; }
+
+div#channel_nav { position: absolute; left: 0px; top: 0px; }
+
+div#channel_nav ul { width: 100%; margin: 0px; padding: 0px; line-height: 1=
+em; list-style: none; }
+
+div#channel_nav li { display: inline; float: left; list-style: none; margin=
+: 0px; line-height: 1em; border-width: 1px 0px 1px 1px; border-top-style: s=
+olid; border-bottom-style: solid; border-left-style: solid; border-top-colo=
+r: rgb(254, 221, 202); border-bottom-color: rgb(254, 221, 202); border-left=
+-color: rgb(254, 221, 202); }
+
+div#channel_nav li.last { border-right-width: 1px; border-right-style: soli=
+d; border-right-color: rgb(254, 221, 202); }
+
+div#channel_nav a { display: block; text-decoration: none; margin: 0px; pad=
+ding: 4px 25px; color: green; }
+
+div#channel_nav a:hover, div#channel_nav a.selected { background-color: rgb=
+(254, 221, 202); }
+
+div#gg { float: right; margin: 2px 0px; width: 728px; }
+
+div#copyright { padding: 10px; }
+
+.pagination { padding: 5px; float: right; }
+
+.pagination a, .pagination a:link, .pagination a:visited { padding: 2px 5px=
+; margin: 2px; border: 1px solid rgb(170, 170, 221); text-decoration: none;=
+ color: rgb(0, 102, 153); }
+
+.pagination a:hover, .pagination a:active { border: 1px solid rgb(0, 102, 1=
+53); color: rgb(0, 0, 0); text-decoration: none; }
+
+.pagination span.current { padding: 2px 5px; margin: 2px; border: 1px solid=
+ rgb(0, 102, 153); font-weight: bold; background-color: rgb(0, 102, 153); c=
+olor: rgb(255, 255, 255); }
+
+.pagination span.disabled { padding: 2px 5px; margin: 2px; border: 1px soli=
+d rgb(238, 238, 238); color: rgb(221, 221, 221); }
+
+a.underline, .underline a { text-decoration: underline; }
+
+.hilite1 { background-color: rgb(255, 255, 0); }
+
+.hilite2 { background-color: rgb(85, 255, 85); }
+
+.hilite3 { background-color: rgb(170, 255, 170); }
+
+.hilite4 { background-color: rgb(0, 255, 255); }
+
+span.arrow { font-weight: normal; font-size: 0.9em; color: rgb(153, 153, 15=
+3); }
+
+.validation-advice { margin: 0px; padding: 0px 0px 0px 3px; color: rgb(255,=
+ 51, 0); font-weight: bold; }
+
+.odd { background-color: rgb(239, 250, 255); }
+
+.highlight, .highlight a, .highlight a:link, .highlight a:active, .highligh=
+t a:visited { font-weight: bold; text-decoration: none; color: rgb(226, 136=
+, 34); }
+
+.highlight a:hover { text-decoration: none; color: rgb(255, 255, 255); back=
+ground-color: rgb(226, 136, 34); }
+
+.rss { background-image: url(http://www.iteye.com/images/rss.png); margin-r=
+ight: 5px; padding-right: 50px; background-position: 100% 50%; background-r=
+epeat: no-repeat no-repeat; }
+
+.row1 { width: 155px; font-weight: bold; background-color: rgb(239, 239, 23=
+9); }
+
+.row2 { background-color: rgb(222, 227, 231); }
+
+.row3 { background-color: rgb(238, 238, 238); }
+
+.crumbs a { text-decoration: underline; }
+
+.flash_error, .flash_notice { font-weight: bold; padding: 10px 40px; margin=
+: 0px 10px; background-repeat: no-repeat no-repeat; }
+
+.flash_error { color: rgb(255, 51, 0); background-image: url(http://www.ite=
+ye.com/images/icon_error_lrg.gif); }
+
+.flash_notice { background-image: url(http://www.iteye.com/images/icon_succ=
+ess_lrg.gif); }
+
+select.validation-failed, input.validation-failed, textarea.validation-fail=
+ed { border: 3px solid rgb(255, 0, 0); }
+
+* html select.validation-failed { background-color: rgb(255, 0, 0); }
+
+span.field_error { display: none; }
+
+div.quote_title { font-weight: bold; padding: 5px; margin: 5px 0px 0px 15px=
+; }
+
+div.quote_div { border: 1px solid rgb(204, 204, 204); margin: 0px 5px 5px 1=
+5px; padding: 3px; background-color: rgb(250, 250, 250); background-positio=
+n: initial initial; background-repeat: initial initial; }
+
+div.attachments { border-top-width: 1px; border-top-style: solid; border-to=
+p-color: rgb(153, 153, 153); margin-top: 10px; }
+
+div.attachments ul, div.postauthor ul { list-style: none; }
+
+div.attachments ul { margin: 5px; padding: 5px; border: 1px solid rgb(204, =
+204, 204); }
+
+img.magplus { cursor: url(http://www.iteye.com/images/magplus.gif), pointer=
+; }
+
+div.logo { float: left; padding: 2px 6px 6px 2px; background-image: url(htt=
+p://www.iteye.com/images/logo_bg.gif); background-repeat: no-repeat no-repe=
+at; }
+
+span.thumb_box { display: table-cell; vertical-align: middle; height: 95px;=
+ width: 130px; text-align: center; border: 1px solid rgb(204, 204, 204); }
+
+span.thumb_box img { vertical-align: middle; }
+
+.right { float: right; }
+
+.left { float: left; }
+
+table.bbcode { border: 1px solid rgb(204, 204, 204); }
+
+table.bbcode td { border: 1px solid rgb(204, 204, 204); padding: 3px; }
+
+div#search_engine_box { text-align: left; position: fixed; bottom: 0px; rig=
+ht: 0px; width: 240px; border: 1px solid rgb(204, 204, 204); background-col=
+or: white; }
+
+#search_engine_box h2 { padding: 5px; background-color: rgb(82, 110, 166); =
+color: white; font-size: 12px; font-weight: normal; }
+
+#search_engine_box h2 span { color: black; }
+
+#search_engine_box h2 a { color: white; position: absolute; right: 5px; }
+
+#search_engine_box div { padding: 0px 5px; }
+
+#search_engine_box li { margin-left: 15px; list-style: square; }
+
+* html div#search_engine_box { position: absolute; right: auto; bottom: aut=
+o; }
+
+div#chat_button { text-align: right; position: fixed; bottom: 0px; right: 1=
+0px; width: 80px; border: 1px solid rgb(204, 204, 204); padding: 2px; verti=
+cal-align: middle; background-color: rgb(238, 238, 238); }
+
+div#chat_input { position: fixed; bottom: 25px; right: 10px; text-align: le=
+ft; }
+
+#chat_iframe { width: 360px; background-color: transparent; }
+
+div#chat_button img { vertical-align: middle; }
+
+* html div#chat_button { position: absolute; right: auto; bottom: auto; }
+
+* html div#chat_input { position: absolute; right: auto; bottom: auto; }
+
+.tooltip { overflow: hidden; font-size: 12px; position: absolute !important=
+; z-index: 10000 !important; }
+
+.tooltip .xtop, .tooltip .xbottom { display: block; background-color: trans=
+parent; font-size: 1px; background-position: initial initial; background-re=
+peat: initial initial; }
+
+.tooltip .xb1, .tooltip .xb2, .tooltip .xb3, .tooltip .xb4 { display: block=
+; overflow: hidden; }
+
+.tooltip .xb1, .tooltip .xb2, .tooltip .xb3 { height: 1px; }
+
+.tooltip .xb2, .tooltip .xb3, .tooltip .xb4 { background-color: rgb(102, 10=
+2, 102); border-left-width: 1px; border-left-style: solid; border-left-colo=
+r: rgb(51, 51, 51); border-right-width: 1px; border-right-style: solid; bor=
+der-right-color: rgb(51, 51, 51); background-position: initial initial; bac=
+kground-repeat: initial initial; }
+
+.tooltip .xbottom .xb2, .tooltip .xbottom .xb3, .tooltip .xbottom .xb4 { ba=
+ckground-color: rgb(102, 102, 102); background-position: initial initial; b=
+ackground-repeat: initial initial; }
+
+.tooltip .xb1 { margin: 0px 5px; background-color: rgb(51, 51, 51); backgro=
+und-position: initial initial; background-repeat: initial initial; }
+
+.tooltip .xb2 { margin: 0px 3px; border-width: 0px 2px; }
+
+.tooltip .xb3 { margin: 0px 2px; }
+
+.tooltip .xb4 { height: 2px; margin: 0px 1px; }
+
+.tooltip .xboxcontent { margin: 0px; color: rgb(0, 0, 0); text-shadow: rgb(=
+204, 204, 204) 2px 2px 0px; word-wrap: break-word; border-style: solid; bor=
+der-color: rgb(51, 51, 51); border-width: 0px 1px; background-color: rgb(10=
+2, 102, 102); padding: 0px 20px; font-size: 125%; text-align: center; }
+
+div#site_nav, div#channel_nav { z-index: 1; }
+
+div#header { z-index: 2; position: relative; }
+
+.logo a:hover { background-color: inherit; }
+
+input#login_button { width: 147px; height: 34px; background-image: url(http=
+://www.iteye.com/images/login_button.jpg); cursor: pointer; border: 0px non=
+e; font-size: 0px; color: rgb(0, 86, 173); background-position: initial ini=
+tial; background-repeat: no-repeat no-repeat; }
+
+#favorite_form_container { width: 580px; height: 250px; padding: 10px; text=
+-align: left; position: absolute; z-index: 777; background-image: url(http:=
+//www.iteye.com/images/app/bg_new.png); font-size: 12px; background-positio=
+n: initial initial; background-repeat: no-repeat no-repeat; }
+
+#favorite_form_container .cont { width: 580px; height: 250px; background-co=
+lor: rgb(255, 255, 255); background-position: initial initial; background-r=
+epeat: initial initial; }
+
+#favorite_form_wrapper { position: relative; padding-left: 15px; }
+
+#close_list { overflow: hidden; text-align: right; border-bottom-width: 1px=
+; border-bottom-style: dashed; border-bottom-color: rgb(204, 204, 204); bac=
+kground-color: rgb(238, 238, 238); padding: 5px 10px; margin-bottom: 20px; =
+width: 560px; background-position: initial initial; background-repeat: init=
+ial initial; }
+
+#favorite_form_close { cursor: pointer; }
+
+#favorite_form_success { text-align: center; font-size: 18px; margin-top: 7=
+0px; }
+
+#favorite_form_success img { vertical-align: bottom; margin-right: 10px; }
+
+#current_tags_panel { margin: 10px 0px 0px; }
+
+#current_tags_panel span { display: inline-block; margin: 0px 5px 5px 0px; =
+padding: 0px 10px; background-color: rgb(93, 122, 155); color: rgb(255, 255=
+, 255); border-top-left-radius: 30px; border-top-right-radius: 30px; border=
+-bottom-right-radius: 30px; border-bottom-left-radius: 30px; }
+
+#suggested_tags_panel { margin: 10px 0px 0px; }
+
+#suggested_tags_panel a { display: inline-block; margin: 0px 5px 5px 0px; p=
+adding: 0px 10px; background-color: rgb(170, 181, 195); border-top-left-rad=
+ius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px;=
+ border-bottom-left-radius: 30px; }
+
+#suggested_tags_panel a { color: rgb(255, 255, 255); text-decoration: none;=
+ }
+
+#suggested_tags_panel a:hover, #suggested_tags_panel a.added { background-c=
+olor: rgb(248, 123, 0); }
+
+.news_tag { clear: both; display: block; margin: 10px 0px 5px; line-height:=
+ 20px; }
+
+.news_tag::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.news_tag a { display: inline-block; margin: 0px 5px 5px 0px; padding: 0px =
+10px; background-color: rgb(170, 181, 195); border-top-left-radius: 10px; b=
+order-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bott=
+om-left-radius: 10px; color: rgb(255, 255, 255); text-decoration: none; }
+
+.news_tag a:hover, #suggested_tags_panel a.added { background-color: rgb(24=
+8, 123, 0); }
+
+.news_tag span.hilite1 { background-color: transparent; }
+
+.news_tag span.view_all { float: right; }
+
+.news_tag span.view_all a { padding: 0px 6px; color: rgb(0, 102, 153); text=
+-decoration: underline; background-position: 0px 50%; background-repeat: in=
+itial initial; }
+
+.title .news_tag { text-align: center; }
+
+.category_tags { margin-top: 10px; padding: 5px 0px; }
+
+.category_tags a { display: inline-block; height: 20px; margin: 0px 6px 0px=
+ 0px; padding: 0px 0px 0px 12px; color: rgb(255, 255, 255); background-imag=
+e: url(http://www.iteye.com/images/tag_bg.gif); line-height: 20px; text-dec=
+oration: none; background-position: 0% 0%; background-repeat: no-repeat no-=
+repeat; }
+
+.category_tags a span { display: inline-block; height: 20px; padding: 0px 1=
+2px 0px 0px; background-image: url(http://www.iteye.com/images/tag_bg.gif);=
+ background-position: 100% 0%; background-repeat: no-repeat no-repeat; }
+
+.category_tags a:hover, .category_tags a.pick_on { background-image: url(ht=
+tp://www.iteye.com/images/tag_bg_3.gif); background-position: 0% 0%; backgr=
+ound-repeat: no-repeat no-repeat; }
+
+.category_tags a:hover span, .category_tags a.pick_on span { background-ima=
+ge: url(http://www.iteye.com/images/tag_bg_3.gif); background-position: 100=
+% 0%; background-repeat: no-repeat no-repeat; }
+
+#user_nav #notifications_count { margin: 0px 0px 0px -5px; border: 1px soli=
+d rgb(204, 204, 204); border-top-left-radius: 3px; border-top-right-radius:=
+ 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; back=
+ground-color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;=
+ line-height: 24px; background-position: initial initial; background-repeat=
+: initial initial; }
+
+#user_nav a:hover#notifications_count { border: 1px solid transparent; bord=
+er-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-=
+radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(0, 110, =
+181); color: rgb(255, 255, 255); background-position: initial initial; back=
+ground-repeat: initial initial; }
+
+#user_nav #notifications_count.new_notice { border: 1px solid transparent; =
+border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-ri=
+ght-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(0, 1=
+10, 181); color: rgb(255, 255, 255); background-position: initial initial; =
+background-repeat: initial initial; }
+
+#user_nav .clicked { color: rgb(255, 255, 255); background-image: url(http:=
+//www.iteye.com/images/sms_click_bg.gif) !important; background-position: 5=
+0% 0% !important; background-repeat: no-repeat no-repeat !important; }
+
+#notifications_menu { position: absolute; top: 26px; right: 10px; color: bl=
+ack; width: 380px; text-align: left; border: 1px solid rgb(221, 221, 221); =
+background-color: white; -webkit-box-shadow: rgb(136, 136, 136) 0px 1px 5px=
+; box-shadow: rgb(136, 136, 136) 0px 1px 5px; overflow: hidden; z-index: 99=
+9; }
+
+#notifications_loading { padding: 0px 5px; background-color: yellow; width:=
+ 60px; position: absolute; left: 150px; }
+
+#notifications_menu .menu_title { height: 36px; overflow: hidden; padding: =
+0px 10px; border-bottom-style: solid; border-bottom-width: 1px; border-bott=
+om-color: rgb(221, 221, 221); line-height: 34px; }
+
+#notifications_menu .menu_title a { color: rgb(51, 51, 51); text-decoration=
+: underline; }
+
+#notifications_menu .menu_title a:hover { background-position: 0px 50%; bac=
+kground-repeat: initial initial; }
+
+#notifications_menu .menu_title .title { float: left; }
+
+#notifications_menu .menu_title .all { float: right; }
+
+#notifications_menu .notification_summary { border-bottom-width: 1px; borde=
+r-bottom-style: solid; border-bottom-color: rgb(221, 221, 221); padding: 10=
+px; cursor: pointer; background-color: rgb(246, 250, 252); color: rgb(51, 5=
+1, 51); overflow: hidden; }
+
+#notifications_menu .notification_summary .time { color: rgb(153, 153, 153)=
+; }
+
+#notifications_menu .notification_summary.unread { background-color: rgb(25=
+5, 255, 255); font-weight: bold; }
+
+#notifications_menu .notification_summary.unread .time { color: rgb(51, 51,=
+ 51); font-weight: normal; }
+
+#notifications_menu .notification_summary.current, #notifications_menu .not=
+ification_summary:hover { background-color: rgb(219, 235, 244); }
+
+#notifications_menu .show_all, #notifications_menu .return { cursor: pointe=
+r; }
+
+#notifications_menu .notification_detail_title { position: relative; margin=
+: 0px 0px 5px; padding: 4px 10px; overflow: hidden; border-bottom-style: so=
+lid; border-bottom-width: 1px; border-bottom-color: rgb(238, 238, 238); bac=
+kground-color: rgb(250, 250, 250); line-height: 26px; background-position: =
+initial initial; background-repeat: initial initial; }
+
+#notifications_menu .notification_detail_title .subject_link { display: blo=
+ck; }
+
+#notifications_menu .notification_detail_title .time { position: absolute; =
+top: 4px; right: 10px; }
+
+#notifications_menu .notification_detail_notice { margin: 5px 0px 0px; padd=
+ing: 5px 10px 10px; background-image: url(http://www.iteye.com/images/line_=
+1.gif); color: rgb(153, 153, 153); background-position: 50% 0%; background-=
+repeat: repeat no-repeat; }
+
+#notifications_menu .notification_detail_content { padding: 0px; }
+
+#notifications_menu .system_message { padding: 0px 10px 10px; }
+
+#notifications_menu .notification_detail_item { padding: 7px 10px; border-b=
+ottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(230,=
+ 230, 230); overflow: hidden; }
+
+#notifications_menu span.time { color: gray; float: right; }
+
+#notifications_menu span.paginate { float: right; }
+
+#notifications_menu span.paginate .separated { width: 10px; padding: 0px 10=
+px; color: rgb(102, 102, 102); }
+
+#notifications_menu span.paginate #prev_button { text-decoration: none; }
+
+#notifications_menu span.paginate #next_button { text-decoration: none; }
+
+#notifications_menu span.paginate a { cursor: pointer; padding-left: 3px; }
+
+#notifications_menu span.paginate a.disable { cursor: default; color: rgb(1=
+53, 153, 153); text-decoration: none; }
+
+div#page { width: 100%; }
+
+div#header { height: 30px; }
+
+div#header, div#content, div#branding { margin: 0px auto; width: 950px; pos=
+ition: relative; }
+
+div#blog_site_nav { float: left; margin-top: 3px; }
+
+div#blog_site_nav a.homepage { background-image: url(http://www.iteye.com/i=
+mages/logo-small.gif); padding-left: 77px; background-position: 0% 50%; bac=
+kground-repeat: no-repeat no-repeat; }
+
+div#blog_site_nav a { padding: 3px 5px; line-height: 2.2em; }
+
+a#msna { text-decoration: none; }
+
+div#branding { float: none; padding: 10px 0px 0px; color: white; }
+
+div#branding h1 { margin: 0px; padding-top: 8px; font-size: 30px; }
+
+div#branding a, div#branding a:link, div#branding a:active, div#branding a:=
+visited { color: white; text-decoration: underline; }
+
+div#branding a:hover { color: white; text-decoration: none; }
+
+div#branding h1 a, div#branding h1 a:link, div#branding h1 a:active, div#br=
+anding h1 a:visited { text-decoration: none; }
+
+div#local { overflow: hidden; }
+
+div#local h5 { margin-left: 10px; }
+
+div#local li { margin-left: 25px; line-height: 2.1em; list-style: square; }
+
+#blog_name { padding-left: 38px; float: left; }
+
+#blog_preview { text-align: right; height: 18px; width: 200px; float: right=
+; }
+
+#blog_preview img { vertical-align: middle; }
+
+#blog_domain { padding: 35px 20px 0px 0px; float: right; }
+
+div#content { margin-top: 5px; }
+
+div#local { width: 188px; border: 1px solid black; padding: 10px 3px 0px; m=
+argin: 3px 3px 0px 0px; }
+
+div#main { width: 714px; border: 1px solid; padding: 5px 12px; margin: 3px =
+0px 0px 5px; overflow: hidden; }
+
+#blog_owner { text-align: center; padding: 0px 13px; }
+
+div#blog_owner_logo { border: 1px solid rgb(204, 204, 204); padding: 10px; =
+}
+
+div#blog_owner_logo img { width: 120px !important; }
+
+#blog_owner_name { padding-top: 5px; font-weight: bolder; }
+
+#user_visits { margin-bottom: 20px; }
+
+#user_visits div.left { width: 75px; overflow: hidden; }
+
+div.user_visit { float: left; width: 75px; height: 90px; margin: 10px 0px 0=
+px 5px; overflow: hidden; }
+
+#blog_actions { margin-bottom: 20px; }
+
+#blog_actions ul li { list-style: none; margin-left: 10px; }
+
+#blog_actions a.profile, #blog_actions a.message, #blog_actions a.guest_boo=
+k, #blog_actions a.subscription { padding: 0px 10px 0px 20px; background-po=
+sition: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+#blog_actions a.profile { background-image: url(http://www.iteye.com/images=
+/blog/profile.png); }
+
+#blog_actions a.message { background-image: url(http://www.iteye.com/images=
+/blog/message.png); }
+
+#blog_actions a.guest_book { background-image: url(http://www.iteye.com/ima=
+ges/blog/guest_book.png); }
+
+#blog_actions a.subscription { background-image: url(http://www.iteye.com/i=
+mages/blog/subscription.png); }
+
+div#rss li { list-style: none; }
+
+div.blog_nav { right: 20px; margin-bottom: 15px; }
+
+div.pre_next { float: right; text-align: right; padding-top: 5px; }
+
+div.pre_next a { padding: 0px 15px; background-repeat: no-repeat no-repeat;=
+ }
+
+div.pre_next a.next { background-image: url(http://www.iteye.com/images/gra=
+y_west_arrow.gif); background-position: 0% 50%; }
+
+div.pre_next a.pre { background-image: url(http://www.iteye.com/images/gray=
+_east_arrow.gif); background-position: 100% 50%; }
+
+.blog_main { margin: auto auto 10px; width: 700px; border-bottom-width: 1px=
+; border-bottom-style: dotted; padding: 10px 11px 15px; }
+
+.blog_title { margin-bottom: 15px; }
+
+.blog_title h3 .actions a { margin-left: 8px; background-color: transparent=
+; }
+
+.blog_bottom { padding: 15px 0px 5px; }
+
+.blog_bottom li { list-style: none; display: inline; float: left; margin: 0=
+px 10px 0px 0px; padding-right: 10px; border-right-width: 1px; border-right=
+-style: solid; }
+
+.blog_bottom li.last { border-right-width: 0px; }
+
+.blog_bottom a.more { padding-right: 50px; background-image: url(http://www=
+.iteye.com/images/icon_more.gif); background-position: 100% 50%; background=
+-repeat: no-repeat no-repeat; }
+
+.blog_comment { margin-top: 15px; padding: 15px; border-top-width: 1px; bor=
+der-top-style: solid; border-top-color: gray; width: 685px; }
+
+.comment_title, .comment_content { padding: 3px; }
+
+.comment_title .delete { position: absolute; right: 30px; }
+
+.comment_content { margin-bottom: 10px; }
+
+div.picture_thumb { float: left; width: 142px; height: 170px; margin: 0px 1=
+2px; overflow: hidden; }
+
+div.picture_thumb li { list-style: none; margin: 0px; }
+
+div.picture_full { text-align: center; overflow: auto; border-top-width: 1p=
+x; border-top-style: solid; border-top-color: gray; padding-top: 15px; widt=
+h: 100%; }
+
+div.picture_full ul { text-align: left; width: 100%; padding-bottom: 20px; =
+margin: 10px 0px; }
+
+div.picture_full li { list-style: none; margin: 0px; padding: 15px 0px 5px =
+10px; }
+
+.show_full_flag { float: right; margin-top: 10px; }
+
+div.digg { float: right; width: 52px; padding: 0px 5px; text-align: center;=
+ }
+
+.digg h3, .digg div { background-image: url(http://www.iteye.com/images/dig=
+g.jpg); padding: 7px 0px; background-repeat: no-repeat no-repeat; }
+
+.digg h3.digged, .digg div.digged { background-image: url(http://www.iteye.=
+com/images/digged.jpg); }
+
+.digg h3 a, .digg h3 span, .digg div a, .digg div span { font-size: 14px; f=
+ont-weight: normal; text-decoration: none; padding-left: 15px; background-p=
+osition: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+div.digg div.digg_admin { width: 100px; text-align: left; background-positi=
+on: 0px 50%; background-repeat: initial initial; }
+
+div.digg div.digg_admin a { padding-left: 2px; }
+
+.digg h3 a.digg, .digg h3 span.digg, .digg div a.digg, .digg div span.digg =
+{ color: rgb(21, 47, 147); background-image: url(http://www.iteye.com/image=
+s/icon_digg.gif); }
+
+.digg h3 a.bury, .digg h3 span.bury, .digg div a.bury, .digg div span.bury =
+{ color: rgb(160, 58, 50); background-image: url(http://www.iteye.com/image=
+s/icon_bury.gif); }
+
+div#digg_bottom { margin: 5px 0px; padding-left: 270px; display: inline-blo=
+ck; }
+
+div#digg_bottom div { width: 72px; height: 50px; background-image: url(http=
+://www.iteye.com/images/digg_bottom.gif); float: left; text-align: center; =
+padding-top: 9px; margin-right: 10px; font-size: 14px; line-height: 25px; c=
+ursor: pointer; }
+
+div#digg_bottom strong { color: white; }
+
+#share_weibo { display: inline-block; float: right; width: 160px; height: 3=
+2px; margin: 0px; padding: 27px 5px 0px 0px; color: rgb(51, 51, 51); text-a=
+lign: right; cursor: auto; font-style: normal !important; font-variant: nor=
+mal !important; font-weight: normal !important; font-size: 12px !important;=
+ line-height: 32px !important; font-family: Arial, Helvetica, sans-serif !i=
+mportant; background-position: 0px 50%; background-repeat: initial initial;=
+ }
+
+#share_weibo img { margin: 0px 5px; }
+
+#share_weibo a { background-color: transparent; background-position: initia=
+l initial; background-repeat: initial initial; }
+
+div#digg_bottom a { color: rgb(22, 7, 209); text-decoration: none; backgrou=
+nd-color: transparent; background-position: initial initial; background-rep=
+eat: initial initial; }
+
+div#digg_bottom div.digged { background-image: url(http://www.iteye.com/ima=
+ges/digged_bottom.gif); color: rgb(241, 78, 16); cursor: auto; }
+
+h3.type_good, h3.type_mid, h3.type_original, h3.type_translate, h3.type_rep=
+rint { padding-left: 25px; background-position: 0px 13px; background-repeat=
+: no-repeat no-repeat; }
+
+h3.type_good { background-image: url(http://www.iteye.com/images/blog/type_=
+good.png); }
+
+h3.type_mid { background-image: url(http://www.iteye.com/images/blog/type_m=
+id.png); }
+
+h3.type_original { background-image: url(http://www.iteye.com/images/blog/t=
+ype_original.png); }
+
+h3.type_translate { background-image: url(http://www.iteye.com/images/blog/=
+type_translate.png); }
+
+h3.type_reprint { background-image: url(http://www.iteye.com/images/blog/ty=
+pe_reprint.png); }
+
+#guest_book_emotes a { width: 125px; text-decoration: none; background-colo=
+r: transparent; color: black; display: block; float: left; }
+
+#resume { width: 100%; }
+
+#resume label.title { width: 200px; font-weight: normal; }
+
+#resume label { width: 50px; font-weight: normal; }
+
+div.group { height: 160px; }
+
+div.group div.content { float: right; width: 630px; }
+
+#blog_options li { list-style: none; margin-left: 0px; }
+
+#blog_options label { width: 150px; }
+
+td.row1 { width: 160px; background-color: transparent; vertical-align: top;=
+ }
+
+h3 span { padding-left: 30px; font-size: 12px; font-weight: normal; }
+
+div.blog_title h3 { font-size: 16px; padding-top: 10px; }
+
+div.blog_title h3 span { font-size: 12px; margin-left: 5px; font-weight: no=
+rmal; }
+
+div.blog_title h3 span a { margin-left: 8px; }
+
+table.admin { width: 100%; margin-bottom: 20px; }
+
+table.admin thead { font-weight: bold; font-size: 13px; }
+
+table.admin tbody td { padding: 5px 0px; border-top-width: 1px; border-top-=
+style: dashed; border-top-color: rgb(221, 221, 221); }
+
+div#favorite_tag_list { padding-bottom: 20px; border-bottom-width: 1px; bor=
+der-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; margin-bo=
+ttom: 20px; }
+
+div#favorite_tag_list li { list-style: none; width: 120px; overflow: hidden=
+; float: left; margin: 5px; }
+
+div#favorite_tag_list input.text { width: 100px; }
+
+#main_nav { border-bottom-width: 1px; border-bottom-style: solid; border-bo=
+ttom-color: rgb(51, 102, 170); height: 25px; margin: 10px 0px 12px; }
+
+#main_nav li { margin: 0px 12px; list-style: none; float: left; }
+
+#main_nav a { display: block; color: black; text-decoration: none; backgrou=
+nd-color: rgb(221, 221, 221); padding: 0.25em 1em; border-width: 1px 1px 0p=
+x; border-top-style: solid; border-right-style: solid; border-left-style: s=
+olid; border-top-color: rgb(51, 102, 170); border-right-color: rgb(51, 102,=
+ 170); border-left-color: rgb(51, 102, 170); background-position: initial i=
+nitial; background-repeat: initial initial; }
+
+#main_nav li.activetab a, ul#main_nav a:hover { background-color: rgb(255, =
+255, 255); border-bottom-width: 1px; border-bottom-style: solid; border-bot=
+tom-color: white; background-position: initial initial; background-repeat: =
+initial initial; }
+
+#main_nav li.nonetab { padding-left: 30px; }
+
+#main_nav li.nonetab a { width: 200px; display: inline; border: 0px; backgr=
+ound-color: transparent; padding: 0px; background-position: initial initial=
+; background-repeat: initial initial; }
+
+div.activity { border-bottom-width: 1px; border-bottom-style: solid; border=
+-bottom-color: rgb(216, 223, 234); padding: 7px 10px; margin-bottom: 10px; =
+}
+
+div.new_reply { background-color: rgb(238, 238, 238); }
+
+.activity_content { float: left; width: 500px; padding-left: 22px; backgrou=
+nd-repeat: no-repeat no-repeat; }
+
+.Topic .activity_content { background-image: url(http://www.iteye.com/image=
+s/subscription/topic.gif); }
+
+.Blog .activity_content { background-image: url(http://www.iteye.com/images=
+/subscription/blog.gif); }
+
+.BlogComment .activity_content { background-image: url(http://www.iteye.com=
+/images/subscription/blog_comment.gif); }
+
+.Post .activity_content { background-image: url(http://www.iteye.com/images=
+/subscription/post.gif); }
+
+.News .activity_content { background-image: url(http://www.iteye.com/images=
+/subscription/news.gif); }
+
+.NewsComment .activity_content { background-image: url(http://www.iteye.com=
+/images/subscription/news_comment.gif); }
+
+.Essence .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/essence.gif); }
+
+.EssenceComment .activity_content { background-image: url(http://www.iteye.=
+com/images/subscription/essence_comment.gif); }
+
+.ArticleComment .activity_content { background-image: url(http://www.iteye.=
+com/images/subscription/post.gif); }
+
+.Picture .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/picture.gif); }
+
+.PictureComment .activity_content { background-image: url(http://www.iteye.=
+com/images/subscription/picture_comment.gif); }
+
+.Problem .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/problem.gif); }
+
+.Solution .activity_content { background-image: url(http://www.iteye.com/im=
+ages/subscription/solution.gif); }
+
+.GroupTopic .activity_content { background-image: url(http://www.iteye.com/=
+images/subscription/group_topic.gif); }
+
+.GroupPost .activity_content { background-image: url(http://www.iteye.com/i=
+mages/subscription/group_post.gif); }
+
+.Page .activity_content, .Card .activity_content { background-image: url(ht=
+tp://www.iteye.com/images/subscription/page.gif); }
+
+.PageComment .activity_content { background-image: url(http://www.iteye.com=
+/images/subscription/page_comment.gif); }
+
+.GuestBook .activity_content { background-image: url(http://www.iteye.com/i=
+mages/subscription/guest_book.gif); }
+
+.UserFavorite .activity_content { background-image: url(http://www.iteye.co=
+m/images/subscription/user_favorite.gif); }
+
+.Twitter .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/twitter.gif); }
+
+.Subscription .activity_content { background-image: url(http://www.iteye.co=
+m/images/subscription/subscription.gif); }
+
+div.activity_summary { padding: 5px 5px 5px 0px; }
+
+div.activity_summary img.thumb { border: 1px solid rgb(238, 238, 238); padd=
+ing: 2px; }
+
+div.activity_time { float: right; }
+
+div#twitter_decorate { background-image: url(http://www.iteye.com/images/bl=
+og/twitter_decorate.gif); margin: 5px 13px 0px; background-position: 50% 10=
+0%; background-repeat: no-repeat no-repeat; }
+
+div#twitter { margin: 0px 13px 5px; padding: 5px; border-width: 0px 1px 1px=
+; border-right-style: solid; border-bottom-style: solid; border-left-style:=
+ solid; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(20=
+4, 204, 204); border-left-color: rgb(204, 204, 204); }
+
+div.twitter { padding-bottom: 10px; }
+
+div.twitter em { color: rgb(153, 153, 153); font-size: 11px; }
+
+div.twitter em a { color: rgb(153, 153, 153); text-decoration: none; }
+
+div.twitter em a:hover { background-color: transparent; text-decoration: un=
+derline; }
+
+div.single_twitter { font-size: 18px; }
+
+div.twitter div.content { background-image: url(http://www.iteye.com/images=
+/app/twitter_sbg.png); padding: 10px 10px 0px 20px; float: left; width: 667=
+px; height: 80px; margin-left: 2px; position: relative; background-repeat: =
+no-repeat no-repeat; }
+
+div.twitter div.action { position: absolute; right: 10px; bottom: 5px; }
+
+div.twitter div.action a:hover { background-color: transparent; }
+
+ul.blog_categories { list-style-type: none; margin: 0px; }
+
+ul.blog_categories li { list-style-type: none; display: inline; padding: 0p=
+x; margin: 0px 5px 0px 0px; }
+
+div#blog_content { font-size: 14px; line-height: 1.8em; }
+
+#blog_navbar { margin: 0px auto; width: 950px; }
+
+#blog_navbar li { padding: 0px; margin: 0px; }
+
+#blog_navbar ul { margin-left: 210px; }
+
+.blog_navbar_for { border-top-left-radius: 10px; border-top-right-radius: 1=
+0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; borde=
+r: 0px; margin-top: 10px; font-weight: bold; }
+
+#blog_navbar li { line-height: 30px; height: 30px; float: left; list-style:=
+ none; color: rgb(255, 255, 255); font-size: 15px; margin-top: 5px; padding=
+: 0px 27px; }
+
+#blog_navbar li a:visited { color: rgb(255, 255, 255); text-decoration: non=
+e; }
+
+#blog_navbar .search { float: left; background-color: rgb(255, 255, 255); b=
+order-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-rig=
+ht-radius: 2px; border-bottom-left-radius: 2px; width: 200px; margin: 5px; =
+background-position: initial initial; background-repeat: initial initial; }
+
+#blog_navbar input.button, input.submit_search { border: 0px !important; }
+
+.submit_search { border: 0px none; height: 22px; width: 22px; background-im=
+age: url(http://www.iteye.com/images/blog/search.gif) !important; backgroun=
+d-position: initial initial !important; background-repeat: no-repeat no-rep=
+eat !important; }
+
+input.search_text { border: 0px; width: 150px !important; height: 22px !imp=
+ortant; }
+
+#fd { clear: both; }
+
+.blog_main_title { border-bottom-width: 1px; border-bottom-style: dotted; p=
+adding: 10px 11px 5px; margin-bottom: 10px; }
+
+.blog_main_title span { font-size: 14px; }
+
+#guest_books li { padding: 12px 0px 5px; border-bottom-width: 1px; border-b=
+ottom-color: rgb(204, 204, 204); border-bottom-style: dotted; margin-left: =
+10px !important; list-style: none !important; }
+
+#local a:hover a:active a:link a:visited { text-decoration: none !important=
+; }
+
+iframe #tweetList { height: auto !important; }
+
+.notes { width: 85%; border: 1px solid rgb(204, 204, 204); margin: 0px auto=
+ 10px; padding: 5px 10px; color: rgb(153, 153, 153); }
+
+.picture_upload { padding: 10px 20px; min-height: 400px; }
+
+.picture_upload_notes { border: 1px solid rgb(204, 204, 204); padding: 3px;=
+ background-color: rgb(247, 247, 247); margin: 15px auto; background-positi=
+on: initial initial; background-repeat: initial initial; }
+
+.picture_photo { border: 1px solid rgb(204, 204, 204); background-color: rg=
+b(255, 255, 255); padding: 3px; width: 150px; height: 100px; background-pos=
+ition: initial initial; background-repeat: initial initial; }
+
+.picture_photo img { width: 150px; height: 94px; }
+
+.picture_photo_input1 { width: 100%; height: 50px; padding: 3px; border: 1p=
+x solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); backgroun=
+d-position: initial initial; background-repeat: initial initial; }
+
+.picture_photo_input2 { width: 100px; padding: 3px; border: 1px solid rgb(2=
+04, 204, 204); background-color: rgb(255, 255, 255); background-position: i=
+nitial initial; background-repeat: initial initial; }
+
+.picture_info_img { text-align: center; }
+
+.picture_info_notes { padding: 20px; }
+
+.picture_info_notes span { color: rgb(153, 153, 153); }
+
+.picture_info_text { margin-top: 10px; }
+
+.picture_info_notes p span { color: black; line-height: 24px; }
+
+.default { padding: 20px 20px 10px; min-height: 400px; text-align: center; =
+font-size: 14px; color: rgb(153, 153, 153); }
+
+.about_bar { margin: 10px 0px; padding: 5px 15px; font-weight: bold; }
+
+.about_bar span { margin-left: 20px; }
+
+.weight { font-weight: 100; }
+
+.series { display: block; margin: 0px; padding: 5px 0px 10px; }
+
+.series dt { display: inline-block; float: left; margin: 0px 10px; }
+
+.series dt img { width: 48px; height: 48px; border: 1px solid rgb(204, 204,=
+ 204); padding: 1px; }
+
+.series dd { float: left; margin: 0px; width: 90px; }
+
+.series dd a { line-height: 18px; height: 36px; }
+
+.series::after { clear: both; content: '.'; display: block; height: 0px; vi=
+sibility: hidden; }
+
+.ico_img img { margin-right: 3px; vertical-align: middle; }
+
+span.gold { background-image: url(http://www.iteye.com/images/ask/medal-gol=
+d.gif); padding-left: 12px; background-position: 0% 50%; background-repeat:=
+ no-repeat no-repeat; }
+
+span.bronze { background-image: url(http://www.iteye.com/images/ask/medal-b=
+ronze.gif); padding-left: 12px; background-position: 0% 50%; background-rep=
+eat: no-repeat no-repeat; }
+
+span.silver { background-image: url(http://www.iteye.com/images/ask/medal-s=
+ilver.gif); padding-left: 12px; background-position: 0% 50%; background-rep=
+eat: no-repeat no-repeat; }
+
+.material_classify_bottom { padding-bottom: 10px; border-bottom-width: 1px;=
+ border-bottom-color: rgb(221, 221, 221); border-bottom-style: dashed; }
+
+.material_classify_top { padding-top: 10px; }
+
+.medal_bg { background-image: url(http://www.iteye.com/images/ask/medal_bg.=
+gif); margin-right: 10px; vertical-align: top; display: block; background-p=
+osition: 100% 3px; background-repeat: no-repeat no-repeat; }
+
+.medal_bg::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.medal_bg img { float: left; margin: 0px !important; }
+
+.medal_s_list { display: block; margin: 0px; }
+
+.medal_s_list::after { content: '.'; display: block; height: 0px; clear: bo=
+th; visibility: hidden; }
+
+.medal_s_list li { float: left; margin: 0px 10px 0px 0px; list-style: none;=
+ }
+
+.medal_number { float: left; padding: 1px 1px 1px 0px; color: rgb(255, 255,=
+ 255); }
+
+.my_medal { margin: 20px 0px; display: block; }
+
+.my_medal::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.my_medal dt { float: left; margin-right: 20px; }
+
+.my_medal dd { line-height: 24px; padding: 5px; }
+
+.my_medal dd span { font-size: 16px; font-weight: bold; }
+
+.medal_user_list { display: block; padding: 10px 0px; }
+
+.medal_user_list::after { content: '.'; display: block; height: 0px; clear:=
+ both; visibility: hidden; }
+
+span.open { background-image: url(http://www.iteye.com/images/ask/ask.gif);=
+ display: block; padding-left: 20px; background-position: 0% 50%; backgroun=
+d-repeat: no-repeat no-repeat; }
+
+span.close { background-image: url(http://www.iteye.com/images/ask/greenrig=
+ht.gif); display: block; padding-left: 20px; background-position: 0% 50%; b=
+ackground-repeat: no-repeat no-repeat; }
+
+span.score { background-image: url(http://www.iteye.com/images/ask/score.gi=
+f); padding-left: 12px; margin-left: 10px; color: rgb(23, 163, 0); backgrou=
+nd-position: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+.user_info { width: 160px; color: rgb(153, 153, 153); line-height: 17px; pa=
+dding-top: 4px; }
+
+.user_info img { float: left; }
+
+.user_info span { margin-left: 10px; }
+
+.user_info_border { float: left; border: 1px solid rgb(204, 204, 204); padd=
+ing: 10px; margin: 0px 30px 20px 0px; }
+
+#medal_top_list { display: block; padding-top: 10px; }
+
+#medal_top_list::after { content: '.'; display: block; height: 0px; clear: =
+both; visibility: hidden; }
+
+#medal_top_material { display: block; padding: 15px 0px 10px 12px; margin: =
+10px 0px 15px; border: 1px solid rgb(194, 213, 227); background-color: rgb(=
+250, 250, 250); background-position: initial initial; background-repeat: in=
+itial initial; }
+
+#medal_top_material::after { content: '.'; display: block; height: 0px; cle=
+ar: both; visibility: hidden; }
+
+.medal_top_son { float: left; width: 165px; padding: 14px 0px 0px 5px; heig=
+ht: 65px; overflow: hidden; margin: 5px 8px 9px 6px; border: 1px solid rgb(=
+216, 230, 240); background-color: white; color: rgb(153, 153, 153); line-he=
+ight: 17px; background-position: initial initial; background-repeat: initia=
+l initial; }
+
+.medal_top_son:hover { width: 165px; height: 68px; overflow: hidden; margin=
+: 0px 9px 7px 1px; padding: 20px 0px 0px 11px; border: 0px; background-imag=
+e: url(http://www.iteye.com/images/medal_list_bg.png); cursor: pointer; bac=
+kground-position: 0px 0px; background-repeat: no-repeat no-repeat; }
+
+.medal_top_son:hover a { color: rgb(188, 42, 77); }
+
+.medal_top_son p { float: left; font-size: 18px; width: 20px; text-align: c=
+enter; font-family: Arial; line-height: 50px; margin: 0px 10px; color: rgb(=
+54, 113, 165); }
+
+.medal_top_son img { float: left; }
+
+.medal_top_son span { margin-left: 10px; }
+
+.medal_tag { margin: 10px; font-size: 14px; }
+
+.medal_name { font-size: 12px; margin-bottom: 10px; }
+
+.medal { background-color: rgb(51, 51, 51); border: 1px solid rgb(51, 51, 5=
+1); margin: 0px 8px 3px 0px; font-size: 14px; padding: 0px 10px; display: i=
+nline-block; text-decoration: none; white-space: nowrap; line-height: 24px;=
+ border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-r=
+ight-radius: 6px; border-bottom-left-radius: 6px; }
+
+.medal:hover { background-color: rgb(68, 68, 68); border: 1px solid rgb(68,=
+ 68, 68); }
+
+.medal_gold { color: rgb(255, 204, 51); }
+
+.medal_silver { color: rgb(255, 255, 255); }
+
+.medal_bronze { color: rgb(255, 153, 102); }
+
+.medal_multiplier { font-size: 14px; font-weight: bold; margin-right: 4px; =
+color: rgb(68, 68, 68); }
+
+.medal_list { padding: 10px 40px; font-size: 14px; }
+
+.medal_list dl { display: block; }
+
+.medal_list dl::after { content: '.'; display: block; height: 0px; clear: b=
+oth; visibility: hidden; }
+
+.medal_list dt { float: left; height: 30px; width: 150px; margin: 0.25em 0p=
+x; }
+
+.medal_list dd { float: left; height: 30px; width: 650px; margin: 0.25em 0p=
+x; }
+
+.medal_list_title { font-size: 16px; padding: 5px 0px; border-bottom-style:=
+ solid; border-bottom-width: 1px; border-bottom-color: rgb(194, 213, 227); =
+margin-bottom: 10px; }
+
+p.medal_tag a:hover { background-color: rgb(255, 255, 255); }
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.iteye.com/stylesheets/themes/blog/blue.css?1326191326
+
+div.topic_page, a { color: rgb(16, 138, 198); text-decoration: underline; }
+
+a:hover { color: white; }
+
+div.app_nav, div#page, .comment_title, tr.mouse_over { background-color: rg=
+b(239, 250, 255); }
+
+div#local, div#main, .blog_main, .pagination a:hover, .pagination a:active =
+{ background-color: white; border-color: rgb(16, 138, 198); }
+
+div.nav, div#app_list div.decorate, a:hover, div#branding, input.button, in=
+put.submit, td.buttons a, .pagination span.current { background-color: rgb(=
+16, 138, 198); }
+
+.blog_bottom li { border-right-color: rgb(16, 138, 198); color: rgb(16, 138=
+, 198); }
+
+table.admin thead, .pagination a, .pagination a:visited { color: rgb(16, 13=
+8, 198); }
+
+div.app_nav, .pagination span.current { border-color: rgb(16, 138, 198); }
+
+.blog_comment, div.picture_full { border-top-color: rgb(16, 138, 198); }
+
+.white { color: rgb(255, 255, 255) !important; }
+
+#blog_navbar { background-color: rgb(16, 138, 198); }
+
+.blog_navbar_for { color: rgb(16, 138, 198); background-color: rgb(239, 250=
+, 255); }
+
+#blog_navbar .blog_navbar_for a:visited { color: rgb(16, 138, 198); backgro=
+und-color: rgb(239, 250, 255); }
+
+#blog_navbar .blog_navbar_for a:link { color: rgb(16, 138, 198); background=
+-color: rgb(239, 250, 255); }
+
+.blog_main_title { color: rgb(0, 0, 0); }
+
+.about_bar { background-color: rgb(204, 204, 204); color: rgb(16, 138, 198)=
+; background-position: initial initial; background-repeat: initial initial;=
+ }
+
+.view a:hover { color: rgb(16, 138, 198); }
+
+.list_current a { color: rgb(255, 102, 0); font-weight: bold; }
+
+.list_current a:hover { color: rgb(255, 255, 255); background-color: rgb(25=
+5, 102, 0); background-position: initial initial; background-repeat: initia=
+l initial; }
+
+#my_resume .editing a.del:hover, #my_resume .editing a.add:hover { color: r=
+gb(16, 138, 198); }
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.iteye.com/javascripts/syntaxhighlighter/SyntaxHighlighter.css?1348819953
+
+.dp-highlighter { font-family: Monaco, 'DejaVu Sans Mono', 'Bitstream Vera =
+Sans Mono', Consolas, 'Courier New', monospace; font-size: 12px; background=
+-color: transparent; width: 97%; overflow: auto; margin-left: 9px; padding:=
+ 1px; word-break: break-all; word-wrap: break-word; }
+
+.dp-highlighter ol { border: 1px solid rgb(209, 215, 220); list-style: deci=
+mal; background-color: rgb(255, 255, 255); margin: 0px 0px 1px; padding: 2p=
+x 0px; color: rgb(43, 145, 175); }
+
+.dp-highlighter ol li, .dp-highlighter .columns div { border-left-width: 1p=
+x; border-left-style: solid; border-left-color: rgb(209, 215, 220); backgro=
+und-color: rgb(250, 250, 250); padding-left: 10px; line-height: 18px; margi=
+n: 0px 0px 0px 38px; }
+
+.dp-highlighter .columns { color: gray; overflow: hidden; width: 100%; }
+
+.dp-highlighter .columns div { padding-bottom: 5px; }
+
+.dp-highlighter ol li span { color: black; }
+
+.dp-highlighter .tools { padding: 3px; text-align: left; margin: 0px; color=
+: black; font-weight: bold; }
+
+.dp-about { background-color: rgb(255, 255, 255); margin: 0px; padding: 0px=
+; }
+
+.dp-about table { width: 100%; height: 100%; font-size: 11px; font-family: =
+Tahoma, Verdana, Arial, sans-serif !important; }
+
+.dp-about td { padding: 10px; vertical-align: top; }
+
+.dp-about .copy { border-bottom-width: 1px; border-bottom-style: solid; bor=
+der-bottom-color: rgb(172, 168, 153); height: 95%; }
+
+.dp-about .title { color: red; font-weight: bold; }
+
+.dp-about .para { margin: 0px 0px 4px; }
+
+.dp-about .footer { background-color: rgb(236, 234, 219); border-top-width:=
+ 1px; border-top-style: solid; border-top-color: rgb(255, 255, 255); text-a=
+lign: right; }
+
+.dp-about .close { font-size: 11px; background-color: rgb(236, 234, 219); w=
+idth: 60px; height: 22px; font-family: Tahoma, Verdana, Arial, sans-serif !=
+important; }
+
+.dp-highlighter .comment, .dp-highlighter .comments { color: rgb(0, 130, 0)=
+; padding: 0px; margin: 0px; width: auto; border: 0px; }
+
+.dp-highlighter .string { color: blue; }
+
+.dp-highlighter .keyword { color: rgb(127, 0, 85); font-weight: bold; }
+
+.dp-highlighter .preprocessor { color: gray; }
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://pipilu.iteye.com/images/icon_star.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAACXBIWXMAAC4jAAAuIwF4pT92AAAK
+T2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AU
+kSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXX
+Pues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgAB
+eNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAt
+AGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3
+AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dX
+Lh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+
+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk
+5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd
+0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA
+4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzA
+BhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/ph
+CJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5
+h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+
+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhM
+WE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQ
+AkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+Io
+UspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdp
+r+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZ
+D5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61Mb
+U2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY
+/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllir
+SKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79u
+p+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6Vh
+lWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1
+mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lO
+k06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7Ry
+FDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3I
+veRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+B
+Z7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/
+0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5p
+DoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5q
+PNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIs
+OpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5
+hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQ
+rAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9
+rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1d
+T1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aX
+Dm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7
+vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3S
+PVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKa
+RptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO
+32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21
+e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfV
+P1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i
+/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8
+IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADq
+YAAAOpgAABdvkl/FRgAAAelJREFUeNqM0clqImEQwPF/dycuEaQRBT20ksWLKCIKggdBUMEnUO95
+kHmUkBeI5uDBQJ5AhXZvFTcEhYBCm76IyxyGcZBkIHWq+vh+FFUlbDabE99ErVajWq0Si8XIZrPf
+fUHkP6GqKqIo0mq10HX953i5XLJarcjlcgiCQL/f/zlWVRW73U44HOb29hZVVb/FV4vFgl6vx36/
+Pz/W63Xi8TgAPp+PRqNBqVTCarVyPB4RBAGfz4fkdDp/jcdjLBYLhmGw3W6RZZloNIosy5jNZnRd
+5/PzE8Mw2O12DIdDNE3jSlEUut0u9/f3xONxRPFyEofDQbFYPNeapjGdTvF4PAibzebUaDR4fX1F
+lmXy+Twej+fLfLquUyqVGAwGJJNJUqnUHwwwHo95e3tju93y+PiILMtneDqdeHp64uPjg0wmQyQS
+udz23d0dDw8PSJLEzc3NRVdBELDZbLhcrjO8wLvdjna7TTAYxGQyMRqNeH5+pl6vA+D3+5nP56xW
+q3+n+pvMZjPW6zVer5dms0m5XOb6+prJZMJ6vSYQCCBJEp1OB7fbfYm73S6iKPL+/s5yuSSdTpNI
+JOj1ery8vKBpGhaLhclk8rWzoiiMRiMOhwOFQoFAIABAKBTC5XJRqVQwDANFUc749wDhgMn/nJ9+
+yAAAAABJRU5ErkJggg==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://pipilu.iteye.com/images/spinner.gif
+
+R0lGODlhEAAQAPYAAP///x5Hm9jf7aCx1HKMwFZ1s1l3tX+Wxay72uDl8K692j1gqUFjqkhprU1t
+sFRzs3uTxMLN4zZbpYKZx+7x9u/y98nS5peq0GSAunCKv8XP5dXc7FFwsTFWo5mr0bPB3W+Jvoug
+y+Xp85SnzypRoHmRw6e313eQwr7K4Vt5tiZOnrnF36Kz1TNYpCNLneru9fX2+oedyZKmzvb4+pCk
+zbLA3Pr7/Pz8/cfR5dDY6fj5+9rh7rfE3vHz+Nfe7Ofr8+Hm8dPb68zV6MPO5OPo8tzi7/P1+d7k
+74meyrzI4brH4GF9uGaCum2HvnSNwVh2tFJyssrU54acyEprruzv9kNlq5ut0muGvURmrDhcpqu6
+2WJ/uS1TopWo0HaPwUtsr87X6NHZ6ujs9MDL4o2hzJ6w06m42GmEvJyu0198t116tztfqLC+2yxS
+oShPn7XC3iFJnKW11z9iqS9Vok9vsISayEZorCVMnoCXxjpep2iDu32UxY6jzAAAAAAAAAAAACH/
+C05FVFNDQVBFMi4wAwEAAAAh/h1CdWlsdCB3aXRoIEdJRiBNb3ZpZSBHZWFyIDQuMAAh/hVNYWRl
+IGJ5IEFqYXhMb2FkLmluZm8AIfkECQoAAAAsAAAAABAAEAAAB42AAIKDhIWFGyMpLYaFCBwkKi6C
+Njo3hQoLHSUrL4I3MD02gwIGEh6GNhQUlgADCxOMAD0/PYIEDBGxM0A/ggUNFLEAO0WCBg4VsTdB
+PoIHDxaxFEI7gggGF7E+Q0SCCRAYH4Y7KxZGgxEZICYbMDMJOAg83YQaIScHMTQeLDwJjCJQsJDh
+oUaOYMISBgIAIfkECQoAAAAsAAAAABAAEAAAB4yAAIKDhIWFOwNXWAxbXRuGADwYVQtZLVwkXyaF
+Sk9TSBEUVEpeKlyERwRQm4UyhQoGI5CCN4NIS1GzADo2ggRMPbpGRoInTcSzFBWCF05BszpiywBJ
+EAizVEDBAD8XUhqGLwJEvYI5MjRJCTo6L0VgG9ODQSZWLFofSkNhVJBUOUlqrBCSAIaugwACAQAh
++QQJCgAAACwAAAAAEAAQAAAHiYAAgoOEhYUJChNpBl4sAoYAQwdLBg8ODQxqbIU4XmdoURUVQ1Jr
+DAiDImROPIZoLVAbgmMQZpAAEG1dgiwTPrdKbmqCMkgwt1QuLYIeNDO3hTUXR9CEYGVDtzY6gxQf
+Zr+FOj3Pg0c1H0FUNzcwFC8VNoVAQyhDQkE7QC/chkYJG3L4IBKvWrVAACH5BAkKAAAALAAAAAAQ
+ABAAAAePgACCg4SFhT8oHhBOIWxHhgA5FwcnGWdbak5KhUEjSGwbRj1CXQ9PPINUJjI4hmZfTDuC
+OVYokABIDAOCSiwJtxFrV4JsZjq3FBJVgm9sx5BUHXKCFjxit0ptS4JHKD63TiojgkZgOCKQcA1B
+gy9gOSIwgjf0AHGFFEUCCSJUPTM2bumgIEYMBRgBbykcFAgAIfkECQoAAAAsAAAAABAAEAAAB4yA
+AIKDhIWFFGFvZR4mET+GAAkrcWUXNEgTMhaFRDwKFkAzMwIKJRAag0Y4PDuGSiATQIJAYxuQAGVb
+bII+OFS3Qmp1gmFCN7cVD0u8QceQFQ4GswIwt0N2XoIVCb+QdXIDgjZiP9WFHlkpAoMzVBQzgysn
+cwsKhTZGMDqCLm50CLduODMwwtatg4ICAQAh+QQJCgAAACwAAAAAEAAQAAAHiYAAgoOEhYUwQDko
+KxFBFIYAVEE4Y0ofCHEKPoUVG2BHVDY6IhpWVkGDNkA+L4ZCNGVigj0JrZBvUhGCVEQzkAA+B2i7
+sr9GXgeCFY/GTSeCMEY3v0JMZII2M9OQXWpsgzfbhSYPTkeGBCtUVGMxU09KhnZ3blwtWXIYPJBB
+I2kLDM6U2fGr4KBAACH5BAkKAAAALAAAAAAQABAAAAeIgACCg4SFhTc9Pzs+OyIwhgA6VEQJAkFC
+OFEihTYVLxUzADcVOyhJQIQwPTqGRx9KFYI3M6yQUWZBsjaQgkQsPLyFMx5lwYQzNB6CBi7AkAIx
+JoIyKl68WgcRghsOXBeGPE58m4Jaay14YxQVFlZ6XjiFCE95cnYOD2p7Q89lGQ8GDiBIYMxYIAAh
++QQJCgAAACwAAAAAEAAQAAAHi4AAgoOEhYY3OkYVFUY2hoM2M0YUYkREPYUmhjoURTsUg0ENLo9U
+QT4zgiMqTo8ACRZEgkskK64UQzmCC1xUrjZKY4IMLb6POh+2AGdZKK5EWhGCZQt1rhEsQYICS1hx
+hhYXCMYAb1B0MlE9RkFsIRcbhSsgT2pMTV4HHmGPRwgxGU5cQPHDlcFBgQAAOwAAAAAAAAAAAA==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://pipilu.iteye.com/images/sina.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgIC
+AwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAEAAQAwERAAIRAQMRAf/EAGsAAAMBAAAAAAAAAAAAAAAA
+AAMHCAkBAAIDAQAAAAAAAAAAAAAAAAUHAgMICRAAAQUBAQADAQAAAAAAAAAABQIDBAYHAQgAERIT
+EQACAgICAgMBAQAAAAAAAAACAwEEEQUSBhMHACEiIxT/2gAMAwEAAhEDEQA/ANifKXk096OzU3v2
+v28NSaVOjE265ZbIMqDxzQbSw1KjSCs2w2xpLDAhk8x1l6VJW49NebeQnrf4698zz17rNzfVG7ra
+WIRRmSgCLhyYcZjMkf1AwUYmZzJTExGMZ+de/b3uzrnqvf0PWvR9SW07OIIKylM2PFTQUAXAU18k
+TiUXMVhAioSApg+Xj+Gv1Kr/AJewxUbZ6/UxeiWYbZrfkmu5HX2is8FZooV+TUoPdJrsYcEZjLPA
+uj5cLqH3GuFGp0OT9MSOJlYqx13VCvcwEXm8jS9McpEoj8R5RwOOQ8SGYnHODAvyXyjU7xnuDvjb
+nrhlg+sUfFW2Ws2TIULUSzFlkUXSbucKdD1OggEprHWsJ/qqZlfHfb2TgCOM91o6Hpdq88ZI1hRf
+Et0p2gP00TaaxcWpxLRKYQpON7vyHYbmDidGH4xCuCy7KuuoilWkdbdbD67tOvU+sWyIVPpVv88o
+sLZK4MWZlq5WixgmDHBkEoDj7gWRGJhh9v8AR/a72s3aenKbd1XZtxG2Daam3SG2xDqnjCjaC1tN
+RJJquLz0zTdsViiAJ1M5ggJA6F7JrDOBWzx7gC7BrBTfNlj3+5HR9OKVWjAp0g2Lngc0wShElyra
+qA6XHRf6EZ7I2S820mOiDzi+rSEs9jSGnPq+mhlg7lyGsKFkCxnkMiquucnjMRkigZmI4wH3n4yd
+H6d2Fn2FV93exyqahHXevHRqJK2qzccPhYtt7b3F8a/OFsZxQkngJFLSsZHjP//Z
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://pipilu.iteye.com/images/tec.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgIC
+AwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAEAAQAwERAAIRAQMRAf/EAG0AAAMBAAAAAAAAAAAAAAAA
+AAUHCAkBAAIDAQAAAAAAAAAAAAAAAAQHBQYICRAAAQUBAAIBBQAAAAAAAAAABQIDBAYHAQARCCES
+IhMVEQACAwACAgMBAQAAAAAAAAACAwEEBREGABIhEwcUIv/aAAwDAQACEQMRAD8A32zNAErT6Hdr
+hU06retjs8+rZ1T1rGDlWEiESLZslkt9pkQ1k1p4TMMtNI5IYUtXHHHXkoT9NXaapXZfnUWBRzc+
+qDbL5GTkIZBStal8+vMiElMyJcfAiMzPnMzrrxfn097ZQ7Z3t3SdVz6cMFUNJJALn2bHHvxBtABG
+DCZmDM2QMeH9GFCRQ/U2hGfsYpsuJAoVxNVwXOHmxk6rzJA2Kix1ewoakFhJcRIPwXvXJz7bkdf4
+qS6lSPA86RYNRjXjpde0iNS2kuVmDhEy+tgfAkJQs459BmCj5iRmJ8k95RIZporUWdf7z18E2X1g
+dD0tqmxQS5Dp9mLYuXqLj7jEll/mRYMj5BuP/IMnk2HHJWnf3ID9E1IhnGbR4AQZy/5nZLgHjydY
+soNZnsGTCPC6/X2Iw5LjzbUElOXK6lT7TH2Hdqv0tr9eqfm/U/5m7drrE7Fz7WmNZ1VFmKtFTZWJ
+8g2yxks4AiNKfSOBI5lKdL7jpdP/ADW7udwG4tOf2JmdnwpATdo2Lavt0rCZb6SLl10gCOTEUvcT
+piWAv1X9t+WQU4CtWd40O1i63jbZgUNfdP1YhHO6VbB8QhDeEUmthgjxRAuCRKQ4q5K1Tp0uX+lt
+j2lpPE+MHF6VurYvX7uzGp5+cthVqef7/wAyiICg3tc4EyZCJFADCVgHMn8lPlO1v1qhar2et9Ar
+79/e33oXd0dMoZesLBgEuqhSpbCgNgLlky5zG+gr5gIiPP/Z
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://pipilu.iteye.com/images/login_icon.png
+
+iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAK
+TWlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVN3WJP3Fj7f92UPVkLY8LGXbIEAIiOsCMgQ
+WaIQkgBhhBASQMWFiApWFBURnEhVxILVCkidiOKgKLhnQYqIWotVXDjuH9yntX167+3t+9f7vOec
+5/zOec8PgBESJpHmomoAOVKFPDrYH49PSMTJvYACFUjgBCAQ5svCZwXFAADwA3l4fnSwP/wBr28A
+AgBw1S4kEsfh/4O6UCZXACCRAOAiEucLAZBSAMguVMgUAMgYALBTs2QKAJQAAGx5fEIiAKoNAOz0
+ST4FANipk9wXANiiHKkIAI0BAJkoRyQCQLsAYFWBUiwCwMIAoKxAIi4EwK4BgFm2MkcCgL0FAHaO
+WJAPQGAAgJlCLMwAIDgCAEMeE80DIEwDoDDSv+CpX3CFuEgBAMDLlc2XS9IzFLiV0Bp38vDg4iHi
+wmyxQmEXKRBmCeQinJebIxNI5wNMzgwAABr50cH+OD+Q5+bk4eZm52zv9MWi/mvwbyI+IfHf/ryM
+AgQAEE7P79pf5eXWA3DHAbB1v2upWwDaVgBo3/ldM9sJoFoK0Hr5i3k4/EAenqFQyDwdHAoLC+0l
+YqG9MOOLPv8z4W/gi372/EAe/tt68ABxmkCZrcCjg/1xYW52rlKO58sEQjFu9+cj/seFf/2OKdHi
+NLFcLBWK8ViJuFAiTcd5uVKRRCHJleIS6X8y8R+W/QmTdw0ArIZPwE62B7XLbMB+7gECiw5Y0nYA
+QH7zLYwaC5EAEGc0Mnn3AACTv/mPQCsBAM2XpOMAALzoGFyolBdMxggAAESggSqwQQcMwRSswA6c
+wR28wBcCYQZEQAwkwDwQQgbkgBwKoRiWQRlUwDrYBLWwAxqgEZrhELTBMTgN5+ASXIHrcBcGYBie
+whi8hgkEQcgIE2EhOogRYo7YIs4IF5mOBCJhSDSSgKQg6YgUUSLFyHKkAqlCapFdSCPyLXIUOY1c
+QPqQ28ggMor8irxHMZSBslED1AJ1QLmoHxqKxqBz0XQ0D12AlqJr0Rq0Hj2AtqKn0UvodXQAfYqO
+Y4DRMQ5mjNlhXIyHRWCJWBomxxZj5Vg1Vo81Yx1YN3YVG8CeYe8IJAKLgBPsCF6EEMJsgpCQR1hM
+WEOoJewjtBK6CFcJg4Qxwicik6hPtCV6EvnEeGI6sZBYRqwm7iEeIZ4lXicOE1+TSCQOyZLkTgoh
+JZAySQtJa0jbSC2kU6Q+0hBpnEwm65Btyd7kCLKArCCXkbeQD5BPkvvJw+S3FDrFiOJMCaIkUqSU
+Eko1ZT/lBKWfMkKZoKpRzame1AiqiDqfWkltoHZQL1OHqRM0dZolzZsWQ8ukLaPV0JppZ2n3aC/p
+dLoJ3YMeRZfQl9Jr6Afp5+mD9HcMDYYNg8dIYigZaxl7GacYtxkvmUymBdOXmchUMNcyG5lnmA+Y
+b1VYKvYqfBWRyhKVOpVWlX6V56pUVXNVP9V5qgtUq1UPq15WfaZGVbNQ46kJ1Bar1akdVbupNq7O
+UndSj1DPUV+jvl/9gvpjDbKGhUaghkijVGO3xhmNIRbGMmXxWELWclYD6yxrmE1iW7L57Ex2Bfsb
+di97TFNDc6pmrGaRZp3mcc0BDsax4PA52ZxKziHODc57LQMtPy2x1mqtZq1+rTfaetq+2mLtcu0W
+7eva73VwnUCdLJ31Om0693UJuja6UbqFutt1z+o+02PreekJ9cr1Dund0Uf1bfSj9Rfq79bv0R83
+MDQINpAZbDE4Y/DMkGPoa5hpuNHwhOGoEctoupHEaKPRSaMnuCbuh2fjNXgXPmasbxxirDTeZdxr
+PGFiaTLbpMSkxeS+Kc2Ua5pmutG003TMzMgs3KzYrMnsjjnVnGueYb7ZvNv8jYWlRZzFSos2i8eW
+2pZ8ywWWTZb3rJhWPlZ5VvVW16xJ1lzrLOtt1ldsUBtXmwybOpvLtqitm63Edptt3xTiFI8p0in1
+U27aMez87ArsmuwG7Tn2YfYl9m32zx3MHBId1jt0O3xydHXMdmxwvOuk4TTDqcSpw+lXZxtnoXOd
+8zUXpkuQyxKXdpcXU22niqdun3rLleUa7rrStdP1o5u7m9yt2W3U3cw9xX2r+00umxvJXcM970H0
+8PdY4nHM452nm6fC85DnL152Xlle+70eT7OcJp7WMG3I28Rb4L3Le2A6Pj1l+s7pAz7GPgKfep+H
+vqa+It89viN+1n6Zfgf8nvs7+sv9j/i/4XnyFvFOBWABwQHlAb2BGoGzA2sDHwSZBKUHNQWNBbsG
+Lww+FUIMCQ1ZH3KTb8AX8hv5YzPcZyya0RXKCJ0VWhv6MMwmTB7WEY6GzwjfEH5vpvlM6cy2CIjg
+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
+Ts5Uo85DgAAAAABJRU5ErkJggg==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/upload/logo/user/77543/65e9b88d-c64c-3d56-a929-f3d4dfc7082a.jpg?1236837459
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcU
+FhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgo
+KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAB4AHgDASIA
+AhEBAxEB/8QAHQABAAEFAQEBAAAAAAAAAAAAAAUBAgQGCAMHCf/EADgQAAEDAwIEBQEFBwUBAAAA
+AAEAAgMEBRESIQYTMUEHIlFhcYEUFTJCkSNSU2JyseEIJjTBwvD/xAAZAQEBAQEBAQAAAAAAAAAA
+AAAAAgMBBAX/xAAkEQADAAICAgEEAwAAAAAAAAAAAQIDERIhBEExEzJhgQUUUf/aAAwDAQACEQMR
+AD8A6pREQBERAEREARFQvaDgkZQFUWOKiF0hiErDIBnRqGf0XrH1Uzar4YL0RFQCIiAIiIAiKj3a
+QP0QFUVms7bdVeNwgCIqPdpCAqoOWFl1utTFUND6Ol0t5Tt2ySkaiXDuAC0AdMk7dFNBxI6YCi7C
+P2NTKM/tqmWQA/1af/KA8KXh2KmuQqYnhkYOWxMbgD/Cm2gjrhXIsMPj48G/prW3v9lVdX9wREW5
+IREQBERAD0ULxI+ubSMNDqDtXmLBlwHsppWSdB8rHPieWHCbW/aKmuL3rZr9HbZW0kL4p6mmrC0a
+3cx0jc/zNcSD9MLNoLhM6c0tdHyapu407slb+8wnf5B3HxusuWfQ7Tpkd5S7UBho+SdgVE3SeGqg
+LJKlkJBDo5Yjrex3Zzff9Qdx3V45cypb2cW67R4cd8ZWvgmxPud7nc1mdEULADJM/GQ1g9ffoOpX
+KPHHjhxbxJUSMoax1mt5yGQUbsPx/NJ+In4wFBeLnGVZxnxdPUVE+ukpCaelY0aWaQcF4HYuI1eu
+CBnZaSrO60Z8l5uks/Olude+b+I6peXfrnK23g/xY4v4Wlj+yXWWrpGnLqWtJmjIzkjJOpufYrQ/
+butq4X4Omu9M2urqgUNucSGP0a5JsdeW3I2HTUSB8nZc99EXkmJ5U9I688KfE62eIFAfs+aW607Q
+aqieclozjW0/maT37ZwV9BY7JXIVht9u4Tq/vi0R11NW26B9U2pkqdXMa0bsewANLHjynG4znqF1
+Xw1dKe9WaiudGc09ZAydnsHAHHyOn0VXF474WtMywZ4zzyjtEoiIuGwREQBERAFR+SBhVQjKAirn
+QRyskcQAXgB/pt0P0/t8LW+J2R2ThS71b5Q6ubRTvhxvpcInEFo9vX+y3dzNRG61fiqyx11FUw4y
+ZonwnbJcxwILfpnb2+FGSnM7kpW0uKPz/bu1ufTfC3fhHg+Gqoorne3ytpZcmnp4SA+YA4Li78jM
+jA2ycH5Wp3WgqLTc6u31kbo6mlldDI1wwQ5pwtpsPHLqShp6G6UIrIYGiOKWKTlTMYOjc4IcBk4y
+MrWOPKeafH3ow8lZnjf0fk36ilbbYuXaYILdENsUzNLj8v8AxO+pUbxZxpSW+9/d9dbXTSU9PEx8
+1NKInB+nU5rmkFu2R0weud1h1PFYhonT2q3uiqQ0ubNWStk5foQxoAz6ZyB6L5fPLJPM+Wd7pJZH
+F73uOS5x3JJ7nJytc3kYrpf1548fa+Tx4P4fyMe783vl6Zut640iulK+3Q0r6K3vwZS6TmSzYOQC
+QAA3O+kDc4yTgLqD/TnV8/wotf4jHDJPDHkb6GyHC4nXYfhxY7nwrwbZ6JpfT174Q8xEhgke/wAx
+aHHLC8ZxpeAcjZ2F5+3Tpvt/s+nKiMSxRKSX4PsrHBwyFVQPC14nulPKZqZ0ZjOkucwx5d0c3Sck
+FpG+5G4wVPA5C6SEREAREQBERAF4yxtk1A7HOQR2K9l5VFTDTxSSzyMjjYMuc44AQHwjxi8M7Xe7
+hWXqo+1U1XJgSVNIzmBpa0Dzw9XDAzqadW/Q4XP184DvFrpDX0vJu1pB/wCdb3c1jeuz2/ijOx2c
+Au1q68NbIyRtOwRndr6yQQiQDuxuHPJHUeXutNvHDNFdbwLtRPlt9zk3FXaaWeN0n9eHBsg/qbuu
+P8lpo43kraiSIMfK4tHuro6Nr7ZNWfa6Vro5WRimc4814cCdTRjBaMYO+2QumOKvDC0XUkXQQQ17
+htWU8X2CZ56Avid+xcPfU0n5XynjvwqulmldJZKWevo4YxztJJqGHu58WA5o6bgEb9VxSl0iryVb
+3TNM4Omjp+JqCeW2uugilDxRtlEfNcNwMkHPx3XaXC/EFPfuG4vvW2VtDHPljqetjLJGYOwI67dn
+D0B2K4VI0nzDBad87YXSfgp4iVnEbabhu9vmdcaeEmnq35cZImjcbjZ4GPMeoHqrmdsxydLZ9koK
+g0l280vN1OZBM8HPMa7PJlP8w0ljj3+gW4M/CFoL6cV1RyqFjWiNuDNqLQAHB259AW++SPlT9Hec
+kR1GnP8AFxgfX07bjb4Xbni9GcZNrs2BFax4duCFcpNQiIgCIiALBuVuiuDI2TOkDWSCUaHlpyOi
+zkQGBS2ulpNbqaCNsrsapD5nuI6EvOXE+5JWHNb5aN089C9zi8FzoHHLSe5bn8JPp0P6qbKtc0O6
+rns6mzUqOrp698kLnOgkziZlY3DwfQtOztu/THRazdrWDXVlPUVH+3SI/sU8D3MqrdLgh0kT/wBz
+ODjoBnbSML6HX2unq93DRLpwHNHbsCOhHsVCVFDUUTZMND2OGkvALiGdwO4/QrszKI5tfcc7cG+F
+V4i8Wql15aai322oM8tZIARUPI1M2PUnIceuOvsvvsrRIRTU7Wxx488gb0B7epJ9O/U7dY+mMkb4
+oafSfK+lc+Rw0gRkGNzvXyPIx30DJ6rYaKiIdyoyS8bvkfuRnr9T/wDeiVm4dStsza5vbZ509MBA
+6MDlU8eHPxuR8/vOO2B0CVUUQYHynlaQXl5O0be5Odu+/qdlmyGJrQG4ZSRu2cfzv7nPf/vdYMtE
+Ls90UrSaTIMmfzEdvn26DO+5XgSvLlXfS+X/AKa2+MaS22Z3CNZ94WiCoAIjLnBmrrpBIH0/wp9Y
+9NFHDHHHG0MY0Ya0dAPRZC95yE1KT+QiIhQREQBERAEwiIBgK0sbnON1ciA1KSjhquJJoHjBEhny
+04OBCxn93hSLLJyy4RVUzWHcNBxv6kjBKy6W3ww3KormNf8AaKgMZI5x7NGBgduv1+ikUJcpkG2y
+w83VNJLJjYAnGB6Z646eil4YI44mNYwBrRgADC9MbqqaClIppGeiqiIUEREAREQBERAEREAREQBE
+RAEREAREQBERAf/Z
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/icon_minigender_1.gif?1324994303
+
+R0lGODlhCwALALMAADFjdCt4kTKOrjikyGWarFexz2vQ8YGXnoKcpZKxu7S5u4m0wqC9xp/O3sDA
+wAAAACH5BAEAAA4ALAAAAAALAAsAAAQ80EnZamWTml1WdgyzCcTnNItAno1RLcQSEFVRbGUiIE0B
+EIOBIGMIKE6FAHHg6SknjMGNADh8FsKANRMBADs=
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://pipilu.iteye.com/images/status/offline.gif
+
+R0lGODlhWQAaAMQAAGZmZu/v76WlpZmZmcXFxXx8fP///7W1td3d3ff394yMjK2trb29vczMzIWF
+hZmZmeXl5dbW1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEH
+ABIALAAAAABZABoAAAX/oCSOZGmeaKqubOu+cCzPdG3fIyIMRID/wFFjNygeIAFdcclsOp/QqFQq
+aKgEhQLzEOgmENOweEzOLkwIhQJhaAd4iIa8MRAk2vi8fs/v+/9+DWo+Iw52eWACB4sLAg4DAYCS
+k5SUbwpCDnsBRAI7DoZ3laOkowkOCCILA3wEq00NfgAGs7N8ALi4e7Z/vHq8tXoNDiJFfAkMDAQE
+DAcMu7ltttPRwNK52NXZ2XjWtHnDIp57CXQCyTsCPbfSu93fvu19wcHv09d44RKeCf39EAc8EQFV
+ZwEEf9uy9QOAMAFDhv4cLozYUKJFiw9zUdTHzx+EZgtCehqgRkDIgxEh/0JEqPHhxYsrU0p0uRBX
+RZv9ONrxR+BAyJ+eFDhQ4PMAxYwTk858uTImS4U3sW0ktm9nuSILfAoUINTQDgJPl1Zc2jSjVIov
+J+JUGVGnP5IDgI7sWkeNQ5ppY+LdizbhWr1p3faD+xMoyQIKFtiNmlQj2bFOMapN2VSp4KtbCx8e
+wEBABMpskTaGObahQpVlxZaj6qlLlwhbnS0LaPIAAte5XHfBpZv3bt8B/ALYrft3ceDBh3fRt6o4
+AgZZCURAEIGZstvFs2vfzr279+36hmlH4ErggQZIvqtfz947A1QjFHhGQL++/fv48+vfz7+//+dF
+kBCAGgskY+CBCCao4CeCDDbo4IOKKUAICQdkoQAZGGao4RMKZHGACgg0suGIJIaxQColhAAAOw==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/user-logo-thumb.gif?1324994303
+
+R0lGODlhMAAwAMQAAOXl5eTk5Pv7++np6efn5/Pz8+bm5vz8/PHx8evr6+jo6PLy8vj4+O/v7/r6
++vn5+e3t7f39/fT09P7+/vf39/X19fb29uzs7PDw8O7u7urq6v///+Pj4wAAAAAAAAAAACH/C1hN
+UCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtj
+OWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUg
+WE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAi
+PiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5
+bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29t
+L3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NU
+eXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdp
+bmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkIzMkFGRUQ1QUFEMTFFMDk2MEJERjMw
+QTkyQzUyNDYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkIzMkFGRUU1QUFEMTFFMDk2MEJE
+RjMwQTkyQzUyNDYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDoyQjMyQUZFQjVBQUQxMUUwOTYwQkRGMzBBOTJDNTI0NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1w
+LmRpZDoyQjMyQUZFQzVBQUQxMUUwOTYwQkRGMzBBOTJDNTI0NiIvPiA8L3JkZjpEZXNjcmlwdGlv
+bj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf2
+9fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769
+vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWE
+g4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxL
+SklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMS
+ERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAwADAAAAX/ICeOZGmeaKqubOu+cCzPdG3f
+eK7vfO//wKBwSCwafQSL4lgiPBgZJknCYBQCUtEFUZAkEgTCd5xYigAEgygwGJg5gIFGDQ+vAobD
+BoHY+P8FHAQSBxERDAkcDBsRZhR+CgAFhREPECoAAhsYGH9/CAaanhsQCn4UHBB+CwEPo3spmXtx
+qhsLCgaPGwIFuhMGC34NDhsHAQV+BwUWE34aKLILIqYbUdQPBg0LFX4IAXp/EAERxQQQBcgbFdCa
+0hwDwql+EATdDhESHBl/DO/dAX4KMIiA6kQ0EfA2NOBwQVgrBwMAGAAgYtGEAf42BLIgIAEeigbb
+IYxHoNkBjHSmZ2xwcEZPhEQpY4nMuJADtw0THgi4UELCSiwc+vh54ADDCgB63CWsCWDRnwMgRXAT
+ADSABU8TCGCy4KCmAqI81zRgIOBBgahBHVQAKgICBQFqtWaZS7eu3bt48+rdy7ev37+AAwuWEQIA
+Ow==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://stat.iteye.com/?url=http%3A%2F%2Fpipilu.iteye.com%2Fblog%2F399816&referrer=http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dmaven-jar-plugin%2520resources%26rsv_spt%3D1%26issp%3D1%26f%3D8%26rsv_bp%3D0%26rsv_idx%3D2%26ie%3Dutf-8%26tn%3Dbaiduhome_pg%26bs%3Dmaven-jar-plugin&user_id=
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAALEgAACxIB0t1+/AAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAABZ0RVh0
+Q3JlYXRpb24gVGltZQAwMS8xNS8wOcvIjfIAAANmSURBVFiFxZc/aONWHMc/voYDizsqkLvlgc2B
+qymoU4gN4YzIcnQpJWucm5ShQ89eDaVgPB1JpxBNcTxmdcgSbE22nKnOTSGBYKxZkINDgS7poD+1
+HbtnJwr3BYH0nt77fN97v/fTU+L+/p5vqRfflA4sASvAByD9TIwBsAd8mmXgg2EY288EB8A0TYD3
+0+pe8HwjH9VMxtLog2mat/hTdrtA53IAkIPn2+CSDcOQZzWaaiCA/7QAHOBX4OOEgb+A30fK5jaw
+yMhD/Xx5eZlqNBoAbG1tpVRVnQsO8WzDtGmar1zXxXVdTNN8xfiSPLuBJ2keAyvAYXCtTKkfGIbx
+RVEUFEXBMIwvLBDIkzEwDf7n4eHhu7W1tX9UVZWBPxhPKnuqqlKr1dKhIeAEqADaUwxE8F6v9/L6
++vplpVIpSJJ0y3hS+cT0JPPb1+AwewnG4ACu69Jut7/HH9XqHH0/Kghl/H09Bg/VbDYZDodvgJ0p
+fa3ix4kF/M2cGXbSQBr4OA0eqtFovMafhcIE+MDzvF+63e7barWqMecMTMaAfHR0JPd6vZkNHMfh
+7Ozsx42NjV2ClDscDt+02+3XFxcXeJ43D3emAbrd7lcbnZ6eJlVV1a6urmi1WriuuxD0fw3MI8/z
+qFarM+szmQwA5XI5LNLwY2MAHADnTzIwS8vLy+i6jhAC27ZptVo4jgMgCyHeFgoFL5/Pa0Cf4JAS
+qwFd11FVlf39/RAcyXEcGo2GZFmWViqVMpIkAbyP7VuQyWQQQkRwRVEevCNJEo7jsLu7G+WT2Ays
+r69zc3MTwWu1GrlcLqovFouUSqXIRKfTyQI7sS1BKpXi+PgY8LNms9mkWCwCfmzkcjmazWa0TS3L
+kvL5fPqBgeAA+SiNrvvJyQmu67K9vQ1AvV7Htu0H744ZMAzj0fCRLRcpm81G94lEYmq7Jfy9GYuE
+ENHIisUiuVyOer2OECJajjDRCSEiA3vBtKefyFd1Xf+hXq9/pygKmqZF027bNslkks3NTfr9Pp7n
+USgUPGCQiPHfcBU4qFarmuM4JJNJ7u7uxl5QFAXXdRFCUKlU+sBOnGfCc6BfLpc/CyEewIEIXi6X
+P+Nnw/M4ZwD++8/UOp1O1rIsKYwJIQRBKr5iJBXHbSDUKv6hJT1RPmDiY/Qv+WVSz1NpUPgAAAAA
+SUVORK5CYII=
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pipilu.iteye.com/iframe_ggbd/187
+
+<html><head><meta charset=3D"UTF-8"></head>
+        <body style=3D"margin:0"><div id=3D"BAIDU_DUP_fp_wrapper" style=3D"=
+position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; heigh=
+t: 0px; overflow: hidden; visibility: hidden; display: none;"><iframe id=3D=
+"BAIDU_DUP_fp_iframe" src=3D"http://pos.baidu.com/wh/o.htm?ltr=3Dhttp%3A%2F=
+%2Fwww.baidu.com%2Fs%3Fwd%3Dmaven-jar-plugin%2520resources%26rsv_spt%3D1%26=
+issp%3D1%26f%3D8%26rsv_bp%3D0%26rsv_idx%3D2%26ie%3Dutf-8%26tn%3Dbaiduhome_p=
+g%26bs%3Dmaven-jar-plugin&amp;cf=3Du" style=3D"width: 0px; height: 0px; vis=
+ibility: hidden; display: none;"></iframe></div><!--AdForward Begin:-->
+<div id=3D"85f8c99_0" style=3D"padding:0;margin:0;border:0;">
+<div id=3D"BAIDU_DUP_wrapper_u1819087_0"><iframe id=3D"cproIframe_u1819087_=
+1" width=3D"468" height=3D"60" src=3D"http://pos.baidu.com/acom?adn=3D2&amp=
+;at=3D6&amp;aurl=3D&amp;cad=3D1&amp;ccd=3D32&amp;cec=3DUTF-8&amp;cfv=3D16&a=
+mp;ch=3D0&amp;col=3Dzh-CN&amp;conOP=3D0&amp;cpa=3D1&amp;dai=3D1&amp;dis=3D1=
+&amp;ltr=3Dhttp%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dmaven-jar-plugin%2520resou=
+rces%26rsv_spt%3D1%26issp%3D1%26f%3D8%26rsv_bp%3D0%26rsv_idx%3D2%26ie%3Dutf=
+-8%26tn%3Dbaiduhome_pg%26bs%3Dmaven-jar-plugin&amp;ltu=3Dhttp%3A%2F%2Fpipil=
+u.iteye.com%2Fblog%2F399816&amp;lunum=3D6&amp;n=3Dcsdnbaidu_cpr&amp;pcs=3D4=
+68x60&amp;pis=3D468x60&amp;ps=3D4619x711&amp;psr=3D1920x1080&amp;pss=3D468x=
+60&amp;qn=3Dde62840fe5a8c810&amp;rad=3D&amp;rsi0=3D468&amp;rsi1=3D60&amp;rs=
+i5=3D4&amp;rss0=3D%23FFFFFF&amp;rss1=3D%23FFFFFF&amp;rss2=3D%230000ff&amp;r=
+ss3=3D%23444444&amp;rss4=3D%23008000&amp;rss5=3D&amp;rss6=3D%23e10900&amp;r=
+ss7=3D&amp;scale=3D&amp;skin=3D&amp;td_id=3D1819087&amp;tn=3Dtext_default_4=
+68_60&amp;tpr=3D1422942795825&amp;ts=3D1&amp;version=3D2.0&amp;xuanting=3D0=
+&amp;dtm=3DBAIDU_DUP2_SETJSONADSLOT&amp;dc=3D2&amp;di=3Du1819087" align=3D"=
+center,center" marginwidth=3D"0" marginheight=3D"0" scrolling=3D"no" frameb=
+order=3D"0" allowtransparency=3D"true"></iframe></div></div>
+<!--AdForward End-->
+       =20
+</body></html>
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pos.baidu.com/acom?adn=2&at=6&aurl=&cad=1&ccd=32&cec=UTF-8&cfv=16&ch=0&col=zh-CN&conOP=0&cpa=1&dai=1&dis=1&ltr=http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dmaven-jar-plugin%2520resources%26rsv_spt%3D1%26issp%3D1%26f%3D8%26rsv_bp%3D0%26rsv_idx%3D2%26ie%3Dutf-8%26tn%3Dbaiduhome_pg%26bs%3Dmaven-jar-plugin&ltu=http%3A%2F%2Fpipilu.iteye.com%2Fblog%2F399816&lunum=6&n=csdnbaidu_cpr&pcs=468x60&pis=468x60&ps=4619x711&psr=1920x1080&pss=468x60&qn=de62840fe5a8c810&rad=&rsi0=468&rsi1=60&rsi5=4&rss0=%23FFFFFF&rss1=%23FFFFFF&rss2=%230000ff&rss3=%23444444&rss4=%23008000&rss5=&rss6=%23e10900&rss7=&scale=&skin=&td_id=1819087&tn=text_default_468_60&tpr=1422942795825&ts=1&version=2.0&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=u1819087
+
+<html><head><meta charset=3D"UTF-8">
+       =20
+        <title>=E7=99=BE=E5=BA=A6=E7=BD=91=E7=9B=9F=E6=8E=A8=E5=B9=BF</titl=
+e>
+		<link rel=3D"stylesheet" href=3D"http://cpro.baidustatic.com/cpro/ui/noex=
+pire/css/2.0.0/template.css">
+		<style type=3D"text/css">.container{padding-left:0px;padding-right:0px;pa=
+dding-top:0px;padding-bottom:0px;margin-top:0px;border-style:solid;border-t=
+op-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-wid=
+th:0px;border-color:#ffffff;width:468px;height:60px;background-color:#fffff=
+f;position:relative;overflow:hidden;float:none;}.item{width:468px;height:60=
+px;}.item a{width:468px;height:60px;position:absolute;opacity:0;top:0;left:=
+0;display:block;z-index:9;background-color:#ffffff;}.item a:hover{}.item di=
+v{width:468px;height:60px;}.column-space{width:20px;height:0px;}.row-space{=
+width:100%;height:0px;}</style>
+    </head>
+   =20
+    <body marginwidth=3D"0" marginheight=3D"0"><div style=3D"display:none;"=
+><img src=3D"http://wn.pos.baidu.com/adx.php?c=3Dd25pZD01ZjM4MjdiYjNlNjhiNz=
+I1AHM9NWYzODI3YmIzZTY4YjcyNQB0PTE0MjI5NDI4MDgAc2U9MQBidT01AHByaWNlPVZOQmlXQ=
+UFDT0dwN2pFcGdXNUlBOG9nLW1ELU13SHNmTkduN0pnAGNobWQ9MQBiZGlkPUI2MEJGOTFGM0VF=
+NzMxNzMzQzU2QUZBNjc1Q0U5QTA2AGNwcm9pZD1CNjBCRjkxRjNFRTczMTczM0M1NkFGQTY3NUN=
+FOUEwNgBiY2htZD0wAHY9MQBpPTE1YTUwMmZh&amp;ext=3DcGxhbmlkPTI3NCZsaW1pdD0wJnJ=
+jPWJq" height=3D"1px" width=3D"1px" alt=3D""></div>
+   =20
+        <div class=3D"container" id=3D"container"><div class=3D"item"><a st=
+yle=3D"" target=3D"blank" title=3D"" href=3D"http://pos.baidu.com/cclick.ph=
+p?AzRK00jxMfHurmJW-RUZEB_aLxccz3pqv1d5k0gTsnoeHTcDb_K0-KogMI7yV17CmkfkuJv4P=
+uQs8bsqX7ZIXIRqGHs5vzeWzsHBVeknlH0W32SW_C1fsg1g8u01.DR_iRPg-8owKAMHKCI6lZsw=
+dFqhaxET1D1GikxIZW3ILQbtT-h1xdEukmrgVHCmLpSr1F3LLtRqrzOkzU-nUlaR1Hrh4mTTzs1=
+f_Ih1uEv20.mhwGujdaPWKawWbkwWP7wHT1nHT1nYndPb7AfHmLPRP7rRDsP6KWTA-b5RcvnDFA=
+rH7AnYN7P1nkP1n1f1RvfRuKPWTdfYR4fH0v0ZIbg17YTh7buHYv0ZIbg1FYTh7buHYvnjc0uAq=
+Vmy-8gvuGTMPYgLwzmyw-5HT0uAqVmy-8gLP-mvq8u7qYTh7buHYLnjf0TAtqnfKsm1YLPjn0mv=
+9VujYk0A7bIjYz0A7bmvk9TLnqn0KYIHddnH6krH03PsKYUHYkn1DzPHck0Zw9TWYs0ZP1TjYk0=
+ZwYTjYk0APEUgK_uHYs0Aq15HD0mMcqnfK9uvRqPHDsnsKbIZ0qnfKdThsqpZwYTjCEQLKGTA-_=
+Ii4GIAN4ui4WUvYEmhkEuzt1rHb3nHm0Iv-bIA6qPjm30A9-pyICIjYvn0K9uZ9xmh-bgvPsUHY=
+kP1c0mgNbpyN8mvNxIZF9uARqPj6L0AI-Uhw-T-qGujYznjD0TLw9IA-WgLKzULK-TMw45Hf1PB=
+ndnjm0mLFW5HD3Pjmk0j" id=3D"res0"></a><div style=3D""><embed pluginspage=3D=
+"http://www.macromedia.com/go/getflashplayer" type=3D"application/x-shockwa=
+ve-flash" wmode=3D"opaque" quality=3D"High" name=3D"" src=3D"http://ubmcmm.=
+baidustatic.com/media/v1/0f000nG-Q8XW_roxdqsnPf.swf" width=3D"468" height=
+=3D"60" scale=3D"exactfit" allowfullscreen=3D"" allowscriptaccess=3D"" allo=
+wnetworking=3D"" flashvars=3D""></div></div><a class=3D"bd-logo5" href=3D"h=
+ttp://wangmeng.baidu.com/" title=3D"" onclick=3D"return false;">&nbsp;</a><=
+/div>
+       =20
+	=09
+	=09
+
+   =20
+
+</body></html>
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://cpro.baidustatic.com/cpro/ui/noexpire/img/2.0.0/bd-logo5.png
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0
+NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxY2QwN2YwNy1mMTRmLTRkMWItODNhMC00M2M0
+ODU1MzlkOWMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTJEMjYyNTZDQUI1MTFFM0I2OTZG
+MDIzMUQ5QkI4Q0IiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTJEMjYyNTVDQUI1MTFFM0I2
+OTZGMDIzMUQ5QkI4Q0IiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNp
+bnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZjYz
+MTRlZDctODdlZS00YzAzLWE3YmYtNjI4OTRkYTQzNzQ5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAu
+ZGlkOjFjZDA3ZjA3LWYxNGYtNGQxYi04M2EwLTQzYzQ4NTUzOWQ5YyIvPiA8L3JkZjpEZXNjcmlw
+dGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Po3LkR0AAAIs
+SURBVHjaYmFgYBACYmMg5mCgAWAC4ndAfBKI/9HKAhD4BMSPaGkBCNyltQXfgPgjPsXs7OyML1++
+7Pjy5cscCwsLvpiYGKkHDx5U1tXVaeDSw4jG1wNieVyKi4uLVXp6evpA7BUrVvQ7Ozt7ioqKanz4
+8OGhoKBgLjY9LGh8rD5QUVHh8Pf3lwG6/htM7P3791/5+fmloVycCYQZC18OXdGlS5dqQkJCEkRE
+RD7eu3fvPDCInkZGRm61tbVlArpcYPny5UuAwaX29evXz3fu3PmOL4i4gNgZ3YL///9vBKkFuvqu
+kJBQIRcXF5OTk5PQli1b3oDkb9++XQT0pcPnz5+f8vHxZeKKZBD4jc2boDAG0W/evHns5uYm9OLF
+iymbN2+eB6RbJSUl2QQEBCRB8ry8vNKEIhkEfNDFPTw8hKOjo7UnT558HmhwlZiYmDZMDhgkB4BB
+81VfX9/77du3t4DBWELIAg8gZkUXNDY25t26dWuFuLi4Lrrc1atXd7S0tKw7ePDgu+fPn/8iZIEd
+EPMjCwC9zvzo0aNeYFAo4UotQJ8cVFVV7cWX0XAm1ZKSEnV8hkOTsn1CQoI0MRa8xOK6j8QUC+/e
+vftFTCQzQpMqJ7LggQMHwkxNTT2ASfYfMB+8+v79+2dg0AkD8wHYZ+fPn99sYmIynxgLQEACiE2p
+Udgx4xD/Ag0+YVpZAM5XQAwKUxEccUWxBeBMDMSgXPwfWqWykWoBQIABAO2qwzwjE/sIAAAAAElF
+TkSuQmCC
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://cpro.baidustatic.com/cpro/ui/noexpire/css/2.0.0/template.css
+
+html { color: rgb(0, 0, 0); background-color: transparent; }
+
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5=
+, h6, input, legend, li, ol, p, pre, td, textarea, th, ul { margin: 0px; pa=
+dding: 0px; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+fieldset, img { border: 0px; }
+
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal=
+; font-weight: 400; }
+
+ol, ul { list-style: none; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
+q::after, q::before { content: ''; }
+
+abbr, acronym { border: 0px; font-variant: normal; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+input, select, textarea { font-family: inherit; font-size: inherit; font-we=
+ight: inherit; }
+
+legend { color: rgb(0, 0, 0); }
+
+body { margin: 0px; padding: 0px; }
+
+.bd-logo, .bd-logo2, .bd-logo3, .bd-logo4, .bd-logo5 { text-decoration: non=
+e; cursor: pointer; display: block; overflow: hidden; position: absolute; b=
+ottom: 0px; right: 0px; z-index: 2147483647; }
+
+.bd-logo { height: 18px; width: 18px; background-image: url(http://cpro.bai=
+dustatic.com/cpro/ui/noexpire/img/2.0.1/bg.png); background-position: 0px 0=
+px; background-repeat: no-repeat no-repeat; }
+
+.bd-logo:hover { background-position: -70px 0px; }
+
+.bd-logo2 { margin: 0px 2px 2px 0px; height: 14px; width: 13px; background-=
+image: url(http://cpro.baidustatic.com/cpro/ui/noexpire/img/2.0.1/bg.png); =
+background-position: 0px -20px; background-repeat: no-repeat no-repeat; }
+
+.bd-logo2:hover { background-position: 0px -35px; }
+
+.bd-logo3 { height: 18px; width: 18px; background-image: url(http://cpro.ba=
+idustatic.com/cpro/ui/noexpire/img/2.0.1/bg.png); background-position: -70p=
+x 0px; background-repeat: no-repeat no-repeat; }
+
+.bd-logo3:hover { width: 68px; }
+
+.bd-logo4 { height: 18px; width: 18px; bottom: 0px; left: 0px; background-i=
+mage: url(http://cpro.baidustatic.com/cpro/ui/noexpire/img/2.0.1/bd-logo4.p=
+ng); background-size: 100%, 100%; background-position: 50% 50%; background-=
+repeat: no-repeat no-repeat; }
+
+.bd-logo5 { top: 0px; right: 0px; width: 24px; height: 20px; background-ima=
+ge: url(http://cpro.baidustatic.com/cpro/ui/noexpire/img/2.0.0/bd-logo5.png=
+); cursor: default; background-position: 0% 0%; background-repeat: no-repea=
+t no-repeat; }
+
+.bd-logo5:hover { width: 90px; height: 20px; background-image: url(http://c=
+pro.baidustatic.com/cpro/ui/noexpire/img/2.0.0/bd-logo5-hover.png); backgro=
+und-position: 0% 0%; background-repeat: no-repeat no-repeat; }
+
+.loader { text-align: center; width: 90%; font-size: 12px; padding: 8px; bo=
+rder: 1px solid rgb(170, 170, 170); margin-top: 30px; display: none; }
+
+.cf::after, .cf::before { content: ' '; display: table; }
+
+.cf::after { clear: both; }
+
+.cf { }
+
+.textOverflow { white-space: nowrap; overflow: hidden; display: inline-bloc=
+k; width: 100%; }
+
+.textOverflowEllipsis { text-overflow: ellipsis; }
+
+.textOverflowClip { text-overflow: clip; }
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://wn.pos.baidu.com/adx.php?c=d25pZD01ZjM4MjdiYjNlNjhiNzI1AHM9NWYzODI3YmIzZTY4YjcyNQB0PTE0MjI5NDI4MDgAc2U9MQBidT01AHByaWNlPVZOQmlXQUFDT0dwN2pFcGdXNUlBOG9nLW1ELU13SHNmTkduN0pnAGNobWQ9MQBiZGlkPUI2MEJGOTFGM0VFNzMxNzMzQzU2QUZBNjc1Q0U5QTA2AGNwcm9pZD1CNjBCRjkxRjNFRTczMTczM0M1NkFGQTY3NUNFOUEwNgBiY2htZD0wAHY9MQBpPTE1YTUwMmZh&ext=cGxhbmlkPTI3NCZsaW1pdD0wJnJjPWJq
+
+R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAABAAEAAAICVAEAOw==
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pos.baidu.com/wh/o.htm?ltr=http%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3Dmaven-jar-plugin%2520resources%26rsv_spt%3D1%26issp%3D1%26f%3D8%26rsv_bp%3D0%26rsv_idx%3D2%26ie%3Dutf-8%26tn%3Dbaiduhome_pg%26bs%3Dmaven-jar-plugin&cf=u
+
+<html><head><meta charset=3D"GBK">
+    </head>
+    <body><div><iframe width=3D"1" height=3D"1" src=3D"http://eclick.baidu.=
+com/nova_fp.htm?br=3D2&amp;fp=3D59807DE29D944D06BFDEFAFFA5A8712B&amp;fp2=3D=
+35BA7A6D90319DF3D5CE2D8E7D85E88A&amp;ci=3DB60BF91F3EE731733C56AFA675CE9A06%=
+3AFG%3D1&amp;bi=3DB60BF91F3EE731733C56AFA675CE9A06%3AFG%3D1&amp;im=3D0&amp;=
+wf=3D1&amp;ct=3D180&amp;m=3D&amp;t=3D210&amp;_=3D1422942797293" align=3D"ce=
+nter" marginwidth=3D"0" marginheight=3D"0" scrolling=3D"no" frameborder=3D"=
+0" allowtransparency=3D"true" <=3D"" iframe=3D""></iframe></div>
+        <style>
+            .userData {behavior:url(#default#userdata);}
+            .client {behavior:url(#default#clientCaps);}
+        </style>
+        <div id=3D"oPersistDiv" class=3D"userData" remember=3D"@"></div>
+        <div id=3D"clientDiv" class=3D"client"></div>
+        <div id=3D"oFlashDiv"><embed wmode=3D"transparent" name=3D"BAIDU_CL=
+B_wh_o_flash" id=3D"BAIDU_CLB_wh_o_flash" src=3D"http://pos.baidu.com/wh/f.=
+swf" swliveconnect=3D"true" quality=3D"high" width=3D"1" height=3D"1" align=
+=3D"middle" allowscriptaccess=3D"samedomain" type=3D"application/x-shockwav=
+e-flash" pluginspage=3D"http://www.macromedia.com/go/getflashplayer"></div>
+       =20
+        <div id=3D"cFlashDiv">
+            <object classid=3D"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" =
+codebase=3D"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash=
+.cab#version=3D7,0,19,0" width=3D"1" height=3D"1" id=3D"BAIDU_CLB_ac_o_flas=
+h" title=3D"BAIDU_CLB_ac_o_flash" align=3D"middle">
+                <param name=3D"allowScriptAccess" value=3D"samedomain">
+                <param name=3D"movie" value=3D"http://pos.baidu.com/wh/c.sw=
+f">
+                <param name=3D"quality" value=3D"high">
+                <param name=3D"wmode" value=3D"transparent">
+                <embed wmode=3D"transparent" name=3D"BAIDU_CLB_ac_o_flash" =
+id=3D"BAIDU_CLB_ac_o_flash" src=3D"http://pos.baidu.com/wh/c.swf" swlivecon=
+nect=3D"true" quality=3D"high" width=3D"1" height=3D"1" align=3D"middle" al=
+lowscriptaccess=3D"samedomain" type=3D"application/x-shockwave-flash" plugi=
+nspage=3D"http://www.macromedia.com/go/getflashplayer">
+            </object>           =20
+        </div>
+       =20
+   =20
+
+<div id=3D"cPersistDiv" cproid=3D"B60BF91F3EE731733C56AFA675CE9A06:FG=3D1" =
+style=3D"visibility: hidden; position: absolute;"></div></body></html>
+------=_NextPart_000_DD87_0F0F53E1.682EB975
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://eclick.baidu.com/nova_fp.htm?br=2&fp=59807DE29D944D06BFDEFAFFA5A8712B&fp2=35BA7A6D90319DF3D5CE2D8E7D85E88A&ci=B60BF91F3EE731733C56AFA675CE9A06%3AFG%3D1&bi=B60BF91F3EE731733C56AFA675CE9A06%3AFG%3D1&im=0&wf=1&ct=180&m=&t=210&_=1422942797293
+
+<html><head><meta charset=3D"UTF-8">
+           =20
+    </head>
+    <body marginwidth=3D"0" marginheight=3D"0">
+   =20
+
+</body></html>
+------=_NextPart_000_DD87_0F0F53E1.682EB975--

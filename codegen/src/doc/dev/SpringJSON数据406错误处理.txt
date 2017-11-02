@@ -1,0 +1,10 @@
+Spring MVC 4.1.4 RESTFUL风格返回JSON数据406错误 
+
+
+今天在使用spring4.1.4，使用ResponseBody注解返回JSON格式的数据的时候遇到406错误。
+
+解决办法，导入jackson2.X的jar包：
+
+jackson-annotations-2.4.4.jar、jackson-core-2.4.4.jar、jackson-databind-2.4.4.jar。
+
+spring mvc4.1.4使用了jackson2来处理JSON，jackson2的jar包为以上三个，导入之后问题解决。 

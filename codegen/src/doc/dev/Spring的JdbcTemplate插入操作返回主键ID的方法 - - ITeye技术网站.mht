@@ -1,0 +1,3323 @@
+From: <Saved by Maxthon>
+Subject: Spring?JdbcTemplate????????ID??? - - ITeye????
+Date: Fri, 12 Feb 2015 18:39:18 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_48F9_4AD36E63.26C8B2AA"
+
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://yangpanwww.iteye.com/blog/1169756
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"zh-CN" dir=3D"ltr"=
+><head><meta charset=3D"UTF-8">
+   =20
+    <title>Spring=E7=9A=84JdbcTemplate=E6=8F=92=E5=85=A5=E6=93=8D=E4=BD=9C=
+=E8=BF=94=E5=9B=9E=E4=B8=BB=E9=94=AEID=E7=9A=84=E6=96=B9=E6=B3=95 -  - ITey=
+e=E6=8A=80=E6=9C=AF=E7=BD=91=E7=AB=99</title>
+    <meta name=3D"description" content=3D"&nbsp;  &nbsp;  Spring=E7=9A=84Jd=
+bcTemplate=E6=8F=92=E5=85=A5=E6=93=8D=E4=BD=9C=E8=BF=94=E5=9B=9E=E4=B8=BB=
+=E9=94=AEID=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=9ASrping 2.5  &nbsp;  	/**  	 =
+* =E5=A6=9E=E8=A7=81=E5=A6=9E=E7=88=B1  	 *   	 * =E5=A2=9E=E5=8A=A0=E5=B9=
+=B6=E4=B8=94=E8=8E=B7=E5=8F=96=E4=B8=BB=E9=94=AE  	 * @param sql sql=E8=AF=
+=AD=E5=8F=A5  	 * @param params =E5=8F=82=E6=95=B0  	 * @return =E4=B8=BB=
+=E9=94=AE  	 */  	public  Long insertAndGetKey(final String sq ...">
+    <meta name=3D"keywords" content=3D"jdbctemplate, id, spring, java Sprin=
+g=E7=9A=84JdbcTemplate=E6=8F=92=E5=85=A5=E6=93=8D=E4=BD=9C=E8=BF=94=E5=9B=
+=9E=E4=B8=BB=E9=94=AEID=E7=9A=84=E6=96=B9=E6=B3=95">
+    <link rel=3D"shortcut icon" href=3D"http://yangpanwww.iteye.com/images/=
+favicon.ico" type=3D"image/x-icon">
+    <link rel=3D"search" type=3D"application/opensearchdescription+xml" hre=
+f=3D"http://yangpanwww.iteye.com/open_search.xml" title=3D"ITeye">
+    <link href=3D"http://yangpanwww.iteye.com/rss" rel=3D"alternate" title=
+=3D"" type=3D"application/rss+xml">
+    <link href=3D"http://www.iteye.com/stylesheets/blog.css?1423624400" med=
+ia=3D"screen" rel=3D"stylesheet" type=3D"text/css">
+<link href=3D"http://www.iteye.com/stylesheets/themes/blog/blue.css?1326191=
+326" media=3D"screen" rel=3D"stylesheet" type=3D"text/css">
+   =20
+   =20
+
+
+      <link href=3D"http://www.iteye.com/javascripts/syntaxhighlighter/Synt=
+axHighlighter.css?1348819953" media=3D"screen" rel=3D"stylesheet" type=3D"t=
+ext/css">
+ =20
+
+ =20
+
+  <style type=3D"text/css">.dp-j .annotation { color: #646464; }.dp-j .numb=
+er { color: #C00000; }</style></head>
+  <body>
+    <div id=3D"header">
+      <div id=3D"blog_site_nav">
+  <a href=3D"http://www.iteye.com/" class=3D"homepage">=E9=A6=96=E9=A1=B5</=
+a>
+  <a href=3D"http://www.iteye.com/news">=E8=B5=84=E8=AE=AF</a>
+  <a href=3D"http://www.iteye.com/magazines">=E7=B2=BE=E5=8D=8E</a>
+  <a href=3D"http://www.iteye.com/forums">=E8=AE=BA=E5=9D=9B</a>
+  <a href=3D"http://www.iteye.com/ask">=E9=97=AE=E7=AD=94</a>
+  <a href=3D"http://www.iteye.com/blogs">=E5=8D=9A=E5=AE=A2</a>
+  <a href=3D"http://www.iteye.com/blogs/subjects">=E4=B8=93=E6=A0=8F</a>
+  <a href=3D"http://www.iteye.com/groups">=E7=BE=A4=E7=BB=84</a>
+  <a href=3D"http://yangpanwww.iteye.com/blog/1169756#" onclick=3D"return f=
+alse;" id=3D"msna"><u>=E6=9B=B4=E5=A4=9A</u> <small>=E2=96=BC</small></a>
+  <div class=3D"quick_menu" style=3D"display:none;">
+    <a target=3D"_blank" href=3D"http://job.iteye.com/iteye">=E6=8B=9B=E8=
+=81=98</a>
+    <a href=3D"http://www.iteye.com/search">=E6=90=9C=E7=B4=A2</a>
+  </div>
+</div>
+
+      <div id=3D"user_nav">
+      <a href=3D"http://yangpanwww.iteye.com/login" class=3D"welcome" title=
+=3D"=E7=99=BB=E5=BD=95">=E6=82=A8=E8=BF=98=E6=9C=AA=E7=99=BB=E5=BD=95 !</a>
+    <a href=3D"http://yangpanwww.iteye.com/login">=E7=99=BB=E5=BD=95</a>
+    <a href=3D"http://yangpanwww.iteye.com/signup" class=3D"nobg">=E6=B3=A8=
+=E5=86=8C</a>
+  </div>
+
+    </div>
+
+    <div id=3D"page">
+      <div id=3D"branding" class=3D"clearfix">
+        <div id=3D"blog_name">
+          <h1><a href=3D"http://yangpanwww.iteye.com/">yangpanwww</a></h1>
+        </div>
+        <div id=3D"fd"></div>
+        <div id=3D"blog_navbar">
+          <ul>
+            <li class=3D"blog_navbar_for"><a href=3D"http://yangpanwww.itey=
+e.com/"><strong>=E5=8D=9A=E5=AE=A2</strong></a></li>
+            <li><a href=3D"http://yangpanwww.iteye.com/weibo">=E5=BE=AE=E5=
+=8D=9A</a></li>
+            <li><a href=3D"http://yangpanwww.iteye.com/album">=E7=9B=B8=E5=
+=86=8C</a></li>
+            <li><a href=3D"http://yangpanwww.iteye.com/link">=E6=94=B6=E8=
+=97=8F</a></li>
+            <li><a href=3D"http://yangpanwww.iteye.com/blog/guest_book">=E7=
+=95=99=E8=A8=80</a></li>
+            <li><a href=3D"http://yangpanwww.iteye.com/blog/profile">=E5=85=
+=B3=E4=BA=8E=E6=88=91</a></li>
+          </ul>
+   =20
+          <div class=3D"search">
+            <form action=3D"http://yangpanwww.iteye.com/blog/search" method=
+=3D"get" id=3D"1296532280">
+              <input class=3D"search_text" id=3D"query" name=3D"query" styl=
+e=3D"margin-left: 10px;width: 110px;" type=3D"text" value=3D"">
+              <input class=3D"submit_search" type=3D"submit" value=3D"">
+            </form>
+          </div>=20
+          <div id=3D"fd"></div>        =20
+        </div>
+      </div>
+     =20
+      <div id=3D"content" class=3D"clearfix">
+        <div id=3D"main">
+         =20
+
+
+
+         =20
+
+
+<div class=3D"h-entry" style=3D"display:none">
+  <a href=3D"http://yangpanwww.iteye.com/" class=3D"p-author" target=3D"_bl=
+ank">yangpanwww</a>
+</div>
+
+
+<div class=3D"blog_main">
+  <div class=3D"blog_title">
+    <h3>
+      <a href=3D"http://yangpanwww.iteye.com/blog/1169756">Spring=E7=9A=84J=
+dbcTemplate=E6=8F=92=E5=85=A5=E6=93=8D=E4=BD=9C=E8=BF=94=E5=9B=9E=E4=B8=BB=
+=E9=94=AEID=E7=9A=84=E6=96=B9=E6=B3=95</a>
+      <em class=3D"actions">      </em>
+    </h3>
+   =20
+        <div class=3D"news_tag"><a href=3D"http://www.iteye.com/blogs/tag/j=
+dbctemplate">jdbctemplate</a><a href=3D"http://www.iteye.com/blogs/tag/id">=
+id</a><a href=3D"http://www.iteye.com/blogs/tag/spring">spring</a><a href=
+=3D"http://www.iteye.com/blogs/tag/java">java</a>&nbsp;</div>
+  </div>
+
+  <div id=3D"blog_content" class=3D"blog_content">
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Spring=E7=9A=84JdbcTemplate=E6=8F=92=E5=85=A5=E6=93=8D=E4=BD=9C=E8=BF=94=
+=E5=9B=9E=E4=B8=BB=E9=94=AEID=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=9ASrping 2.5=
+</p>
+<p>&nbsp;</p>
+<div class=3D"dp-highlighter" id=3D""><div class=3D"bar"><div class=3D"tool=
+s">Java=E4=BB=A3=E7=A0=81 <embed wmode=3D"transparent" src=3D"http://yangpa=
+nwww.iteye.com/javascripts/syntaxhighlighter/clipboard_new.swf" width=3D"14=
+" height=3D"15" flashvars=3D"clipboard=3D%09%2F**%0A%09%20*%20%E5%A6%9E%E8%=
+A7%81%E5%A6%9E%E7%88%B1%0A%09%20*%20%0A%09%20*%20%E5%A2%9E%E5%8A%A0%E5%B9%B=
+6%E4%B8%94%E8%8E%B7%E5%8F%96%E4%B8%BB%E9%94%AE%0A%09%20*%20%40param%20sql%2=
+0sql%E8%AF%AD%E5%8F%A5%0A%09%20*%20%40param%20params%20%E5%8F%82%E6%95%B0%0=
+A%09%20*%20%40return%20%E4%B8%BB%E9%94%AE%0A%09%20*%2F%0A%09public%20%20Lon=
+g%20insertAndGetKey(final%20String%20sql%2C%20final%20SmsBean%20smsbean)%20=
+%7B%0A%09%09KeyHolder%20keyHolder%20%3D%20new%20GeneratedKeyHolder()%3B%0A%=
+09%09jdbcTemplate.update(new%20PreparedStatementCreator()%20%7B%0A%09%09%09=
+public%20PreparedStatement%20createPreparedStatement(Connection%20connectio=
+n)%20throws%20SQLException%20%7B%0A%09%09%09%09%0A%09%09%09%09%2F%2FString%=
+20sql_sms%20%3D%20%22insert%20into%20%20sms(title%2Ccontent%2Cdate_s%2Cform=
+%2Csffs%2Cby1%2Cby2%2Cby3)%20values%20(%3F%2C%3F%2C'%22%2Bdates%2B%22'%2C%3=
+F%2C%3F%2C%3F%2C%3F%2C%3F)%22%3B%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%=
+20%20%20%20PreparedStatement%20ps%20%3D%20connection.prepareStatement(sql%2=
+CStatement.RETURN_GENERATED_KEYS)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20=
+%20%20%20%20ps.setString(1%2C%20smsbean.getTitle())%3B%0A%20%20%20%20%20%20=
+%20%20%20%20%20%20%20%20%20%20ps.setString(2%2C%20smsbean.getContent())%3B%=
+0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20ps.setString(3%2C%20smsbe=
+an.getForm())%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20ps.setSt=
+ring(4%2C%20smsbean.getSffs())%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20=
+%20%20%20%2F*%0A%09%09%09%09%20*%20by1%20%E5%AD%98%E6%94%BE%E7%9A%84%E6%98%=
+AF%20%E8%8D%89%E7%A8%BF%E4%B8%BB%E4%BA%BA%E7%9A%84ID%0A%09%09%09%09%20*%20%=
+E5%BD%93%E6%B6%88%E6%81%AF%E4%B8%BA%E5%8F%91%E9%80%81%E3%80%82%E6%B8%85%E6%=
+A5%9Aby1%E7%9A%84ID%20%20%20%0A%09%09%09%09%20*%2F%09%0A%20%20%20%20%20%20%=
+20%20%20%20%20%20%20%20%20%20ps.setString(5%2C%20%22%22)%3B%0A%20%20%20%20%=
+20%20%20%20%20%20%20%20%20%20%20%20ps.setString(6%2C%20smsbean.getBy2())%3B=
+%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20ps.setString(7%2C%20smsb=
+ean.getBy3())%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%2=
+0ps%3B%0A%09%09%09%7D%0A%09%09%7D%2C%20keyHolder)%3B%0A%09%09%0A%09%09Long%=
+20generatedId%20%3D%20keyHolder.getKey().longValue()%3B%20%0A%09%09return%2=
+0generatedId%3B%0A%09%7D" quality=3D"high" allowscriptaccess=3D"always" typ=
+e=3D"application/x-shockwave-flash" pluginspage=3D"http://www.macromedia.co=
+m/go/getflashplayer">&nbsp;<a href=3D"javascript:void()" title=3D"=E6=94=B6=
+=E8=97=8F=E8=BF=99=E6=AE=B5=E4=BB=A3=E7=A0=81" onclick=3D"code_favorites_do=
+_favorite(this);return false;"><img class=3D"star" src=3D"http://yangpanwww=
+.iteye.com/images/icon_star.png" alt=3D"=E6=94=B6=E8=97=8F=E4=BB=A3=E7=A0=
+=81"><img class=3D"spinner" src=3D"http://yangpanwww.iteye.com/images/spinn=
+er.gif" style=3D"display:none"></a></div></div><ol start=3D"1" class=3D"dp-=
+j"><li><span><span class=3D"comment">/**</span>&nbsp;</span></li><li><span>=
+<span class=3D"comment">&nbsp;*&nbsp;=E5=A6=9E=E8=A7=81=E5=A6=9E=E7=88=B1</=
+span>&nbsp;</span></li><li><span><span class=3D"comment">&nbsp;*&nbsp;</spa=
+n>&nbsp;</span></li><li><span><span class=3D"comment">&nbsp;*&nbsp;=E5=A2=
+=9E=E5=8A=A0=E5=B9=B6=E4=B8=94=E8=8E=B7=E5=8F=96=E4=B8=BB=E9=94=AE</span>&n=
+bsp;</span></li><li><span><span class=3D"comment">&nbsp;*&nbsp;@param&nbsp;=
+sql&nbsp;sql=E8=AF=AD=E5=8F=A5</span>&nbsp;</span></li><li><span><span clas=
+s=3D"comment">&nbsp;*&nbsp;@param&nbsp;params&nbsp;=E5=8F=82=E6=95=B0</span=
+>&nbsp;</span></li><li><span><span class=3D"comment">&nbsp;*&nbsp;@return&n=
+bsp;=E4=B8=BB=E9=94=AE</span>&nbsp;</span></li><li><span><span class=3D"com=
+ment">&nbsp;*/</span><span>&nbsp;&nbsp;</span></span></li><li><span><span c=
+lass=3D"keyword">public</span><span>&nbsp;&nbsp;Long&nbsp;insertAndGetKey(<=
+/span><span class=3D"keyword">final</span><span>&nbsp;String&nbsp;sql,&nbsp=
+;</span><span class=3D"keyword">final</span><span>&nbsp;SmsBean&nbsp;smsbea=
+n)&nbsp;{&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;K=
+eyHolder&nbsp;keyHolder&nbsp;=3D&nbsp;<span class=3D"keyword">new</span><sp=
+an>&nbsp;GeneratedKeyHolder();&nbsp;&nbsp;</span></span></li><li><span>&nbs=
+p;&nbsp;&nbsp;&nbsp;jdbcTemplate.update(<span class=3D"keyword">new</span><=
+span>&nbsp;PreparedStatementCreator()&nbsp;{&nbsp;&nbsp;</span></span></li>=
+<li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=3D"ke=
+yword">public</span><span>&nbsp;PreparedStatement&nbsp;createPreparedStatem=
+ent(Connection&nbsp;connection)&nbsp;</span><span class=3D"keyword">throws<=
+/span><span>&nbsp;SQLException&nbsp;{&nbsp;&nbsp;</span></span></li><li><sp=
+an>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=3D"comment">//String&nbsp;sql_sm=
+s&nbsp;=3D&nbsp;"insert&nbsp;into&nbsp;&nbsp;sms(title,content,date_s,form,=
+sffs,by1,by2,by3)&nbsp;values&nbsp;(?,?,'"+dates+"',?,?,?,?,?)";&nbsp;</spa=
+n><span>&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PreparedSta=
+tement&nbsp;ps&nbsp;=3D&nbsp;connection.prepareStatement(sql,Statement.RETU=
+RN_GENERATED_KEYS);&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.setS=
+tring(<span class=3D"number">1</span><span>,&nbsp;smsbean.getTitle());&nbsp=
+;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.setString(<span class=
+=3D"number">2</span><span>,&nbsp;smsbean.getContent());&nbsp;&nbsp;</span><=
+/span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.setString(<span class=3D"number">3</=
+span><span>,&nbsp;smsbean.getForm());&nbsp;&nbsp;</span></span></li><li><sp=
+an>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;ps.setString(<span class=3D"number">4</span><span>,&nbsp;=
+smsbean.getSffs());&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+<span class=3D"comment">/*</span>&nbsp;</span></li><li><span><span class=3D=
+"comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;*&nbsp;by1&nbsp;=E5=AD=98=E6=94=BE=E7=9A=84=E6=98=AF&nbsp;=E8=
+=8D=89=E7=A8=BF=E4=B8=BB=E4=BA=BA=E7=9A=84ID</span>&nbsp;</span></li><li><s=
+pan><span class=3D"comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;=E5=BD=93=E6=B6=88=E6=81=AF=E4=B8=BA=
+=E5=8F=91=E9=80=81=E3=80=82=E6=B8=85=E6=A5=9Aby1=E7=9A=84ID&nbsp;&nbsp;&nbs=
+p;</span>&nbsp;</span></li><li><span><span class=3D"comment">&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span><s=
+pan>&nbsp;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.setStr=
+ing(<span class=3D"number">5</span><span>,&nbsp;</span><span class=3D"strin=
+g">""</span><span>);&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;ps.setString(<span class=3D"number">6</span><span>,&nbsp;smsbean.getBy2())=
+;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.setString(<span=
+ class=3D"number">7</span><span>,&nbsp;smsbean.getBy3());&nbsp;&nbsp;</span=
+></span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=3D"keyword">return</span>=
+<span>&nbsp;ps;&nbsp;&nbsp;</span></span></li><li><span>&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp=
+;&nbsp;&nbsp;},&nbsp;keyHolder);&nbsp;&nbsp;</span></li><li><span>&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;Lo=
+ng&nbsp;generatedId&nbsp;=3D&nbsp;keyHolder.getKey().longValue();&nbsp;&nbs=
+p;&nbsp;</span></li><li><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class=3D"keywor=
+d">return</span><span>&nbsp;generatedId;&nbsp;&nbsp;</span></span></li><li>=
+<span>}&nbsp;&nbsp;</span></li></ol></div><pre class=3D"java" name=3D"code"=
+ codeable_id=3D"1169756" codeable_type=3D"Blog" source_url=3D"http://yangpa=
+nwww.iteye.com/blog/1169756" pre_index=3D"0" title=3D"Spring=E7=9A=84JdbcTe=
+mplate=E6=8F=92=E5=85=A5=E6=93=8D=E4=BD=9C=E8=BF=94=E5=9B=9E=E4=B8=BB=E9=94=
+=AEID=E7=9A=84=E6=96=B9=E6=B3=95" style=3D"display: none;">	/**
+	 * =E5=A6=9E=E8=A7=81=E5=A6=9E=E7=88=B1
+	 *=20
+	 * =E5=A2=9E=E5=8A=A0=E5=B9=B6=E4=B8=94=E8=8E=B7=E5=8F=96=E4=B8=BB=E9=94=
+=AE
+	 * @param sql sql=E8=AF=AD=E5=8F=A5
+	 * @param params =E5=8F=82=E6=95=B0
+	 * @return =E4=B8=BB=E9=94=AE
+	 */
+	public  Long insertAndGetKey(final String sql, final SmsBean smsbean) {
+		KeyHolder keyHolder =3D new GeneratedKeyHolder();
+		jdbcTemplate.update(new PreparedStatementCreator() {
+			public PreparedStatement createPreparedStatement(Connection connection) =
+throws SQLException {
+			=09
+				//String sql_sms =3D "insert into  sms(title,content,date_s,form,sffs,b=
+y1,by2,by3) values (?,?,'"+dates+"',?,?,?,?,?)";=20
+                PreparedStatement ps =3D connection.prepareStatement(sql,St=
+atement.RETURN_GENERATED_KEYS);
+                ps.setString(1, smsbean.getTitle());
+                ps.setString(2, smsbean.getContent());
+                ps.setString(3, smsbean.getForm());
+                ps.setString(4, smsbean.getSffs());
+                /*
+				 * by1 =E5=AD=98=E6=94=BE=E7=9A=84=E6=98=AF =E8=8D=89=E7=A8=BF=E4=B8=BB=
+=E4=BA=BA=E7=9A=84ID
+				 * =E5=BD=93=E6=B6=88=E6=81=AF=E4=B8=BA=E5=8F=91=E9=80=81=E3=80=82=E6=
+=B8=85=E6=A5=9Aby1=E7=9A=84ID  =20
+				 */=09
+                ps.setString(5, "");
+                ps.setString(6, smsbean.getBy2());
+                ps.setString(7, smsbean.getBy3());
+                return ps;
+			}
+		}, keyHolder);
+	=09
+		Long generatedId =3D keyHolder.getKey().longValue();=20
+		return generatedId;
+	}</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; =E4=B8=8A=E9=9D=A2=E6=98=AF=E6=88=91=E5=BC=80=E5=8F=91=E4=B8=AD=
+=E7=9A=84=E4=BB=A3=E7=A0=81...=E4=BD=86=E6=98=AF=E4=B8=80=E7=9B=B4=E6=9C=89=
+=E4=B8=AA=E9=97=AE=E9=A2=98=E6=B2=A1=E8=A7=A3=E5=86=B3&nbsp; =E5=B0=B1=E6=
+=98=AF =E5=9C=A8=E8=BF=99=E4=B8=AA=E6=96=B9=E6=B3=95=E4=B8=AD=E4=BF=9D=E5=
+=AD=98=E6=97=A5=E6=9C=9F=E7=9A=84=E6=97=B6=E5=80=99=E8=80=81=E6=98=AF=E6=8A=
+=A5=E9=94=99=E3=80=82=E3=80=82</p>
+<p>&nbsp; =E7=94=B1=E4=BA=8E=E9=A1=B9=E7=9B=AE=E6=97=B6=E9=97=B4=E7=B4=A7 =
+=E4=B9=9F=E6=B2=A1=E6=97=B6=E9=97=B4=E5=8E=BB=E7=A0=94=E7=A9=B6...=E6=89=80=
+=E4=BB=A5=E5=B0=B1=E6=8A=8A =E6=97=A5=E6=9C=9F =E6=8B=BC=E6=8E=A5=E5=9C=A8 =
+sql =E8=AF=AD=E5=8F=A5=E4=B8=AD=E4=BA=86=E3=80=82=E3=80=82=E3=80=82O(=E2=88=
+=A9_=E2=88=A9)O=E5=93=88=E5=93=88~</p>
+<p>&nbsp;</p>
+<p>&nbsp; =E6=9C=89=E7=A9=BA=E6=88=91=E5=9C=A8=E6=B5=8B=E8=AF=95...=E4=BB=
+=8A=E5=A4=A9=E5=85=88=E5=88=B0=E8=BF=99=E9=87=8C....</p>
+  </div>
+
+ =20
+
+ =20
+ =20
+  <iframe src=3D"http://yangpanwww.iteye.com/iframe_ggbd/187" scrolling=3D"=
+no" width=3D"468" height=3D"60" frameborder=3D"0"></iframe>
+ =20
+  <div id=3D"bottoms" class=3D"clearfix">
+   =20
+    <div id=3D"share_weibo">=E5=88=86=E4=BA=AB=E5=88=B0=EF=BC=9A
+      <a data-type=3D"sina" href=3D"javascript:;" title=3D"=E5=88=86=E4=BA=
+=AB=E5=88=B0=E6=96=B0=E6=B5=AA=E5=BE=AE=E5=8D=9A"><img src=3D"http://yangpa=
+nwww.iteye.com/images/sina.jpg"></a>
+      <a data-type=3D"qq" href=3D"javascript:;" title=3D"=E5=88=86=E4=BA=AB=
+=E5=88=B0=E8=85=BE=E8=AE=AF=E5=BE=AE=E5=8D=9A"><img src=3D"http://yangpanww=
+w.iteye.com/images/tec.jpg"></a>
+    </div>
+  </div>
+
+  <div class=3D"blog_nav">
+    <div class=3D"pre_next">
+      <a href=3D"http://yangpanwww.iteye.com/blog/1182955" class=3D"next" t=
+itle=3D"javascript  =E5=8A=A8=E6=80=81=E8=A1=A8=E6=A0=BC">javascript  =E5=
+=8A=A8=E6=80=81=E8=A1=A8=E6=A0=BC</a>
+      |
+      <a href=3D"http://yangpanwww.iteye.com/blog/1139153" class=3D"pre" ti=
+tle=3D"=E5=9B=BE=E7=89=87=E7=BF=BB=E4=B9=A6=E6=95=88=E6=9E=9C demo">=E5=9B=
+=BE=E7=89=87=E7=BF=BB=E4=B9=A6=E6=95=88=E6=9E=9C demo</a>
+    </div>
+  </div>
+  <div class=3D"blog_bottom">
+    <ul>
+      <li>2011-09-10 12:02</li>
+      <li>=E6=B5=8F=E8=A7=88 10436</li>
+      <li><a href=3D"http://yangpanwww.iteye.com/blog/1169756#comments">=E8=
+=AF=84=E8=AE=BA(4)</a></li>
+     =20
+     =20
+      <li>=E5=88=86=E7=B1=BB:<a href=3D"http://www.iteye.com/blogs/category=
+/language">=E7=BC=96=E7=A8=8B=E8=AF=AD=E8=A8=80</a></li>     =20
+      <li class=3D"last"><a href=3D"http://www.iteye.com/wiki/blog/1169756"=
+ target=3D"_blank" class=3D"more">=E7=9B=B8=E5=85=B3=E6=8E=A8=E8=8D=90</a><=
+/li>
+    </ul>
+  </div>
+
+  <div class=3D"blog_comment">
+    <h5>=E8=AF=84=E8=AE=BA</h5>
+    <a id=3D"comments" name=3D"comments"></a>
+    <div id=3D"bc2335984">
+  <div class=3D"comment_title">
+    4 =E6=A5=BC
+    <a href=3D"http://zx12366.iteye.com/" target=3D"_blank" title=3D"zx1236=
+6">zx12366</a>
+    2013-12-31&nbsp;&nbsp;
+   =20
+   =20
+  </div>
+  <div class=3D"comment_content">=E4=B8=8D=E9=94=99,=E5=B8=AE=E5=8A=A9=E4=
+=BA=86=E6=88=91,=E8=B0=A2=E8=B0=A2!=E6=94=B6=E8=97=8F,=E5=81=9A=E4=B8=AA=E7=
+=AC=94=E8=AE=B0</div>
+</div>
+
+<div id=3D"bc2265611">
+  <div class=3D"comment_title">
+    3 =E6=A5=BC
+    <a href=3D"http://yangpanwww.iteye.com/" target=3D"_blank" title=3D"yan=
+gpanwww">yangpanwww</a>
+    2012-06-20&nbsp;&nbsp;
+   =20
+   =20
+  </div>
+  <div class=3D"comment_content">int result =3D 0;
+<br>final String sql =3D "insert into Tstudent (username , password , addre=
+ss , time) values ( ? , ? , ? , ?)";
+<br>KeyHolder holder=3Dnew GeneratedKeyHolder();
+<br>result=3DjdbcTemplate.update(new PreparedStatementCreator() {
+<br>
+<br>public PreparedStatement createPreparedStatement(Connection con)
+<br>throws SQLException {
+<br>PreparedStatement ps=3Dcon.prepareStatement(sql,Statement.RETURN_GENERA=
+TED_KEYS);
+<br>ps.setString(1, student.getUsername());
+<br>ps.setString(2, student.getPassword());
+<br>ps.setString(3, student.getAddress());
+<br>ps.setDate(4, new Date(student.getTime().getTime()));
+<br>return ps;
+<br>}
+<br>}, holder);<div class=3D"quote_title">zhangpeili =E5=86=99=E9=81=93</di=
+v><div class=3D"quote_div">		int result =3D 0;
+<br>		final String sql =3D "insert into Tstudent (username , password , add=
+ress , time) values ( ? , ? , ? , ?)";
+<br>		KeyHolder holder=3Dnew GeneratedKeyHolder();
+<br>		result=3DjdbcTemplate.update(new PreparedStatementCreator() {
+<br>		=09
+<br>			public PreparedStatement createPreparedStatement(Connection con)
+<br>					throws SQLException {
+<br>				PreparedStatement ps=3Dcon.prepareStatement(sql,Statement.RETURN_GE=
+NERATED_KEYS);
+<br>				ps.setString(1, student.getUsername());
+<br>				ps.setString(2, student.getPassword());
+<br>				ps.setString(3, student.getAddress());
+<br>				ps.setDate(4, new Date(student.getTime().getTime()));
+<br>				return ps;
+<br>			}
+<br>		}, holder);
+<br>//		KeyHolder holder =3D new GeneratedKeyHolder();
+<br>//		result =3D namedParameterJdbcTemplate.update(sql,
+<br>//				new BeanPropertySqlParameterSource(student), holder);
+<br>		System.out.println(holder.getKey().intValue());
+<br>		return result;
+<br>=E5=93=A5=E4=BB=AC=E8=BF=99=E6=A0=B7=E5=B0=B1=E5=8F=AF=E4=BB=A5=E4=BA=
+=86=EF=BC=8C=E4=BD=A0=E8=8E=B7=E5=BE=97date=E6=98=AFjava.util=E9=87=8C=E9=
+=9D=A2=E7=9A=84=EF=BC=8C=E8=80=8Cjava.sql=E6=98=AFjava.util=E7=9A=84=E5=AD=
+=90=E7=B1=BB=EF=BC=8C</div>
+<br>
+<br>
+<br>=E5=96=94=E5=96=94=E3=80=82=E3=80=82=E8=B0=A2=E8=B0=A2=E3=80=82=E3=80=
+=82=E5=98=BF=E5=98=BF</div>
+</div>
+
+<div id=3D"bc2264903">
+  <div class=3D"comment_title">
+    2 =E6=A5=BC
+    <a href=3D"http://zhangpeili.iteye.com/" target=3D"_blank" title=3D"zha=
+ngpeili">zhangpeili</a>
+    2012-06-16&nbsp;&nbsp;
+   =20
+   =20
+  </div>
+  <div class=3D"comment_content">		int result =3D 0;<br>		final String sql =
+=3D "insert into Tstudent (username , password , address , time) values ( ?=
+ , ? , ? , ?)";<br>		KeyHolder holder=3Dnew GeneratedKeyHolder();<br>		resu=
+lt=3DjdbcTemplate.update(new PreparedStatementCreator() {<br>			<br>			publ=
+ic PreparedStatement createPreparedStatement(Connection con)<br>					throws=
+ SQLException {<br>				PreparedStatement ps=3Dcon.prepareStatement(sql,Stat=
+ement.RETURN_GENERATED_KEYS);<br>				ps.setString(1, student.getUsername())=
+;<br>				ps.setString(2, student.getPassword());<br>				ps.setString(3, stu=
+dent.getAddress());<br>				ps.setDate(4, new Date(student.getTime().getTime=
+()));<br>				return ps;<br>			}<br>		}, holder);<br>//		KeyHolder holder =
+=3D new GeneratedKeyHolder();<br>//		result =3D namedParameterJdbcTemplate.=
+update(sql,<br>//				new BeanPropertySqlParameterSource(student), holder);<=
+br>		System.out.println(holder.getKey().intValue());<br>		return result;<br=
+>=E5=93=A5=E4=BB=AC=E8=BF=99=E6=A0=B7=E5=B0=B1=E5=8F=AF=E4=BB=A5=E4=BA=86=
+=EF=BC=8C=E4=BD=A0=E8=8E=B7=E5=BE=97date=E6=98=AFjava.util=E9=87=8C=E9=9D=
+=A2=E7=9A=84=EF=BC=8C=E8=80=8Cjava.sql=E6=98=AFjava.util=E7=9A=84=E5=AD=90=
+=E7=B1=BB=EF=BC=8C</div>
+</div>
+
+<div id=3D"bc2264901">
+  <div class=3D"comment_title">
+    1 =E6=A5=BC
+    <a href=3D"http://zhangpeili.iteye.com/" target=3D"_blank" title=3D"zha=
+ngpeili">zhangpeili</a>
+    2012-06-16&nbsp;&nbsp;
+   =20
+   =20
+  </div>
+  <div class=3D"comment_content">		String sql =3D "insert into Tstudent (us=
+ername , password , address , time) values ( :username , :password , :addre=
+ss , :time)";<br>		KeyHolder holder =3D new GeneratedKeyHolder();<br>		resu=
+lt =3D namedParameterJdbcTemplate.update(sql,<br>				new BeanPropertySqlPar=
+ameterSource(student), holder);<br>		System.out.println(holder.getKey().int=
+Value())<br>=E4=BD=A0=E5=8F=AF=E4=BB=A5=E7=94=A8=E8=BF=99=E4=B8=AA=EF=BC=8C=
+=E8=BF=99=E4=B8=AA=E5=B0=81=E8=A3=85=E4=BA=86jdbcTemplate=EF=BC=8C=E5=B9=B6=
+=E4=B8=94=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=96=B0=E7=9A=84=E7=89=B9=E6=80=A7=EF=
+=BC=81</div>
+</div>
+
+
+   =20
+   =20
+  </div>
+
+  <div class=3D"blog_comment">
+    <h5>=E5=8F=91=E8=A1=A8=E8=AF=84=E8=AE=BA</h5>
+            <p style=3D"text-align:center; margin-top:30px;margin-bottom:0p=
+x;"><a href=3D"http://yangpanwww.iteye.com/login" style=3D"background-color=
+:white;"> <img src=3D"http://yangpanwww.iteye.com/images/login_icon.png" st=
+yle=3D"vertical-align:middle; margin-right: 10px;"></a><a href=3D"http://ya=
+ngpanwww.iteye.com/login">  =E6=82=A8=E8=BF=98=E6=B2=A1=E6=9C=89=E7=99=BB=
+=E5=BD=95,=E8=AF=B7=E6=82=A8=E7=99=BB=E5=BD=95=E5=90=8E=E5=86=8D=E5=8F=91=
+=E8=A1=A8=E8=AF=84=E8=AE=BA </a></p>
+      </div>
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        <div id=3D"local">
+          <div class=3D"local_top"></div>
+          <div id=3D"blog_owner">
+  <div id=3D"blog_owner_logo"><a href=3D"http://yangpanwww.iteye.com/"><img=
+ alt=3D"yangpanwww=E7=9A=84=E5=8D=9A=E5=AE=A2" class=3D"logo" src=3D"http:/=
+/www.iteye.com/upload/logo/user/116639/f8fdfdc8-108d-3522-8dad-0aca64d6d1ed=
+.jpg?1245379977" title=3D"yangpanwww=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D=
+""></a></div>
+  <div id=3D"blog_owner_name">yangpanwww</div>
+</div>
+
+          <div id=3D"blog_actions">
+            <ul>
+              <li>=E6=B5=8F=E8=A7=88: 177369 =E6=AC=A1</li>
+              <li>=E6=80=A7=E5=88=AB: <img alt=3D"Icon_minigender_1" src=3D=
+"http://www.iteye.com/images/icon_minigender_1.gif?1324994303" title=3D"=E7=
+=94=B7"></li>
+              <li>=E6=9D=A5=E8=87=AA: =E6=9D=AD=E5=B7=9E</li>
+              <li><img src=3D"http://yangpanwww.iteye.com/images/status/off=
+line.gif"></li>
+             =20
+            </ul>
+          </div>
+          <div id=3D"user_visits" class=3D"clearfix">
+            <h5>=E6=9C=80=E8=BF=91=E8=AE=BF=E5=AE=A2 <span style=3D"font-we=
+ight:normal;font-size:12px;padding-left:30px;"><a href=3D"http://yangpanwww=
+.iteye.com/blog/user_visits">=E6=9B=B4=E5=A4=9A=E8=AE=BF=E5=AE=A2&gt;&gt;</=
+a></span></h5>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://u011937518.iteye.com/=
+" target=3D"_blank"><img alt=3D"u011937518=E7=9A=84=E5=8D=9A=E5=AE=A2" clas=
+s=3D"logo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?132499430=
+3" title=3D"u011937518=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D"48px"></a></d=
+iv>
+                <div class=3D"left"><a href=3D"http://u011937518.iteye.com/=
+" target=3D"_blank" title=3D"u011937518">u011937518</a></div>
+              </div>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://fan7856.iteye.com/" t=
+arget=3D"_blank"><img alt=3D"fan7856=E7=9A=84=E5=8D=9A=E5=AE=A2" class=3D"l=
+ogo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?1324994303" tit=
+le=3D"fan7856=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D"48px"></a></div>
+                <div class=3D"left"><a href=3D"http://fan7856.iteye.com/" t=
+arget=3D"_blank" title=3D"fan7856">fan7856</a></div>
+              </div>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://leon860814.iteye.com/=
+" target=3D"_blank"><img alt=3D"leon860814=E7=9A=84=E5=8D=9A=E5=AE=A2" clas=
+s=3D"logo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?132499430=
+3" title=3D"leon860814=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D"48px"></a></d=
+iv>
+                <div class=3D"left"><a href=3D"http://leon860814.iteye.com/=
+" target=3D"_blank" title=3D"leon860814">leon860814</a></div>
+              </div>
+           =20
+              <div class=3D"user_visit">
+                <div class=3D"logo"><a href=3D"http://422351001.iteye.com/"=
+ target=3D"_blank"><img alt=3D"unnamed__=E7=9A=84=E5=8D=9A=E5=AE=A2" class=
+=3D"logo" src=3D"http://www.iteye.com/images/user-logo-thumb.gif?1324994303=
+" title=3D"unnamed__=E7=9A=84=E5=8D=9A=E5=AE=A2: " width=3D"48px"></a></div=
+>
+                <div class=3D"left"><a href=3D"http://422351001.iteye.com/"=
+ target=3D"_blank" title=3D"unnamed__">unnamed__</a></div>
+              </div>
+           =20
+          </div>
+
+         =20
+
+                      <div id=3D"blog_menu">
+              <h5>=E6=96=87=E7=AB=A0=E5=88=86=E7=B1=BB</h5>
+              <ul>
+                <li><a href=3D"http://yangpanwww.iteye.com/">=E5=85=A8=E9=
+=83=A8=E5=8D=9A=E5=AE=A2 (59)</a></li>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/category/19640=
+1">Struts2 (1)</a></li>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/category/19860=
+7">javascript WebBrowser  =E6=89=93=E5=8D=B0 (0)</a></li>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/category/30356=
+2">java (1)</a></li>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/category/31413=
+2">PL/SQL Developer   character set (AL32UTF8) (1)</a></li>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/category/33294=
+7">android (1)</a></li>
+               =20
+              </ul>
+            </div>
+            <div id=3D"month_blogs">
+              <h5>=E7=A4=BE=E5=8C=BA=E7=89=88=E5=9D=97</h5>
+              <ul>
+                <li><a href=3D"http://yangpanwww.iteye.com/blog/news">=E6=
+=88=91=E7=9A=84=E8=B5=84=E8=AE=AF</a> (0)</li>
+                <li>
+                  <a href=3D"http://yangpanwww.iteye.com/blog/post">=E6=88=
+=91=E7=9A=84=E8=AE=BA=E5=9D=9B</a> (11)
+                </li>
+                <li><a href=3D"http://yangpanwww.iteye.com/blog/answered_pr=
+oblems">=E6=88=91=E7=9A=84=E9=97=AE=E7=AD=94</a> (4)</li>
+              </ul>
+            </div>
+            <div id=3D"month_blogs">
+              <h5>=E5=AD=98=E6=A1=A3=E5=88=86=E7=B1=BB</h5>
+              <ul>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/blog/monthblog=
+/2015-02">2015-02</a> (1)</li>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/blog/monthblog=
+/2014-05">2014-05</a> (1)</li>
+               =20
+                  <li><a href=3D"http://yangpanwww.iteye.com/blog/monthblog=
+/2014-03">2014-03</a> (2)</li>
+               =20
+                <li><a href=3D"http://yangpanwww.iteye.com/blog/monthblog_m=
+ore">=E6=9B=B4=E5=A4=9A=E5=AD=98=E6=A1=A3...</a></li>
+              </ul>
+            </div>
+           =20
+           =20
+
+            <div id=3D"guest_books">
+              <h5>=E6=9C=80=E6=96=B0=E8=AF=84=E8=AE=BA</h5>
+              <ul>
+               =20
+                <li>
+                  <a href=3D"http://lonelyawolf.iteye.com/" target=3D"_blan=
+k" title=3D"lonelyawolf">lonelyawolf</a>=EF=BC=9A=20
+                  =E4=B8=8D=E9=94=99=EF=BC=8C=E5=AD=A6=E4=B9=A0=E4=BA=86...=
+.&nbsp;&nbsp;<br>
+                  <a href=3D"http://yangpanwww.iteye.com/blog/797563#bc2367=
+691">Quartz=E4=BD=9C=E4=B8=9A=E8=B0=83=E5=BA=A6=E6=A1=86=E6=9E=B6</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://yangpanwww.iteye.com/" target=3D"_blank=
+" title=3D"yangpanwww">yangpanwww</a>=EF=BC=9A=20
+                  &lt;div class=3D"quote_title ...<br>
+                  <a href=3D"http://yangpanwww.iteye.com/blog/797563#bc2367=
+384">Quartz=E4=BD=9C=E4=B8=9A=E8=B0=83=E5=BA=A6=E6=A1=86=E6=9E=B6</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://icemanfank.iteye.com/" target=3D"_blank=
+" title=3D"IcemanfanK">IcemanfanK</a>=EF=BC=9A=20
+                  laji&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                  <a href=3D"http://yangpanwww.iteye.com/blog/797563#bc2367=
+235">Quartz=E4=BD=9C=E4=B8=9A=E8=B0=83=E5=BA=A6=E6=A1=86=E6=9E=B6</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://zyq790321193.iteye.com/" target=3D"_bla=
+nk" title=3D"=E4=BA=91=E4=B8=8A=E5=A4=AA=E9=98=B3">=E4=BA=91=E4=B8=8A=E5=A4=
+=AA=E9=98=B3</a>=EF=BC=9A=20
+                  =E5=A5=BD=E4=B8=9C=E8=A5=BF=E6=80=8E=E4=B9=88=E6=B2=A1=E4=
+=BA=BA=E9=A1=B6=EF=BC=8C =E8=AF=B7=E4=B8=8D=E8=A6=81=E5=81=9C=E6=AD=A2=E5=
+=88=9B=E4=BD=9C<br>
+                  <a href=3D"http://yangpanwww.iteye.com/blog/797563#bc2366=
+714">Quartz=E4=BD=9C=E4=B8=9A=E8=B0=83=E5=BA=A6=E6=A1=86=E6=9E=B6</a>
+                </li>
+               =20
+                <li>
+                  <a href=3D"http://chen-lian.iteye.com/" target=3D"_blank"=
+ title=3D"chen_lian">chen_lian</a>=EF=BC=9A=20
+                  =E6=AD=A3=E5=9C=A8=E7=A0=94=E7=A9=B6=E5=AD=A6=E4=B9=A0=E6=
+=A5=BC=E4=B8=BB=E7=9A=84=E4=BB=A3=E7=A0=81 <br>
+                  <a href=3D"http://yangpanwww.iteye.com/blog/1008248#bc236=
+0760">JQuery=E4=B8=8A=E4=BC=A0=E6=8F=92=E4=BB=B6Uploadify=E5=B9=B6=E4=BC=A0=
+=E5=8F=82=E6=95=B0=EF=BC=88=E4=B8=80=EF=BC=89</a>
+                </li>
+               =20
+              </ul>
+            </div>
+
+            <div class=3D"local_bottom"></div>
+         =20
+        </div>
+      </div>
+
+      <div id=3D"footer" class=3D"clearfix">
+        <div id=3D"copyright">
+          <hr>
+          =E5=A3=B0=E6=98=8E=EF=BC=9AITeye=E6=96=87=E7=AB=A0=E7=89=88=E6=9D=
+=83=E5=B1=9E=E4=BA=8E=E4=BD=9C=E8=80=85=EF=BC=8C=E5=8F=97=E6=B3=95=E5=BE=8B=
+=E4=BF=9D=E6=8A=A4=E3=80=82=E6=B2=A1=E6=9C=89=E4=BD=9C=E8=80=85=E4=B9=A6=E9=
+=9D=A2=E8=AE=B8=E5=8F=AF=E4=B8=8D=E5=BE=97=E8=BD=AC=E8=BD=BD=E3=80=82=E8=8B=
+=A5=E4=BD=9C=E8=80=85=E5=90=8C=E6=84=8F=E8=BD=AC=E8=BD=BD=EF=BC=8C=E5=BF=85=
+=E9=A1=BB=E4=BB=A5=E8=B6=85=E9=93=BE=E6=8E=A5=E5=BD=A2=E5=BC=8F=E6=A0=87=E6=
+=98=8E=E6=96=87=E7=AB=A0=E5=8E=9F=E5=A7=8B=E5=87=BA=E5=A4=84=E5=92=8C=E4=BD=
+=9C=E8=80=85=E3=80=82<br>
+          =C2=A9 2003-2015 ITeye.com.   All rights reserved.  [ =E4=BA=ACIC=
+P=E8=AF=81110151=E5=8F=B7  =E4=BA=AC=E5=85=AC=E7=BD=91=E5=AE=89=E5=A4=87110=
+105010620 ]
+        </div>
+      </div>
+    </div>
+    <img src=3D"http://stat.iteye.com/?url=3Dhttp%3A%2F%2Fyangpanwww.iteye.=
+com%2Fblog%2F1169756&amp;referrer=3D&amp;user_id=3D" width=3D"0" height=3D"=
+0">
+
+
+
+   =20
+   =20
+ =20
+
+</body></html>
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/line_gray.gif
+
+R0lGODlhAQALAIAAAMzMzP///yH5BAAHAP8ALAAAAAABAAsAAAIDhI9QADs=
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/logo_bg.gif
+
+R0lGODlhOAA4ALMAAMzMzPDw8NXV1f///93d3ff39+bm5tnY3f///wAAAAAAAAAAAAAAAAAAAAAA
+AAAAACH5BAEHAAgALAAAAAA4ADgAAAT/EB1Aq704610P+t80jGRpnmiqkoAHAgMoz3Rt3/QABG+M
+/8AgQmcofGDCpBKkIwSMyKUUqBMUEdGptlZ1Yn3bMBMgcBay4nD3iU5r12ew+002t+dL+B2f1Mv5
+Sn6AU4KDeXVsf4ZUiHGLgY17jzaFk4xliZZBlZo3nJ1ckYqgMp+kpaKnlKmqOaytqJiOsLF2o6qm
+rbm4r7RDvbS7p8KkxKDGnciaypbMk86P0IvShtSD1oDYfNp43HPebnAiK+Tl5jqNEhzr7O0VZWYf
+AQYEAvb3+Pn6+/z99gQGnoCYR6CgwYMIEypcyLBgQIEDA0icSLGixYsYM1IsYEQGx48gCEOKHEmy
+5MgIADs=
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/logo-small.gif
+
+R0lGODlhSQAVAMQAAMfT3ixZg/H09+Pp7qq8zTpkjNXe5nORrbjH1khvlGWGpIGctZyxxeGHaddb
+Mt98W9xxTeyyn9RQJPz08eedhPTTyOSSdumnkfrp5O+9rffe1o6mvVZ6nB5Oe////wAAACH/C1hN
+UCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtj
+OWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUg
+WE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAi
+PiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5
+bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29t
+L3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NU
+eXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdp
+bmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0ZEMjQ1MjY1QUFCMTFFMDgzM0FBNzMw
+NkNBMkU5MUUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0ZEMjQ1Mjc1QUFCMTFFMDgzM0FB
+NzMwNkNBMkU5MUUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDpDRkQyNDUyNDVBQUIxMUUwODMzQUE3MzA2Q0EyRTkxRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1w
+LmRpZDpDRkQyNDUyNTVBQUIxMUUwODMzQUE3MzA2Q0EyRTkxRSIvPiA8L3JkZjpEZXNjcmlwdGlv
+bj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf2
+9fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769
+vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWE
+g4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxL
+SklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMS
+ERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAABJABUAAAX/oCeO3mQ1ZKqubOu+reY41ATf
+eI5DtBPpwKAuI7lIGj+hcqlqQBqPB4RJrVYqDwxnS/Bsv2COgWRgbDaI0QA8IDG+i5GAcCa0lZ38
+xpPv+zsAIgAFfwF7Xn0KcgF9aQIHfx0cd0B9e5F+gQSYeRwCA5kikJ0eBoyYAWOVenycgAiueYob
+fQUeAH4DAoSuAZQ4liQcfYEivJ0bo8S7fQwJwbS1CxvHHQerHYciw3nFm31ddAinHYqwkQUCHuQJ
+nxsEyh3qOcEj3IAiC33X0QHfHQG2RUpjwM+nUwyOpaHHyh4xgXnS3MPVRwQoPxwE9clIUZK+hsBA
+IuoGsUOXfvNSfETLo6pjAg8CTnXBI3KiiJUvPdD5RUJAnzgWQw3YUIxmNmEPS/lRcEfVinoinuUJ
+UMypEKgj8ZXM8yxAyhRYz/UJQEhbEKw2LZLzc+2pSA/xxn7VgTapCAPV7JLAKgpT27M19cKkNvYA
+TxF8BSnwk2BmlRwCABwOYsAqixAAOw==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/gray_west_arrow.gif
+
+R0lGODlhCAALAJEAAKSkpP///////wAAACH5BAEHAAIALAAAAAAIAAsAAAIRlI8HkMvqYBRu0opw
+Xun2UwAAOw==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/gray_east_arrow.gif
+
+R0lGODlhCAALAJEAAKOjo////////wAAACH5BAEHAAIALAAAAAAIAAsAAAIRlH8AaLroXospPlsV
+1Jt5UwAAOw==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/icon_more.gif
+
+R0lGODlhKgALAIAAANl3Lv///yH5BAAHAP8ALAAAAAAqAAsAAAI/jI+pywsPo5y0RmOzzpjDACQh
+Mh5T94ASxn6hq1bouL5gfJPiGtMXDHwJZb1eCqZL5Uy8jfPpg0opjar1GigAADs=
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/blog/search.gif
+
+R0lGODlhFQAVALMAAM7OzsHBwfv7++Tk5Nzc3NfX183NzeDg4N3d3dPT0+3t7bi4uP///wAAAAAA
+AAAAACH5BAAAAAAALAAAAAAVABUAAARqkMlJq704MwWWX4CiScVnLoWWeMGgKEPgJZgyC5SwLqLV
+BbiKQAa4eAaYgcfIqy0tnp7FtmAiL8qqbwG0DEEXaiIo0XkOmF3rFfvQMKXT6R3ufACH3YI+mugN
+fRV6CIEUBh4EhRQEiYoYEQA7
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.iteye.com/stylesheets/blog.css?1423624400
+
+.stretch, .clear { clear: both; height: 1px; margin: 0px; padding: 0px; fon=
+t-size: 15px; line-height: 1px; }
+
+.clearfix::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.clearfix { display: inline-table; }
+
+* html .clearfix { height: 1%; }
+
+* + html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+.replace { display: block; background-color: transparent; background-positi=
+on: 0% 0%; background-repeat: no-repeat no-repeat; }
+
+.replace * { text-indent: -10000px; display: block; background-color: trans=
+parent; background-position: 0% 0%; background-repeat: no-repeat no-repeat;=
+ }
+
+.replace a { text-indent: 0px; }
+
+.replace a span { text-indent: -10000px; }
+
+span.accesskey { text-decoration: none; }
+
+.accessibility { position: absolute; top: -999em; left: -999em; }
+
+body { text-align: left; font-family: Helvetica, Tahoma, Arial, sans-serif;=
+ font-size: 12px; line-height: 1.5; color: black; }
+
+img { border: 0px; }
+
+h1 { font-size: 2em; line-height: 1.5em; margin: 0px 0px 0.5em; padding: 0p=
+x; color: black; }
+
+h2 { font-size: 1.5em; line-height: 1.5em; margin: 0px 0px 0.5em; padding: =
+0px; color: black; }
+
+h3 { font-size: 1.2em; line-height: 1.5em; margin: 0px 0px 0.5em; padding: =
+0px; color: black; }
+
+h4 { font-size: 1.15em; line-height: 1.3em; margin: 0px 0px 0.25em; padding=
+: 0px; color: black; }
+
+h5 { font-size: 1.1em; line-height: 1.3em; margin: 0px 0px 0.25em; padding:=
+ 0px; color: black; }
+
+h6 { font-size: 1em; line-height: 1.3em; margin: 0px 0px 0.25em; padding: 0=
+px; color: black; }
+
+p { margin: 0px; padding: 0px; }
+
+blockquote { border-left-width: 10px; border-left-style: solid; border-left=
+-color: rgb(221, 221, 221); margin-left: 10px; }
+
+pre { font-family: monospace; font-size: 1em; }
+
+strong, b { font-weight: bold; }
+
+em, i { font-style: italic; }
+
+code { font-family: 'Courier New', Courier, monospace; font-size: 1em; whit=
+e-space: pre; }
+
+ul { margin: 0px 0px 1.5em; padding: 0px; }
+
+ul li { margin: 0px 0px 0.25em 30px; padding: 0px; }
+
+ol { font-size: 1em; line-height: 1.4em; margin: 0px 0px 1.5em; padding: 0p=
+x; }
+
+ol li { font-size: 1em; margin: 0px 0px 0.25em 30px; padding: 0px; }
+
+dl { margin: 0px 0px 1.5em; padding: 0px; line-height: 1.4em; }
+
+dl dt { margin: 0.25em 0px; padding: 0px; }
+
+dl dd { margin: 0px 0px 0px 30px; padding: 0px; }
+
+th { font-weight: bold; text-align: left; }
+
+td { font-size: 1em; }
+
+hr { height: 1px; margin: 1.5em 10px; border-bottom-color: black; border-bo=
+ttom-width: thin; }
+
+div.topic_page { color: rgb(0, 102, 153); }
+
+form { margin: 0px; padding: 0px; clear: both; }
+
+form div, form p { font-size: 1em; margin: 0px 0px 1em; padding: 0px; }
+
+label { font-weight: bold; float: left; width: 25%; }
+
+fieldset { border: 1px solid rgb(238, 238, 238); padding: 5px 10px; margin:=
+ 0px; }
+
+fieldset legend { color: rgb(102, 102, 102); font-size: 1.1em; font-weight:=
+ bold; margin: 0px; padding: 0px; }
+
+* html fieldset legend { margin: 0px 0px 10px -10px; }
+
+fieldset ul { list-style: none; margin: 0px 0px 1.5em; padding: 0px; }
+
+fieldset ul li { list-style: none; margin: 0px 0px 0.5em; padding: 0px; }
+
+input.text, select, textarea { margin: 0px; border: 1px solid rgb(0, 102, 1=
+53); padding: 1px 3px; vertical-align: middle; }
+
+input.text { height: 18px; font-family: Arial, sans-serif, Verdana, Tahoma,=
+ Helvetica; }
+
+input.check { border: 0px; width: auto; height: auto; margin: 0px; }
+
+input.radio { border: 0px; width: auto; height: auto; margin: 0px; }
+
+input.file { height: auto; width: 250px; }
+
+input.readonly { background-color: transparent; border: 0px; }
+
+input.button, input.submit { background-color: rgb(0, 102, 153); color: whi=
+te; cursor: pointer; font-size: 1em; height: 23px; padding: 2px 5px; border=
+: 1px solid rgb(210, 243, 253); vertical-align: middle; background-position=
+: initial initial; background-repeat: initial initial; }
+
+input.image { border: 0px; width: auto; height: auto; }
+
+textarea { font-size: 1em; }
+
+form div.submit { margin: 1em 0px; }
+
+form div.submit input { height: 2em; width: 15em; }
+
+div#nav div.wrapper { position: absolute; left: 0px; bottom: 0px; width: 10=
+0%; font-size: 13px; padding-bottom: 6px; background-image: url(http://www.=
+iteye.com/images/shadow.png); background-color: rgb(98, 147, 187); backgrou=
+nd-position: 0% 100%; background-repeat: repeat no-repeat; }
+
+div#nav ul { width: 100%; margin: 0px; padding: 0px; }
+
+div#nav li { float: left; display: inline; list-style: none; margin: 0px; p=
+adding: 0px 10px; line-height: 1em; background-image: url(http://www.iteye.=
+com/images/line_white.gif); background-position: 100% 50%; background-repea=
+t: no-repeat no-repeat; }
+
+div#nav li.last { background-position: 0px 50%; background-repeat: initial =
+initial; }
+
+div#nav a, div#nav a:link, div#nav a:active, div#nav a:visited { display: b=
+lock; font-weight: bold; text-decoration: none; margin: 0px; padding: 7px 1=
+3px; color: white; }
+
+div#nav .subnav a, div#nav .subnav a:link, div#nav .subnav a:active, div#na=
+v .subnav a:visited { display: inline-block; padding: 7px 6px; }
+
+div#nav a:hover, div#nav a.selected { background-color: rgb(54, 113, 165); =
+}
+
+div#content { position: relative; width: 701px; margin: 0px auto 20px; padd=
+ing: 0px; text-align: left; }
+
+div#main { float: right; width: 500px; display: inline; }
+
+div#local { float: left; width: 200px; display: inline; }
+
+div#sub { display: none; }
+
+div#nav { position: absolute; top: -15px; left: 0px; width: 100%; text-alig=
+n: left; }
+
+body { margin: 0px; padding: 0px; background-color: white; text-align: cent=
+er; background-position: initial initial; background-repeat: initial initia=
+l; }
+
+div#page { width: 950px; margin: 0px auto; padding: 0px; background-color: =
+white; text-align: center; background-position: initial initial; background=
+-repeat: initial initial; }
+
+div#header { padding: 0px; margin: 0px; color: white; background-color: whi=
+te; }
+
+div#branding { float: left; width: 200px; margin: 1px 0px; text-align: left=
+; }
+
+div#search { float: right; width: 49%; margin: 0px; padding: 16px 20px 0px =
+0px; text-align: right; }
+
+div#content { width: 100%; margin-top: 35px; }
+
+div#footer { color: black; background-color: white; }
+
+div#footer p { font-size: 0.8em; margin: 0px; padding: 15px; }
+
+ul.subnav { margin: 0px; padding: 0px; font-size: 0.8em; list-style: none; =
+}
+
+ul.subnav li { margin: 0px 0px 1em; padding: 0px; list-style: none; }
+
+ul.subnav li a, ul.subnav li a:link, ul.subnav li a:visited, ul.subnav li a=
+:active { text-decoration: none; font-weight: bold; color: black; }
+
+ul.subnav li a:hover { text-decoration: underline; }
+
+ul.subnav li strong { padding: 0px 0px 0px 12px; background-image: url(http=
+://www.iteye.com/i/subnav-highlight.gif); background-color: transparent; ba=
+ckground-position: 0% 0%; background-repeat: no-repeat no-repeat; }
+
+ul.subnav li strong a, ul.subnav li strong a:link, ul.subnav li strong a:vi=
+sited, ul.subnav li strong a:active { color: white; background-color: black=
+; }
+
+.nav_side { margin: 0px 0px 10px; border: 1px solid rgb(202, 204, 201); bac=
+kground-color: rgb(244, 246, 243); background-position: initial initial; ba=
+ckground-repeat: initial initial; }
+
+.nav_side ul { margin: 0px; }
+
+.nav_side li { height: 37px; overflow: hidden; margin: 0px 5px; padding: 0p=
+x; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-colo=
+r: rgb(227, 234, 240); color: rgb(0, 102, 153); font-size: 14px; line-heigh=
+t: 37px; text-indent: 38px; }
+
+.nav_side li a { display: block; height: 37px; color: rgb(0, 102, 153); tex=
+t-decoration: none; }
+
+.nav_side li a:hover { color: rgb(255, 88, 10); text-decoration: none; }
+
+.nav_side li.last { height: 38px; border-bottom-width: 0px; }
+
+.nav_side li.select { height: 38px; margin: 0px; border-bottom-width: 0px; =
+background-image: url(http://www.iteye.com/images/sidenav_select_bg.gif); b=
+ackground-position: 0px 0px; background-repeat: no-repeat no-repeat; }
+
+.nav_side li.select a { height: 38px; color: rgb(255, 255, 255); font-weigh=
+t: bold; }
+
+.nav_side #mobile { background-image: url(http://www.iteye.com/images/icon_=
+sidenav.png); background-position: 5px 3px; background-repeat: no-repeat no=
+-repeat; }
+
+.nav_side #web { background-image: url(http://www.iteye.com/images/icon_sid=
+enav.png); background-position: 5px -49px; background-repeat: no-repeat no-=
+repeat; }
+
+.nav_side #architecture { background-image: url(http://www.iteye.com/images=
+/icon_sidenav.png); background-position: 5px -102px; background-repeat: no-=
+repeat no-repeat; }
+
+.nav_side #language { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -155px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #internet { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -206px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #opensource { background-image: url(http://www.iteye.com/images/i=
+con_sidenav.png); background-position: 5px -260px; background-repeat: no-re=
+peat no-repeat; }
+
+.nav_side #os { background-image: url(http://www.iteye.com/images/icon_side=
+nav.png); background-position: 5px -310px; background-repeat: no-repeat no-=
+repeat; }
+
+.nav_side #database { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -361px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #develop { background-image: url(http://www.iteye.com/images/icon=
+_sidenav.png); background-position: 5px -412px; background-repeat: no-repea=
+t no-repeat; }
+
+.nav_side #industry { background-image: url(http://www.iteye.com/images/ico=
+n_sidenav.png); background-position: 5px -466px; background-repeat: no-repe=
+at no-repeat; }
+
+.nav_side #other { background-image: url(http://www.iteye.com/images/icon_s=
+idenav.png); background-position: 5px -568px; background-repeat: no-repeat =
+no-repeat; }
+
+.nav_side #all { background-image: url(http://www.iteye.com/images/elite_si=
+denav.png); background-position: 5px -260px; background-repeat: no-repeat n=
+o-repeat; }
+
+.nav_side li.select #mobile { background-image: url(http://www.iteye.com/im=
+ages/icon_sidenav.png); background-position: 10px 3px; background-repeat: n=
+o-repeat no-repeat; }
+
+.nav_side li.select #web { background-image: url(http://www.iteye.com/image=
+s/icon_sidenav.png); background-position: 10px -49px; background-repeat: no=
+-repeat no-repeat; }
+
+.nav_side li.select #architecture { background-image: url(http://www.iteye.=
+com/images/icon_sidenav.png); background-position: 10px -102px; background-=
+repeat: no-repeat no-repeat; }
+
+.nav_side li.select #language { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -155px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #internet { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -206px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #opensource { background-image: url(http://www.iteye.co=
+m/images/icon_sidenav.png); background-position: 10px -260px; background-re=
+peat: no-repeat no-repeat; }
+
+.nav_side li.select #os { background-image: url(http://www.iteye.com/images=
+/icon_sidenav.png); background-position: 10px -310px; background-repeat: no=
+-repeat no-repeat; }
+
+.nav_side li.select #database { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -361px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #develop { background-image: url(http://www.iteye.com/i=
+mages/icon_sidenav.png); background-position: 10px -412px; background-repea=
+t: no-repeat no-repeat; }
+
+.nav_side li.select #industry { background-image: url(http://www.iteye.com/=
+images/icon_sidenav.png); background-position: 10px -466px; background-repe=
+at: no-repeat no-repeat; }
+
+.nav_side li.select #other { background-image: url(http://www.iteye.com/ima=
+ges/icon_sidenav.png); background-position: 10px -568px; background-repeat:=
+ no-repeat no-repeat; }
+
+.nav_side li.select #all { background-image: url(http://www.iteye.com/image=
+s/elite_sidenav.png); background-position: 10px -259px; background-repeat: =
+no-repeat no-repeat; }
+
+a { color: rgb(0, 102, 153); text-decoration: none; }
+
+a:hover, a:active { color: rgb(188, 42, 77); text-decoration: underline; }
+
+blockquote { border: 1px solid rgb(204, 204, 204); background-color: rgb(25=
+0, 250, 250); }
+
+cite { font-weight: bold; margin-left: 3px; }
+
+div#user_nav { margin: 3px 0px 0px; padding: 2px; text-align: right; float:=
+ right; }
+
+div#user_nav a.nobg { background-position: 0px 50%; background-repeat: init=
+ial initial; }
+
+div#user_nav a.welcome { color: rgb(226, 136, 34); font-weight: bold; paddi=
+ng-right: 10px; }
+
+div#user_nav a:hover.welcome { text-decoration: none; color: rgb(226, 136, =
+34); background-color: transparent; }
+
+div#user_nav a.new_reply { color: red; padding-left: 0px; }
+
+div#user_nav a:hover.new_reply { text-decoration: none; color: red; backgro=
+und-color: transparent; }
+
+div#user_nav a { text-decoration: none; padding: 2px 6px 1px; color: gray; =
+line-height: 1em; background-image: url(http://www.iteye.com/images/line_gr=
+ay.gif); background-position: 100% 50%; background-repeat: no-repeat no-rep=
+eat; }
+
+div#user_nav a:hover { text-decoration: underline; color: white; background=
+-color: gray; }
+
+div.quick_menu { background-color: white; border: 1px solid rgb(221, 221, 2=
+21); text-align: left; top: 30px; position: absolute; width: 70px; z-index:=
+ 9999; }
+
+div.quick_menu a { background-image: none !important; display: block !impor=
+tant; padding: 3px 6px 3px 10px !important; text-decoration: none !importan=
+t; line-height: 20px !important; }
+
+div#location_ad { float: left; background-image: url(http://www.iteye.com/i=
+mages/yellow_east_arrow.gif); margin-top: 5px; padding-left: 12px; backgrou=
+nd-position: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+div#site_nav ul { width: 100%; margin: 0px; padding: 0px; line-height: 1em;=
+ list-style: none; }
+
+div#site_nav li { display: inline; list-style: none; margin: 0px; padding: =
+3px 10px; line-height: 1em; border-right-width: 1px; border-right-style: so=
+lid; border-right-color: rgb(170, 170, 170); }
+
+div#site_nav li.last { border-right-width: 0px; }
+
+div#channel_nav { position: absolute; left: 0px; top: 0px; }
+
+div#channel_nav ul { width: 100%; margin: 0px; padding: 0px; line-height: 1=
+em; list-style: none; }
+
+div#channel_nav li { display: inline; float: left; list-style: none; margin=
+: 0px; line-height: 1em; border-width: 1px 0px 1px 1px; border-top-style: s=
+olid; border-bottom-style: solid; border-left-style: solid; border-top-colo=
+r: rgb(254, 221, 202); border-bottom-color: rgb(254, 221, 202); border-left=
+-color: rgb(254, 221, 202); }
+
+div#channel_nav li.last { border-right-width: 1px; border-right-style: soli=
+d; border-right-color: rgb(254, 221, 202); }
+
+div#channel_nav a { display: block; text-decoration: none; margin: 0px; pad=
+ding: 4px 25px; color: green; }
+
+div#channel_nav a:hover, div#channel_nav a.selected { background-color: rgb=
+(254, 221, 202); }
+
+div#gg { float: right; margin: 2px 0px; width: 728px; }
+
+div#copyright { padding: 10px; }
+
+.pagination { padding: 5px; float: right; }
+
+.pagination a, .pagination a:link, .pagination a:visited { padding: 2px 5px=
+; margin: 2px; border: 1px solid rgb(170, 170, 221); text-decoration: none;=
+ color: rgb(0, 102, 153); }
+
+.pagination a:hover, .pagination a:active { border: 1px solid rgb(0, 102, 1=
+53); color: rgb(0, 0, 0); text-decoration: none; }
+
+.pagination span.current { padding: 2px 5px; margin: 2px; border: 1px solid=
+ rgb(0, 102, 153); font-weight: bold; background-color: rgb(0, 102, 153); c=
+olor: rgb(255, 255, 255); }
+
+.pagination span.disabled { padding: 2px 5px; margin: 2px; border: 1px soli=
+d rgb(238, 238, 238); color: rgb(221, 221, 221); }
+
+a.underline, .underline a { text-decoration: underline; }
+
+.hilite1 { background-color: rgb(255, 255, 0); }
+
+.hilite2 { background-color: rgb(85, 255, 85); }
+
+.hilite3 { background-color: rgb(170, 255, 170); }
+
+.hilite4 { background-color: rgb(0, 255, 255); }
+
+span.arrow { font-weight: normal; font-size: 0.9em; color: rgb(153, 153, 15=
+3); }
+
+.validation-advice { margin: 0px; padding: 0px 0px 0px 3px; color: rgb(255,=
+ 51, 0); font-weight: bold; }
+
+.odd { background-color: rgb(239, 250, 255); }
+
+.highlight, .highlight a, .highlight a:link, .highlight a:active, .highligh=
+t a:visited { font-weight: bold; text-decoration: none; color: rgb(226, 136=
+, 34); }
+
+.highlight a:hover { text-decoration: none; color: rgb(255, 255, 255); back=
+ground-color: rgb(226, 136, 34); }
+
+.rss { background-image: url(http://www.iteye.com/images/rss.png); margin-r=
+ight: 5px; padding-right: 50px; background-position: 100% 50%; background-r=
+epeat: no-repeat no-repeat; }
+
+.row1 { width: 155px; font-weight: bold; background-color: rgb(239, 239, 23=
+9); }
+
+.row2 { background-color: rgb(222, 227, 231); }
+
+.row3 { background-color: rgb(238, 238, 238); }
+
+.crumbs a { text-decoration: underline; }
+
+.flash_error, .flash_notice { font-weight: bold; padding: 10px 40px; margin=
+: 0px 10px; background-repeat: no-repeat no-repeat; }
+
+.flash_error { color: rgb(255, 51, 0); background-image: url(http://www.ite=
+ye.com/images/icon_error_lrg.gif); }
+
+.flash_notice { background-image: url(http://www.iteye.com/images/icon_succ=
+ess_lrg.gif); }
+
+select.validation-failed, input.validation-failed, textarea.validation-fail=
+ed { border: 3px solid rgb(255, 0, 0); }
+
+* html select.validation-failed { background-color: rgb(255, 0, 0); }
+
+span.field_error { display: none; }
+
+div.quote_title { font-weight: bold; padding: 5px; margin: 5px 0px 0px 15px=
+; }
+
+div.quote_div { border: 1px solid rgb(204, 204, 204); margin: 0px 5px 5px 1=
+5px; padding: 3px; background-color: rgb(250, 250, 250); background-positio=
+n: initial initial; background-repeat: initial initial; }
+
+div.attachments { border-top-width: 1px; border-top-style: solid; border-to=
+p-color: rgb(153, 153, 153); margin-top: 10px; }
+
+div.attachments ul, div.postauthor ul { list-style: none; }
+
+div.attachments ul { margin: 5px; padding: 5px; border: 1px solid rgb(204, =
+204, 204); }
+
+img.magplus { cursor: url(http://www.iteye.com/images/magplus.gif), pointer=
+; }
+
+div.logo { float: left; padding: 2px 6px 6px 2px; background-image: url(htt=
+p://www.iteye.com/images/logo_bg.gif); background-repeat: no-repeat no-repe=
+at; }
+
+span.thumb_box { display: table-cell; vertical-align: middle; height: 95px;=
+ width: 130px; text-align: center; border: 1px solid rgb(204, 204, 204); }
+
+span.thumb_box img { vertical-align: middle; }
+
+.right { float: right; }
+
+.left { float: left; }
+
+table.bbcode { border: 1px solid rgb(204, 204, 204); }
+
+table.bbcode td { border: 1px solid rgb(204, 204, 204); padding: 3px; }
+
+div#search_engine_box { text-align: left; position: fixed; bottom: 0px; rig=
+ht: 0px; width: 240px; border: 1px solid rgb(204, 204, 204); background-col=
+or: white; }
+
+#search_engine_box h2 { padding: 5px; background-color: rgb(82, 110, 166); =
+color: white; font-size: 12px; font-weight: normal; }
+
+#search_engine_box h2 span { color: black; }
+
+#search_engine_box h2 a { color: white; position: absolute; right: 5px; }
+
+#search_engine_box div { padding: 0px 5px; }
+
+#search_engine_box li { margin-left: 15px; list-style: square; }
+
+* html div#search_engine_box { position: absolute; right: auto; bottom: aut=
+o; }
+
+div#chat_button { text-align: right; position: fixed; bottom: 0px; right: 1=
+0px; width: 80px; border: 1px solid rgb(204, 204, 204); padding: 2px; verti=
+cal-align: middle; background-color: rgb(238, 238, 238); }
+
+div#chat_input { position: fixed; bottom: 25px; right: 10px; text-align: le=
+ft; }
+
+#chat_iframe { width: 360px; background-color: transparent; }
+
+div#chat_button img { vertical-align: middle; }
+
+* html div#chat_button { position: absolute; right: auto; bottom: auto; }
+
+* html div#chat_input { position: absolute; right: auto; bottom: auto; }
+
+.tooltip { overflow: hidden; font-size: 12px; position: absolute !important=
+; z-index: 10000 !important; }
+
+.tooltip .xtop, .tooltip .xbottom { display: block; background-color: trans=
+parent; font-size: 1px; background-position: initial initial; background-re=
+peat: initial initial; }
+
+.tooltip .xb1, .tooltip .xb2, .tooltip .xb3, .tooltip .xb4 { display: block=
+; overflow: hidden; }
+
+.tooltip .xb1, .tooltip .xb2, .tooltip .xb3 { height: 1px; }
+
+.tooltip .xb2, .tooltip .xb3, .tooltip .xb4 { background-color: rgb(102, 10=
+2, 102); border-left-width: 1px; border-left-style: solid; border-left-colo=
+r: rgb(51, 51, 51); border-right-width: 1px; border-right-style: solid; bor=
+der-right-color: rgb(51, 51, 51); background-position: initial initial; bac=
+kground-repeat: initial initial; }
+
+.tooltip .xbottom .xb2, .tooltip .xbottom .xb3, .tooltip .xbottom .xb4 { ba=
+ckground-color: rgb(102, 102, 102); background-position: initial initial; b=
+ackground-repeat: initial initial; }
+
+.tooltip .xb1 { margin: 0px 5px; background-color: rgb(51, 51, 51); backgro=
+und-position: initial initial; background-repeat: initial initial; }
+
+.tooltip .xb2 { margin: 0px 3px; border-width: 0px 2px; }
+
+.tooltip .xb3 { margin: 0px 2px; }
+
+.tooltip .xb4 { height: 2px; margin: 0px 1px; }
+
+.tooltip .xboxcontent { margin: 0px; color: rgb(0, 0, 0); text-shadow: rgb(=
+204, 204, 204) 2px 2px 0px; word-wrap: break-word; border-style: solid; bor=
+der-color: rgb(51, 51, 51); border-width: 0px 1px; background-color: rgb(10=
+2, 102, 102); padding: 0px 20px; font-size: 125%; text-align: center; }
+
+div#site_nav, div#channel_nav { z-index: 1; }
+
+div#header { z-index: 2; position: relative; }
+
+.logo a:hover { background-color: inherit; }
+
+input#login_button { width: 147px; height: 34px; background-image: url(http=
+://www.iteye.com/images/login_button.jpg); cursor: pointer; border: 0px non=
+e; font-size: 0px; color: rgb(0, 86, 173); background-position: initial ini=
+tial; background-repeat: no-repeat no-repeat; }
+
+#favorite_form_container { width: 580px; height: 250px; padding: 10px; text=
+-align: left; position: absolute; z-index: 777; background-image: url(http:=
+//www.iteye.com/images/app/bg_new.png); font-size: 12px; background-positio=
+n: initial initial; background-repeat: no-repeat no-repeat; }
+
+#favorite_form_container .cont { width: 580px; height: 250px; background-co=
+lor: rgb(255, 255, 255); background-position: initial initial; background-r=
+epeat: initial initial; }
+
+#favorite_form_wrapper { position: relative; padding-left: 15px; }
+
+#close_list { overflow: hidden; text-align: right; border-bottom-width: 1px=
+; border-bottom-style: dashed; border-bottom-color: rgb(204, 204, 204); bac=
+kground-color: rgb(238, 238, 238); padding: 5px 10px; margin-bottom: 20px; =
+width: 560px; background-position: initial initial; background-repeat: init=
+ial initial; }
+
+#favorite_form_close { cursor: pointer; }
+
+#favorite_form_success { text-align: center; font-size: 18px; margin-top: 7=
+0px; }
+
+#favorite_form_success img { vertical-align: bottom; margin-right: 10px; }
+
+#current_tags_panel { margin: 10px 0px 0px; }
+
+#current_tags_panel span { display: inline-block; margin: 0px 5px 5px 0px; =
+padding: 0px 10px; background-color: rgb(93, 122, 155); color: rgb(255, 255=
+, 255); border-top-left-radius: 30px; border-top-right-radius: 30px; border=
+-bottom-right-radius: 30px; border-bottom-left-radius: 30px; }
+
+#suggested_tags_panel { margin: 10px 0px 0px; }
+
+#suggested_tags_panel a { display: inline-block; margin: 0px 5px 5px 0px; p=
+adding: 0px 10px; background-color: rgb(170, 181, 195); border-top-left-rad=
+ius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px;=
+ border-bottom-left-radius: 30px; }
+
+#suggested_tags_panel a { color: rgb(255, 255, 255); text-decoration: none;=
+ }
+
+#suggested_tags_panel a:hover, #suggested_tags_panel a.added { background-c=
+olor: rgb(248, 123, 0); }
+
+.news_tag { clear: both; display: block; margin: 10px 0px 5px; line-height:=
+ 20px; }
+
+.news_tag::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.news_tag a { display: inline-block; margin: 0px 5px 5px 0px; padding: 0px =
+10px; background-color: rgb(170, 181, 195); border-top-left-radius: 10px; b=
+order-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bott=
+om-left-radius: 10px; color: rgb(255, 255, 255); text-decoration: none; }
+
+.news_tag a:hover, #suggested_tags_panel a.added { background-color: rgb(24=
+8, 123, 0); }
+
+.news_tag span.hilite1 { background-color: transparent; }
+
+.news_tag span.view_all { float: right; }
+
+.news_tag span.view_all a { padding: 0px 6px; color: rgb(0, 102, 153); text=
+-decoration: underline; background-position: 0px 50%; background-repeat: in=
+itial initial; }
+
+.title .news_tag { text-align: center; }
+
+.category_tags { margin-top: 10px; padding: 5px 0px; }
+
+.category_tags a { display: inline-block; height: 20px; margin: 0px 6px 0px=
+ 0px; padding: 0px 0px 0px 12px; color: rgb(255, 255, 255); background-imag=
+e: url(http://www.iteye.com/images/tag_bg.gif); line-height: 20px; text-dec=
+oration: none; background-position: 0% 0%; background-repeat: no-repeat no-=
+repeat; }
+
+.category_tags a span { display: inline-block; height: 20px; padding: 0px 1=
+2px 0px 0px; background-image: url(http://www.iteye.com/images/tag_bg.gif);=
+ background-position: 100% 0%; background-repeat: no-repeat no-repeat; }
+
+.category_tags a:hover, .category_tags a.pick_on { background-image: url(ht=
+tp://www.iteye.com/images/tag_bg_3.gif); background-position: 0% 0%; backgr=
+ound-repeat: no-repeat no-repeat; }
+
+.category_tags a:hover span, .category_tags a.pick_on span { background-ima=
+ge: url(http://www.iteye.com/images/tag_bg_3.gif); background-position: 100=
+% 0%; background-repeat: no-repeat no-repeat; }
+
+#user_nav #notifications_count { margin: 0px 0px 0px -5px; border: 1px soli=
+d rgb(204, 204, 204); border-top-left-radius: 3px; border-top-right-radius:=
+ 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; back=
+ground-color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;=
+ line-height: 24px; background-position: initial initial; background-repeat=
+: initial initial; }
+
+#user_nav a:hover#notifications_count { border: 1px solid transparent; bord=
+er-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-=
+radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(0, 110, =
+181); color: rgb(255, 255, 255); background-position: initial initial; back=
+ground-repeat: initial initial; }
+
+#user_nav #notifications_count.new_notice { border: 1px solid transparent; =
+border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-ri=
+ght-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(0, 1=
+10, 181); color: rgb(255, 255, 255); background-position: initial initial; =
+background-repeat: initial initial; }
+
+#user_nav .clicked { color: rgb(255, 255, 255); background-image: url(http:=
+//www.iteye.com/images/sms_click_bg.gif) !important; background-position: 5=
+0% 0% !important; background-repeat: no-repeat no-repeat !important; }
+
+#notifications_menu { position: absolute; top: 26px; right: 10px; color: bl=
+ack; width: 380px; text-align: left; border: 1px solid rgb(221, 221, 221); =
+background-color: white; -webkit-box-shadow: rgb(136, 136, 136) 0px 1px 5px=
+; box-shadow: rgb(136, 136, 136) 0px 1px 5px; overflow: hidden; z-index: 99=
+9; }
+
+#notifications_loading { padding: 0px 5px; background-color: yellow; width:=
+ 60px; position: absolute; left: 150px; }
+
+#notifications_menu .menu_title { height: 36px; overflow: hidden; padding: =
+0px 10px; border-bottom-style: solid; border-bottom-width: 1px; border-bott=
+om-color: rgb(221, 221, 221); line-height: 34px; }
+
+#notifications_menu .menu_title a { color: rgb(51, 51, 51); text-decoration=
+: underline; }
+
+#notifications_menu .menu_title a:hover { background-position: 0px 50%; bac=
+kground-repeat: initial initial; }
+
+#notifications_menu .menu_title .title { float: left; }
+
+#notifications_menu .menu_title .all { float: right; }
+
+#notifications_menu .notification_summary { border-bottom-width: 1px; borde=
+r-bottom-style: solid; border-bottom-color: rgb(221, 221, 221); padding: 10=
+px; cursor: pointer; background-color: rgb(246, 250, 252); color: rgb(51, 5=
+1, 51); overflow: hidden; }
+
+#notifications_menu .notification_summary .time { color: rgb(153, 153, 153)=
+; }
+
+#notifications_menu .notification_summary.unread { background-color: rgb(25=
+5, 255, 255); font-weight: bold; }
+
+#notifications_menu .notification_summary.unread .time { color: rgb(51, 51,=
+ 51); font-weight: normal; }
+
+#notifications_menu .notification_summary.current, #notifications_menu .not=
+ification_summary:hover { background-color: rgb(219, 235, 244); }
+
+#notifications_menu .show_all, #notifications_menu .return { cursor: pointe=
+r; }
+
+#notifications_menu .notification_detail_title { position: relative; margin=
+: 0px 0px 5px; padding: 4px 10px; overflow: hidden; border-bottom-style: so=
+lid; border-bottom-width: 1px; border-bottom-color: rgb(238, 238, 238); bac=
+kground-color: rgb(250, 250, 250); line-height: 26px; background-position: =
+initial initial; background-repeat: initial initial; }
+
+#notifications_menu .notification_detail_title .subject_link { display: blo=
+ck; }
+
+#notifications_menu .notification_detail_title .time { position: absolute; =
+top: 4px; right: 10px; }
+
+#notifications_menu .notification_detail_notice { margin: 5px 0px 0px; padd=
+ing: 5px 10px 10px; background-image: url(http://www.iteye.com/images/line_=
+1.gif); color: rgb(153, 153, 153); background-position: 50% 0%; background-=
+repeat: repeat no-repeat; }
+
+#notifications_menu .notification_detail_content { padding: 0px; }
+
+#notifications_menu .system_message { padding: 0px 10px 10px; }
+
+#notifications_menu .notification_detail_item { padding: 7px 10px; border-b=
+ottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(230,=
+ 230, 230); overflow: hidden; }
+
+#notifications_menu span.time { color: gray; float: right; }
+
+#notifications_menu span.paginate { float: right; }
+
+#notifications_menu span.paginate .separated { width: 10px; padding: 0px 10=
+px; color: rgb(102, 102, 102); }
+
+#notifications_menu span.paginate #prev_button { text-decoration: none; }
+
+#notifications_menu span.paginate #next_button { text-decoration: none; }
+
+#notifications_menu span.paginate a { cursor: pointer; padding-left: 3px; }
+
+#notifications_menu span.paginate a.disable { cursor: default; color: rgb(1=
+53, 153, 153); text-decoration: none; }
+
+div#page { width: 100%; }
+
+div#header { height: 30px; }
+
+div#header, div#content, div#branding { margin: 0px auto; width: 950px; pos=
+ition: relative; }
+
+div#blog_site_nav { float: left; margin-top: 3px; }
+
+div#blog_site_nav a.homepage { background-image: url(http://www.iteye.com/i=
+mages/logo-small.gif); padding-left: 77px; background-position: 0% 50%; bac=
+kground-repeat: no-repeat no-repeat; }
+
+div#blog_site_nav a { padding: 3px 5px; line-height: 2.2em; }
+
+a#msna { text-decoration: none; }
+
+div#branding { float: none; padding: 10px 0px 0px; color: white; }
+
+div#branding h1 { margin: 0px; padding-top: 8px; font-size: 30px; }
+
+div#branding a, div#branding a:link, div#branding a:active, div#branding a:=
+visited { color: white; text-decoration: underline; }
+
+div#branding a:hover { color: white; text-decoration: none; }
+
+div#branding h1 a, div#branding h1 a:link, div#branding h1 a:active, div#br=
+anding h1 a:visited { text-decoration: none; }
+
+div#local { overflow: hidden; }
+
+div#local h5 { margin-left: 10px; }
+
+div#local li { margin-left: 25px; line-height: 2.1em; list-style: square; }
+
+#blog_name { padding-left: 38px; float: left; }
+
+#blog_preview { text-align: right; height: 18px; width: 200px; float: right=
+; }
+
+#blog_preview img { vertical-align: middle; }
+
+#blog_domain { padding: 35px 20px 0px 0px; float: right; }
+
+div#content { margin-top: 5px; }
+
+div#local { width: 188px; border: 1px solid black; padding: 10px 3px 0px; m=
+argin: 3px 3px 0px 0px; }
+
+div#main { width: 714px; border: 1px solid; padding: 5px 12px; margin: 3px =
+0px 0px 5px; overflow: hidden; }
+
+#blog_owner { text-align: center; padding: 0px 13px; }
+
+div#blog_owner_logo { border: 1px solid rgb(204, 204, 204); padding: 10px; =
+}
+
+div#blog_owner_logo img { width: 120px !important; }
+
+#blog_owner_name { padding-top: 5px; font-weight: bolder; }
+
+#user_visits { margin-bottom: 20px; }
+
+#user_visits div.left { width: 75px; overflow: hidden; }
+
+div.user_visit { float: left; width: 75px; height: 90px; margin: 10px 0px 0=
+px 5px; overflow: hidden; }
+
+#blog_actions { margin-bottom: 20px; }
+
+#blog_actions ul li { list-style: none; margin-left: 10px; }
+
+#blog_actions a.profile, #blog_actions a.message, #blog_actions a.guest_boo=
+k, #blog_actions a.subscription { padding: 0px 10px 0px 20px; background-po=
+sition: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+#blog_actions a.profile { background-image: url(http://www.iteye.com/images=
+/blog/profile.png); }
+
+#blog_actions a.message { background-image: url(http://www.iteye.com/images=
+/blog/message.png); }
+
+#blog_actions a.guest_book { background-image: url(http://www.iteye.com/ima=
+ges/blog/guest_book.png); }
+
+#blog_actions a.subscription { background-image: url(http://www.iteye.com/i=
+mages/blog/subscription.png); }
+
+div#rss li { list-style: none; }
+
+div.blog_nav { right: 20px; margin-bottom: 15px; }
+
+div.pre_next { float: right; text-align: right; padding-top: 5px; }
+
+div.pre_next a { padding: 0px 15px; background-repeat: no-repeat no-repeat;=
+ }
+
+div.pre_next a.next { background-image: url(http://www.iteye.com/images/gra=
+y_west_arrow.gif); background-position: 0% 50%; }
+
+div.pre_next a.pre { background-image: url(http://www.iteye.com/images/gray=
+_east_arrow.gif); background-position: 100% 50%; }
+
+.blog_main { margin: auto auto 10px; width: 700px; border-bottom-width: 1px=
+; border-bottom-style: dotted; padding: 10px 11px 15px; }
+
+.blog_title { margin-bottom: 15px; }
+
+.blog_title h3 .actions a { margin-left: 8px; background-color: transparent=
+; }
+
+.blog_bottom { padding: 15px 0px 5px; }
+
+.blog_bottom li { list-style: none; display: inline; float: left; margin: 0=
+px 10px 0px 0px; padding-right: 10px; border-right-width: 1px; border-right=
+-style: solid; }
+
+.blog_bottom li.last { border-right-width: 0px; }
+
+.blog_bottom a.more { padding-right: 50px; background-image: url(http://www=
+.iteye.com/images/icon_more.gif); background-position: 100% 50%; background=
+-repeat: no-repeat no-repeat; }
+
+.blog_comment { margin-top: 15px; padding: 15px; border-top-width: 1px; bor=
+der-top-style: solid; border-top-color: gray; width: 685px; }
+
+.comment_title, .comment_content { padding: 3px; }
+
+.comment_title .delete { position: absolute; right: 30px; }
+
+.comment_content { margin-bottom: 10px; }
+
+div.picture_thumb { float: left; width: 142px; height: 170px; margin: 0px 1=
+2px; overflow: hidden; }
+
+div.picture_thumb li { list-style: none; margin: 0px; }
+
+div.picture_full { text-align: center; overflow: auto; border-top-width: 1p=
+x; border-top-style: solid; border-top-color: gray; padding-top: 15px; widt=
+h: 100%; }
+
+div.picture_full ul { text-align: left; width: 100%; padding-bottom: 20px; =
+margin: 10px 0px; }
+
+div.picture_full li { list-style: none; margin: 0px; padding: 15px 0px 5px =
+10px; }
+
+.show_full_flag { float: right; margin-top: 10px; }
+
+div.digg { float: right; width: 52px; padding: 0px 5px; text-align: center;=
+ }
+
+.digg h3, .digg div { background-image: url(http://www.iteye.com/images/dig=
+g.jpg); padding: 7px 0px; background-repeat: no-repeat no-repeat; }
+
+.digg h3.digged, .digg div.digged { background-image: url(http://www.iteye.=
+com/images/digged.jpg); }
+
+.digg h3 a, .digg h3 span, .digg div a, .digg div span { font-size: 14px; f=
+ont-weight: normal; text-decoration: none; padding-left: 15px; background-p=
+osition: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+div.digg div.digg_admin { width: 100px; text-align: left; background-positi=
+on: 0px 50%; background-repeat: initial initial; }
+
+div.digg div.digg_admin a { padding-left: 2px; }
+
+.digg h3 a.digg, .digg h3 span.digg, .digg div a.digg, .digg div span.digg =
+{ color: rgb(21, 47, 147); background-image: url(http://www.iteye.com/image=
+s/icon_digg.gif); }
+
+.digg h3 a.bury, .digg h3 span.bury, .digg div a.bury, .digg div span.bury =
+{ color: rgb(160, 58, 50); background-image: url(http://www.iteye.com/image=
+s/icon_bury.gif); }
+
+div#digg_bottom { margin: 5px 0px; padding-left: 270px; display: inline-blo=
+ck; }
+
+div#digg_bottom div { width: 72px; height: 50px; background-image: url(http=
+://www.iteye.com/images/digg_bottom.gif); float: left; text-align: center; =
+padding-top: 9px; margin-right: 10px; font-size: 14px; line-height: 25px; c=
+ursor: pointer; }
+
+div#digg_bottom strong { color: white; }
+
+#share_weibo { display: inline-block; float: right; width: 160px; height: 3=
+2px; margin: 0px; padding: 27px 5px 0px 0px; color: rgb(51, 51, 51); text-a=
+lign: right; cursor: auto; font-style: normal !important; font-variant: nor=
+mal !important; font-weight: normal !important; font-size: 12px !important;=
+ line-height: 32px !important; font-family: Arial, Helvetica, sans-serif !i=
+mportant; background-position: 0px 50%; background-repeat: initial initial;=
+ }
+
+#share_weibo img { margin: 0px 5px; }
+
+#share_weibo a { background-color: transparent; background-position: initia=
+l initial; background-repeat: initial initial; }
+
+div#digg_bottom a { color: rgb(22, 7, 209); text-decoration: none; backgrou=
+nd-color: transparent; background-position: initial initial; background-rep=
+eat: initial initial; }
+
+div#digg_bottom div.digged { background-image: url(http://www.iteye.com/ima=
+ges/digged_bottom.gif); color: rgb(241, 78, 16); cursor: auto; }
+
+h3.type_good, h3.type_mid, h3.type_original, h3.type_translate, h3.type_rep=
+rint { padding-left: 25px; background-position: 0px 13px; background-repeat=
+: no-repeat no-repeat; }
+
+h3.type_good { background-image: url(http://www.iteye.com/images/blog/type_=
+good.png); }
+
+h3.type_mid { background-image: url(http://www.iteye.com/images/blog/type_m=
+id.png); }
+
+h3.type_original { background-image: url(http://www.iteye.com/images/blog/t=
+ype_original.png); }
+
+h3.type_translate { background-image: url(http://www.iteye.com/images/blog/=
+type_translate.png); }
+
+h3.type_reprint { background-image: url(http://www.iteye.com/images/blog/ty=
+pe_reprint.png); }
+
+#guest_book_emotes a { width: 125px; text-decoration: none; background-colo=
+r: transparent; color: black; display: block; float: left; }
+
+#resume { width: 100%; }
+
+#resume label.title { width: 200px; font-weight: normal; }
+
+#resume label { width: 50px; font-weight: normal; }
+
+div.group { height: 160px; }
+
+div.group div.content { float: right; width: 630px; }
+
+#blog_options li { list-style: none; margin-left: 0px; }
+
+#blog_options label { width: 150px; }
+
+td.row1 { width: 160px; background-color: transparent; vertical-align: top;=
+ }
+
+h3 span { padding-left: 30px; font-size: 12px; font-weight: normal; }
+
+div.blog_title h3 { font-size: 16px; padding-top: 10px; }
+
+div.blog_title h3 span { font-size: 12px; margin-left: 5px; font-weight: no=
+rmal; }
+
+div.blog_title h3 span a { margin-left: 8px; }
+
+table.admin { width: 100%; margin-bottom: 20px; }
+
+table.admin thead { font-weight: bold; font-size: 13px; }
+
+table.admin tbody td { padding: 5px 0px; border-top-width: 1px; border-top-=
+style: dashed; border-top-color: rgb(221, 221, 221); }
+
+div#favorite_tag_list { padding-bottom: 20px; border-bottom-width: 1px; bor=
+der-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; margin-bo=
+ttom: 20px; }
+
+div#favorite_tag_list li { list-style: none; width: 120px; overflow: hidden=
+; float: left; margin: 5px; }
+
+div#favorite_tag_list input.text { width: 100px; }
+
+#main_nav { border-bottom-width: 1px; border-bottom-style: solid; border-bo=
+ttom-color: rgb(51, 102, 170); height: 25px; margin: 10px 0px 12px; }
+
+#main_nav li { margin: 0px 12px; list-style: none; float: left; }
+
+#main_nav a { display: block; color: black; text-decoration: none; backgrou=
+nd-color: rgb(221, 221, 221); padding: 0.25em 1em; border-width: 1px 1px 0p=
+x; border-top-style: solid; border-right-style: solid; border-left-style: s=
+olid; border-top-color: rgb(51, 102, 170); border-right-color: rgb(51, 102,=
+ 170); border-left-color: rgb(51, 102, 170); background-position: initial i=
+nitial; background-repeat: initial initial; }
+
+#main_nav li.activetab a, ul#main_nav a:hover { background-color: rgb(255, =
+255, 255); border-bottom-width: 1px; border-bottom-style: solid; border-bot=
+tom-color: white; background-position: initial initial; background-repeat: =
+initial initial; }
+
+#main_nav li.nonetab { padding-left: 30px; }
+
+#main_nav li.nonetab a { width: 200px; display: inline; border: 0px; backgr=
+ound-color: transparent; padding: 0px; background-position: initial initial=
+; background-repeat: initial initial; }
+
+div.activity { border-bottom-width: 1px; border-bottom-style: solid; border=
+-bottom-color: rgb(216, 223, 234); padding: 7px 10px; margin-bottom: 10px; =
+}
+
+div.new_reply { background-color: rgb(238, 238, 238); }
+
+.activity_content { float: left; width: 500px; padding-left: 22px; backgrou=
+nd-repeat: no-repeat no-repeat; }
+
+.Topic .activity_content { background-image: url(http://www.iteye.com/image=
+s/subscription/topic.gif); }
+
+.Blog .activity_content { background-image: url(http://www.iteye.com/images=
+/subscription/blog.gif); }
+
+.BlogComment .activity_content { background-image: url(http://www.iteye.com=
+/images/subscription/blog_comment.gif); }
+
+.Post .activity_content { background-image: url(http://www.iteye.com/images=
+/subscription/post.gif); }
+
+.News .activity_content { background-image: url(http://www.iteye.com/images=
+/subscription/news.gif); }
+
+.NewsComment .activity_content { background-image: url(http://www.iteye.com=
+/images/subscription/news_comment.gif); }
+
+.Essence .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/essence.gif); }
+
+.EssenceComment .activity_content { background-image: url(http://www.iteye.=
+com/images/subscription/essence_comment.gif); }
+
+.ArticleComment .activity_content { background-image: url(http://www.iteye.=
+com/images/subscription/post.gif); }
+
+.Picture .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/picture.gif); }
+
+.PictureComment .activity_content { background-image: url(http://www.iteye.=
+com/images/subscription/picture_comment.gif); }
+
+.Problem .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/problem.gif); }
+
+.Solution .activity_content { background-image: url(http://www.iteye.com/im=
+ages/subscription/solution.gif); }
+
+.GroupTopic .activity_content { background-image: url(http://www.iteye.com/=
+images/subscription/group_topic.gif); }
+
+.GroupPost .activity_content { background-image: url(http://www.iteye.com/i=
+mages/subscription/group_post.gif); }
+
+.Page .activity_content, .Card .activity_content { background-image: url(ht=
+tp://www.iteye.com/images/subscription/page.gif); }
+
+.PageComment .activity_content { background-image: url(http://www.iteye.com=
+/images/subscription/page_comment.gif); }
+
+.GuestBook .activity_content { background-image: url(http://www.iteye.com/i=
+mages/subscription/guest_book.gif); }
+
+.UserFavorite .activity_content { background-image: url(http://www.iteye.co=
+m/images/subscription/user_favorite.gif); }
+
+.Twitter .activity_content { background-image: url(http://www.iteye.com/ima=
+ges/subscription/twitter.gif); }
+
+.Subscription .activity_content { background-image: url(http://www.iteye.co=
+m/images/subscription/subscription.gif); }
+
+div.activity_summary { padding: 5px 5px 5px 0px; }
+
+div.activity_summary img.thumb { border: 1px solid rgb(238, 238, 238); padd=
+ing: 2px; }
+
+div.activity_time { float: right; }
+
+div#twitter_decorate { background-image: url(http://www.iteye.com/images/bl=
+og/twitter_decorate.gif); margin: 5px 13px 0px; background-position: 50% 10=
+0%; background-repeat: no-repeat no-repeat; }
+
+div#twitter { margin: 0px 13px 5px; padding: 5px; border-width: 0px 1px 1px=
+; border-right-style: solid; border-bottom-style: solid; border-left-style:=
+ solid; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(20=
+4, 204, 204); border-left-color: rgb(204, 204, 204); }
+
+div.twitter { padding-bottom: 10px; }
+
+div.twitter em { color: rgb(153, 153, 153); font-size: 11px; }
+
+div.twitter em a { color: rgb(153, 153, 153); text-decoration: none; }
+
+div.twitter em a:hover { background-color: transparent; text-decoration: un=
+derline; }
+
+div.single_twitter { font-size: 18px; }
+
+div.twitter div.content { background-image: url(http://www.iteye.com/images=
+/app/twitter_sbg.png); padding: 10px 10px 0px 20px; float: left; width: 667=
+px; height: 80px; margin-left: 2px; position: relative; background-repeat: =
+no-repeat no-repeat; }
+
+div.twitter div.action { position: absolute; right: 10px; bottom: 5px; }
+
+div.twitter div.action a:hover { background-color: transparent; }
+
+ul.blog_categories { list-style-type: none; margin: 0px; }
+
+ul.blog_categories li { list-style-type: none; display: inline; padding: 0p=
+x; margin: 0px 5px 0px 0px; }
+
+div#blog_content { font-size: 14px; line-height: 1.8em; }
+
+#blog_navbar { margin: 0px auto; width: 950px; }
+
+#blog_navbar li { padding: 0px; margin: 0px; }
+
+#blog_navbar ul { margin-left: 210px; }
+
+.blog_navbar_for { border-top-left-radius: 10px; border-top-right-radius: 1=
+0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; borde=
+r: 0px; margin-top: 10px; font-weight: bold; }
+
+#blog_navbar li { line-height: 30px; height: 30px; float: left; list-style:=
+ none; color: rgb(255, 255, 255); font-size: 15px; margin-top: 5px; padding=
+: 0px 27px; }
+
+#blog_navbar li a:visited { color: rgb(255, 255, 255); text-decoration: non=
+e; }
+
+#blog_navbar .search { float: left; background-color: rgb(255, 255, 255); b=
+order-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-rig=
+ht-radius: 2px; border-bottom-left-radius: 2px; width: 200px; margin: 5px; =
+background-position: initial initial; background-repeat: initial initial; }
+
+#blog_navbar input.button, input.submit_search { border: 0px !important; }
+
+.submit_search { border: 0px none; height: 22px; width: 22px; background-im=
+age: url(http://www.iteye.com/images/blog/search.gif) !important; backgroun=
+d-position: initial initial !important; background-repeat: no-repeat no-rep=
+eat !important; }
+
+input.search_text { border: 0px; width: 150px !important; height: 22px !imp=
+ortant; }
+
+#fd { clear: both; }
+
+.blog_main_title { border-bottom-width: 1px; border-bottom-style: dotted; p=
+adding: 10px 11px 5px; margin-bottom: 10px; }
+
+.blog_main_title span { font-size: 14px; }
+
+#guest_books li { padding: 12px 0px 5px; border-bottom-width: 1px; border-b=
+ottom-color: rgb(204, 204, 204); border-bottom-style: dotted; margin-left: =
+10px !important; list-style: none !important; }
+
+#local a:hover a:active a:link a:visited { text-decoration: none !important=
+; }
+
+iframe #tweetList { height: auto !important; }
+
+.notes { width: 85%; border: 1px solid rgb(204, 204, 204); margin: 0px auto=
+ 10px; padding: 5px 10px; color: rgb(153, 153, 153); }
+
+.picture_upload { padding: 10px 20px; min-height: 400px; }
+
+.picture_upload_notes { border: 1px solid rgb(204, 204, 204); padding: 3px;=
+ background-color: rgb(247, 247, 247); margin: 15px auto; background-positi=
+on: initial initial; background-repeat: initial initial; }
+
+.picture_photo { border: 1px solid rgb(204, 204, 204); background-color: rg=
+b(255, 255, 255); padding: 3px; width: 150px; height: 100px; background-pos=
+ition: initial initial; background-repeat: initial initial; }
+
+.picture_photo img { width: 150px; height: 94px; }
+
+.picture_photo_input1 { width: 100%; height: 50px; padding: 3px; border: 1p=
+x solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); backgroun=
+d-position: initial initial; background-repeat: initial initial; }
+
+.picture_photo_input2 { width: 100px; padding: 3px; border: 1px solid rgb(2=
+04, 204, 204); background-color: rgb(255, 255, 255); background-position: i=
+nitial initial; background-repeat: initial initial; }
+
+.picture_info_img { text-align: center; }
+
+.picture_info_notes { padding: 20px; }
+
+.picture_info_notes span { color: rgb(153, 153, 153); }
+
+.picture_info_text { margin-top: 10px; }
+
+.picture_info_notes p span { color: black; line-height: 24px; }
+
+.default { padding: 20px 20px 10px; min-height: 400px; text-align: center; =
+font-size: 14px; color: rgb(153, 153, 153); }
+
+.about_bar { margin: 10px 0px; padding: 5px 15px; font-weight: bold; }
+
+.about_bar span { margin-left: 20px; }
+
+.weight { font-weight: 100; }
+
+.series { display: block; margin: 0px; padding: 5px 0px 10px; }
+
+.series dt { display: inline-block; float: left; margin: 0px 10px; }
+
+.series dt img { width: 48px; height: 48px; border: 1px solid rgb(204, 204,=
+ 204); padding: 1px; }
+
+.series dd { float: left; margin: 0px; width: 90px; }
+
+.series dd a { line-height: 18px; height: 36px; }
+
+.series::after { clear: both; content: '.'; display: block; height: 0px; vi=
+sibility: hidden; }
+
+.ico_img img { margin-right: 3px; vertical-align: middle; }
+
+span.gold { background-image: url(http://www.iteye.com/images/ask/medal-gol=
+d.gif); padding-left: 12px; background-position: 0% 50%; background-repeat:=
+ no-repeat no-repeat; }
+
+span.bronze { background-image: url(http://www.iteye.com/images/ask/medal-b=
+ronze.gif); padding-left: 12px; background-position: 0% 50%; background-rep=
+eat: no-repeat no-repeat; }
+
+span.silver { background-image: url(http://www.iteye.com/images/ask/medal-s=
+ilver.gif); padding-left: 12px; background-position: 0% 50%; background-rep=
+eat: no-repeat no-repeat; }
+
+.material_classify_bottom { padding-bottom: 10px; border-bottom-width: 1px;=
+ border-bottom-color: rgb(221, 221, 221); border-bottom-style: dashed; }
+
+.material_classify_top { padding-top: 10px; }
+
+.medal_bg { background-image: url(http://www.iteye.com/images/ask/medal_bg.=
+gif); margin-right: 10px; vertical-align: top; display: block; background-p=
+osition: 100% 3px; background-repeat: no-repeat no-repeat; }
+
+.medal_bg::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.medal_bg img { float: left; margin: 0px !important; }
+
+.medal_s_list { display: block; margin: 0px; }
+
+.medal_s_list::after { content: '.'; display: block; height: 0px; clear: bo=
+th; visibility: hidden; }
+
+.medal_s_list li { float: left; margin: 0px 10px 0px 0px; list-style: none;=
+ }
+
+.medal_number { float: left; padding: 1px 1px 1px 0px; color: rgb(255, 255,=
+ 255); }
+
+.my_medal { margin: 20px 0px; display: block; }
+
+.my_medal::after { content: '.'; display: block; height: 0px; clear: both; =
+visibility: hidden; }
+
+.my_medal dt { float: left; margin-right: 20px; }
+
+.my_medal dd { line-height: 24px; padding: 5px; }
+
+.my_medal dd span { font-size: 16px; font-weight: bold; }
+
+.medal_user_list { display: block; padding: 10px 0px; }
+
+.medal_user_list::after { content: '.'; display: block; height: 0px; clear:=
+ both; visibility: hidden; }
+
+span.open { background-image: url(http://www.iteye.com/images/ask/ask.gif);=
+ display: block; padding-left: 20px; background-position: 0% 50%; backgroun=
+d-repeat: no-repeat no-repeat; }
+
+span.close { background-image: url(http://www.iteye.com/images/ask/greenrig=
+ht.gif); display: block; padding-left: 20px; background-position: 0% 50%; b=
+ackground-repeat: no-repeat no-repeat; }
+
+span.score { background-image: url(http://www.iteye.com/images/ask/score.gi=
+f); padding-left: 12px; margin-left: 10px; color: rgb(23, 163, 0); backgrou=
+nd-position: 0% 50%; background-repeat: no-repeat no-repeat; }
+
+.user_info { width: 160px; color: rgb(153, 153, 153); line-height: 17px; pa=
+dding-top: 4px; }
+
+.user_info img { float: left; }
+
+.user_info span { margin-left: 10px; }
+
+.user_info_border { float: left; border: 1px solid rgb(204, 204, 204); padd=
+ing: 10px; margin: 0px 30px 20px 0px; }
+
+#medal_top_list { display: block; padding-top: 10px; }
+
+#medal_top_list::after { content: '.'; display: block; height: 0px; clear: =
+both; visibility: hidden; }
+
+#medal_top_material { display: block; padding: 15px 0px 10px 12px; margin: =
+10px 0px 15px; border: 1px solid rgb(194, 213, 227); background-color: rgb(=
+250, 250, 250); background-position: initial initial; background-repeat: in=
+itial initial; }
+
+#medal_top_material::after { content: '.'; display: block; height: 0px; cle=
+ar: both; visibility: hidden; }
+
+.medal_top_son { float: left; width: 165px; padding: 14px 0px 0px 5px; heig=
+ht: 65px; overflow: hidden; margin: 5px 8px 9px 6px; border: 1px solid rgb(=
+216, 230, 240); background-color: white; color: rgb(153, 153, 153); line-he=
+ight: 17px; background-position: initial initial; background-repeat: initia=
+l initial; }
+
+.medal_top_son:hover { width: 165px; height: 68px; overflow: hidden; margin=
+: 0px 9px 7px 1px; padding: 20px 0px 0px 11px; border: 0px; background-imag=
+e: url(http://www.iteye.com/images/medal_list_bg.png); cursor: pointer; bac=
+kground-position: 0px 0px; background-repeat: no-repeat no-repeat; }
+
+.medal_top_son:hover a { color: rgb(188, 42, 77); }
+
+.medal_top_son p { float: left; font-size: 18px; width: 20px; text-align: c=
+enter; font-family: Arial; line-height: 50px; margin: 0px 10px; color: rgb(=
+54, 113, 165); }
+
+.medal_top_son img { float: left; }
+
+.medal_top_son span { margin-left: 10px; }
+
+.medal_tag { margin: 10px; font-size: 14px; }
+
+.medal_name { font-size: 12px; margin-bottom: 10px; }
+
+.medal { background-color: rgb(51, 51, 51); border: 1px solid rgb(51, 51, 5=
+1); margin: 0px 8px 3px 0px; font-size: 14px; padding: 0px 10px; display: i=
+nline-block; text-decoration: none; white-space: nowrap; line-height: 24px;=
+ border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-r=
+ight-radius: 6px; border-bottom-left-radius: 6px; }
+
+.medal:hover { background-color: rgb(68, 68, 68); border: 1px solid rgb(68,=
+ 68, 68); }
+
+.medal_gold { color: rgb(255, 204, 51); }
+
+.medal_silver { color: rgb(255, 255, 255); }
+
+.medal_bronze { color: rgb(255, 153, 102); }
+
+.medal_multiplier { font-size: 14px; font-weight: bold; margin-right: 4px; =
+color: rgb(68, 68, 68); }
+
+.medal_list { padding: 10px 40px; font-size: 14px; }
+
+.medal_list dl { display: block; }
+
+.medal_list dl::after { content: '.'; display: block; height: 0px; clear: b=
+oth; visibility: hidden; }
+
+.medal_list dt { float: left; height: 30px; width: 150px; margin: 0.25em 0p=
+x; }
+
+.medal_list dd { float: left; height: 30px; width: 650px; margin: 0.25em 0p=
+x; }
+
+.medal_list_title { font-size: 16px; padding: 5px 0px; border-bottom-style:=
+ solid; border-bottom-width: 1px; border-bottom-color: rgb(194, 213, 227); =
+margin-bottom: 10px; }
+
+p.medal_tag a:hover { background-color: rgb(255, 255, 255); }
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.iteye.com/stylesheets/themes/blog/blue.css?1326191326
+
+div.topic_page, a { color: rgb(16, 138, 198); text-decoration: underline; }
+
+a:hover { color: white; }
+
+div.app_nav, div#page, .comment_title, tr.mouse_over { background-color: rg=
+b(239, 250, 255); }
+
+div#local, div#main, .blog_main, .pagination a:hover, .pagination a:active =
+{ background-color: white; border-color: rgb(16, 138, 198); }
+
+div.nav, div#app_list div.decorate, a:hover, div#branding, input.button, in=
+put.submit, td.buttons a, .pagination span.current { background-color: rgb(=
+16, 138, 198); }
+
+.blog_bottom li { border-right-color: rgb(16, 138, 198); color: rgb(16, 138=
+, 198); }
+
+table.admin thead, .pagination a, .pagination a:visited { color: rgb(16, 13=
+8, 198); }
+
+div.app_nav, .pagination span.current { border-color: rgb(16, 138, 198); }
+
+.blog_comment, div.picture_full { border-top-color: rgb(16, 138, 198); }
+
+.white { color: rgb(255, 255, 255) !important; }
+
+#blog_navbar { background-color: rgb(16, 138, 198); }
+
+.blog_navbar_for { color: rgb(16, 138, 198); background-color: rgb(239, 250=
+, 255); }
+
+#blog_navbar .blog_navbar_for a:visited { color: rgb(16, 138, 198); backgro=
+und-color: rgb(239, 250, 255); }
+
+#blog_navbar .blog_navbar_for a:link { color: rgb(16, 138, 198); background=
+-color: rgb(239, 250, 255); }
+
+.blog_main_title { color: rgb(0, 0, 0); }
+
+.about_bar { background-color: rgb(204, 204, 204); color: rgb(16, 138, 198)=
+; background-position: initial initial; background-repeat: initial initial;=
+ }
+
+.view a:hover { color: rgb(16, 138, 198); }
+
+.list_current a { color: rgb(255, 102, 0); font-weight: bold; }
+
+.list_current a:hover { color: rgb(255, 255, 255); background-color: rgb(25=
+5, 102, 0); background-position: initial initial; background-repeat: initia=
+l initial; }
+
+#my_resume .editing a.del:hover, #my_resume .editing a.add:hover { color: r=
+gb(16, 138, 198); }
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.iteye.com/javascripts/syntaxhighlighter/SyntaxHighlighter.css?1348819953
+
+.dp-highlighter { font-family: Monaco, 'DejaVu Sans Mono', 'Bitstream Vera =
+Sans Mono', Consolas, 'Courier New', monospace; font-size: 12px; background=
+-color: transparent; width: 97%; overflow: auto; margin-left: 9px; padding:=
+ 1px; word-break: break-all; word-wrap: break-word; }
+
+.dp-highlighter ol { border: 1px solid rgb(209, 215, 220); list-style: deci=
+mal; background-color: rgb(255, 255, 255); margin: 0px 0px 1px; padding: 2p=
+x 0px; color: rgb(43, 145, 175); }
+
+.dp-highlighter ol li, .dp-highlighter .columns div { border-left-width: 1p=
+x; border-left-style: solid; border-left-color: rgb(209, 215, 220); backgro=
+und-color: rgb(250, 250, 250); padding-left: 10px; line-height: 18px; margi=
+n: 0px 0px 0px 38px; }
+
+.dp-highlighter .columns { color: gray; overflow: hidden; width: 100%; }
+
+.dp-highlighter .columns div { padding-bottom: 5px; }
+
+.dp-highlighter ol li span { color: black; }
+
+.dp-highlighter .tools { padding: 3px; text-align: left; margin: 0px; color=
+: black; font-weight: bold; }
+
+.dp-about { background-color: rgb(255, 255, 255); margin: 0px; padding: 0px=
+; }
+
+.dp-about table { width: 100%; height: 100%; font-size: 11px; font-family: =
+Tahoma, Verdana, Arial, sans-serif !important; }
+
+.dp-about td { padding: 10px; vertical-align: top; }
+
+.dp-about .copy { border-bottom-width: 1px; border-bottom-style: solid; bor=
+der-bottom-color: rgb(172, 168, 153); height: 95%; }
+
+.dp-about .title { color: red; font-weight: bold; }
+
+.dp-about .para { margin: 0px 0px 4px; }
+
+.dp-about .footer { background-color: rgb(236, 234, 219); border-top-width:=
+ 1px; border-top-style: solid; border-top-color: rgb(255, 255, 255); text-a=
+lign: right; }
+
+.dp-about .close { font-size: 11px; background-color: rgb(236, 234, 219); w=
+idth: 60px; height: 22px; font-family: Tahoma, Verdana, Arial, sans-serif !=
+important; }
+
+.dp-highlighter .comment, .dp-highlighter .comments { color: rgb(0, 130, 0)=
+; padding: 0px; margin: 0px; width: auto; border: 0px; }
+
+.dp-highlighter .string { color: blue; }
+
+.dp-highlighter .keyword { color: rgb(127, 0, 85); font-weight: bold; }
+
+.dp-highlighter .preprocessor { color: gray; }
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://yangpanwww.iteye.com/images/icon_star.png
+
+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
+yAAAAABJRU5ErkJggg==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://yangpanwww.iteye.com/images/spinner.gif
+
+R0lGODlhEAAQAPYAAP///x5Hm9jf7aCx1HKMwFZ1s1l3tX+Wxay72uDl8K692j1gqUFjqkhprU1t
+sFRzs3uTxMLN4zZbpYKZx+7x9u/y98nS5peq0GSAunCKv8XP5dXc7FFwsTFWo5mr0bPB3W+Jvoug
+y+Xp85SnzypRoHmRw6e313eQwr7K4Vt5tiZOnrnF36Kz1TNYpCNLneru9fX2+oedyZKmzvb4+pCk
+zbLA3Pr7/Pz8/cfR5dDY6fj5+9rh7rfE3vHz+Nfe7Ofr8+Hm8dPb68zV6MPO5OPo8tzi7/P1+d7k
+74meyrzI4brH4GF9uGaCum2HvnSNwVh2tFJyssrU54acyEprruzv9kNlq5ut0muGvURmrDhcpqu6
+2WJ/uS1TopWo0HaPwUtsr87X6NHZ6ujs9MDL4o2hzJ6w06m42GmEvJyu0198t116tztfqLC+2yxS
+oShPn7XC3iFJnKW11z9iqS9Vok9vsISayEZorCVMnoCXxjpep2iDu32UxY6jzAAAAAAAAAAAACH/
+C05FVFNDQVBFMi4wAwEAAAAh/h1CdWlsdCB3aXRoIEdJRiBNb3ZpZSBHZWFyIDQuMAAh/hVNYWRl
+IGJ5IEFqYXhMb2FkLmluZm8AIfkECQoAAAAsAAAAABAAEAAAB42AAIKDhIWFGyMpLYaFCBwkKi6C
+Njo3hQoLHSUrL4I3MD02gwIGEh6GNhQUlgADCxOMAD0/PYIEDBGxM0A/ggUNFLEAO0WCBg4VsTdB
+PoIHDxaxFEI7gggGF7E+Q0SCCRAYH4Y7KxZGgxEZICYbMDMJOAg83YQaIScHMTQeLDwJjCJQsJDh
+oUaOYMISBgIAIfkECQoAAAAsAAAAABAAEAAAB4yAAIKDhIWFOwNXWAxbXRuGADwYVQtZLVwkXyaF
+Sk9TSBEUVEpeKlyERwRQm4UyhQoGI5CCN4NIS1GzADo2ggRMPbpGRoInTcSzFBWCF05BszpiywBJ
+EAizVEDBAD8XUhqGLwJEvYI5MjRJCTo6L0VgG9ODQSZWLFofSkNhVJBUOUlqrBCSAIaugwACAQAh
++QQJCgAAACwAAAAAEAAQAAAHiYAAgoOEhYUJChNpBl4sAoYAQwdLBg8ODQxqbIU4XmdoURUVQ1Jr
+DAiDImROPIZoLVAbgmMQZpAAEG1dgiwTPrdKbmqCMkgwt1QuLYIeNDO3hTUXR9CEYGVDtzY6gxQf
+Zr+FOj3Pg0c1H0FUNzcwFC8VNoVAQyhDQkE7QC/chkYJG3L4IBKvWrVAACH5BAkKAAAALAAAAAAQ
+ABAAAAePgACCg4SFhT8oHhBOIWxHhgA5FwcnGWdbak5KhUEjSGwbRj1CXQ9PPINUJjI4hmZfTDuC
+OVYokABIDAOCSiwJtxFrV4JsZjq3FBJVgm9sx5BUHXKCFjxit0ptS4JHKD63TiojgkZgOCKQcA1B
+gy9gOSIwgjf0AHGFFEUCCSJUPTM2bumgIEYMBRgBbykcFAgAIfkECQoAAAAsAAAAABAAEAAAB4yA
+AIKDhIWFFGFvZR4mET+GAAkrcWUXNEgTMhaFRDwKFkAzMwIKJRAag0Y4PDuGSiATQIJAYxuQAGVb
+bII+OFS3Qmp1gmFCN7cVD0u8QceQFQ4GswIwt0N2XoIVCb+QdXIDgjZiP9WFHlkpAoMzVBQzgysn
+cwsKhTZGMDqCLm50CLduODMwwtatg4ICAQAh+QQJCgAAACwAAAAAEAAQAAAHiYAAgoOEhYUwQDko
+KxFBFIYAVEE4Y0ofCHEKPoUVG2BHVDY6IhpWVkGDNkA+L4ZCNGVigj0JrZBvUhGCVEQzkAA+B2i7
+sr9GXgeCFY/GTSeCMEY3v0JMZII2M9OQXWpsgzfbhSYPTkeGBCtUVGMxU09KhnZ3blwtWXIYPJBB
+I2kLDM6U2fGr4KBAACH5BAkKAAAALAAAAAAQABAAAAeIgACCg4SFhTc9Pzs+OyIwhgA6VEQJAkFC
+OFEihTYVLxUzADcVOyhJQIQwPTqGRx9KFYI3M6yQUWZBsjaQgkQsPLyFMx5lwYQzNB6CBi7AkAIx
+JoIyKl68WgcRghsOXBeGPE58m4Jaay14YxQVFlZ6XjiFCE95cnYOD2p7Q89lGQ8GDiBIYMxYIAAh
++QQJCgAAACwAAAAAEAAQAAAHi4AAgoOEhYY3OkYVFUY2hoM2M0YUYkREPYUmhjoURTsUg0ENLo9U
+QT4zgiMqTo8ACRZEgkskK64UQzmCC1xUrjZKY4IMLb6POh+2AGdZKK5EWhGCZQt1rhEsQYICS1hx
+hhYXCMYAb1B0MlE9RkFsIRcbhSsgT2pMTV4HHmGPRwgxGU5cQPHDlcFBgQAAOwAAAAAAAAAAAA==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://yangpanwww.iteye.com/images/sina.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgIC
+AwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAEAAQAwERAAIRAQMRAf/EAGsAAAMBAAAAAAAAAAAAAAAA
+AAMHCAkBAAIDAQAAAAAAAAAAAAAAAAUHAgMICRAAAQUBAQADAQAAAAAAAAAABQIDBAYHAQgAERIT
+EQACAgICAgMBAQAAAAAAAAACAwEEEQUSBhMHACEiIxT/2gAMAwEAAhEDEQA/ANifKXk096OzU3v2
+v28NSaVOjE265ZbIMqDxzQbSw1KjSCs2w2xpLDAhk8x1l6VJW49NebeQnrf4698zz17rNzfVG7ra
+WIRRmSgCLhyYcZjMkf1AwUYmZzJTExGMZ+de/b3uzrnqvf0PWvR9SW07OIIKylM2PFTQUAXAU18k
+TiUXMVhAioSApg+Xj+Gv1Kr/AJewxUbZ6/UxeiWYbZrfkmu5HX2is8FZooV+TUoPdJrsYcEZjLPA
+uj5cLqH3GuFGp0OT9MSOJlYqx13VCvcwEXm8jS9McpEoj8R5RwOOQ8SGYnHODAvyXyjU7xnuDvjb
+nrhlg+sUfFW2Ws2TIULUSzFlkUXSbucKdD1OggEprHWsJ/qqZlfHfb2TgCOM91o6Hpdq88ZI1hRf
+Et0p2gP00TaaxcWpxLRKYQpON7vyHYbmDidGH4xCuCy7KuuoilWkdbdbD67tOvU+sWyIVPpVv88o
+sLZK4MWZlq5WixgmDHBkEoDj7gWRGJhh9v8AR/a72s3aenKbd1XZtxG2Daam3SG2xDqnjCjaC1tN
+RJJquLz0zTdsViiAJ1M5ggJA6F7JrDOBWzx7gC7BrBTfNlj3+5HR9OKVWjAp0g2Lngc0wShElyra
+qA6XHRf6EZ7I2S820mOiDzi+rSEs9jSGnPq+mhlg7lyGsKFkCxnkMiquucnjMRkigZmI4wH3n4yd
+H6d2Fn2FV93exyqahHXevHRqJK2qzccPhYtt7b3F8a/OFsZxQkngJFLSsZHjP//Z
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://yangpanwww.iteye.com/images/tec.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgIC
+AwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAEAAQAwERAAIRAQMRAf/EAG0AAAMBAAAAAAAAAAAAAAAA
+AAUHCAkBAAIDAQAAAAAAAAAAAAAAAAQHBQYICRAAAQUBAAIBBQAAAAAAAAAABQIDBAYHAQARCCES
+IhMVEQACAwACAgMBAQAAAAAAAAACAwEEBREGABIhEwcUIv/aAAwDAQACEQMRAD8A32zNAErT6Hdr
+hU06retjs8+rZ1T1rGDlWEiESLZslkt9pkQ1k1p4TMMtNI5IYUtXHHHXkoT9NXaapXZfnUWBRzc+
+qDbL5GTkIZBStal8+vMiElMyJcfAiMzPnMzrrxfn097ZQ7Z3t3SdVz6cMFUNJJALn2bHHvxBtABG
+DCZmDM2QMeH9GFCRQ/U2hGfsYpsuJAoVxNVwXOHmxk6rzJA2Kix1ewoakFhJcRIPwXvXJz7bkdf4
+qS6lSPA86RYNRjXjpde0iNS2kuVmDhEy+tgfAkJQs459BmCj5iRmJ8k95RIZporUWdf7z18E2X1g
+dD0tqmxQS5Dp9mLYuXqLj7jEll/mRYMj5BuP/IMnk2HHJWnf3ID9E1IhnGbR4AQZy/5nZLgHjydY
+soNZnsGTCPC6/X2Iw5LjzbUElOXK6lT7TH2Hdqv0tr9eqfm/U/5m7drrE7Fz7WmNZ1VFmKtFTZWJ
+8g2yxks4AiNKfSOBI5lKdL7jpdP/ADW7udwG4tOf2JmdnwpATdo2Lavt0rCZb6SLl10gCOTEUvcT
+piWAv1X9t+WQU4CtWd40O1i63jbZgUNfdP1YhHO6VbB8QhDeEUmthgjxRAuCRKQ4q5K1Tp0uX+lt
+j2lpPE+MHF6VurYvX7uzGp5+cthVqef7/wAyiICg3tc4EyZCJFADCVgHMn8lPlO1v1qhar2et9Ar
+79/e33oXd0dMoZesLBgEuqhSpbCgNgLlky5zG+gr5gIiPP/Z
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://yangpanwww.iteye.com/images/login_icon.png
+
+iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAK
+TWlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVN3WJP3Fj7f92UPVkLY8LGXbIEAIiOsCMgQ
+WaIQkgBhhBASQMWFiApWFBURnEhVxILVCkidiOKgKLhnQYqIWotVXDjuH9yntX167+3t+9f7vOec
+5/zOec8PgBESJpHmomoAOVKFPDrYH49PSMTJvYACFUjgBCAQ5svCZwXFAADwA3l4fnSwP/wBr28A
+AgBw1S4kEsfh/4O6UCZXACCRAOAiEucLAZBSAMguVMgUAMgYALBTs2QKAJQAAGx5fEIiAKoNAOz0
+ST4FANipk9wXANiiHKkIAI0BAJkoRyQCQLsAYFWBUiwCwMIAoKxAIi4EwK4BgFm2MkcCgL0FAHaO
+WJAPQGAAgJlCLMwAIDgCAEMeE80DIEwDoDDSv+CpX3CFuEgBAMDLlc2XS9IzFLiV0Bp38vDg4iHi
+wmyxQmEXKRBmCeQinJebIxNI5wNMzgwAABr50cH+OD+Q5+bk4eZm52zv9MWi/mvwbyI+IfHf/ryM
+AgQAEE7P79pf5eXWA3DHAbB1v2upWwDaVgBo3/ldM9sJoFoK0Hr5i3k4/EAenqFQyDwdHAoLC+0l
+YqG9MOOLPv8z4W/gi372/EAe/tt68ABxmkCZrcCjg/1xYW52rlKO58sEQjFu9+cj/seFf/2OKdHi
+NLFcLBWK8ViJuFAiTcd5uVKRRCHJleIS6X8y8R+W/QmTdw0ArIZPwE62B7XLbMB+7gECiw5Y0nYA
+QH7zLYwaC5EAEGc0Mnn3AACTv/mPQCsBAM2XpOMAALzoGFyolBdMxggAAESggSqwQQcMwRSswA6c
+wR28wBcCYQZEQAwkwDwQQgbkgBwKoRiWQRlUwDrYBLWwAxqgEZrhELTBMTgN5+ASXIHrcBcGYBie
+whi8hgkEQcgIE2EhOogRYo7YIs4IF5mOBCJhSDSSgKQg6YgUUSLFyHKkAqlCapFdSCPyLXIUOY1c
+QPqQ28ggMor8irxHMZSBslED1AJ1QLmoHxqKxqBz0XQ0D12AlqJr0Rq0Hj2AtqKn0UvodXQAfYqO
+Y4DRMQ5mjNlhXIyHRWCJWBomxxZj5Vg1Vo81Yx1YN3YVG8CeYe8IJAKLgBPsCF6EEMJsgpCQR1hM
+WEOoJewjtBK6CFcJg4Qxwicik6hPtCV6EvnEeGI6sZBYRqwm7iEeIZ4lXicOE1+TSCQOyZLkTgoh
+JZAySQtJa0jbSC2kU6Q+0hBpnEwm65Btyd7kCLKArCCXkbeQD5BPkvvJw+S3FDrFiOJMCaIkUqSU
+Eko1ZT/lBKWfMkKZoKpRzame1AiqiDqfWkltoHZQL1OHqRM0dZolzZsWQ8ukLaPV0JppZ2n3aC/p
+dLoJ3YMeRZfQl9Jr6Afp5+mD9HcMDYYNg8dIYigZaxl7GacYtxkvmUymBdOXmchUMNcyG5lnmA+Y
+b1VYKvYqfBWRyhKVOpVWlX6V56pUVXNVP9V5qgtUq1UPq15WfaZGVbNQ46kJ1Bar1akdVbupNq7O
+UndSj1DPUV+jvl/9gvpjDbKGhUaghkijVGO3xhmNIRbGMmXxWELWclYD6yxrmE1iW7L57Ex2Bfsb
+di97TFNDc6pmrGaRZp3mcc0BDsax4PA52ZxKziHODc57LQMtPy2x1mqtZq1+rTfaetq+2mLtcu0W
+7eva73VwnUCdLJ31Om0693UJuja6UbqFutt1z+o+02PreekJ9cr1Dund0Uf1bfSj9Rfq79bv0R83
+MDQINpAZbDE4Y/DMkGPoa5hpuNHwhOGoEctoupHEaKPRSaMnuCbuh2fjNXgXPmasbxxirDTeZdxr
+PGFiaTLbpMSkxeS+Kc2Ua5pmutG003TMzMgs3KzYrMnsjjnVnGueYb7ZvNv8jYWlRZzFSos2i8eW
+2pZ8ywWWTZb3rJhWPlZ5VvVW16xJ1lzrLOtt1ldsUBtXmwybOpvLtqitm63Edptt3xTiFI8p0in1
+U27aMez87ArsmuwG7Tn2YfYl9m32zx3MHBId1jt0O3xydHXMdmxwvOuk4TTDqcSpw+lXZxtnoXOd
+8zUXpkuQyxKXdpcXU22niqdun3rLleUa7rrStdP1o5u7m9yt2W3U3cw9xX2r+00umxvJXcM970H0
+8PdY4nHM452nm6fC85DnL152Xlle+70eT7OcJp7WMG3I28Rb4L3Le2A6Pj1l+s7pAz7GPgKfep+H
+vqa+It89viN+1n6Zfgf8nvs7+sv9j/i/4XnyFvFOBWABwQHlAb2BGoGzA2sDHwSZBKUHNQWNBbsG
+Lww+FUIMCQ1ZH3KTb8AX8hv5YzPcZyya0RXKCJ0VWhv6MMwmTB7WEY6GzwjfEH5vpvlM6cy2CIjg
+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
+Ts5Uo85DgAAAAABJRU5ErkJggg==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/upload/logo/user/116639/f8fdfdc8-108d-3522-8dad-0aca64d6d1ed.jpg?1245379977
+
+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
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/icon_minigender_1.gif?1324994303
+
+R0lGODlhCwALALMAADFjdCt4kTKOrjikyGWarFexz2vQ8YGXnoKcpZKxu7S5u4m0wqC9xp/O3sDA
+wAAAACH5BAEAAA4ALAAAAAALAAsAAAQ80EnZamWTml1WdgyzCcTnNItAno1RLcQSEFVRbGUiIE0B
+EIOBIGMIKE6FAHHg6SknjMGNADh8FsKANRMBADs=
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://yangpanwww.iteye.com/images/status/offline.gif
+
+R0lGODlhWQAaAMQAAGZmZu/v76WlpZmZmcXFxXx8fP///7W1td3d3ff394yMjK2trb29vczMzIWF
+hZmZmeXl5dbW1v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEH
+ABIALAAAAABZABoAAAX/oCSOZGmeaKqubOu+cCzPdG3fIyIMRID/wFFjNygeIAFdcclsOp/QqFQq
+aKgEhQLzEOgmENOweEzOLkwIhQJhaAd4iIa8MRAk2vi8fs/v+/9+DWo+Iw52eWACB4sLAg4DAYCS
+k5SUbwpCDnsBRAI7DoZ3laOkowkOCCILA3wEq00NfgAGs7N8ALi4e7Z/vHq8tXoNDiJFfAkMDAQE
+DAcMu7ltttPRwNK52NXZ2XjWtHnDIp57CXQCyTsCPbfSu93fvu19wcHv09d44RKeCf39EAc8EQFV
+ZwEEf9uy9QOAMAFDhv4cLozYUKJFiw9zUdTHzx+EZgtCehqgRkDIgxEh/0JEqPHhxYsrU0p0uRBX
+RZv9ONrxR+BAyJ+eFDhQ4PMAxYwTk858uTImS4U3sW0ktm9nuSILfAoUINTQDgJPl1Zc2jSjVIov
+J+JUGVGnP5IDgI7sWkeNQ5ppY+LdizbhWr1p3faD+xMoyQIKFtiNmlQj2bFOMapN2VSp4KtbCx8e
+wEBABMpskTaGObahQpVlxZaj6qlLlwhbnS0LaPIAAte5XHfBpZv3bt8B/ALYrft3ceDBh3fRt6o4
+AgZZCURAEIGZstvFs2vfzr279+36hmlH4ErggQZIvqtfz947A1QjFHhGQL++/fv48+vfz7+//+dF
+kBCAGgskY+CBCCao4CeCDDbo4IOKKUAICQdkoQAZGGao4RMKZHGACgg0suGIJIaxQColhAAAOw==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.iteye.com/images/user-logo-thumb.gif?1324994303
+
+R0lGODlhMAAwAMQAAOXl5eTk5Pv7++np6efn5/Pz8+bm5vz8/PHx8evr6+jo6PLy8vj4+O/v7/r6
++vn5+e3t7f39/fT09P7+/vf39/X19fb29uzs7PDw8O7u7urq6v///+Pj4wAAAAAAAAAAACH/C1hN
+UCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtj
+OWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUg
+WE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAi
+PiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5
+bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29t
+L3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NU
+eXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdp
+bmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkIzMkFGRUQ1QUFEMTFFMDk2MEJERjMw
+QTkyQzUyNDYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkIzMkFGRUU1QUFEMTFFMDk2MEJE
+RjMwQTkyQzUyNDYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDoyQjMyQUZFQjVBQUQxMUUwOTYwQkRGMzBBOTJDNTI0NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1w
+LmRpZDoyQjMyQUZFQzVBQUQxMUUwOTYwQkRGMzBBOTJDNTI0NiIvPiA8L3JkZjpEZXNjcmlwdGlv
+bj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf2
+9fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769
+vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWE
+g4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxL
+SklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMS
+ERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAwADAAAAX/ICeOZGmeaKqubOu+cCzPdG3f
+eK7vfO//wKBwSCwafQSL4lgiPBgZJknCYBQCUtEFUZAkEgTCd5xYigAEgygwGJg5gIFGDQ+vAobD
+BoHY+P8FHAQSBxERDAkcDBsRZhR+CgAFhREPECoAAhsYGH9/CAaanhsQCn4UHBB+CwEPo3spmXtx
+qhsLCgaPGwIFuhMGC34NDhsHAQV+BwUWE34aKLILIqYbUdQPBg0LFX4IAXp/EAERxQQQBcgbFdCa
+0hwDwql+EATdDhESHBl/DO/dAX4KMIiA6kQ0EfA2NOBwQVgrBwMAGAAgYtGEAf42BLIgIAEeigbb
+IYxHoNkBjHSmZ2xwcEZPhEQpY4nMuJADtw0THgi4UELCSiwc+vh54ADDCgB63CWsCWDRnwMgRXAT
+ADSABU8TCGCy4KCmAqI81zRgIOBBgahBHVQAKgICBQFqtWaZS7eu3bt48+rdy7ev37+AAwuWEQIA
+Ow==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://stat.iteye.com/?url=http%3A%2F%2Fyangpanwww.iteye.com%2Fblog%2F1169756&referrer=&user_id=
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAALEgAACxIB0t1+/AAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAABZ0RVh0
+Q3JlYXRpb24gVGltZQAwMS8xNS8wOcvIjfIAAANmSURBVFiFxZc/aONWHMc/voYDizsqkLvlgc2B
+qymoU4gN4YzIcnQpJWucm5ShQ89eDaVgPB1JpxBNcTxmdcgSbE22nKnOTSGBYKxZkINDgS7poD+1
+HbtnJwr3BYH0nt77fN97v/fTU+L+/p5vqRfflA4sASvAByD9TIwBsAd8mmXgg2EY288EB8A0TYD3
+0+pe8HwjH9VMxtLog2mat/hTdrtA53IAkIPn2+CSDcOQZzWaaiCA/7QAHOBX4OOEgb+A30fK5jaw
+yMhD/Xx5eZlqNBoAbG1tpVRVnQsO8WzDtGmar1zXxXVdTNN8xfiSPLuBJ2keAyvAYXCtTKkfGIbx
+RVEUFEXBMIwvLBDIkzEwDf7n4eHhu7W1tX9UVZWBPxhPKnuqqlKr1dKhIeAEqADaUwxE8F6v9/L6
++vplpVIpSJJ0y3hS+cT0JPPb1+AwewnG4ACu69Jut7/HH9XqHH0/Kghl/H09Bg/VbDYZDodvgJ0p
+fa3ix4kF/M2cGXbSQBr4OA0eqtFovMafhcIE+MDzvF+63e7barWqMecMTMaAfHR0JPd6vZkNHMfh
+7Ozsx42NjV2ClDscDt+02+3XFxcXeJ43D3emAbrd7lcbnZ6eJlVV1a6urmi1WriuuxD0fw3MI8/z
+qFarM+szmQwA5XI5LNLwY2MAHADnTzIwS8vLy+i6jhAC27ZptVo4jgMgCyHeFgoFL5/Pa0Cf4JAS
+qwFd11FVlf39/RAcyXEcGo2GZFmWViqVMpIkAbyP7VuQyWQQQkRwRVEevCNJEo7jsLu7G+WT2Ays
+r69zc3MTwWu1GrlcLqovFouUSqXIRKfTyQI7sS1BKpXi+PgY8LNms9mkWCwCfmzkcjmazWa0TS3L
+kvL5fPqBgeAA+SiNrvvJyQmu67K9vQ1AvV7Htu0H744ZMAzj0fCRLRcpm81G94lEYmq7Jfy9GYuE
+ENHIisUiuVyOer2OECJajjDRCSEiA3vBtKefyFd1Xf+hXq9/pygKmqZF027bNslkks3NTfr9Pp7n
+USgUPGCQiPHfcBU4qFarmuM4JJNJ7u7uxl5QFAXXdRFCUKlU+sBOnGfCc6BfLpc/CyEewIEIXi6X
+P+Nnw/M4ZwD++8/UOp1O1rIsKYwJIQRBKr5iJBXHbSDUKv6hJT1RPmDiY/Qv+WVSz1NpUPgAAAAA
+SUVORK5CYII=
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://yangpanwww.iteye.com/iframe_ggbd/187
+
+<html><head><meta charset=3D"UTF-8"></head>
+        <body style=3D"margin:0"><div id=3D"BAIDU_DUP_fp_wrapper" style=3D"=
+position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; heigh=
+t: 0px; overflow: hidden; visibility: hidden; display: none;"><iframe id=3D=
+"BAIDU_DUP_fp_iframe" src=3D"http://pos.baidu.com/wh/o.htm?ltr=3D&amp;cf=3D=
+u" style=3D"width: 0px; height: 0px; visibility: hidden; display: none;"></=
+iframe></div><!--AdForward Begin:-->
+<div id=3D"a7bfaf60_0" style=3D"padding:0;margin:0;border:0;">
+<div id=3D"BAIDU_DUP_wrapper_u1819087_0"><iframe id=3D"cproIframe_u1819087_=
+1" width=3D"468" height=3D"60" src=3D"http://pos.baidu.com/acom?adn=3D2&amp=
+;at=3D6&amp;aurl=3D&amp;cad=3D1&amp;ccd=3D32&amp;cec=3DUTF-8&amp;cfv=3D16&a=
+mp;ch=3D0&amp;col=3Dzh-CN&amp;conOP=3D0&amp;cpa=3D1&amp;dai=3D1&amp;dis=3D1=
+&amp;ltr=3D&amp;ltu=3Dhttp%3A%2F%2Fyangpanwww.iteye.com%2Fblog%2F1169756&am=
+p;lunum=3D6&amp;n=3Dcsdnbaidu_cpr&amp;pcs=3D468x60&amp;pis=3D468x60&amp;ps=
+=3D1195x711&amp;psr=3D1920x1080&amp;pss=3D468x60&amp;qn=3D29b8904d51210c1c&=
+amp;rad=3D&amp;rsi0=3D468&amp;rsi1=3D60&amp;rsi5=3D4&amp;rss0=3D%23FFFFFF&a=
+mp;rss1=3D%23FFFFFF&amp;rss2=3D%230000ff&amp;rss3=3D%23444444&amp;rss4=3D%2=
+3008000&amp;rss5=3D&amp;rss6=3D%23e10900&amp;rss7=3D&amp;scale=3D&amp;skin=
+=3D&amp;td_id=3D1819087&amp;tn=3Dtext_default_468_60&amp;tpr=3D142373755057=
+6&amp;ts=3D1&amp;version=3D2.0&amp;xuanting=3D0&amp;dtm=3DBAIDU_DUP2_SETJSO=
+NADSLOT&amp;dc=3D2&amp;di=3Du1819087&amp;tt=3D1423737550559.18.609.615" ali=
+gn=3D"center,center" marginwidth=3D"0" marginheight=3D"0" scrolling=3D"no" =
+frameborder=3D"0" allowtransparency=3D"true"></iframe></div></div>
+<!--AdForward End-->
+       =20
+</body></html>
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pos.baidu.com/acom?adn=2&at=6&aurl=&cad=1&ccd=32&cec=UTF-8&cfv=16&ch=0&col=zh-CN&conOP=0&cpa=1&dai=1&dis=1&ltr=&ltu=http%3A%2F%2Fyangpanwww.iteye.com%2Fblog%2F1169756&lunum=6&n=csdnbaidu_cpr&pcs=468x60&pis=468x60&ps=1195x711&psr=1920x1080&pss=468x60&qn=29b8904d51210c1c&rad=&rsi0=468&rsi1=60&rsi5=4&rss0=%23FFFFFF&rss1=%23FFFFFF&rss2=%230000ff&rss3=%23444444&rss4=%23008000&rss5=&rss6=%23e10900&rss7=&scale=&skin=&td_id=1819087&tn=text_default_468_60&tpr=1423737550576&ts=1&version=2.0&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=u1819087&tt=1423737550559.18.609.615
+
+<html><head><meta charset=3D"UTF-8">
+	<!-- 0|1; -->
+ =20
+    <title>=E7=99=BE=E5=BA=A6=E7=BD=91=E7=9B=9F=E6=8E=A8=E5=B9=BF</title>=
+=20
+    <style type=3D"text/css">
+   =20
+html{color:#000;background-color:transparent;}body,div,dl,dt,dd,ul,ol,li,h1=
+,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,t=
+h,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fie=
+ldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-styl=
+e:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:lef=
+t}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{cont=
+ent:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-to=
+p}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;=
+font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%=
+}legend{color:#000}body{margin:0;padding:0;}         =20
+.bd-logo,.bd-logo2,.bd-logo3,.bd-logo4{text-decoration:none;cursor:pointer;=
+display:block;overflow:hidden;position:absolute;bottom:0;right:0;z-index:21=
+47483647}.bd-logo{height:18px;width:18px;background:url(http://cpro2.baidus=
+tatic.com/cpro/ui/noexpire/img/2.0.1/bg.png) no-repeat left top;background-=
+position:0 0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(ena=
+bled=3Dtrue,src=3D"http://cpro2.baidustatic.com/cpro/ui/noexpire/img/2.0.1/=
+logo-border-light.png",sizingMethod=3D"crop");_background:0}.bd-logo:hover{=
+background-position:-70px 0;_filter:progid:DXImageTransform.Microsoft.Alpha=
+ImageLoader(enabled=3Dtrue,src=3D"http://cpro2.baidustatic.com/cpro/ui/noex=
+pire/img/2.0.1/logo-border-dark.png",sizingMethod=3D"crop")}.bd-logo2{margi=
+n:0 2px 2px 0;height:14px;width:13px;background:url(http://cpro2.baidustati=
+c.com/cpro/ui/noexpire/img/2.0.1/bg.png) no-repeat left top;background-posi=
+tion:0 -20px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(ena=
+bled=3Dtrue,src=3D"http://cpro2.baidustatic.com/cpro/ui/noexpire/img/2.0.1/=
+logo-noborder-light.png",sizingMethod=3D"crop");_background:0}.bd-logo2:hov=
+er{background-position:0 -35px;_filter:progid:DXImageTransform.Microsoft.Al=
+phaImageLoader(enabled=3Dtrue,src=3D"http://cpro2.baidustatic.com/cpro/ui/n=
+oexpire/img/2.0.1/logo-noborder-dark.png",sizingMethod=3D"crop")}.bd-logo3{=
+height:18px;width:18px;background:url(http://cpro2.baidustatic.com/cpro/ui/=
+noexpire/img/2.0.1/bg.png) no-repeat left top;background-position:-70px 0;_=
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=3Dtrue,sr=
+c=3D"http://cpro2.baidustatic.com/cpro/ui/noexpire/img/2.0.1/logo-border-da=
+rk.png",sizingMethod=3D"crop");_background:0}.bd-logo3:hover{width:68px}.bd=
+-logo4{height:18px;width:18px;bottom:0;left:0;background:url(http://cpro2.b=
+aidustatic.com/cpro/ui/noexpire/img/2.0.1/bd-logo4.png) no-repeat left top;=
+background-position:center;background-size:100%,100%;_filter:progid:DXImage=
+Transform.Microsoft.AlphaImageLoader(enabled=3Dtrue,src=3D"http://cpro2.bai=
+dustatic.com/cpro/ui/noexpire/img/2.0.1/bd-logo4.png",sizingMethod=3D"crop"=
+);_background:0}
+.loader{ text-align:center; width:90%; font-size:12px; padding:8px; border:=
+solid 1px #aaaaaa; margin-top:30px; display:none; }.cf:before,.cf:after{con=
+tent:"\20";display:table;}.cf:after{clear:both;}.cf{*zoom:1;}
+.textOverflow{white-space:nowrap;overflow:hidden;display:inline-block;width=
+:100%;}.textOverflowEllipsis{-o-text-overflow:ellipsis;text-overflow:ellips=
+is;}.textOverflowClip{-o-text-overflow:clip;text-overflow:clip;}
+ =20
+	.linkContainer{height:26px;position:absolute;top:0;right:0;z-index:2147483=
+647;clear:both;}
+	.linkItem{float:left;height:24px;border:1px solid #c2c2c2;border-left:0;ov=
+erflow:hidden;background-color:#f8f8f8;}
+	.linkA{font-size:12px;font-family:"=E5=AE=8B=E4=BD=93";color:#595959;text-=
+decoration:none;vertical-align:top;line-height:24px;height:24px;outline:non=
+e;display:block;}
+	.linkA:hover{background-color:#ffc8ce;}
+	.linkArrowExpand{background:url(http://cpro.baidustatic.com/cpro/ui/noexpi=
+re/img/sublink/subItemRightArrow_2.png) no-repeat 0 0;_filter:progid:DXImag=
+eTransform.Microsoft.AlphaImageLoader(enabled=3Dtrue,src=3D"http://cpro.bai=
+dustatic.com/cpro/ui/noexpire/img/sublink/subItemRightArrow_2.png",sizingMe=
+thod=3D"crop");_background:0;float:left;width:16px;height:26px;cursor:point=
+er}
+	.linkArrowNormal{background:url(http://cpro.baidustatic.com/cpro/ui/noexpi=
+re/img/sublink/subItemLeftArrow_2.png) no-repeat 0 0 ;_filter:progid:DXImag=
+eTransform.Microsoft.AlphaImageLoader(enabled=3Dtrue,src=3D"http://cpro.bai=
+dustatic.com/cpro/ui/noexpire/img/sublink/subItemLeftArrow_2.png",sizingMet=
+hod=3D"crop");_background:0;}
+	.linkItemWrap{float:left}
+    </style>
+ =20
+ =20
+<style type=3D"text/css">.container {padding-left:0px;padding-right:0px;pad=
+ding-top:0px;padding-bottom:0px;margin-top:0px;border-style:solid;border-to=
+p-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-widt=
+h:0px;border-color:#FFFFFF;width:468px;height:60px;background-color:#FFFFFF=
+;position:relative;overflow:hidden;float:none;text-align:center;}=20
+.item {padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0p=
+x;width:468px;height:60px;float:left;overflow:hidden;text-align:left;}=20
+.image {padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0=
+px;width:468px;height:60px;float:left;overflow:hidden;}=20
+.image a {height:60px;}=20
+</style></head>
+<body marginwidth=3D"0" marginheight=3D"0"><div style=3D"display:none;"><im=
+g src=3D"http://wn.pos.baidu.com/adx.php?c=3Dd25pZD1iNWZkNGY3Nzc2MzUyYWI3AH=
+M9YjVmZDRmNzc3NjM1MmFiNwB0PTE0MjM3Mzc1NTUAc2U9MQBidT0xAHByaWNlPVZOeUMwd0FMQ=
+1I5N2pFcGdXNUlBOG5UQkk4NGQzV3VQUGZEWTlBAGNobWQ9MQBiZGlkPUI2MEJGOTFGM0VFNzMx=
+NzMzQzU2QUZBNjc1Q0U5QTA2AGNwcm9pZD1CNjBCRjkxRjNFRTczMTczM0M1NkFGQTY3NUNFOUE=
+wNgBiY2htZD0wAHY9MQBpPTdlOTNmZmIz" height=3D"1px" width=3D"1px" alt=3D""></=
+div>
+         =20
+  <div class=3D"container" id=3D"container"><div class=3D"item"><div class=
+=3D"image"><a id=3D"res0" target=3D"_blank" href=3D"http://www.baidu.com/cp=
+ro.php?0600000YzGf73MSjZz87H7ANc1equ9nyLFAuVQN-uHP7ATCrHHev_n9Gi9IljiRT7GBc=
+zyQdYn6-29F0Ca7j46gJfPlksH5vnLo7m4m6IxRiACRKngVEGfLtfvWo.Db_inder1_tMnLT2c2=
+Q38vj3m2qMuvfU81GzTmcO2Ozt8ZzOQO_Y55QN6OROeZskxwsUVO4JDLztSyjZuYl3QcKa4dZA1=
+TBaZZZKjWWq_PKeCEYmTTxs8YlgwxXFqjz8ILWh9mEukmrjHMJ3X8apBscgrC3vUbfpMr8W6zUP=
+OW1RkECFHPnlU-9k1QjPakbozUr-f0.IgF_5y9YIZ0lQzq4my4MTA78ILILQh-Yug--QhPEUiqB=
+UAqMQ1DkPWbLPHm0IAYqnHnknWRznfKYIHddnH6krH03PsKLUjYz0AP8IA3qmh7GuZN1pgw-ugF=
+zULFxmLKz0A7bmvk9TLnqn0KzT1Ys0APh5H00mLwV5gw-XZwxuANhmgN_I7tYPW9xPW00Uh7YIH=
+YL0A-YpyfqPHf0pgwGUhuEpyfqn0KMTA-b5H00ThNhTA-b5H00mLKzUv-b5RcvnDFArH7AnYN7P=
+1nkP1n1f1RvfRuKPWTdfYR4fH0v0APEUgK_uHYs0A7Ypyfq0A7YIZbq0ZP_TLFW5H00TvkWp1Ys=
+0ZP_pv-b5H00mMNbuvNYgvN3TA-b5H00my-s5Nu9UD7sP6Kdpg0qyAVEnD9AiW-VuNt0mv6qn0K=
+YmgcqPHDz0AwYTjYk0ZP-UAk-T-qGujYk0A-1gv7sTjYs0A7sT7qGujYs0APdTLfq0A-1gLIGTh=
+N_ugP15H00Iv7sgLw4TARqn0KsUjYs0AdW5HPhuAN-uHK-0Adv5HD0UMus5H08nj0snj0snj00u=
+1bqnfKhpgF1I7qzuyIGUv3qnfK1uyPEUhwxThNMpyq85HTYnsK1TL0qnfK1TL0z5HD0IZws5HD0=
+uA-1IZ0qn0K9mWYs0A7bXjYk0ZKhIZF9uARqPsKsTLwzmyw-5HTsP0Kspyfqn0KLTA-b5H00myw=
+YXgK-5H00Tv-zuy4bugcqn0K1Iv-b5H00TLw4TARqn0KWThnqPjT1njm0" style=3D"display=
+: block;"><img width=3D"0" height=3D"0" src=3D"http://ubmcmm.baidustatic.co=
+m/media/v1/0f000F4h8IoAApWL0u_Lzs.jpg" style=3D"width: 468px; height: 60px;=
+"></a></div></div><a class=3D"bd-logo" target=3D"_blank" href=3D"http://wan=
+gmeng.baidu.com/" title=3D"=E6=8E=A8=E5=B9=BF=E7=94=A8=E6=88=B7 : www.coolp=
+ad.com" style=3D"zoom: 1;">&nbsp;</a></div><div id=3D"loader" class=3D"load=
+er">loading......</div>
+  <div id=3D"lu_loader" class=3D"loader">loading......</div>
+ =20
+ =20
+
+</body></html>
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://cpro2.baidustatic.com/cpro/ui/noexpire/img/2.0.1/bg.png
+
+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
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://wn.pos.baidu.com/adx.php?c=d25pZD1iNWZkNGY3Nzc2MzUyYWI3AHM9YjVmZDRmNzc3NjM1MmFiNwB0PTE0MjM3Mzc1NTUAc2U9MQBidT0xAHByaWNlPVZOeUMwd0FMQ1I5N2pFcGdXNUlBOG5UQkk4NGQzV3VQUGZEWTlBAGNobWQ9MQBiZGlkPUI2MEJGOTFGM0VFNzMxNzMzQzU2QUZBNjc1Q0U5QTA2AGNwcm9pZD1CNjBCRjkxRjNFRTczMTczM0M1NkFGQTY3NUNFOUEwNgBiY2htZD0wAHY9MQBpPTdlOTNmZmIz
+
+R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAABAAEAAAICVAEAOw==
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://ubmcmm.baidustatic.com/media/v1/0f000F4h8IoAApWL0u_Lzs.jpg
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABQAAD/4QNtaHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6
+MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0i
+aHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1w
+PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9
+InhtcC5kaWQ6NkU3RTE0QTdEMDNFRTQxMTlDMkJGMDE2MDFBOTM0NTgiIHhtcE1NOkRvY3VtZW50
+SUQ9InhtcC5kaWQ6MTJFMUQxNkI4NDNGMTFFNDhGQ0JDMTU5Q0YxMjM0NjgiIHhtcE1NOkluc3Rh
+bmNlSUQ9InhtcC5paWQ6MTJFMUQxNkE4NDNGMTFFNDhGQ0JDMTU5Q0YxMjM0NjgiIHhtcDpDcmVh
+dG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9t
+IHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzE4NDBDMEUzRjg0RTQxMThFRjRBQ0FBRkI4QTE2
+RjEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NkU3RTE0QTdEMDNFRTQxMTlDMkJGMDE2MDFB
+OTM0NTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBh
+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
+Xqy5Yf0R8t2CIbOXx+X/ANfyjgi//9k=
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pos.baidu.com/wh/o.htm?ltr=&cf=u
+
+<html><head><meta charset=3D"GBK">
+    </head>
+    <body><div><iframe width=3D"1" height=3D"1" src=3D"http://eclick.baidu.=
+com/nova_fp.htm?br=3D2&amp;fp=3D706784165F5F11D47770CC9866B284F1&amp;fp2=3D=
+3DD6B83A909FA5984971B4AAA56CE86D&amp;ci=3DB60BF91F3EE731733C56AFA675CE9A06%=
+3AFG%3D1&amp;bi=3DB60BF91F3EE731733C56AFA675CE9A06%3AFG%3D1&amp;im=3D0&amp;=
+wf=3D1&amp;ct=3D81&amp;m=3D&amp;t=3D210&amp;_=3D1423737552045" align=3D"cen=
+ter" marginwidth=3D"0" marginheight=3D"0" scrolling=3D"no" frameborder=3D"0=
+" allowtransparency=3D"true" <=3D"" iframe=3D""></iframe></div>
+        <style>
+            .userData {behavior:url(#default#userdata);}
+            .client {behavior:url(#default#clientCaps);}
+        </style>
+        <div id=3D"oPersistDiv" class=3D"userData" remember=3D"@"></div>
+        <div id=3D"clientDiv" class=3D"client"></div>
+        <div id=3D"oFlashDiv"><embed wmode=3D"transparent" name=3D"BAIDU_CL=
+B_wh_o_flash" id=3D"BAIDU_CLB_wh_o_flash" src=3D"http://pos.baidu.com/wh/f.=
+swf" swliveconnect=3D"true" quality=3D"high" width=3D"1" height=3D"1" align=
+=3D"middle" allowscriptaccess=3D"samedomain" type=3D"application/x-shockwav=
+e-flash" pluginspage=3D"http://www.macromedia.com/go/getflashplayer"></div>
+       =20
+        <div id=3D"cFlashDiv">
+            <object classid=3D"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" =
+codebase=3D"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash=
+.cab#version=3D7,0,19,0" width=3D"1" height=3D"1" id=3D"BAIDU_CLB_ac_o_flas=
+h" title=3D"BAIDU_CLB_ac_o_flash" align=3D"middle">
+                <param name=3D"allowScriptAccess" value=3D"samedomain">
+                <param name=3D"movie" value=3D"http://pos.baidu.com/wh/c.sw=
+f">
+                <param name=3D"quality" value=3D"high">
+                <param name=3D"wmode" value=3D"transparent">
+                <embed wmode=3D"transparent" name=3D"BAIDU_CLB_ac_o_flash" =
+id=3D"BAIDU_CLB_ac_o_flash" src=3D"http://pos.baidu.com/wh/c.swf" swlivecon=
+nect=3D"true" quality=3D"high" width=3D"1" height=3D"1" align=3D"middle" al=
+lowscriptaccess=3D"samedomain" type=3D"application/x-shockwave-flash" plugi=
+nspage=3D"http://www.macromedia.com/go/getflashplayer">
+            </object>           =20
+        </div>
+       =20
+   =20
+
+<div id=3D"cPersistDiv" cproid=3D"B60BF91F3EE731733C56AFA675CE9A06:FG=3D1" =
+style=3D"visibility: hidden; position: absolute;"></div></body></html>
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://eclick.baidu.com/nova_fp.htm?br=2&fp=706784165F5F11D47770CC9866B284F1&fp2=3DD6B83A909FA5984971B4AAA56CE86D&ci=B60BF91F3EE731733C56AFA675CE9A06%3AFG%3D1&bi=B60BF91F3EE731733C56AFA675CE9A06%3AFG%3D1&im=0&wf=1&ct=81&m=&t=210&_=1423737552045
+
+<html><head><meta charset=3D"UTF-8">
+           =20
+    </head>
+    <body marginwidth=3D"0" marginheight=3D"0">
+   =20
+
+</body></html>
+------=_NextPart_000_48F9_4AD36E63.26C8B2AA--

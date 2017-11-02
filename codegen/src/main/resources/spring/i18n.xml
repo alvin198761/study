@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<!-- 公用部分,不用修改 -->
+				<value>i18n/common/common</value>
+				<!-- 用户修改部分 -->
+				<value>i18n/test/systest</value>
+			</list>
+		</property>
+	</bean>
+</beans>
