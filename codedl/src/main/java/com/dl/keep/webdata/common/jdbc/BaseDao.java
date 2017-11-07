@@ -45,7 +45,7 @@ public class BaseDao {
 		int pageSize = cond.getPageSize();// 页大小
 		int curPage = cond.getCurPage();// 当前页
 		cond.setPageCount(rowCount % pageSize == 0 ? rowCount / pageSize : rowCount / pageSize + 1);// 页数
-		String listSql = sql + " LIMIT " + (curPage - 1) * pageSize + "," + pageSize;// 查询分页数据列表的SQL语句
+		String listSql = sql + " LIMIT " + curPage * pageSize + "," + pageSize;// 查询分页数据列表的SQL语句
 		List<T> dataList = jdbcTemplate.query(listSql.toString(), cond.getArray(), new BeanPropertyRowMapper<T>(clazz));
 		return Page.map(dataList, cond.getCurPage(), cond.getPageSize(), cond.getRowCount());
 	}
