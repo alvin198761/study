@@ -43,12 +43,12 @@ public class SimpleAction {
 		sb.append("\r\n	}");
 		sb.append(CommentUtil.methodComment("按条件查询分页列表页面"));
 		sb.append("\r\n	@RequestMapping(\"/queryPage\")");
-		sb.append("\r\n	public Page<" + className + "> queryPage(@RequestBody " + className + "Cond cond ){");
+		sb.append("\r\n	public Page<" + className + "> queryPage(@RequestBody " + className + "Cond cond){");
 		sb.append("\r\n		return bus.queryPage(cond);");
 		sb.append("\r\n	}");
 		sb.append(CommentUtil.methodComment("按条件查询列表页面"));
 		sb.append("\r\n	@RequestMapping(\"/queryList\")");
-		sb.append("\r\n	public List<" + className + "> queryList(@RequestBody " + className + "Cond cond ){");
+		sb.append("\r\n	public List<" + className + "> queryList(@RequestBody " + className + "Cond cond){");
 		sb.append("\r\n		return bus.queryList(cond);");
 		sb.append("\r\n	}");
 		sb.append(CommentUtil.methodComment("跳转到详细页面"));
