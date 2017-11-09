@@ -27,8 +27,8 @@ public class SimpleBus {
 		sb.append("\r\n	@Autowired");
 		sb.append("\r\n	private I" + className + "Client client; //" + CNName + "Dao");
 		sb.append(CommentUtil.methodComment("新增记录"));
-		sb.append("\r\n	public int insert(" + className + " " + cls_low + ") {");
-		sb.append("\r\n		return client.insert(" + cls_low + ");");
+		sb.append("\r\n	public int save(" + className + " " + cls_low + ") {");
+		sb.append("\r\n		return client.save(" + cls_low + ");");
 		sb.append("\r\n	}");
 		sb.append(CommentUtil.methodComment("删除记录(多条)"));
 		sb.append("\r\n	public int delete(String id) {");

@@ -47,5 +47,7 @@
 		<property name="maxUploadSize" value="-1" /> <!-- 最大文件大小，-1为无限止(-1) -->
 	</bean>
 	<!-- 自定义的spring容器载加工具 -->
+	
+	
 	<bean id="SpringContextUtil" class="com.common.util.SpringContextUtil" />
 </beans>

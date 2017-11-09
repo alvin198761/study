@@ -38,8 +38,8 @@ public class SimpleDao {
 		sb.append("\r\n\t\tselectSql.append(\"SELECT " + DaoUtil.add(list, "T.", ",").toString().toUpperCase() + " FROM " + tabname + " T WHERE 1=1\");");
 		sb.append("\r\n\t}");
 		sb.append(CommentUtil.methodComment("新增记录"));
-		sb.append("\r\n\tpublic int insert(" + className + " vo) {");
-		sb.append("\r\n\t\tString sql = \"INSERT INTO " + tabname + " (" + DaoUtil.add(list, "", ",", PKey).toString().toUpperCase() + ") VALUES " + DaoUtil.add(list.size(), PKey) + " \";");
+		sb.append("\r\n\tpublic int save(" + className + " vo) {");
+		sb.append("\r\n\t\tString sql = \"REPLACE INTO " + tabname + " (" + DaoUtil.add(list, "", ",", PKey).toString().toUpperCase() + ") VALUES " + DaoUtil.add(list.size(), PKey) + " \";");
 		if (PKey == 1) {// 自增涨
 			sb.append("\r\n\t\tObject[] params ={");
 		} else if (PKey == 2) {// UUID

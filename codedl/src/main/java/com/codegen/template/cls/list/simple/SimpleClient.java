@@ -17,8 +17,8 @@ public class SimpleClient {
 		sb.append("\r\n//@FeignClient(\"dl-keep-web-data/" + cls + "\")");
 		sb.append("\r\npublic interface I" + className + "Client {");
 		sb.append(CommentUtil.methodComment("新增记录"));
-		sb.append("\r\n	@RequestMapping(\"/insert\")");
-		sb.append("\r\n	Integer insert(@RequestBody " + className + " " + cls + ");");
+		sb.append("\r\n	@RequestMapping(\"/save\")");
+		sb.append("\r\n	Integer save(@RequestBody " + className + " " + cls + ");");
 		sb.append(CommentUtil.methodComment("删除记录(多条)"));
 		sb.append("\r\n	@RequestMapping(\"/delete\")");
 		sb.append("\r\n	Integer delete(@RequestParam(\"id\") String id);");

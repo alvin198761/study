@@ -25,9 +25,9 @@ public class SimpleController {
 		sb.append("\r\n	private " + className + "Service service; //" + CNName + "Service");
 
 		sb.append(CommentUtil.methodComment("新增记录"));
-		sb.append("\r\n	@RequestMapping(\"/insert\")");
-		sb.append("\r\n	public Integer insert(@RequestBody " + className + " " + cls + ") {");
-		sb.append("\r\n		return service.insert(" + cls + ");");
+		sb.append("\r\n	@RequestMapping(\"/save\")");
+		sb.append("\r\n	public Integer save(@RequestBody " + className + " " + cls + ") {");
+		sb.append("\r\n		return service.save(" + cls + ");");
 		sb.append("\r\n	}");
 
 		sb.append(CommentUtil.methodComment("删除记录(多条)"));

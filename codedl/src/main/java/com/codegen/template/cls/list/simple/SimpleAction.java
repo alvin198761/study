@@ -25,9 +25,9 @@ public class SimpleAction {
 		sb.append("\r\n	private " + className + "Bus bus; //" + CNName + "Service");
 
 		sb.append(CommentUtil.methodComment("新增记录"));
-		sb.append("\r\n	@RequestMapping(\"/insert\")");
-		sb.append("\r\n	public Integer insert(@RequestBody " + className + " " + cls + ") {");
-		sb.append("\r\n		return bus.insert(" + cls + ");");
+		sb.append("\r\n	@RequestMapping(\"/save\")");
+		sb.append("\r\n	public Integer save(@RequestBody " + className + " " + cls + ") {");
+		sb.append("\r\n		return bus.save(" + cls + ");");
 		sb.append("\r\n	}");
 
 		sb.append(CommentUtil.methodComment("删除记录(多条)"));
