@@ -50,7 +50,7 @@ public class AliPayController {
 		System.out.println("ok!!!!!");
 		Map<String, String> params = new HashMap<String, String>();
 		Map<?, ?> requestParams = request.getParameterMap();
-		for (Iterator<?> iter = requestParams.keySet().iterator(); iter.hasNext(); ) {
+		for (Iterator<?> iter = requestParams.keySet().iterator(); iter.hasNext();) {
 			String name = (String) iter.next();
 			String[] values = (String[]) requestParams.get(name);
 			String valueStr = "";
@@ -60,6 +60,7 @@ public class AliPayController {
 			params.put(name, valueStr);
 		}
 
+		@SuppressWarnings("unused")
 		String out_trade_no = new String(request.getParameter("out_trade_no").getBytes("ISO-8859-1"), "UTF-8");
 		String trade_status = new String(request.getParameter("trade_status").getBytes("ISO-8859-1"), "UTF-8");
 
@@ -88,8 +89,7 @@ public class AliPayController {
 		sParaTemp.put("refund_date", UtilDate.getDateFormatter());
 		sParaTemp.put("batch_no", dft.format(new Date()) + "123");
 		sParaTemp.put("batch_num", "1");
-		sParaTemp.put("detail_data",
-				request.getParameter("tradeNo") + "^" + request.getParameter("price") + "^" + request.getParameter("reason"));
+		sParaTemp.put("detail_data", request.getParameter("tradeNo") + "^" + request.getParameter("price") + "^" + request.getParameter("reason"));
 
 		// 建立请求
 		String sHtmlText = AlipaySubmit.buildRequest(sParaTemp, "get", "确认");
@@ -100,10 +100,10 @@ public class AliPayController {
 	public String refundBack(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		// 获取支付宝POST过来反馈信息
 		Map<String, String> params = new HashMap<String, String>();
-		Map requestParams = request.getParameterMap();
-		for (Iterator iter = requestParams.keySet().iterator(); iter.hasNext();) {
-			String name = (String) iter.next();
-			String[] values = (String[]) requestParams.get(name);
+		Map<String, String[]> requestParams = request.getParameterMap();
+		for (Iterator<String> iter = requestParams.keySet().iterator(); iter.hasNext();) {
+			String name = iter.next();
+			String[] values = requestParams.get(name);
 			String valueStr = "";
 			for (int i = 0; i < values.length; i++) {
 				valueStr = (i == values.length - 1) ? valueStr + values[i] : valueStr + values[i] + ",";
@@ -113,8 +113,11 @@ public class AliPayController {
 			params.put(name, valueStr);
 		}
 
+		@SuppressWarnings("unused")
 		String batch_no = new String(request.getParameter("batch_no").getBytes("ISO-8859-1"), "UTF-8");
+		@SuppressWarnings("unused")
 		String success_num = new String(request.getParameter("success_num").getBytes("ISO-8859-1"), "UTF-8");
+		@SuppressWarnings("unused")
 		String result_details = new String(request.getParameter("result_details").getBytes("ISO-8859-1"), "UTF-8");
 
 		if (AlipayNotify.verify(params)) {// 验证成功

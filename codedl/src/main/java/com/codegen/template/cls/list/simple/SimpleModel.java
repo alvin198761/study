@@ -18,6 +18,8 @@ public class SimpleModel {
 		sb.append(CodeUtil.dateImport(list));
 		sb.append(CodeUtil.bigImport(list));
 		sb.append(CommentUtil.classComment(author, CNName));
+		sb.append("\r\n@Entity");
+		sb.append("\r\n@Table(name = \"center_card_pause\")");
 		sb.append("\r\npublic class " + className + " {");
 		for (Field map : list) {
 			name = map.getName().toLowerCase();
@@ -34,6 +36,8 @@ public class SimpleModel {
 		}
 		sb.append("\r\n");
 		sb.append("\r\n\t//数据库中的字段");
+		sb.append("\r\n@Id");
+		sb.append("\r\n@GeneratedValue(strategy = GenerationType.AUTO)");
 		sb.append(field);
 		sb.append("\r\n");
 		sb.append("\r\n\t//此处可添加查询显示辅助字段");

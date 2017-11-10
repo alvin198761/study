@@ -32,7 +32,6 @@ public class SimpleBus {
 		sb.append("\r\n	}");
 		sb.append(CommentUtil.methodComment("删除记录(多条)"));
 		sb.append("\r\n	public int delete(String id) {");
-		sb.append("\r\n		//return dao.deleteLogic(id);//逻辑删除");
 		sb.append("\r\n		return client.delete(id);//物理删除");
 		sb.append("\r\n	}");
 		sb.append(CommentUtil.methodComment("按ID查找单个实体"));

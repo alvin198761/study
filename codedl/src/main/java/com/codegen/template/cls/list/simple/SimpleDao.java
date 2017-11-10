@@ -39,17 +39,18 @@ public class SimpleDao {
 		sb.append("\r\n\t}");
 		sb.append(CommentUtil.methodComment("新增记录"));
 		sb.append("\r\n\tpublic int save(" + className + " vo) {");
-		sb.append("\r\n\t\tString sql = \"REPLACE INTO " + tabname + " (" + DaoUtil.add(list, "", ",", PKey).toString().toUpperCase() + ") VALUES " + DaoUtil.add(list.size(), PKey) + " \";");
+		sb.append("\r\n\t\tString sql = \"REPLACE INTO " + tabname + " (" + DaoUtil.add(list, "", ",").toString().toUpperCase() + ") VALUES " + DaoUtil.add(list.size(), PKey) + " \";");
 		if (PKey == 1) {// 自增涨
 			sb.append("\r\n\t\tObject[] params ={");
 		} else if (PKey == 2) {// UUID
 			sb.append("\r\n\t\tString id = UUIDGenerator.getUUID();");// 使用UUID
 			sb.append("\r\n\t\tObject[] params ={id, ");
-		} else if (PKey == 3) {// Oracle序列
-			sb.append("\r\n\t\tInteger id=jdbcTemplate.queryForObject(\"SELECT " + tabname + "_SEQ.NEXTVAL FROM DUAL\", Integer.class);");// 使用序列主键
-			sb.append("\r\n\t\tObject[] params ={id, ");
-		}
-		sb.append(DaoUtil.add(list, "vo.get", "(),", 1) + "};");
+		} 
+//		else if (PKey == 3) {// Oracle序列
+//			sb.append("\r\n\t\tInteger id=jdbcTemplate.queryForObject(\"SELECT " + tabname + "_SEQ.NEXTVAL FROM DUAL\", Integer.class);");// 使用序列主键
+//			sb.append("\r\n\t\tObject[] params ={id, ");
+//		}
+		sb.append(DaoUtil.add(list, "vo.get", "(),") + "};");
 		sb.append("\r\n\t\t//logger.debug(SqlUtil.showSql(sql, params));//显示SQL语句");
 		sb.append("\r\n\t\treturn jdbcTemplate.update(sql, params);");
 		sb.append("\r\n\t}");
