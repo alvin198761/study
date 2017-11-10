@@ -62,7 +62,7 @@ public class ListServiceImpl extends BaseService implements IService {
 			basePath = userPath + "java\\com\\" + para.getCompany() + "\\" + para.getPrj() + "\\" + model + "\\" + clsLow;// Java类基本路径
 
 			path = basePath + "\\" + clsName + ".java"; // 生成model类
-			CodeUtil.writeFile(path, SimpleModel.genSB(packName, clsName, fieldList, auth, zhName + "实体类"));
+			CodeUtil.writeFile(path, SimpleModel.genSB(packName, clsName, fieldList, auth, zhName + "实体类",table.getTab_name()));
 			path = basePath + "\\" + clsName + "Cond.java"; // 生成查询条件类
 			CodeUtil.writeFile(path, SimpleCondition.genSB(packName, clsName, fieldList, auth, zhName + "查询条件类" ));
 			path = basePath + "\\" + clsName + "Dao.java";// 生成DAO实现类

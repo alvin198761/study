@@ -56,8 +56,8 @@ public class SimpleDao {
 		sb.append("\r\n\t}");
 		sb.append(CommentUtil.methodComment("物理删除记录(多条)"));
 		sb.append("\r\n	public int delete(String ids) {");
-		sb.append("\r\n		String updateStr = \"DELETE FROM " + tabname + " WHERE " + thisid.toUpperCase() + "\" + SqlUtil.ArrayToIn(ids);//数值型ID使用ArrayToInNum");
-		sb.append("\r\n		return jdbcTemplate.update(updateStr);");
+		sb.append("\r\n		String sql = \"DELETE FROM " + tabname + " WHERE " + thisid.toUpperCase() + "\" + SqlUtil.ArrayToIn(ids);//数值型ID使用ArrayToInNum");
+		sb.append("\r\n		return jdbcTemplate.update(sql);");
 		sb.append("\r\n	}");
 		sb.append(CommentUtil.methodComment("按ID查找单个实体"));
 		sb.append("\r\n	public " + className + " findById(String id) {");
@@ -77,9 +77,9 @@ public class SimpleDao {
 		sb.append("\r\n	public Page<" + className + "> queryPage(" + className + "Cond cond) {");
 		sb.append("\r\n		StringBuilder sb = new StringBuilder(selectSql);");
 		sb.append("\r\n		sb.append(cond.getCondition());");
-		sb.append("\r\n		//sb.append(\" ORDER BY T." + thisid.toUpperCase() + "\")//增加排序子句;");
+		sb.append("\r\n		//sb.append(\" ORDER BY T." + thisid.toUpperCase() + "\");//增加排序子句;");
 		sb.append("\r\n\t\t//logger.debug(SqlUtil.showSql(sb.toString(), cond.getArray()));//显示SQL语句");
-		sb.append("\r\n		return queryPage(sb.toString(), cond, " + className + ".class);//(使用范型)");
+		sb.append("\r\n		return queryPage(sb.toString(), cond, " + className + ".class);");
 		sb.append("\r\n	}");
 
 		sb.append(CommentUtil.methodComment("按条件查询不分页列表(使用范型)-根据需要替换成自己的SQL"));
@@ -98,8 +98,8 @@ public class SimpleDao {
 
 		sb.append(CommentUtil.methodComment("逻辑删除记录(多条)"));
 		sb.append("\r\n	public int deleteLogic(String ids) {");
-		sb.append("\r\n		String updateStr = \"UPDATE " + tabname + " SET deleteRemark = 1 WHERE " + thisid.toUpperCase() + "\" + SqlUtil.ArrayToIn(ids);");
-		sb.append("\r\n		return jdbcTemplate.update(updateStr);");
+		sb.append("\r\n		String sql = \"UPDATE " + tabname + " SET deleteRemark = 1 WHERE " + thisid.toUpperCase() + "\" + SqlUtil.ArrayToIn(ids);");
+		sb.append("\r\n		return jdbcTemplate.update(sql);");
 		sb.append("\r\n	}");
 		sb.append("\r\n}");
 		return sb;
